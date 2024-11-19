@@ -1,0 +1,2038 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeakOut! Email Petitions\n"
+"POT-Creation-Date: 2023-04-03 09:33+1000\n"
+"PO-Revision-Date: 2023-04-03 09:33+1000\n"
+"Last-Translator: Steve D <info@123host.com.au>\n"
+"Language-Team: \n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: speakout-email-petitions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/addnew.php:38 includes/addnew.php:64
+msgid "Edit Petition"
+msgstr "정책제안 편집"
+
+#: includes/addnew.php:42 includes/addnew.php:68 includes/addnew.php:116
+msgid "Update Petition"
+msgstr "청원서 업데이트"
+
+#: includes/addnew.php:50
+#, php-format
+msgid ""
+"Petition created. Use %1$s %2$s %3$s to display in a page or post. Use %1$s "
+"%4$s %3$s to display the signatures list or %1$s %5$s %3$s to show just the "
+"signature count."
+msgstr ""
+"청원서가 작성되었습니다. %1$s %2$s %3$s 사용하여 페이지나 게시물에 표시하세"
+"요. %1$s %4$s %3$s 사용하여 서명 목록을 표시하거나 %1$s %5$s %3$s 사용하여 서"
+"명 수만 표시합니다."
+
+#: includes/addnew.php:85
+msgid "Duplicate Petition"
+msgstr "중복 청원서"
+
+#: includes/addnew.php:89
+msgid "Save Duplicate Petition"
+msgstr "중복 청원서 저장"
+
+#: includes/addnew.php:97
+#, php-format
+msgid ""
+"Petition created - you can edit it here. Use %1$s %2$s %3$s to display in a "
+"page or post."
+msgstr ""
+"청원서가 생성되었습니다 - 여기에서 편집할 수 있습니다. %1$s %2$s %3$s 사용하"
+"여 페이지 나 게시물에 표시하십시오."
+
+#: includes/addnew.php:112
+msgid "Edit New Petition"
+msgstr "새 청원서 편집"
+
+#: includes/addnew.php:117
+msgid "Petition "
+msgstr "청원 "
+
+#: includes/addnew.php:124
+msgid "Add New Petition"
+msgstr "새 정책제안 추가"
+
+#: includes/addnew.php:128
+msgid "Create Petition"
+msgstr "청원서 작성하기"
+
+#: includes/addnew.php:130
+msgid "Add me to your mailing list"
+msgstr "이메일로 소식을 받고 싶어요"
+
+#: includes/addnew.view.php:9
+msgid ""
+"Error: Please correct the highlighted fields.  It may be behind a closed tab"
+msgstr "오류: 강조 표시된 필드를 수정하십시오.  닫힌 탭 뒤에 있을 수 있습니다."
+
+#: includes/addnew.view.php:18 includes/help.php:42
+msgid "Petition Content"
+msgstr "청원 내용"
+
+#: includes/addnew.view.php:19 includes/help.php:47
+msgid "Petition Options"
+msgstr "청원서 옵션"
+
+#: includes/addnew.view.php:20 includes/help.php:52
+msgid "Display Options"
+msgstr "옵션 표시"
+
+#: includes/addnew.view.php:21 includes/help.php:57
+msgid "3rd Party Integrations"
+msgstr "제3자 통합"
+
+#: includes/addnew.view.php:29 includes/help.php:6 includes/help.php:85
+#: includes/settings.view.php:338 includes/widget.php:88
+msgid "Title"
+msgstr "표제"
+
+#: includes/addnew.view.php:30
+msgid "Enter title here"
+msgstr "표제를 여기에 입력하세요"
+
+#: includes/addnew.view.php:46 includes/help.php:7
+msgid "Do not send email (only collect signatures)"
+msgstr "이메일 수신거부 (서명만 수집 동의)"
+
+#: includes/addnew.view.php:50 includes/help.php:8
+msgid "Target Email"
+msgstr "대상 이메일"
+
+#: includes/addnew.view.php:50 includes/addnew.view.php:53
+msgid "you may enter multiple addresses separated by commas"
+msgstr "주소를 콤마를 사용해 구분해주세요"
+
+#: includes/addnew.view.php:53
+msgid "CC Email"
+msgstr "CC 이메일"
+
+#: includes/addnew.view.php:56 includes/help.php:9 includes/help.php:80
+#: includes/settings.view.php:319
+msgid "Email Subject"
+msgstr "이메일 제목"
+
+#: includes/addnew.view.php:59 includes/help.php:10
+msgid "Greeting"
+msgstr "인사"
+
+#: includes/addnew.view.php:65 includes/help.php:11
+msgid "Petition Message"
+msgstr "청원서 내용"
+
+#: includes/addnew.view.php:67
+msgid "You can personalise the message by inserting tags"
+msgstr "태그를 삽입하여 메시지를 개인화할 수 있습니다."
+
+#: includes/addnew.view.php:68
+msgid "You or the signer can format the message using Markdown syntax - see"
+msgstr ""
+"귀하 또는 서명자는 Markdown 구문을 사용하여 메시지를 포맷할 수 있습니다-"
+
+#: includes/addnew.view.php:70
+msgid "Petition Footer (below signature)"
+msgstr "청원 바닥 글 (서명 아래)"
+
+#: includes/addnew.view.php:75 includes/help.php:13
+msgid "Twitter Message"
+msgstr "트위터 메세지"
+
+#: includes/addnew.view.php:100
+msgid "Don't collect email address"
+msgstr "이메일 주소를 수집하지 마십시오."
+
+#: includes/addnew.view.php:101
+msgid "This cannot be reversed"
+msgstr "이 작업을 되돌릴 수 없습니다."
+
+#: includes/addnew.view.php:108 includes/help.php:17
+msgid "Allow public anonymous"
+msgstr "공개 익명 허용"
+
+#: includes/addnew.view.php:117 includes/help.php:18
+msgid "Confirm signatures"
+msgstr "서명 확인"
+
+#: includes/addnew.view.php:120
+msgid "Return URL"
+msgstr "URL 되돌아가기"
+
+#: includes/addnew.view.php:129
+msgid "Allow message to be edited"
+msgstr "메시지 수정 허용"
+
+#: includes/addnew.view.php:137 includes/help.php:20
+msgid "Set signature goal"
+msgstr "서명 목표 설정"
+
+#: includes/addnew.view.php:140 includes/petitions.view.php:19
+#: includes/petitions.view.php:29
+msgid "Goal"
+msgstr "목적"
+
+#: includes/addnew.view.php:143
+msgid "Auto increase goal"
+msgstr "자동 증가 목표"
+
+#: includes/addnew.view.php:144
+msgid "by"
+msgstr "의해"
+
+#: includes/addnew.view.php:145
+msgid "when count"
+msgstr "계산할 때"
+
+#: includes/addnew.view.php:145 includes/emailpetition.php:661
+#: includes/widget.php:207
+msgid "of goal"
+msgstr "의 목적"
+
+#: includes/addnew.view.php:153 includes/help.php:22
+msgid "Set expiration date"
+msgstr "종료 날자"
+
+#: includes/addnew.view.php:157
+msgid "Jan"
+msgstr "1월"
+
+#: includes/addnew.view.php:158
+msgid "Feb"
+msgstr "2월"
+
+#: includes/addnew.view.php:159
+msgid "Mar"
+msgstr "3월"
+
+#: includes/addnew.view.php:160
+msgid "Apr"
+msgstr "4월"
+
+#: includes/addnew.view.php:161
+msgid "May"
+msgstr "5월"
+
+#: includes/addnew.view.php:162
+msgid "Jun"
+msgstr "6월"
+
+#: includes/addnew.view.php:163
+msgid "Jul"
+msgstr "7월"
+
+#: includes/addnew.view.php:164
+msgid "Aug"
+msgstr "8월"
+
+#: includes/addnew.view.php:165
+msgid "Sep"
+msgstr "9월"
+
+#: includes/addnew.view.php:166
+msgid "Oct"
+msgstr "10월"
+
+#: includes/addnew.view.php:167
+msgid "Nov"
+msgstr "11월"
+
+#: includes/addnew.view.php:168
+msgid "Dec"
+msgstr "12월"
+
+#: includes/addnew.view.php:184
+msgid "Redirect after successful sign"
+msgstr "성공적인 사인 후 리디렉션"
+
+#: includes/addnew.view.php:187
+msgid "Full URL"
+msgstr "전체 URL"
+
+#: includes/addnew.view.php:189
+msgid "Delay?"
+msgstr "지연?"
+
+#: includes/addnew.view.php:190
+msgid "milliseconds"
+msgstr "밀리 초"
+
+#: includes/addnew.view.php:191
+msgid "Open in new window (target='_blank')"
+msgstr "새 창에서 열기(대상='_blank')"
+
+#: includes/addnew.view.php:205
+msgid "Text to open/close petition message"
+msgstr "청원서 메시지를 열/닫는 텍스트"
+
+#: includes/addnew.view.php:210
+msgid "Text to open/close editable petition message"
+msgstr "편집 가능한 청원 메시지를 열거나 닫는 텍스트"
+
+#: includes/addnew.view.php:219 includes/help.php:27
+msgid "Display opt-in checkbox"
+msgstr "수신동의 체크박스 표시해"
+
+#: includes/addnew.view.php:222 includes/addnew.view.php:287
+#: includes/addnew.view.php:322 includes/addnew.view.php:357
+#: includes/addnew.view.php:393 includes/addnew.view.php:434
+#: includes/addnew.view.php:465 includes/addnew.view.php:494
+msgid "Label"
+msgstr "레이블"
+
+#: includes/addnew.view.php:230
+msgid "Display petition message"
+msgstr "지정된 메시지 표시해"
+
+#: includes/addnew.view.php:237 includes/help.php:28
+msgid "Display address fields"
+msgstr "주소 입력창 표시해"
+
+#: includes/addnew.view.php:244 includes/help.php:88
+#: includes/settings.view.php:355
+msgid "Display"
+msgstr "표시"
+
+#: includes/addnew.view.php:245 includes/addnew.view.php:298
+#: includes/addnew.view.php:333 includes/addnew.view.php:368
+#: includes/addnew.view.php:404 includes/addnew.view.php:432
+msgid "Required"
+msgstr "필수"
+
+#: includes/addnew.view.php:251 includes/addnew.view.php:597
+#: includes/emailpetition.php:426 includes/settings.view.php:456
+#: includes/signatures.view.php:134
+msgid "Street"
+msgstr "거리"
+
+#: includes/addnew.view.php:256 includes/csv.php:54
+#: includes/emailpetition.php:443 includes/settings.view.php:377
+#: includes/settings.view.php:460 includes/signatures.view.php:135
+#: includes/widget.php:434
+msgid "City"
+msgstr "도시"
+
+#: includes/addnew.view.php:261 includes/emailpetition.php:450
+#: includes/settings.view.php:380 includes/widget.php:440
+msgid "State / Province"
+msgstr "시 / 도"
+
+#: includes/addnew.view.php:266
+msgid "Postal Code - see settings for EU style"
+msgstr "우편 번호 - EU 스타일에 대한 설정을 참조하십시오."
+
+#: includes/addnew.view.php:271 includes/addnew.view.php:629
+#: includes/csv.php:57 includes/emailpetition.php:491
+#: includes/settings.view.php:386 includes/settings.view.php:472
+#: includes/signatures.view.php:138 includes/widget.php:476
+msgid "Country"
+msgstr "국가"
+
+#: includes/addnew.view.php:283
+msgid "Display custom field 1"
+msgstr "사용자 지정 필드 1 표시"
+
+#: includes/addnew.view.php:300 includes/addnew.view.php:335
+#: includes/addnew.view.php:370 includes/addnew.view.php:406
+#: includes/addnew.view.php:447 includes/addnew.view.php:475
+#: includes/addnew.view.php:504
+msgid "Location"
+msgstr "위치"
+
+#: includes/addnew.view.php:301 includes/addnew.view.php:336
+#: includes/addnew.view.php:371 includes/addnew.view.php:407
+#: includes/addnew.view.php:448 includes/addnew.view.php:476
+#: includes/addnew.view.php:505
+msgid "Top"
+msgstr "상단"
+
+#: includes/addnew.view.php:303 includes/addnew.view.php:338
+#: includes/addnew.view.php:373 includes/addnew.view.php:409
+#: includes/addnew.view.php:450 includes/addnew.view.php:478
+#: includes/addnew.view.php:507
+msgid "Above email"
+msgstr "위의 이메일"
+
+#: includes/addnew.view.php:305 includes/addnew.view.php:340
+#: includes/addnew.view.php:375 includes/addnew.view.php:411
+#: includes/addnew.view.php:453 includes/addnew.view.php:481
+#: includes/addnew.view.php:510
+msgid "Bottom"
+msgstr "하단"
+
+#: includes/addnew.view.php:308 includes/addnew.view.php:343
+#: includes/addnew.view.php:378 includes/addnew.view.php:414
+#: includes/addnew.view.php:428
+msgid "Include with petition"
+msgstr "청원서에 포함"
+
+#: includes/addnew.view.php:310 includes/addnew.view.php:345
+#: includes/addnew.view.php:380 includes/addnew.view.php:416
+msgid "Trim when displaying"
+msgstr "표시할 때 트리밍"
+
+#: includes/addnew.view.php:318
+msgid "Display custom field 2"
+msgstr "사용자 지정 필드 2 표시"
+
+#: includes/addnew.view.php:353
+msgid "Display custom field 3"
+msgstr "사용자 지정 필드 3 표시"
+
+#: includes/addnew.view.php:389
+msgid "Display custom field 4"
+msgstr "사용자 지정 필드 4 표시"
+
+#: includes/addnew.view.php:424
+msgid "Display custom drop-down"
+msgstr "사용자 지정 드롭다운 표시"
+
+#: includes/addnew.view.php:444
+msgid "Values"
+msgstr "값"
+
+#: includes/addnew.view.php:461
+msgid "Display custom checkbox 1"
+msgstr "사용자 지정 확인란 표시 1"
+
+#: includes/addnew.view.php:490
+msgid "Display custom checkbox 2"
+msgstr "사용자 지정 확인란 표시 2"
+
+#: includes/addnew.view.php:520 includes/help.php:30
+msgid "Display custom message"
+msgstr "지정된 메시지 표시해"
+
+#: includes/addnew.view.php:521
+msgid "Displayed beneath `Thank you` after petition is signed"
+msgstr "청 원이 서명 된 후 ' 감사 합니다 ' 아래에 표시 됩니다."
+
+#: includes/addnew.view.php:524
+msgid "Message"
+msgstr "메시지"
+
+#: includes/addnew.view.php:535
+msgid ""
+"You must also enable 'Display opt-in checkbox' under the Display Options tab"
+msgstr ""
+"또한 디스플레이 옵션 탭 에서 '옵트인 확인란 표시'를 사용하도록 설정해야 합니"
+"다."
+
+#: includes/addnew.view.php:542
+msgid "Enable ActiveCampaign"
+msgstr "액티브 캠페인 활성화"
+
+#: includes/addnew.view.php:549 includes/addnew.view.php:717
+#: includes/addnew.view.php:737 includes/addnew.view.php:759
+msgid "API Key"
+msgstr "API 키"
+
+#: includes/addnew.view.php:552
+msgid "Server URL"
+msgstr "서버 URL"
+
+#: includes/addnew.view.php:563
+msgid "Select list"
+msgstr "리스트를 선택합니다"
+
+#: includes/addnew.view.php:571
+msgid ""
+"Map the SpeakOut! fields to your Active Campaign fields. Leave those you "
+"don't use blank."
+msgstr ""
+"말하기를 매핑! 활성 캠페인 필드에 대한 필드입니다. 사용하지 않는 사람들을 비"
+"워 둡니다."
+
+#: includes/addnew.view.php:574 includes/csv.php:49
+msgid "Honorific"
+msgstr "경칭"
+
+#: includes/addnew.view.php:582 includes/csv.php:50
+#: includes/emailpetition.php:355 includes/widget.php:358
+msgid "First Name"
+msgstr "이름"
+
+#: includes/addnew.view.php:587 includes/csv.php:51
+#: includes/emailpetition.php:359 includes/widget.php:362
+msgid "Last Name"
+msgstr "성"
+
+#: includes/addnew.view.php:592 includes/emailpetition.php:418
+#: includes/settings.view.php:449 includes/signatures.view.php:132
+#: includes/widget.php:409
+msgid "Email"
+msgstr "이메일"
+
+#: includes/addnew.view.php:605
+msgid "Suburb"
+msgstr "교외"
+
+#: includes/addnew.view.php:613 includes/csv.php:55
+#: includes/settings.view.php:464 includes/signatures.view.php:136
+msgid "State"
+msgstr "주"
+
+#: includes/addnew.view.php:621 includes/csv.php:56
+#: includes/emailpetition.php:436 includes/emailpetition.php:459
+#: includes/settings.view.php:383 includes/signatures.view.php:137
+#: includes/widget.php:447
+msgid "Postal Code"
+msgstr "우편 번호"
+
+#: includes/addnew.view.php:712
+msgid "Enable MailChimp"
+msgstr "MailChimp 사용"
+
+#: includes/addnew.view.php:720
+msgid "Server ID"
+msgstr "서버 ID"
+
+#: includes/addnew.view.php:723 includes/addnew.view.php:762
+msgid "List ID"
+msgstr "리스트 ID"
+
+#: includes/addnew.view.php:732
+msgid "Enable Mailerlite"
+msgstr "메일러라이트 사용"
+
+#: includes/addnew.view.php:740
+msgid "Group ID"
+msgstr "그룹 ID"
+
+#: includes/addnew.view.php:750
+msgid "Enable Sendy"
+msgstr "센디 활성화"
+
+#: includes/addnew.view.php:756
+msgid "Installation URL"
+msgstr "설치 URL"
+
+#: includes/admin.php:11 includes/admin.php:20 includes/admin.php:32
+msgid "SpeakOut! Email Petitions"
+msgstr "SpeakOut! 이메일 청원서"
+
+#: includes/admin.php:33 includes/petitions.php:44 includes/petitions.php:57
+msgid "Petitions"
+msgstr "청 원 서"
+
+#: includes/admin.php:44 includes/admin.php:45 includes/license.view.php:74
+msgid "Activate license"
+msgstr "라이센스 활성"
+
+#: includes/admin.php:55 includes/admin.php:56 includes/petitions.view.php:4
+msgid "Add New"
+msgstr "새로 추가"
+
+#: includes/admin.php:66 includes/admin.php:67 includes/petitions.view.php:18
+#: includes/petitions.view.php:28 includes/signatures.view.php:4
+msgid "Signatures"
+msgstr "서명"
+
+#: includes/admin.php:77 includes/settings.view.php:142
+msgid "SpeakOut! Petitions Settings"
+msgstr "SpeakOut! 청원서 설정"
+
+#: includes/admin.php:78
+msgid "Settings"
+msgstr "설정"
+
+#: includes/class.petition.php:505
+msgid "No Title"
+msgstr "표제 없음"
+
+#: includes/class.signaturelist.php:155 includes/class.signaturelist.php:215
+#: includes/class.signaturelist.php:319
+msgid "Anonymous"
+msgstr "익명"
+
+#: includes/class.speakout.php:118
+msgid "items"
+msgstr "항목"
+
+#: includes/class.speakout.php:121
+msgid "page"
+msgstr "페이지"
+
+#: includes/class.speakout.php:131
+msgid "of"
+msgstr "의"
+
+#: includes/confirmations.php:105
+msgid "Thank you. Your signature has been added to the petition."
+msgstr "감사합니다. 귀하의 서명이 청원서에 포함되었습니다."
+
+#: includes/confirmations.php:124
+msgid "Your signature has already been confirmed."
+msgstr "귀하의 서명은 이미 확인되었습니다."
+
+#: includes/confirmations.php:128
+msgid "The confirmation code you provided is invalid."
+msgstr "확인코드가 유효하지 않습니다."
+
+#: includes/confirmations.php:167
+msgid "Email Confirmation"
+msgstr "확인 이메일 보내기"
+
+#: includes/confirmations.php:169
+msgid "If you aren't redirected"
+msgstr "리디렉션되지 않은 경우"
+
+#: includes/confirmations.php:169 includes/settings.view.php:603
+msgid "Click here"
+msgstr "여기를 클릭하세요"
+
+#: includes/confirmations.php:169
+msgid "to return to site "
+msgstr "사이트로 돌아가려면 "
+
+#: includes/csv.php:10 includes/signatures.php:5
+msgid "Insufficient privileges: You need to be an editor to do that."
+msgstr "권한 없음: 작성자만 접근 가능."
+
+#: includes/csv.php:28 includes/signatures.view.php:212
+msgid "No signatures found."
+msgstr "서명이 없습니다."
+
+#: includes/csv.php:52
+msgid "Email Address"
+msgstr "이메일 주소"
+
+#: includes/csv.php:53 includes/widget.php:428
+msgid "Address"
+msgstr "주소"
+
+#: includes/csv.php:58
+msgid "Date Signed"
+msgstr "서명 날짜"
+
+#: includes/csv.php:59 includes/signatures.view.php:147
+msgid "Confirmed"
+msgstr "확인된"
+
+#: includes/csv.php:60
+msgid "Petition Title"
+msgstr "청원서 표제"
+
+#: includes/csv.php:61
+msgid "Petition ID"
+msgstr "청원서 ID"
+
+#: includes/csv.php:62 includes/settings.view.php:506
+msgid "Email Opt-in"
+msgstr "이메일 선택"
+
+#: includes/csv.php:63 includes/settings.view.php:410
+msgid "Custom Message"
+msgstr "커스텀 메시지"
+
+#: includes/csv.php:72
+msgid "Language"
+msgstr "언어"
+
+#: includes/csv.php:73 includes/signatures.view.php:149
+msgid "IP Address"
+msgstr "IP 주소"
+
+#: includes/csv.php:83
+msgid "Custom Field"
+msgstr "사용자 정의 필드"
+
+#: includes/csv.php:103
+msgid "confirmed"
+msgstr "확인된"
+
+#: includes/csv.php:106
+msgid "unconfirmed"
+msgstr "미확인의"
+
+#: includes/csv.php:115 includes/csv.php:125 includes/csv.php:135
+msgid "Y"
+msgstr "년"
+
+#: includes/csv.php:118 includes/csv.php:128 includes/csv.php:138
+msgid "N"
+msgstr "아니오"
+
+#: includes/emailpetition.php:564
+msgid "You can add formatting using markdown syntax"
+msgstr "마크다운 구문을 사용하여 서식을 추가할 수 있습니다."
+
+#: includes/emailpetition.php:564
+msgid "read more"
+msgstr "더 보기"
+
+#: includes/emailpetition.php:579 includes/widget.php:242
+#: includes/widget.php:256
+msgid "your signature"
+msgstr "귀하의 서명"
+
+#: includes/emailpetition.php:607 includes/widget.php:535
+msgid "BCC yourself"
+msgstr "참조에 '나' 넣기"
+
+#: includes/emailpetition.php:620 includes/widget.php:545
+msgid "Hide name from public"
+msgstr "공개에서 이름 숨기기"
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "Yes, I accept your "
+msgstr "예, 동의합니다."
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "privacy policy"
+msgstr "개인 정보 보호 정책"
+
+#: includes/emailpetition.php:666 includes/widget.php:212
+msgid "signatures"
+msgstr "서명"
+
+#: includes/emailpetition.php:697 includes/widget.php:281
+msgid "Signature goal"
+msgstr "서명 목적"
+
+#: includes/emailpetition.php:702 includes/widget.php:278
+msgid "End date"
+msgstr "종료일"
+
+#: includes/emailpetition.php:703 includes/widget.php:279
+msgid "Signatures collected"
+msgstr "수집된 서명"
+
+#: includes/emailpetition.php:708
+msgid "signature"
+msgid_plural "signatures"
+msgstr[0] "서명"
+
+#: includes/emailpetition.php:726 includes/signatures.view.php:133
+#: includes/widget.php:91
+msgid "Petition"
+msgstr "청원"
+
+#: includes/emailpetition.php:728
+msgid ""
+"Error: The site administrator must include a valid petition id  in the "
+"shortcode."
+msgstr "오류: 사이트 관리자는 단축 코드에 유효한 청원 자 ID를 포함해야 합니다."
+
+#: includes/help.php:6
+msgid ""
+"Enter the title of your petition, which will appear at the top of the "
+"petition form."
+msgstr "청원서 양식에 보여질 표제를 입력하세요."
+
+#: includes/help.php:7
+msgid ""
+"Use this option if do not wish to send petition emails to a target address."
+msgstr "대상의 이메일로 청원서를 보내길 원치 않으시면 이 옵션을 사용하세요."
+
+#: includes/help.php:8
+msgid ""
+"Enter the email address to which the petition will be sent. You may enter "
+"multiple email addresses, separated by commas."
+msgstr ""
+"청원서를 보낼 이메일 주소를 입력하세요. 이메일 사이는 콤마로 구분해주세요."
+
+#: includes/help.php:9
+msgid "Enter the subject of your petition email."
+msgstr "청원서 이메일의 제목을 입력하세요."
+
+#: includes/help.php:10
+msgid ""
+"Include a greeting to the recipient of your petition, such as \"Dear Mayor,"
+"\" which will appear as the first line of the email."
+msgstr ""
+"이메일의 첫 줄로 표시되는 \"친애하는 시장님\"과 같이 청원서 수신자에게 보내"
+"는 인사말을 포함합니다."
+
+#: includes/help.php:11
+msgid "Enter the content of your petition email."
+msgstr "청원서 이메일의 내용을 입력하세요."
+
+#: includes/help.php:12
+msgid "Petition Footer"
+msgstr "청원 바닥글"
+
+#: includes/help.php:12
+msgid "This is included at the bottom of each petition that is sent."
+msgstr "이것은 발송되는 각 청원서의 하단에 포함됩니다."
+
+#: includes/help.php:13
+msgid ""
+"Enter a prepared tweet that will be presented to users when the Twitter "
+"button is clicked."
+msgstr "사용자가 트위터버튼을 클릭할 시 보여질 트윗을 입력하세요."
+
+#: includes/help.php:17
+msgid ""
+"Gives option for person to be displayed as \"Anonymous\" if they choose it "
+"when signing"
+msgstr "서명할 때 선택한 경우 \"익명\"으로 표시되는 옵션을 제공합니다."
+
+#: includes/help.php:18
+msgid ""
+"Use this option to cause an email to be sent to the signers of your "
+"petition. This email contains a special link must be clicked to confirm the "
+"signer's email address. Petition emails will not be sent until the signature "
+"is confirmed."
+msgstr ""
+"이 옵션은 청원서의 서명자에게 이메일을 보내길 원할 때 사용 가능합니다. 이 이"
+"메일에는 서명자의 이메일 주소 본인 확인 링크가 포함됩니다. 청원서는 서명자가 "
+"확인할 때까지 보내지지 않습니다."
+
+#: includes/help.php:19
+msgid "Allow messages to be edited"
+msgstr "내용 수정 허용하기"
+
+#: includes/help.php:19
+msgid ""
+"Check this option to allow signatories to customize the text of their "
+"petition email - this should be used with caution."
+msgstr ""
+"서명자가 청원 이메일의 텍스트를 사용자 지정할 수 있도록 하려면 이 옵션을 선택"
+"하십시오 - 주의해서 사용해야 합니다."
+
+#: includes/help.php:20
+msgid ""
+"Enter the number of signatures you hope to collect. This number is used to "
+"calculate the progress bar display."
+msgstr ""
+"원하는 서명의 수를 입력하세요. 이 숫자는 진행상황판에 계산되어 보여집니다."
+
+#: includes/help.php:21
+msgid "Auto increase signature goal"
+msgstr "서명 목표 자동 증가"
+
+#: includes/help.php:21
+msgid ""
+"If set goal is enabled, this is a further option - click the ? for more "
+"information."
+msgstr "목표 설정이 활성화 된 경우 추가 옵션입니다. 자세한 내용은."
+
+#: includes/help.php:22
+msgid "Use this option to stop collecting signatures on a specific date."
+msgstr "지정날짜에 서명받기를 중단하시려면 이 옵션을 선택하세요."
+
+#: includes/help.php:23
+msgid "Redirect after signing"
+msgstr "서명 후 리디렉션"
+
+#: includes/help.php:23
+msgid ""
+"Take your users to a different page or site after they sign.  Make sure you "
+"use the full URL including \"https://\" or whatever. You can specify the "
+"delay in milliseconds.  One second = 1000 milliseconds."
+msgstr ""
+"사용자가 서명한 후 다른 페이지 또는 사이트로 이동합니다.  \"https://\"등을 포"
+"함한 전체 URL을 사용해야합니다. 지연을 밀리초 단위로 지정할 수 있습니다.  1"
+"초 = 1000밀리초."
+
+#: includes/help.php:26
+msgid "These are pretty obvious."
+msgstr "이것들은 꽤 분명합니다."
+
+#: includes/help.php:27
+msgid ""
+"Include a checkbox that allows users to consent to receiving further email."
+msgstr "사용자가 차후 이메일 받기에 동의하는 체크박스 포함하기."
+
+#: includes/help.php:28
+msgid ""
+"Select the address fields to display in the petition form. Note that you can "
+"make them required or not."
+msgstr ""
+"청원 양식에 표시할 주소 필드를 선택합니다. 필수로 만들 수도 있고 그렇지 않을 "
+"수도 있습니다."
+
+#: includes/help.php:29
+msgid "Display custom fields"
+msgstr "사용자 정의 필드 표시"
+
+#: includes/help.php:29
+msgid ""
+"There is a variety of custom fields that can be added to the petition form "
+"for collecting additional data.  You can position each field at the top, "
+"above the email address or at the bottom of the petition form"
+msgstr ""
+"추가 데이터를 수집하기 위해 청원 양식에 추가할 수 있는 다양한 사용자 정의 필"
+"드가 있습니다.  각 필드는 이메일 주소의 상단, 위 또는 청원 양식의 하단에 배치"
+"할 수 있습니다."
+
+#: includes/help.php:30
+msgid "This is displayed after the petition is signed."
+msgstr "청원서에 서명한 후에 표시됩니다."
+
+#: includes/help.php:34
+msgid ""
+"If you use any of these 3rd party email services, you can allow users to "
+"subscribe as long as you have  \"opt in\" enabled."
+msgstr ""
+"이러한 제3자 이메일 서비스를 사용하는 경우 \"옵트인\"을 활성화하는 한 사용자"
+"가 구독하도록 허용할 수 있습니다."
+
+#: includes/help.php:66
+msgid ""
+"These settings control the display of the [emailpetition] shortcode and "
+"sidebar widget."
+msgstr ""
+"이 옵션은 이메일 청원 [emailpetition] 단축코드 나타내기와 사이드 위젯을 조정"
+"할 수 있습니다."
+
+#: includes/help.php:67 includes/settings.view.php:170
+msgid "Petition Theme"
+msgstr "청원서 주제"
+
+#: includes/help.php:67
+msgid "Select a CSS theme that will control the appearance of petition forms."
+msgstr "청원서 양식 모양을 설정할 수 있는 CSS를 고르세요."
+
+#: includes/help.php:68 includes/settings.view.php:177
+msgid "Widget Theme"
+msgstr "위젯 테마"
+
+#: includes/help.php:68
+msgid ""
+"Select a CSS theme that will control the appearance of petition widgets."
+msgstr "청원서 위젯 모양을 설정할 수 있는 CSS테마를 고르세요."
+
+#: includes/help.php:69 includes/settings.view.php:184
+msgid "Submit Button Text"
+msgstr "저장 버튼 문구"
+
+#: includes/help.php:69
+msgid ""
+"Enter the text that displays in the orange submit button on petition forms."
+msgstr "청원서 양식에서 제출버튼에 나타낼 문구를 입력하세요."
+
+#: includes/help.php:70 includes/settings.view.php:188
+msgid "Success Message"
+msgstr "성공 메시지"
+
+#: includes/help.php:70
+msgid ""
+"Enter the text that appears when a user successfully signs your petition "
+"with a unique email address."
+msgstr ""
+"사용자 고유 이메일 주소로 신청서에 서명 할 때 표시되는 텍스트를 입력하세요."
+
+#: includes/help.php:71 includes/settings.view.php:202
+msgid "Share Message"
+msgstr "메시지 공유"
+
+#: includes/help.php:71
+msgid ""
+"Enter the text that appears above the Twitter and Facebook buttons after the "
+"petition form has been submitted."
+msgstr ""
+"청원서가 제출 된 후 Twitter 및 Facebook 버튼에 나타나는 텍스트를 입력하세요."
+
+#: includes/help.php:72 includes/settings.view.php:206
+msgid "Expiration Message"
+msgstr "메시지 만료"
+
+#: includes/help.php:72
+msgid ""
+"Enter the text to display in place of the petition form when a petition is "
+"past its expiration date."
+msgstr "청원서의 유효 기간이 지나면 청원서 대신 표시할 텍스트를 입력하세요."
+
+#: includes/help.php:73 includes/settings.view.php:210
+msgid "Already Signed Message"
+msgstr "서명된 메시지"
+
+#: includes/help.php:73
+msgid ""
+"Enter the text to display when a petition is signed using an email address "
+"that has already been submitted."
+msgstr ""
+"이미 제출 된 이메일 주소를 사용하여 청원서에 서명 할 때 표시 할 텍스트를 입력"
+"하세요."
+
+#: includes/help.php:74 includes/settings.view.php:214
+msgid "Opt-in Default"
+msgstr "기본적으로 옵트 인"
+
+#: includes/help.php:74
+msgid "Choose whether the opt-in checkbox is checked or unchecked by default."
+msgstr "수신 거부를 기본적으로 설정하거나 해제 할 것인지를 선택하세요."
+
+#: includes/help.php:75 includes/settings.view.php:221
+msgid "Display signature count"
+msgstr "서명수를 표시해"
+
+#: includes/help.php:75
+msgid ""
+"Choose whether you wish to display the number of signatures that have been "
+"collected."
+msgstr "수집 된 서명의 수를 표시할지 여부를 선택합니다."
+
+#: includes/help.php:78
+msgid "These settings control the content of the confirmation emails."
+msgstr "이러한 설정은 확인 이메일의 내용을 제어합니다."
+
+#: includes/help.php:79 includes/settings.view.php:315
+msgid "Email From"
+msgstr "이메일 발신"
+
+#: includes/help.php:79
+msgid ""
+"Enter the email address associated with your website. Confirmation emails "
+"will be sent from this address."
+msgstr ""
+"귀하의 웹 사이트에 대한 이메일 주소를 입력하세요. 이 주소에서 확인 이메일이 "
+"전송됩니다."
+
+#: includes/help.php:80
+msgid "Enter the subject of the confirmation email."
+msgstr "확인 이메일의 제목을 입력하세요."
+
+#: includes/help.php:81 includes/settings.view.php:323
+msgid "Email Message"
+msgstr "이메일 내용"
+
+#: includes/help.php:81
+msgid "Enter the content of the confirmation email."
+msgstr "확인 이메일의 내용을 입력하세요."
+
+#: includes/help.php:84
+msgid "These settings control the display of the [signaturelist] shortcode."
+msgstr "이 설정은 [signaturelist] 단축코드의 표시를 제어합니다."
+
+#: includes/help.php:85
+msgid "Enter the text that appears above the signature list."
+msgstr "서명 목록에 표시되는 텍스트를 입력합니다."
+
+#: includes/help.php:86 includes/settings.view.php:341
+msgid "Theme"
+msgstr "테마"
+
+#: includes/help.php:86
+msgid "Select a CSS theme that will control the appearance of signature lists."
+msgstr "서명 목록의 모양을 제어 할 CSS 테마를 선택하십시오."
+
+#: includes/help.php:87 includes/settings.view.php:351
+msgid "Rows"
+msgstr "행"
+
+#: includes/help.php:87
+msgid ""
+"Enter the number of signatures that will be displayed in the signature list."
+msgstr "서명 목록에 표시 할 서명 수를 입력하세요."
+
+#: includes/help.php:88
+msgid "Choose the signature list styling, click the ? for more information."
+msgstr "서명 목록 스타일을 선택하고 ? 자세한 내용은."
+
+#: includes/help.php:89 includes/help.php:95 includes/settings.view.php:365
+msgid "Columns"
+msgstr "열"
+
+#: includes/help.php:89
+msgid "Select the columns that will appear in the public signature list."
+msgstr "공개 서명 목록에 표시할 열을 선택합니다."
+
+#: includes/help.php:90
+msgid "Flags"
+msgstr "플래그"
+
+#: includes/help.php:90
+msgid ""
+"You can display the flag of the country the signer has chosen, if you have "
+"Country enabled."
+msgstr "국가를 활성화한 경우 서명자가 선택한 국가의 국기를 표시할 수 있습니다."
+
+#: includes/help.php:91 includes/settings.view.php:427
+msgid "Privacy"
+msgstr "프라이버시"
+
+#: includes/help.php:91
+msgid "Hide all but the first letter of the last name.."
+msgstr "성의 첫 글자를 제외한 모든 문자를 숨깁니다.."
+
+#: includes/help.php:94
+msgid "These settings control the display of the signatures in the dashboard."
+msgstr "이러한 설정은 대시보드의 서명 표시를 제어합니다."
+
+#: includes/help.php:95
+msgid "Select the columns that will appear in the admin signature list."
+msgstr "관리자 서명 목록에 표시할 열을 선택합니다."
+
+#: includes/help.php:96
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/help.php:96
+msgid "When outputting the CSV file, what should be included?"
+msgstr "CSV 파일을 출력 할 때 무엇을 포함해야합니까?"
+
+#: includes/help.php:99
+msgid ""
+"These settings control the look of the plugin's options pages within the "
+"WordPress administrator."
+msgstr "이 설정은 WordPress 관리자 플러그인의 옵션 페이지의 모양을 제어합니다."
+
+#: includes/help.php:100 includes/settings.view.php:540
+msgid "Petitions table shows"
+msgstr "청원서 목록을 나타냅니다"
+
+#: includes/help.php:100
+msgid ""
+"Enter the number of rows to display in the \"Email Petitions\" table "
+"(default=20)"
+msgstr "\"Email Petitions\" 목록에 표시할 행 수를 입력하세요 (default=20)"
+
+#: includes/help.php:101 includes/settings.view.php:544
+msgid "Signatures table shows"
+msgstr "서명 목록을 나타냅니다"
+
+#: includes/help.php:101
+msgid ""
+"Enter the number of rows to display in the \"Signatures\" table (default=50)"
+msgstr "\"Signatures\" 목록에 표시할 행 수를 입력하세요 (default=50)"
+
+#: includes/help.php:104
+msgid "These settings refer to the license key"
+msgstr "이러한 설정은 라이센스 키를 참조합니다."
+
+#: includes/help.php:105
+msgid "License key"
+msgstr "라이센스 키"
+
+#: includes/help.php:105
+msgid ""
+"Enter the license key your received in an email after purchase.  If it is "
+"invalid, a message will be displayed with the reason."
+msgstr ""
+"구매 후 이메일로받은 라이센스 키를 입력하십시오.  유효하지 않은 경우 이유와 "
+"함께 메시지가 표시됩니다."
+
+#: includes/help.php:106
+msgid "Revoke key"
+msgstr "키 해지"
+
+#: includes/help.php:106
+msgid ""
+"Perhaps you are moving to a new site or from development to production.  "
+"Revoke the key, this allows it to be used elsewhere.  The current site will "
+"lose all access to any settings."
+msgstr ""
+"새 사이트로 이동하거나 개발에서 프로덕션으로 이동할 수 있습니다.  키를 해지하"
+"면 다른 곳에서 사용할 수 있습니다.  현재 사이트는 모든 설정에 대한 모든 액세"
+"스 권한을 잃게 됩니다."
+
+#: includes/help.php:114 includes/settings.view.php:151
+#: includes/settings.view.php:166
+msgid "Petition Form"
+msgstr "청원서"
+
+#: includes/help.php:119 includes/settings.view.php:152
+#: includes/settings.view.php:312
+msgid "Confirmation Emails"
+msgstr "확인 이메일"
+
+#: includes/help.php:124 includes/settings.view.php:153
+#: includes/settings.view.php:334
+msgid "Public Signature List"
+msgstr "공개 서명 목록"
+
+#: includes/help.php:129 includes/settings.view.php:154
+#: includes/settings.view.php:438
+msgid "Admin Signature List"
+msgstr "관리자 서명 목록"
+
+#: includes/help.php:134 includes/settings.view.php:155
+#: includes/settings.view.php:537
+msgid "Admin Display"
+msgstr "관리자 표시"
+
+#: includes/help.php:139 includes/settings.view.php:157
+msgid "License"
+msgstr "라이센스"
+
+#: includes/install.php:178
+msgid "Sign Now"
+msgstr "지금 서명하기"
+
+#: includes/install.php:179
+msgid "This petition is now closed."
+msgstr "이 청원은 마감되었습니다."
+
+#: includes/install.php:180
+msgid "Thank you"
+msgstr "감사합니다"
+
+#: includes/install.php:180
+msgid "Your signature has been added."
+msgstr "서명이 추가되었습니다."
+
+#: includes/install.php:181
+msgid "This petition has already been signed using your email address."
+msgstr "이 청원은 귀하의 이메일 주소를 사용하여 이미 서명되었습니다."
+
+#: includes/install.php:182
+msgid "Share this with your friends:"
+msgstr "친구와 공유하기:"
+
+#: includes/install.php:183 includes/install.php:425
+msgid "Please confirm your email address"
+msgstr "이메일 주소를 다시 입력해주세요"
+
+#: includes/install.php:184 includes/install.php:428
+msgid "Hello"
+msgstr "안녕하세요"
+
+#: includes/install.php:184
+msgid "Thank you for signing our petition %petition_title% "
+msgstr "%petition_title% 청원에 서명해주셔서 감사합니다 "
+
+#: includes/install.php:184 includes/install.php:428
+msgid ""
+"Please confirm your email address by clicking or copying and pasting the "
+"link below:"
+msgstr "아래 링크를 클릭하거나 복사, 붙여넣기하여 이메일 주소를 확인하십시오:"
+
+#: includes/install.php:189 includes/install.php:434
+msgid "Latest Signatures"
+msgstr "최신 청서명"
+
+#: includes/install.php:428
+msgid "Thank you for signing our petition"
+msgstr "청원에 서명해주셔서 감사합니다"
+
+#: includes/license.view.php:78 includes/license.view.php:105
+#: includes/settings.view.php:566 includes/settings.view.php:593
+msgid "Enter your license key"
+msgstr "라이선스 키를 입력하세요"
+
+#: includes/license.view.php:83 includes/settings.view.php:571
+msgid "Verified"
+msgstr "인증"
+
+#: includes/license.view.php:86 includes/settings.view.php:574
+msgid "Revoke license key"
+msgstr "라이센스 키 해지"
+
+#: includes/license.view.php:90 includes/settings.view.php:578
+msgid "Thanks for upgrading"
+msgstr "업그레이드 주셔서 감사합니다"
+
+#: includes/license.view.php:100 includes/settings.view.php:588
+msgid ""
+"There appears to be a problem with your license key.  Either verify it again "
+"or contact"
+msgstr "라이센스 키에 문제가 있는 것 같습니다.  다시 확인하거나"
+
+#: includes/license.view.php:108 includes/settings.view.php:596
+msgid "Your license key"
+msgstr "라이센스 키"
+
+#: includes/license.view.php:111 includes/settings.view.php:599
+msgid "Verify"
+msgstr "검증"
+
+#: includes/petitions.php:46
+msgid "Petition deleted."
+msgstr "청원이 삭제되었습니다."
+
+#: includes/petitions.view.php:8
+msgid "All Petitions"
+msgstr "모든 청원"
+
+#: includes/petitions.view.php:15 includes/petitions.view.php:25
+msgid "ID"
+msgstr "ID"
+
+#: includes/petitions.view.php:16 includes/petitions.view.php:26
+msgid "Petition name"
+msgstr "청원서 이름"
+
+#: includes/petitions.view.php:17 includes/petitions.view.php:27
+msgid "Shortcodes"
+msgstr "단축코드"
+
+#: includes/petitions.view.php:34
+msgid "No petitions found."
+msgstr "청원서가 없습니다."
+
+#: includes/petitions.view.php:44
+msgid "Edit"
+msgstr "편집"
+
+#: includes/petitions.view.php:45
+msgid "Delete"
+msgstr "삭제"
+
+#: includes/petitions.view.php:46
+msgid "Duplicate"
+msgstr "복사"
+
+#: includes/petitions.view.php:49
+msgid "display petition"
+msgstr "청원을 표시해"
+
+#: includes/petitions.view.php:50
+msgid "display signature list"
+msgstr "서명 목록을 표시해"
+
+#: includes/petitions.view.php:51
+msgid "display signature count"
+msgstr "서명 수를 표시해"
+
+#: includes/petitions.view.php:52
+msgid "display signature goal"
+msgstr "서명 목표를 표시해"
+
+#: includes/petitions.view.php:53
+msgid "display petition title"
+msgstr "청원서 제목 표시"
+
+#: includes/petitions.view.php:54
+msgid "display petition message"
+msgstr "지정된 메시지 표시해"
+
+#: includes/petitions.view.php:60
+msgid "View Signatures"
+msgstr "서명 보기"
+
+#: includes/petitions.view.php:66
+msgid ""
+"Delete this petition permanently? All of the petition's signatures will be "
+"deleted as well."
+msgstr ""
+"이 청원서를 영구적으로 삭제하시겠습니까? 청원서의 서명도 모두 삭제됩니다."
+
+#: includes/settings.php:31
+msgid "Settings updated."
+msgstr "설정이 업데이트되었습니다."
+
+#: includes/settings.view.php:156 includes/settings.view.php:552
+msgid "Security"
+msgstr "보안"
+
+#: includes/settings.view.php:161 includes/settings.view.php:641
+msgid "Anedot.com Donation Form Embed"
+msgstr "Anedot.com 기부 양식 포함"
+
+#: includes/settings.view.php:167
+msgid "These settings apply to all petitions"
+msgstr "이러한 설정은 모든 청원서에 적용됩니다."
+
+#: includes/settings.view.php:172 includes/settings.view.php:179
+#: includes/settings.view.php:343
+msgid "Default"
+msgstr "기본값"
+
+#: includes/settings.view.php:173
+msgid "Basic"
+msgstr "기본"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "Custom"
+msgstr "사용자 정의"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "use"
+msgstr "사용"
+
+#: includes/settings.view.php:191 includes/settings.view.php:326
+msgid "Accepted variables:"
+msgstr "허용된 변수:"
+
+#: includes/settings.view.php:192 includes/settings.view.php:327
+msgid "Accepted tags:"
+msgstr "수락:"
+
+#: includes/settings.view.php:196
+msgid "Petition fade out after signing?"
+msgstr "서명 후 청원서가 페이드 아웃?"
+
+#: includes/settings.view.php:216
+msgid "Checked"
+msgstr "체크됨"
+
+#: includes/settings.view.php:217
+msgid "Unchecked"
+msgstr "체크되지 않음"
+
+#: includes/settings.view.php:223 includes/settings.view.php:231
+#: includes/settings.view.php:239 includes/settings.view.php:245
+#: includes/settings.view.php:260
+msgid "Yes"
+msgstr "예"
+
+#: includes/settings.view.php:223
+msgid "at the bottom of the petition form"
+msgstr "청원서 하단"
+
+#: includes/settings.view.php:227
+msgid "Display honorific field"
+msgstr "존칭을 표시합니다"
+
+#: includes/settings.view.php:235
+msgid "Display BCC field"
+msgstr "숨은 참조를 표시합니다"
+
+#: includes/settings.view.php:243
+msgid "EU postal code position?"
+msgstr "EU 우편 번호 위치?"
+
+#: includes/settings.view.php:245
+msgid "In EU postal code comes before city"
+msgstr "EU에서는 우편 번호가 도시 보다 앞서 옵니다."
+
+#: includes/settings.view.php:249
+msgid "Signature count format"
+msgstr "서명 개수 형식"
+
+#: includes/settings.view.php:252
+msgid "Thousands separator"
+msgstr "천단위 구분"
+
+#: includes/settings.view.php:253
+msgid "Decimal separator"
+msgstr "소수점 기호"
+
+#: includes/settings.view.php:254
+msgid "currently"
+msgstr "현재"
+
+#: includes/settings.view.php:258
+msgid "Display Privacy Policy accept?"
+msgstr "개인 정보 보호 정책을 수락합니까?"
+
+#: includes/settings.view.php:260
+msgid "GDPR"
+msgstr "GDPR"
+
+#: includes/settings.view.php:266
+msgid "Enable Google recaptcha?"
+msgstr "구글 recaptcha를 사용?"
+
+#: includes/settings.view.php:282
+msgid "Enable hCaptcha?"
+msgstr "hCaptcha를 활성화?"
+
+#: includes/settings.view.php:296
+msgid "Display sharing icons?"
+msgstr "공유 아이콘을 표시?"
+
+#: includes/settings.view.php:303
+msgid "Enable Anedot.com?"
+msgstr "Anedot.com 사용?"
+
+#: includes/settings.view.php:305
+msgid "Anedot.com is a 3rd party fund raising site"
+msgstr "Anedot.com 제3자 기금 모금 사이트입니다."
+
+#: includes/settings.view.php:335
+msgid ""
+"These settings apply to signatures displayed on your site using the shortcode"
+msgstr "이러한 설정은 단축코드를 사용하여 사이트에 표시되는 서명에 적용됩니다."
+
+#: includes/settings.view.php:348
+msgid "To style the signature list you are best using your theme's"
+msgstr "테마를 사용하는 것이 가장 좋습니다 서명 목록의 스타일을 작성하려면"
+
+#: includes/settings.view.php:348
+msgid "Additional CSS"
+msgstr "추가 CSS"
+
+#: includes/settings.view.php:348
+msgid "setting"
+msgstr "설정"
+
+#: includes/settings.view.php:352
+msgid "0 to display all"
+msgstr "0을 표시합니다."
+
+#: includes/settings.view.php:355
+msgid "Changing to \"list\" will clear column settings below"
+msgstr "\"목록\"으로 변경하면 아래의 열 설정이 지워집니다."
+
+#: includes/settings.view.php:357
+msgid "table"
+msgstr "일임표"
+
+#: includes/settings.view.php:359
+msgid "inline blocks - very styleable"
+msgstr "인라인 블록 - 매우 스타일"
+
+#: includes/settings.view.php:361
+msgid "long list (comma separated)"
+msgstr "긴 목록 (쉼표로 구분)"
+
+#: includes/settings.view.php:368
+msgid "Count"
+msgstr "카운트"
+
+#: includes/settings.view.php:371 includes/settings.view.php:446
+#: includes/signatures.view.php:157 includes/signatures.view.php:185
+msgid "Name"
+msgstr "이름"
+
+#: includes/settings.view.php:374
+msgid "Email address - unless disabled"
+msgstr "이메일 주소 - 비활성화되지 않는 한"
+
+#: includes/settings.view.php:389
+msgid "Custom Field 1"
+msgstr "사용자 지정 필드 1"
+
+#: includes/settings.view.php:392
+msgid "Custom Field 2"
+msgstr "사용자 지정 필드 2"
+
+#: includes/settings.view.php:395
+msgid "Custom Field 3"
+msgstr "사용자 지정 필드 3"
+
+#: includes/settings.view.php:398
+msgid "Custom Field 4"
+msgstr "사용자 지정 필드 4"
+
+#: includes/settings.view.php:401
+msgid "Custom drop-down field"
+msgstr "사용자 지정 드롭다운 필드"
+
+#: includes/settings.view.php:404 includes/settings.view.php:496
+msgid "Custom Checkbox 1"
+msgstr "사용자 지정 확인란 1"
+
+#: includes/settings.view.php:407 includes/settings.view.php:500
+msgid "Custom Checkbox 2"
+msgstr "사용자 정의 확인란 2"
+
+#: includes/settings.view.php:413 includes/signatures.view.php:148
+msgid "Date"
+msgstr "날짜"
+
+#: includes/settings.view.php:418
+msgid "Display country flags?"
+msgstr "국가 플래그를 표시?"
+
+#: includes/settings.view.php:422
+msgid "requires Country column to be enabled above"
+msgstr "위에서 국가 열을 사용하도록 설정해야 합니다."
+
+#: includes/settings.view.php:429
+msgid "enabled - only show first letter of surname"
+msgstr "가능 - 성의 첫글자만 표시합니다"
+
+#: includes/settings.view.php:430
+msgid "disabled"
+msgstr "비활성화"
+
+#: includes/settings.view.php:439
+msgid "Settings for the dashboard signature list"
+msgstr "대시보드 서명 목록설정"
+
+#: includes/settings.view.php:442
+msgid "Columns to display"
+msgstr "표시할 열"
+
+#: includes/settings.view.php:452
+msgid "Petition info"
+msgstr "청원 정보"
+
+#: includes/settings.view.php:468
+msgid "Postal code"
+msgstr "우편 번호"
+
+#: includes/settings.view.php:476 includes/signatures.view.php:139
+msgid "Custom field 1"
+msgstr "사용자 지정 필드 1"
+
+#: includes/settings.view.php:480 includes/signatures.view.php:140
+msgid "Custom field 2"
+msgstr "사용자 지정 필드 2"
+
+#: includes/settings.view.php:484 includes/signatures.view.php:141
+msgid "Custom field 3"
+msgstr "사용자 지정 필드 3"
+
+#: includes/settings.view.php:488 includes/signatures.view.php:142
+msgid "Custom field 4"
+msgstr "사용자 지정 필드 4"
+
+#: includes/settings.view.php:492 includes/signatures.view.php:143
+msgid "Custom field 5"
+msgstr "사용자 지정 필드 5"
+
+#: includes/settings.view.php:503
+msgid "Confirmed status"
+msgstr "확인된 상태"
+
+#: includes/settings.view.php:509
+msgid "Date signed"
+msgstr "서명 날짜"
+
+#: includes/settings.view.php:513
+msgid "Display time signed?"
+msgstr "서명된 시간을 표시합니까?"
+
+#: includes/settings.view.php:517
+msgid "IP address"
+msgstr "IP주소"
+
+#: includes/settings.view.php:521
+msgid "CSV file includes"
+msgstr "CSV 파일을 포함합니다"
+
+#: includes/settings.view.php:523
+msgid "All signatures"
+msgstr "모든 서명"
+
+#: includes/settings.view.php:525
+msgid "Only opt-in signatures"
+msgstr "수신동의한 서명만"
+
+#: includes/settings.view.php:527
+msgid "Only double opt-in signatures"
+msgstr "수신동의가 확인된 서명만"
+
+#: includes/settings.view.php:527
+msgid "opt-in + confirmed"
+msgstr "수신동의 + 확인됨"
+
+#: includes/settings.view.php:529
+msgid "Only confirmed signatures"
+msgstr "확인된 서명만"
+
+#: includes/settings.view.php:541
+msgid "rows - default = 20"
+msgstr "행 - 기본값 = 20"
+
+#: includes/settings.view.php:545
+msgid "rows - default = 50"
+msgstr "행 - 기본값 = 50"
+
+#: includes/settings.view.php:555
+msgid "Webhooks enabled"
+msgstr "웹후크 사용"
+
+#: includes/settings.view.php:603
+msgid "Don't have a license"
+msgstr "라이선스가 없습니다."
+
+#: includes/settings.view.php:644
+msgid "Anedot.com Donation Slug"
+msgstr "Anedot.com 기부 슬러그"
+
+#: includes/settings.view.php:646
+msgid ""
+"Input your Anedot.com \"Account Slug\" (from Settings > Brand), a slash, and "
+"then your Campaign Slug (from Campaigns > Edit > Basic)."
+msgstr ""
+"Anedot.com \"계정 슬러그\"(설정에서 > 브랜드), 슬래시, 그리고 캠페인 슬러그 "
+"(캠페인에서 편집 > 기본)를 입력합니다."
+
+#: includes/settings.view.php:651
+msgid "Anedot.com Embed Pref"
+msgstr "Anedot.com 임베드 프리프"
+
+#: includes/settings.view.php:653
+msgid ""
+"Enter \"true\" (without quotes) to show account name header on embedded "
+"campaigns."
+msgstr ""
+"따옴표 없이 'true'를 입력하여 포함된 캠페인에 계정 이름 헤더를 표시합니다."
+
+#: includes/settings.view.php:657
+msgid "Anedot.com iframe Width"
+msgstr "Anedot.com 아이프레임 너비"
+
+#: includes/settings.view.php:659
+msgid ""
+"Width for donation form iframe, either as percent, e.g. \"100%\" (without "
+"quotes), or pixels, e.g. \"375\" (without quotes). Iframe is to be displayed "
+"in Success Message area, after signing of a petition."
+msgstr ""
+"기부 양식 iframe의 너비(예: \"100%\"(따옴표 제외) 또는 픽셀(예: \"375\"(따옴"
+"표 제외). Iframe은 청원서에 서명 한 후 성공 메시지 영역에 표시됩니다."
+
+#: includes/settings.view.php:663
+msgid "Anedot.com iframe Height"
+msgstr "Anedot.com 아이프레임 높이"
+
+#: includes/settings.view.php:665
+msgid ""
+"Height for donation page iframe, either as pixels, e.g. \"1570\" (without "
+"quotes), or percent, e.g. \"100%\" (without quotes). Iframe is to be "
+"displayed in Success Message area, after signing of a petition."
+msgstr ""
+"기부 페이지 iframe의 높이는 픽셀(예: \"1570\"(따옴표 제외) 또는 퍼센트(예: "
+"\"100%\"(따옴표 제외)입니다. Iframe은 청원서에 서명 한 후 성공 메시지 영역에 "
+"표시됩니다."
+
+#: includes/settings.view.php:671
+msgid "Save Changes"
+msgstr "변경사항 저장"
+
+#: includes/settings.view.php:374
+msgid "Are you sure you want to publicly display email addresses?"
+msgstr "전자 메일 주소를 공개적으로 표시하시겠습니까?"
+
+#: includes/signatures.php:39 includes/signatures.php:86
+#: includes/signatures.php:122 includes/signatures.php:193
+#: includes/signatures.php:207
+msgid "Total Signatures"
+msgstr "총 서명"
+
+#: includes/signatures.php:93 includes/signatures.php:129
+msgid "Confirmation emails sent."
+msgstr "확인 이메일을 보냅니다."
+
+#: includes/signatures.php:212
+msgid "Total"
+msgstr "합계"
+
+#: includes/signatures.view.php:15
+msgid "Display all signatures"
+msgstr "모든 서명 표시"
+
+#: includes/signatures.view.php:20
+msgid "Select petition"
+msgstr "청원 선택"
+
+#: includes/signatures.view.php:35
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each unconfirmed signature."
+msgstr ""
+"이 작업을 수행하시겠습니까? 확인되지 않은 서명마다 별도의 확인 이메일이 발송"
+"됩니다."
+
+#: includes/signatures.view.php:36
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each selected signature."
+msgstr ""
+"이 작업을 수행하시겠습니까? 선택한 각 서명에 대해 별도의 확인 이메일이 전송됩"
+"니다."
+
+#: includes/signatures.view.php:37
+msgid "Are you sure you want to do this? You will manually confirm "
+msgstr "이 작업을 수행하시겠습니까? 수동으로 확인합니다."
+
+#: includes/signatures.view.php:38
+msgid "Are you sure you want to do this? You will delete "
+msgstr "이 작업을 수행하시겠습니까? 삭제합니다."
+
+#: includes/signatures.view.php:39
+msgid "selected signature"
+msgstr "선택한 서명"
+
+#: includes/signatures.view.php:51
+msgid "Reconfirm selected"
+msgstr "선택된 재확인"
+
+#: includes/signatures.view.php:53
+msgid "Reconfirm selected: choose petition first"
+msgstr "선택 재확인: 먼저 청원서 선택"
+
+#: includes/signatures.view.php:55 includes/signatures.view.php:58
+msgid "Reconfirm selected: choose signatures"
+msgstr "선택 됨 재확인: 서명 선택"
+
+#: includes/signatures.view.php:63
+msgid "Force confirm selected"
+msgstr "힘 확인 선택"
+
+#: includes/signatures.view.php:65
+msgid "Force confirm selected - choose signatures"
+msgstr "선택된 강제 확인 - 서명 선택"
+
+#: includes/signatures.view.php:67
+msgid "Force confirm selected: choose petition first"
+msgstr "선택된 강제 확인: 먼저 청원서 선택"
+
+#: includes/signatures.view.php:69 includes/signatures.view.php:71
+msgid "Force confirm selected: choose signatures"
+msgstr "강제 확인 선택: 서명 선택"
+
+#: includes/signatures.view.php:75
+msgid "Delete selected"
+msgstr "선택 삭제"
+
+#: includes/signatures.view.php:77
+msgid "Delete selected: choose signatures"
+msgstr "삭제 선택: 서명 선택"
+
+#: includes/signatures.view.php:91
+msgid "Resend selected confirmations"
+msgstr "선택한 확인 다시 보내기"
+
+#: includes/signatures.view.php:100
+msgid "Choose signatures action"
+msgstr "서명 작업 선택"
+
+#: includes/signatures.view.php:101
+msgid "Download CSV - see settings/admin sig list"
+msgstr "CSV 다운로드 - 설정/관리자 시그니처 목록 보기"
+
+#: includes/signatures.view.php:102
+msgid "Display only unconfirmed"
+msgstr "확인되지 않은 디스플레이"
+
+#: includes/signatures.view.php:103
+msgid "Resend all unconfirmed"
+msgstr "확인되지 않은 모든 다시 보내기"
+
+#: includes/signatures.view.php:108
+msgid "Apply"
+msgstr "적용"
+
+#: includes/signatures.view.php:113
+msgid "Search signatures"
+msgstr "서명 검색"
+
+#: includes/signatures.view.php:144
+msgid "Checkbox 1"
+msgstr "확인란 1"
+
+#: includes/signatures.view.php:145
+msgid "Checkbox 2"
+msgstr "확인란 2"
+
+#: includes/signatures.view.php:146
+msgid "Opt-in"
+msgstr "수신동의"
+
+#: includes/widget.php:14
+msgid "Display a petition form."
+msgstr "청원서를 표시합니다."
+
+#: includes/widget.php:76
+msgid "Sign the Petition"
+msgstr "청원에 서명하세요"
+
+#: includes/widget.php:89
+msgid "Sharing URL"
+msgstr "공유 URL"
+
+#: includes/widget.php:90
+msgid "Call to Action"
+msgstr "행동유도 (CTA)"
+
+#: includes/widget.php:415
+msgid "Confirm Email"
+msgstr "이메일 확인"
+
+#: speakout-email-petitions.php:95
+msgid "Support"
+msgstr "지원"
+
+#. Plugin Name of the plugin/theme
+msgid "SpeakOut! Email Petitions Pro"
+msgstr "SpeakOut! 이메일 청원서"
+
+#. Plugin URI of the plugin/theme
+msgid "https://speakout.123host.net.au/"
+msgstr "https://speakout.123host.net.au/"
+
+#. Description of the plugin/theme
+msgid ""
+"This is the fully featured Pro version of SpeakOut! Create custom email "
+"petition forms and include them on your site via shortcode or a widget. When "
+"signed, the petition is emailed to your target and signatures are saved in "
+"the database.  There are many customisable options to make this plugin very "
+"flexible."
+msgstr ""
+"이것은 SpeakOut의 완전한 기능을 갖춘 프로 버전입니다! 맞춤형 이메일 청원 양식"
+"을 만들고 단축 코드 또는 위젯을 통해 사이트에 포함하십시오. 서명하면 청원서"
+"가 대상에게 이메일로 전송되고 서명이 데이터베이스에 저장됩니다.  이 플러그인"
+"을 매우 유연하게 만드는 사용자 정의 가능한 옵션이 많이 있습니다."
+
+#. Author of the plugin/theme
+msgid "Steve D - 123host.au"
+msgstr "스티브 디 - 123host.au"
+
+#. Author URI of the plugin/theme
+msgid "https://123Host.au"
+msgstr "https://123host.au"
+
+#~ msgid "Import petitions from SpeakUp to SpeakOut!"
+#~ msgstr "SpeakUp에서 SpeakOut!으로 청원을 가져옵니다"
+
+#~ msgid "Upgrade to Pro"
+#~ msgstr "프로로 업그레이드"
+
+#~ msgid "Disabled"
+#~ msgstr "비활성화"
+
+#~ msgid "Import from SpeakUp"
+#~ msgstr "SpeakUp에서 가져오기"
+
+#~ msgid "SpeakOut! Upgrade"
+#~ msgstr "SpeakOut! 업그레이드"
+
+#~ msgid "Custom Field 5"
+#~ msgstr "사용자 지정 필드 5"
+
+#~ msgid "yes"
+#~ msgstr "네"
+
+#~ msgid "no"
+#~ msgstr "아니오"
+
+#~ msgid ""
+#~ "Add a custom fields to the petition form for collecting additional data."
+#~ msgstr ""
+#~ "추가 데이터 수집을 위한 청원서 양식에 사용자 지정 필드를 추가합니다."
+
+#~ msgid ""
+#~ "Select the subset of signatures that will be included in CSV file "
+#~ "downloads"
+#~ msgstr "CSV 파일 다운로드에 포함될 서명의 하위 서명을 선택합니다"
+
+#~ msgid "Signature List"
+#~ msgstr "서명 목록"
+
+#~ msgid "In the free version you are limited to one petition"
+#~ msgstr "무료 버전에서는 하나의 청원서로 제한됩니다."
+
+#~ msgid ""
+#~ "Any additional existing petitions will still work but cannot be edited"
+#~ msgstr "추가 기존 청원서는 여전히 작동하지만 편집할 수는 없습니다."
+
+#~ msgid "create"
+#~ msgstr "창조하다"
+
+#~ msgid "Duplicate Email Petition"
+#~ msgstr "중복 이메일 청원서"
+
+#~ msgid "Email Petitions"
+#~ msgstr "이메일 청원서"
+
+#~ msgid "This is coming - to avoid a license fee, make a donation"
+#~ msgstr "이것은 오고있다 - 면허 비용을 피하기 위해, 기부를하십시오"
+
+#, php-format
+#~ msgid "A donation will help keep SpeakOut! 100% free!"
+#~ msgstr "기부는 SpeakOut을 유지하는 데 도움이됩니다! 100% f리!"
+
+#~ msgid "Download CSV"
+#~ msgstr "CSV 다운로드"
+
+#~ msgid "3rd Party extras"
+#~ msgstr "제3자 엑스트라"
+
+#~ msgid "This is coming"
+#~ msgstr "이것은 오고있다"
+
+#~ msgid "This field is included in email to target"
+#~ msgstr "이 필드는 대상에 전자 메일에 포함 됩니다."
+
+#~ msgid "Hide email from public"
+#~ msgstr "공개 메일 숨기기"
+
+#~ msgid "Please donate if this plugin is useful."
+#~ msgstr "이 플러그인이 유용한 경우 기부하십시오."
+
+#~ msgid "Custom field"
+#~ msgstr "사용자 지정 필드"
+
+#~ msgid "None"
+#~ msgstr "없음"
+
+#~ msgid "Read or edit the petition"
+#~ msgstr "청원서 열람 및 수정"
+
+#~ msgid "Ms"
+#~ msgstr "Ms"
+
+#~ msgid "Mr"
+#~ msgstr "Mr"
+
+#~ msgid "Mrs"
+#~ msgstr "Mrs"
+
+#~ msgid "Miss"
+#~ msgstr "Miss"
+
+#~ msgid "Mx."
+#~ msgstr "Mx."
+
+#~ msgid "Dr."
+#~ msgstr "Dr."
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "You will be redirected momentarily."
+#~ msgstr "잠시 후 새로운 페이지로 이동됩니다."
+
+#~ msgid "instead of instant hide"
+#~ msgstr "인스턴트 숨기기 대신"
+
+#~ msgid "Privacy Policy URL"
+#~ msgstr "개인정보 처리방침 URL"
+
+#~ msgid "You will need a pair of keys from"
+#~ msgstr "한 쌍의 키가 필요합니다."
+
+#~ msgid "You can hide Facebook and Twitter icons"
+#~ msgstr "당신은 페이스 북과 트위터 아이콘을 숨길 수 있습니다"
+
+#~ msgid "Example: If your donation page's URL is"
+#~ msgstr "예: 기부 페이지의 URL이"
+
+#~ msgid "then your Donation Slug is:"
+#~ msgstr "그런 다음 기부 슬러그는 다음과 같은 것입니다."
+
+#~ msgid "Donate, please!"
+#~ msgstr "기부하세요!"
+
+#~ msgid "Force confirm selected: check 1 or more"
+#~ msgstr "강제 확인 선택: 1 개 이상 확인"
+
+#~ msgid "Delete selected: check 1 or more"
+#~ msgstr "선택 된 삭제: 1 개 이상 확인"
+
+#~ msgid "Error: You must include a valid id."
+#~ msgstr "오류: id가 유효하지 않습니다."
+
+#~ msgid "All Signatures"
+#~ msgstr "모든 서명"
+
+#~ msgid "Signature deleted."
+#~ msgstr "서명이 삭제되었습니다."
+
+#~ msgid "Download as CSV"
+#~ msgstr "CSV 다운로드"
+
+#~ msgid "Re-send confirmations"
+#~ msgstr "재확인"
+
+#~ msgid "Donate"
+#~ msgstr "기부하기"
+
+#~ msgid "Search"
+#~ msgstr "검색"
+
+#~ msgid "Street Address"
+#~ msgstr "주소"
+
+#~ msgid "Address fields required?"
+#~ msgstr "주소 필드가 필요 한가요?"
+
+#~ msgid "Post Code"
+#~ msgstr "우편번호"
+
+#~ msgid "Steve D forked from speakup"
+#~ msgstr "Steve D는 speakup에서 파생되었습니다"

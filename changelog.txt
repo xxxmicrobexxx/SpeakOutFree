@@ -1,0 +1,1272 @@
+== 3.2.3 ==
+* bug fix: extra argument passed to function caused error sometimes - thanks Aurelian
+* bug fix: in some cases confirmation email may not have been sent
+* bug fix: dummy translation string was being displayed
+* improvement: added animated loader when verifying
+* improvement: added asterisks (*) for required fields on Add/Edit Petition page
+* improvement: blank petition title didn't show an error despite it being required
+* improvement: upgraded "tested up to" to Wordpress version 6.1
+
+== 3.2.2.2 ==
+
+* bug fix: who knew that defining a character set when creating a TINYINT database field would cause an error...
+
+== 3.2.2 ==
+
+* bug fix - extra character was preventing creation of petitions table on new installs only - thanks Aurelian
+
+== 3.2.1 ==
+
+* bug fix: typo in some custom fields caused fatal error - thanks Dick S
+* improvement: defined (rather than generic) custom field headers in CSV - thanks @shaimaaelbanna
+* improvement: if someone has chosen to be publicly anonymous, their surname is followed by '*' in the CSV - thanks @shaimaaelbanna
+* improvement: all custom fields now included in CSV
+* improvement: extra spaces trimmed from custom field labels
+* improvement: if choosing to export CSV, you can't select individual signatures.  You can choose to delete when processing the CSV
+* improvement: tweaked font size for expiration date fields
+
+== 3.2.0 ==
+
+* bug fix: extra "/>" snuck into Pro version on settings page
+* bug fix: removed "/" if a single quote is used in a custom checkbox description - thanks Dick S.
+* bug fix: database updates for upgrades was left out of 3.1.1, re-added
+* bug fix: one Active Campaign field saved incorrectly
+* bug fix: remove extra spaces at the end of Custom Dropdown 1 label - thanks Dick S.
+* bug fix: added user agent for cURL call in Pro version to prevent firewall having a brain fart
+* improvement: changed logic for petition list display for free version
+* improvement: added some code to make verification debugging easier
+* improvement: added support for Sendy.com mailing service - thanks Dick S.
+* improvement: plugin automatically reloads after verification to reveal all features - perhaps :P
+* improvement: update languages
+
+== 3.1.1 ==
+
+* bug fix: social media sharing button couldn't be disabled in Pro version - thanks Juan
+* bug fix: Public Signature List style checkboxes didn't save in Pro version - thanks Pieter
+* bug fix: CSV options weren't being saved in Pro version - thanks Oliver
+* bug fix: unconfirmed signatures were showing in the public signature list - thanks Oliver
+* bug fix: removed quotes around integer in SQL statements
+* bug fix: fixed a "read more" link that wasn't working
+* improvement: added "revoke license" button in Pro version
+* improvement: added auto-complete for some petition fields - thanks Cecilie
+
+== 3.1.0 ==
+
+* bug fix: undeclared variables in a couple of scripts
+* bug fix: signature custom CSS option not saved (Pro version)
+* bug fix: some unused options were generating PHP warnings
+* bug fix: empty email address was not caught as error.  But this only happened once due to it being a duplicate (in this case blank) - thanks @goclones1 
+* improvement: update to languages
+
+== 3.0.6 ==
+
+* improvement: clarified instructions for custom CSS from "use" to "create"
+
+== 3.0.5.3 ==
+
+* bug fix: In some cases sharing icons weren't displaying
+* improvement: reworded sharing icons text slightly in admin area
+
+== 3.0.5.2 ==
+
+* bug fix: unable to toggle "allow anonymous" setting in Pro version
+
+== 3.0.5 ==
+
+* improvement: removed redundant option in the database
+* improvement: better logging of upgrades
+* bug fix: set default value for unchecked items to eliminate PHP warnings - thanks Oliver E.
+* bug fix: typo prevented adding the word "Pro" to the menu for upgraded versions - thanks @peterscholtens 
+* bug fix: some settings weren't being saved and even if they were, the button wasn't checked (Pro version)
+
+== 3.0.4.3 ==
+
+* version bump
+
+== 3.0.4.1 ==
+
+* bug fix: recaptcha not displaying
+
+== 3.0.4 ==
+
+* improvement: added colour style to signature goal and social sharing texts.
+* bug fix: in some cases, petitions couldn't be deleted
+
+== 3.0.3 == 
+
+* bug fix: hcaptcha and google recaptcha settings weren't opening in Pro version - thanks Theo L.
+* improvement: tweaked verification logging
+
+== 3.0.2.1 ==
+
+* version push to get Wordpress to send me release approval email - no code changes
+
+== 3.0.2 ==
+
+* improvement: better handling of locked, but previously set, fields in free version
+* bug fix: removed some code for an idea that didn't happen
+* bug fix: "display flags" checkbox not checked when enabled - this setting will be lost in the free version and will need to be re-enabled in the Pro version
+* bug fix: the submit button text was deleted if any settings were updated - thanks Roger and Dominik
+* bug fix: function updated
+
+== 3.0.1 ==
+
+* bug fix: function being triggered by all users
+
+== 3.0.0 ==
+
+* bug fix: some undeclared variables were throwing a warning
+* bug fix: in certain circumstances the signature count wasn't displaying properly
+* improvement: Version 3 introduces a Pro version of SpeakOut!  I want the free version to still be very useful for users, but to enable all the features, there is a reasonable once-off payment for life.  The major change is that the free version only lets you have 1 petition.  If you currently have more than one, it will continue to work but you won't be able to edit it. All existing options will remain working, but you may not be able to edit some of them.  If you have ever made a donation in the past, contact me via https://speakoutpetitions.com for a free license key.
+
+= 2.15.3 = 
+
+* bug fix: petition without requires_confirmation and after form submit the signature count was showing "NaN" - thanks Thomas
+* bug fix: in some cases a new petition wasn't loading content in the dashboard when editing it - thanks @papyrusdoc
+
+= 2.15.2 =
+
+* bug fix: if "confirm signatures" was enabled for a petition, then later disabled, signatures added but not confirmed (while enabled) weren't counted.
+* bug fix: two more database fields were missing - this was the source of the signature issues.  Thanks to all who reported this and (hopefully) were patient for a fix.
+* improvement: CSV can now optionally export only confirmed signatures - thanks Fredrik
+* improvement: language updates
+
+= 2.15.1 =
+
+* bug fix: wrong version number for database update caused a database "duplicate field" error
+* bug fix: two database field should have been added in last update
+
+= 2.15.0 =
+
+* bug fix: custom field 4 likely wasn't working
+* bug fix: on activation non-critical database error was thrown but only displayed if debug true
+* bug fix: Viet Nam flag not displaying in signature list
+* improvement: admin signature list made more readable replacing affirmative text with &#10004;
+* improvement: added 2 custom checkboxes
+* improvement: slowly implementing premium version.  Free version will have reduced features but will still work - make a donation now (or if you have made one in the past) and you get the premium version free
+* improvement: language files updated
+
+= 2.14.18.1 =
+
+* bug fix: debug code left behind, only affected expired petitions
+
+= 2.14.18 =
+
+* improvement: option to change thousands separator and decimal separator for different cultures e.g. 1,234.56 or 1.234,56 or 1 234.56 - find this in SpeakOut! > settings > petition form - thanks Caetano
+* improvement: update admin CSS
+* improvement: update language files
+
+= 2.14.17.1 =
+
+* bug fix: CSS directory didn't upload with laste version 
+
+= 2.14.17 =
+
+* bug fix: The word 'anonymous' wasn't translated in petitions list - Thanks Miguel 
+* improvement: updated language files
+
+
+= 2.14.16.1 =
+
+* bug fix: missing language files...sigh...
+
+= 2.14.15 = 
+
+* security fix: Thanks Erwan @WPScan
+* improvement: updated "tested up to" to WP 5.9
+
+= 2.14.14 =
+
+* some bug fixes and improvements.
+
+= 2.14.14 =
+
+* bug fix: if email address is confirmed, it wasn't added to 3rd party mailers - thanks Dan M @tahninial
+* improvement: tweak default CSS so that opt-in text doesn't wrap
+* improvement: Australian English language file had some bizarre foreign language words
+
+= 2.14.13.1 =
+
+* improvement: updated "tested up to:" for WordPress 5.9
+
+= 2.14.13 =
+
+* improvement: implemented hcaptcha, an alternative to Google recaptcha
+* improvement: updated signaturelist CSS so that table is 100% width - thanks Bahman
+* improvement: better handling of required fields if form resubmitted
+
+= 2.14.12 =
+
+* bug fix: custom field 5 was not validating if set as required and in middle or bottom position on petition form - thank @pieter
+
+= 2.14.11 =
+
+* bug fix: there was no field to set the text to open/close an editable petition
+* bug fix: if not collecting signatures and hiding email, options fields were disabled on any petition save - thanks @pieter
+
+
+= 2.14.10 =
+
+* bug fix: If it was enabled, the `custom field 5 required` checkbox wasn't displaying the check after being saved.  Thanks @pieter
+
+= 2.14.9 =
+
+* bug fix: didn't include additional database fields for new install - thanks Dino
+
+= 2.14.8 =
+
+* Improvement: custom fields can now be excluded from the petition went it is sent to target - thanks Don G.
+* Improvement: layout of checbox elements adjusted to match - thanks @nanuc
+* Improvement: moved class selector from redundant span to parent div and removed span - thanks @nanuc
+
+= 2.14.7 =
+
+* Bug fix: petition title not being sent in reconfirm emails - thanks Vincent 
+
+= 2.14.6 =
+
+* Improvement: fixed height of email field - thanks Luis
+* Improvement: aligned checkbox if optin text flowed more than one line
+
+= 2.14.5 =
+
+* Improvement: changed text from "hide email from public" to "hide name from public" - wasn't actually done in version 2.7.1
+* Improvement: in Active Campaign integration setup, if no custom fields were active, "none" wasn't displayed
+* Improvement: removed superfluous "?".
+* Improvement: added "optin needs to be enabled" warning at top of integrations page
+* Improvement: updates to language files
+
+= 2.14.4.1 =
+
+* Improvement: updated languages location in plugin settings to try to get languages added to WP translations
+* Improvement: Translation updates
+* Improvement: added translation for "anonymous" - thanks @isabelladallavecchia
+
+= 2.14.4 =
+
+* Bug fix: removed reference to mailerlite_server causing PHP warning
+* Improvement: you can now duplicate a petition (dashboard > SpeakOut! > Petitions > Duplicate),  Thanks @madmed
+* Language updates
+
+= 2.14.3 =
+
+* Bug fix: adisabled admin notice until I have time to fix it
+* Improvement: moved CSV file options from Admin Display tab to Admin Signature List tab, which seems more intuitive
+
+= 2.14.2.2 =
+
+* Bug fix: Mailerlite worked in test site but not when upgrading
+
+= 2.14.2 =
+
+* Bug fix: when outputting CSV, honorific had a line break.  Thanks Jonathan W.
+* Bug fix: under certain circumstances the "apply" button would become active on the signatures page
+* Improvement: added Mailerlite integration - thanks @jdegraaf
+
+= 2.14.1 =
+
+* Bug fix: when creating a petition it wasn't including the petition ID in the sample short code
+* Bug fix: after upgrading to 2.14.0 settings page content wasn't displaying - thanks John
+
+
+= 2.14.0 =
+
+Bug fix: updated signature CSS so that table expanded to 100% width
+Bug fix: removed debug code causing a popup if using recaptcha V3
+Bug fix: increased length of honorific field in database - thanks Erik
+Improvement: Added Mailchimp integration (dashboard > SpeakOut! > petitions > edit > 3rd party extras tab)
+Improvement: Added Active Campaign integration (dashboard > SpeakOut! > petitions > edit > 3rd party extras tab) - thanks John Lynch
+Improvement: Added custom fields to CSV export - thanks @tommch
+Improvement: Added automatic goal increase by configurable amount when configurable % reached - thanks Jeremy
+Improvement: CSS for flag size
+Improvement: CSS for submit button text colour
+Improvement: updated language files
+
+
+= 2.13.6 =
+
+Bug fix: if custom field 1 was required it made other fields required whether enabled or not
+Bug fix: custom field 3 not passing values if in top position
+Bug fix: custom field 3 "required" option wouldn't save in settings
+Bug fix: custom field 5 wasn't forcing required
+Improvement: removed confusing "3rd part extras" tab in settings until ready
+
+= 2.13.5 = 
+
+* Improvement: clean up meta data on uninstall
+* Improvement: additional custom fields included in widget
+* Improvement: link (below admin petition message) to markdown examples now opens in new window.
+* Improvement: rearranged tabs on settings page in a more logical order
+* Improvement: custom field data can now be displayed in public signature list - thanks @rmillsop
+* Bug fix: incorrect class name in widget
+
+= 2.13.4 = 
+
+* Bug fix: missing letter in field name prevented new installs from creating petitions
+
+= 2.13.3 =
+
+* Security fix: escaped a string before outputting it - thanks Erwan @ wpscan.com
+
+= 2.13.3 =
+
+* Bug fix: Custom field 5 position not checked in admin area
+* Bug fix: Custom field 5 label not showing in all positions
+
+= 2.13.1.1 =
+
+* Bug fix: Field label added as top option in Custom Drop Down field
+
+= 2.13.1 =
+
+* Bug fix: Two files missing from 2.13.0
+
+= 2.13.0 =
+
+* Bug fix: missing default value for petition_fade option
+* Improvement: Custom filed 5 converted to drop-down field
+* Improvement: Better admin display of custom field values submitted
+
+= 2.12.3.1 =
+
+* Bug fix: Fixed typo causing error for new installations - thanks Ana M.
+
+= 2.12.2 =
+
+* Improvement: Added clarification that to display country flags in signature list, country column must be enabled.
+* Improvement: Update compatability to WordPress 5.8
+
+= 2.12.1 = 
+
+* Improvement: Added dashboard notice to advise of extra custom fields.
+
+= 2.12.0 =
+
+* Improvement: Five custom fields now available - thanks to all who suggested/requested this
+* Improvement: Some code clarification
+* Improvement: Update compatability to WordPress 5.8
+* Improvement: Admin area style sheet updated2.12.0 
+* Improvement: Languages updated
+
+= 2.11.6 =
+
+* Bug fix: Country flags always displayed in public signature list table layout - Thanks Erik.
+* Bug fix: Declared variable to stop PHP warning in admin signature list
+* Improvement: Changed theme description from _none_ to _Custom_ for clarity
+* Improvement: Expanded admin signature list search to cover all user input fields
+* Improvement: added CSS style for _align-center_ class
+* Improvement: added an extra line above the footer in email to target
+* Improvement: Language updates - some phrases in the admin area weren't being translated
+
+= 2.11.5.1 =
+
+* Bug fix: Roll back to release 2.11.4 - introduced bug I don't have time to fix right now
+
+= 2.11.5 =
+
+* Bug fix: Country flags always displayed in public signature list table layout - Thanks Erik
+* Bug fix: Declared variable to stop PHP warning in admin signature list
+* Improvement: Expanded admin signature list search to cover all user input fields
+* Improvement: added CSS style for _align-center_ class
+* Improvement: added an extra line above the footer in email to target
+
+= 2.11.4 =
+
+* Bug fix: Some debug code left behind was causing some people's dashboard to be blank.
+* Improvement: Added nowrap value to signature table row
+* Improvement: Removed leading 0 if no signatures found
+
+= 2.11.3.1 =
+
+* Version control drives me nuts.  This is an update to try to fix it.
+
+= 2.11.3 =
+
+* Bug fix: Missing close of div tag cause page to cllapse to petition width
+* Bug fix: Some changes to the petition script weren't included with the widget
+
+= 2.11.2 =
+
+* Bug fix: Blank lines in honorifics list and coutries list now ignored
+* Bug fix: Removed white space from an element ID name
+* Bug fix: Closed submit button tag
+* Bug fix: Removed `<caption`> tag from signature list header, replaced with ID in `<div>`
+* Bug fix: Extra `</div>` in sharing section caused layout problems with some themes - Thanks Erik Tuschtfeld
+* Improvement: Replaced `<h3>` around signature header with `<div>`
+* Improvement: Better styling of signature list with some space around it
+
+= 2.11.1 =
+
+* Bug fix: Custom honorifics and country lists now work differently.  I learned something about the WordPress plugin repository - either the plugin files were always updated (and therefore over-written) or they weren't included in the plugin.  So my idea of providing custom files that you can update won't work.  Instead the new method is that default files are in the `/wp-content/plugins/speakout/includes/` directory.  If you want to have custom honorific strings then you need to copy `honorifics.txt` to the `/wp-content/plugins/speakout/custom` directory so you have `/wp-content/plugins/speakout/custom/honorifics.txt` which will be read instead of the included file.
+
+= 2.11.0 =
+
+* Improvement: New shortcodes to display petition title and petition message outside of actual petition. Thanks @newregular
+* Improvement: Added new shorcodes to list of shortcodes displayed on petitions page.
+* Improvement: Languages updated
+
+= 2.10.1 =
+
+* Bug fix: markdown wasn't implemented in widget
+* Bug fix: CSS directory missing in 2.10.0.1
+
+= 2.10.0.1 =
+
+* Improvement: Updated **tested up to**
+
+= 2.10.0 =
+
+* Bug fix: The install/upgrade process was a bit wonky
+* Bug fix: More PHP warnings resolved
+* Improvement: The text "Read The Petition" can now be edited in Dashboard > SpeakOut! > petitions > edit the petition > display options tab - Thanks Henri Squeueira - this was never actually added in 2.9.0
+* Improvement: There is a new file _/wp-content/plugins/speakout/custom/countries.txt_ which contains a list of countries.  Each is on its own line and has a separator `|` between the English name (for the database) and the display name which can be in the language of that country.  They can also me changed to whatever order you choose and you can even remove all the un-needed countries e.g. if your petition is limited to Mexico, you might remove all other countries to make the page smaller to load and also less complex for users.  Any files in the _custom_ directory will remain untouched during updates, so your custom strings will be safe.   More details at https://speakoutpetitions.com/faqconc/how-do-i-edit-the-countries-list/
+
+
+= 2.9.2 =
+
+* Bug fix: Fixed Warning in petition page.  Thanks @lzapad
+
+= 2.9.0 =
+
+* Improvement: Custom modifications are going to become easer.  First step is custom honorifics.  There is a new file _/wp-content/plugins/speakout/custom/honorifics.txt_ which contains a list of honorifics.  Each is on its own line in your language in whichever order you choose.  Any files in the _custom_ directory will remain untouched during updates, so your custom strings will be safe.  Inspired by a question by Alex.
+* Improvement: The text "Read The Petition" can now be edited in Dashboard > SpeakOut! > petitions > edit the petition > display options tab - Thanks Henri Squeueira 
+* Improvemment: Fixed cursor style Edit Petition page
+
+
+= 2.8.0 =
+
+* Bug fix: missing space in label on admin settings page
+* Bug fix: Missing CSS style for admin petition page
+* Improvement: Redesign of petition edit page into tabs to match settings page.  Much tidier.
+* Improvement: Settings page styling now matches other pages
+
+= 2.7.10 = 
+
+* Improvement: email character ser changed to UTF-8.  Thanks Markus B
+
+= 2.7.9 =
+
+* Improvement: Entire SpeakOut! menu now only available to administrators.  Previously some functions were available to all users.  Thanks Oleg 
+* Improvement: Update compatability to WordPress 5.7
+* Bug fix: Choosing "new window" as target for redirection wouldn't have been working.
+
+= 2.7.8 =
+
+* Bug fix: Pagination not working on petition list.  Thanks Jason Goodman
+
+= 2.7.7 =
+
+* Bug fix: Some strings in admin area weren't being translated - thanks Przemek
+* Improvement: Polish language fixes - thanks Przemek
+
+= 2.7.6 =
+
+* Bug fix: typo introduced in 2.7.5 broke petition if using recaptcha
+
+= 2.7.5 =
+
+* Bug fix: email validation wasn't working - thanks @sham2983
+* Improvement: Update to German language file - thanks @spanni26
+
+= 2.7.4 =
+
+* Improvement: update German language - thanks @spanni26
+
+= 2.7.3 =
+
+* Bug fix: Check to see if Parsedown already declared by theme
+
+= 2.7.2 =
+
+* Bug fix: custom field now on its own line - Thanks Bob M.
+
+= 2.7.1 =
+
+* Bug fix: widget country list not showing
+* Bug fix: "hide name from public" not in widget
+* Bug fix: widget CSS fixed to style drop-down menus
+* Improvement: changed text from "hide email from public" to "hide name from public"
+* Improvement: updated language files
+
+= 2.7.0 =
+
+* Bug fix: improved integrity of new signature options
+* Bug fix: when emailed, the petition didn't CC as set in dashboard
+* Bug fix: removed some debug code
+* Bug fix: fixed PHP warnings when no signature list columns selected
+* Bug fix: fixed 'target=_blank' for redirect URL
+* Bug fix: div around signature list, element name not wrapped in quotes
+* Bug fix: declared some variables to eliminate PHP notices
+* Improvement: Renamed function `format_address` to `format_street_address` to reduce confusion with email address
+* Improvement: Added Serbian language - thanks Mihailo Matovic.
+* Improvement: Updated all languages
+* Improvement: Option to allow signers to anonymise name on public signature list - the name is still sent to petition target.  Thanks @raphaelgal
+* Improvement: If signer has chosen to be anonymous, in the admin area, their name is highlighted with a diamond &#9830;
+* Improvement: Added more clarity to settings pages
+* Improvement: Updated to WP version 5.6
+* Improvement: Changed some settings radio buttons to checkboxes for consistency
+* Improvement: Time can optionally be shown in admin signature list - settings -> `admin signature list` tab. Thanks @katalikai
+* Improvement: Display only unconfirmed signatures - choose from admin signature page dropdown. Thanks @katalikai
+
+= 2.6.2 =
+
+* Improvement: A variable showing the number of signatures can now be added to the success message so it can say "You are signature number nn".  Thanks Ray S.
+
+= 2.6.1 =
+
+* Bug fix: previous update didn't allow for "no email" being seen as duplicate
+* Improvement: a few tweaks to the UI associated with 2.6.0 update.  The most important is that the "no email field" opotion can't be reversed
+* Improvement: Translation updates
+* Improvement: Typo fix "adress" -> "address"
+* Improvement: Added some links to FAQ items in dashboard
+* Apology: 2.6.0 idea wrongly attributed
+
+= 2.6.0 =
+
+* Improvement - It is now possible to collect names without an email address, cutting the petition to the bare minimum.  If disabling email it auto disables opt-in and BCC (since there is no email address).  Thanks Ray S.
+
+= 2.5.5 =
+
+* Bug fix: changed styling for signature list so it is 100% width
+* Bug fix: Signature ID not showing in CSV
+* Improvement: In the settings screen, admin can now choose which columns to display in the management signature list - thanks Michael G
+* Improvement: Human friendly option values in CSV
+
+= 2.5.4.1 =
+
+* Updated compatability to WordPress 5.6 and PHP 7.0 - no code changes.
+
+= 2.5.4 =
+
+* Bug fix: value not passed from web page to jquery
+
+= 2.5.3.1 =
+ 
+* Improvement: Update Czech language - thanks @diprimalex
+
+= 2.5.3 =
+
+* Bug fix: Default text in new petition title wasn't a placeholder.
+
+= 2.5.2 =
+
+
+* Improvement: Added _first_ and _last_ pagination buttons. Thanks @Bruno Riggs
+* Bug fix: Signature pagination buttons weren't working as expected Thanks @tdrewes
+* Bug fix: missing { in widget.css
+
+
+= 2.5.1 =
+
+* Improvement - If petition is not editable by a visitor, markdown formatting is applied
+* Improvement - other minor markdown related tweaks
+
+= 2.5.0 =
+
+* Improvement - outgoing emails to target can now be formatted using markdown.  This can be done by the admin when setting the message and additionally, if messages are editable, markdown can be used by the signer.  For more information on markdown see https://speakoutpetitions.com/markdown or search the web.
+* Improvement - languages updated.
+
+= 2.4.0 =
+
+* Bug fix: Automatic redirect after confirmation wasn't working.  Thanks @tdrewes
+* Improvement: Signature total now updates instantly when someone signs, but only if email confirmation is not enabled.  Thanks Alan T.
+* Improvement: Code tidy up in various places.
+
+= 2.3.4 =
+
+* Bug fix: Added a default value if there is no value in _number of petitions to display_ field or _number of signatures to display_ field in admin settings.
+* Improvement: Added generic Arabic language (_ar).  Thanks Faisal K.
+
+= 2.3.3 =
+
+* Improvement: Language updates. I discovered that the software I was using didn't include translations that were marked as incomplete.  Sheesh.  Everything is now marked as complete whether it is or not :P
+
+= 2.3.2.1 =
+
+* Bug fix: Somehow jquery fix for the petition popup close icon in 2.2.12 had partially reverted.  Did I never do it properly in the first place?
+
+= 2.3.2 =
+
+* Bug fix: removed calls to non-existant jquery files.  How it didn't cause widespread issues but affected one site is a mystery.  Thanks Guillaume
+* Bug fix: Check All Signatures wasn't working in admin area
+* Improvement: Some strings weren't being translated
+* Improvement: All language files updated
+* Improvement: Added styling class to signature list elements that didn't have one - see https://speakoutpetitions.com/faqconc/can-i-style-the-signature-list/  Thanks @Neil F & others
+* Improvement: The signature list table has been rehashed.  Now 3 options: comma separated list, table or stylable blocks.  This can be selected in dashboard > SpeakOut! > settings > Signature List tab
+* Improvement: Text in admin area beside signaturelist number of rows clarified when displaying all
+* Improvement: Some styling fixes on Signature List settings page
+* Improvement: Fix styling of some address fields in theme-basic.css
+
+= 2.3.1 =
+
+* Improvement: Better styling options for signaturelist.  Removed table, added classes to each element.  Thanks Nate C.
+
+= 2.3.0 =
+
+* Improvement: Added a database index for petition ID in the signatures table.  Thanks @andi22
+
+= 1.23.0 =
+
+* Bug fix: No need to prepare database statement if not including user variables removes a PHP warning
+* Bug fix: declared some variables and updated other code to eliminate PHP notices
+* Bug fix: link to import from legacy speakup plugin broken
+* Improvement: Redirection delay after signing now configurable
++ Improvement: Petition can optionally fade out after signing instead of just disappearing
+* Improvement: Updated signature CSV export routine
+* Improvement: Petition form wrapped in <div>
+* Improvement: Added some logic to improve user experience on legacy speakup import page
+* Improvement: Removed some debug code from various locations.
+* Improvement: Added Brazilian Portuguese - Thanks Tel Amiel.
+* Improvement: Updated most countries in petition country drop down to be in their own language plus English - happy to receive any corrections or additions
+* Improvement: All languages updated - Thanks Simone Apollo for Italian suggestions
+
+= 1.22.3.1 =
+
+* Improvement - Italian language update - Thanks Davide
+* Bug fix - some countries in the flag function were in Spanish.  Some were spelled wrong.  There may be more...please report any countries that don't show flags.
+
+= 1.22.2 = (skipped)
+
+= 1.22.1 =
+
+* Bug fix - widget code included in main petition causing country to break ability to sign.  How it ever worked in the past is beyond me :o(
+
+= 1.22.0.1 =
+
+* Bug fix - flag files weren't sent with previous version
+
+= 1.22.0 =
+
+* Bug fix - missing space for widget form city placeholder 
+* Bug fix - removed duplicate recaptcha javascript include
+* Improvement - If displaying country in signaturelist, it now displays flag - Thanks John Sanabria 
+* Improvement - Petition form country list changed from <datalist> to <select> to prevent user entry and force dropdown selection
+* Improvement - removed some debug code
+* Improvement - added wordpress site language to SpeakOut! header in source code - this is to help me debug language issues
+* Improvement - Norwegian language nb_NO cleaned up and redundant no_NO removed.  Thanks Howard Gittela
+* Improvement - Update Dutch language - thanks to my Dutch girlfriend :o)
+
+= 1.21.2 =
+
+* Bug fix - search function improved
+
+= 1.21.1 =
+
+* Bug fix - search function fixed.
+
+= 1.21.0 =
+
+* Improvement - added search function to signatures page - thanks Michael
+* Improvement - updated translations
+
+= 1.20.5.1 =
+
+* Improvement - changed the word "street" to "address" - Thanks Simon
+* Improvement - updated translations
+
+= 1.20.5 =
+
+* Bug fix - updated the email field test so it doesn't fail on the newer top level domains. - Thanks @zeller
+
+= 1.20.4 =
+
+* Improvement - redirection delay after signing now adjustable
+* Improvement - Removed the "retype your signature" for users when confirmation is enabled.  What was the point of that when users didn't have to retype if not confirming?  Thanks Michael.
+
+= 1.20.3.1 =
+
+* Improvement - made "Country" placeholder translatable
+
+= 1.20.3 =
+
+* Bug fix - added placeholder for Country field
+
+= 1.20.2 =
+
+* Bug fix - database fields weren't being created for new installs
+* Bug fix - recaptcha worked well.  However if it wasn't enabled people couldn't sign.  Kludge workaround to keep things going.
+* Bug fix - copied Norwegian language file from nb_NO to no_NO
+* Improvement - minor rearrangement of settings page
+
+= 1.20.1.1 =
+
+* Bug fix - left code out of 1.20.1
+
+= 1.20.1 =
+
+* Bug fix - a site has a javascript error related to recaptcha, workaround for that.
+
+= 1.20.0 =
+
+* Improvement - if field field is displayed, label is required
+* Improvement - individual address elements can be required or not - thanks @retrocool
+* Improvement - support for recaptcha2 - enable on dashboard > SpeakOut! > settings page - thanks to @Audun and others for prodding me ;o)
+* Improvement - updated Czech translation.  Thanks Michal.
+* Improvement - added Japanese translation - needs work, can you help?
+* Improvement - updated translations
+
+= 1.19.4 =
+
+* Bug fix - CSS file not loading on admin settings page
+
+= 1.19.3.1 =
+
+* Bug fix - one updated file not included in 1.19.3
+
+= 1.19.3 =
+
+* Bug fix - it seems that the core WP bug I have been wrestling with affects different versions of WP differently so I have rolled it back
+* Bug fix - typo was causing a PHP warning in ajax.php
+* Bug fix - replace PHP count() with native wpdb->num_rows to eliminate PHP warnings
+
+
+= 1.19.2 =
+
+* Bug fix - new petition not saving
+* Bug fix - database update improved
+
+= 1.19.1 =
+
+* Bug fix - Still getting the menus right...sorry...
+
+= 1.19.0 =
+
+* Improvement - URL can be set (on edit petition page) for redirection after successful signing.
+* Bug fix - cause of menu bug discovered (duplicate menu slugs) and remedied.
+
+= 1.18.3 =
+
+* Bug fix - seems there is a bug in WordPress https://core.trac.wordpress.org/ticket/48599 that causes an error to be thrown, possibly only on some versions of PHP.  It isn't affecting the petition, it is caused in the rendering of menus in the dashboard - I have added a workaround for now.  I am also learning lots about the guts of WordPress :P
+
+= 1.18.2 =
+
+* Bug fix - I introduced a future bug in 1.17.8 when preparing for WP 5.3 by not wrapping a number in quotes.  Weirdly it only affected 3 sites (so far) and I couldn't reproduce it.  This was really hard to track down and I couldn't have done it without the help of @fish911
+
+= 1.18.1 =
+
+* Bug fix - in petition, plural of the word "signature" not working in some languages
+* Bug fix - CSV download button wasn't displaying on signature page load
+* Improvement - Tidier heading on signature page with better information
+* Improvement - added Catalan language - thanks Alberto
+
+= 1.18.0 =
+
+* Bug fix - basic theme wasn't hiding petition message
+* Improvement - tidied up code and styles for check boxes below petition
+
+= 1.17.9.1 =
+
+* Bug fix - required custom field not working properly (but it did on my test site...really!)
+
+= 1.17.9 =
+
+* Bug fix - Word "location" for custom field setup wasn't translated
+* Improvement - now possible to have custom field be required - thanks Bahman
+* Improvement - Code tidied up
+* Improvement - translation updates
+
+= 1.17.8 =
+
+* Bug fix - squashed a future bug that would have shown up in WP 5.4 - thanks @davidbinda
+* Bug fix - missing space in label tag 
+* Bug fix - missing space in some translations of "Yes, I accept your privac policy" - Thanks Stijn
+* Bug fix - unwrap those pesky opt-in checkbox lines
+
+= 1.17.7 =
+
+* Improvement - updated styles, especially for basic theme.
+* Improvement - some UI tweaks in petition and dashboard
+* Improvement - removed .less style sheets
+
+= 1.17.6 =
+
+* Bug fix - prevent saviing values of 0 or blank in settings > admin display tab
+* Improvement - Tidied up petition options right column in admin area
+
+= 1.17.5 =
+
+* Bug fix - setting page not working because I copied the wrong code from my development site to a plugin page :o(
+
+= 1.17.4 =
+
+* Bug fix - when using URL to redirect to specific petition e.g. ?petition=10, the signature count was showing total for the first petition instead.
+* Bug fix - when using URL to redirect to specific petition e.g. ?petition=10, the widget was displaying the first petition
+
+= 1.17.3 =
+* Bug fix - custom message wasn't being displayed after signing - thanks @lucapoe
+
+
+= 1.17.2 =
+* Improvement - better handling of drop down menu on signatures page Thanks @Donna4u2
+* Improvement - better display of signature list.  Only the custom field wraps.
+* Improvement - option to hide social media sharing buttons
+* Improvement - removed much of the old changelog to reduce the size of this file.  Legacy updates can be found at https://speakoutpetitions.com/changelog
+
+= 1.17.1 =
+
+* Bug fix - "display petition message" checkbox not checked by default
+* Bug fix - database field added to wrong table
+* Improvement - added a -fi.mo language file as well as a -fi_FI.mo - ome day I might understand this whole language file thing.
+* Improvement - update language files.
+
+= 1.17.0 =
+
+* Improvement - petition message can now be displayed (default) or hidden, option located in right column when editing petition.  Thanks to people who suggested this.
+* Improvement - if custom field is active, the contents are now displayed in the admin signature list.  Thanks @fredygiro
+* Improvement - added support for Anedot.com fundraising form.  Enable this in the petition settings page.  It adds a tab to the settings page. The donation form is then displayed as part of the success message when someone signs the petition. Thanks @DougJoseph for the idea and the code.
+* Improvement - added de_DE_formal language as it seems to be a thing - I can't find any info about this.
+* Improvement - updated language files
+
+= 1.16.4 =
+
+* Improvement - Honorific now included in CSV export of signatures - thanks Peter
+
+= 1.16.3 =
+* Bug fix - return URL wasn't saving   Thanks @dougjoseph
+* Bug fix - allow + sybmol in email addresses - did you know that if your email is hey@gmail.com, hey+you@gmail.com works and when providing your details doing something like hey+speakout@gmail.com can identify if people are selling your email address (SpeakOut! isn't).
+* Improvement - tidied up the behaviour when someone clicks confirmation email and returns to site.
+* Improvement - cleaned up some inconstistent text formatting
+
+= 1.16.2 =
+
+* Improvement - tweaked CSS for checkboxes on petition so they lign up more neatly
+* Bug fix - Privacy policy check box was submitting petition even if it wasn't checked.  Thanks @mistercurtain
+
+= 1.16.1 =
+
+* Improvement: fixed incorrect checkbox alignment in basic CSS file - thanks @daymobrew
+* Updated to WordPress 5.2.3
+
+= 1.16.0 = 
+
+* Improvement: changed field labels to placeholders, reduces size of petition.  Required fields now have no label and a pale red border rather than a red asterisk after the label.  The border colour can be adjusted in *theme-default.css*, find the *:required* element.  Thanks for the pointer @mistercurtain 
+* updated widget, sometimes changes to main petition get forgotten in widget
+= 1.15.3 =
+
+* Bug fix: missing parameter prevented the privacy policy checkbox being clickable.  Thanks @danielwebnl
+* Improvement: some instructions in public.js to fade a petition were around the wrong way
+* Improvement: moved some code around to make it easier for individuals to allow HTML tags
+* Improvement: Tested to Wordpress 5.2
+
+= 1.15.2 =
+
+* Improvement: Added Icelandic translation - thanks Hildur.
+
+= 1.15.1 =
+
+* Improvement: updated a style element - thanks @swinggraphics
+
+= 1.14.11 =
+
+* Bug fix - add missing field to new installs from last 2 days
+
+= 1.14.10 =
+
+* Bug fix - missing field in database for new installs
+
+= 1.14.9 =
+
+* Improvement - updated translations
+
+= 1.14.8 =
+
+* Bug fix - missing translation in confirmation.php - thanks Stefan
+* Bug fix - email and confirm boxes now same width as others
+* Improvement - updated to match WP 5.1.1
+* Improvement - tidied up petition options UI
+* Improvement - removed list of US states from widget
+* Improvement - address fields can now be required - *dashboard > SpeakOut! > petitions > edit*  The *Address fields required* checkbox is only visible if *Display address fields* is checked.  This works if collecting all addresss fields or even if only collecting a single field.
+
+= 1.14.7 =
+
+* Bug fix - recently reinstated import menu item had disappeared
+
+= 1.14.6 =
+
+* Bug fix: missing space in one German translation - thanks Timo
+
+= 1.14.5 =
+
+* Improvement: switched submit from a link to a button for accessibility - thanks @morriscountynj
+
+= 1.14.4 =
+
+* Improvement: Updated compatability to WP 5.0.2
+* Improvement: Reinstated legacy speakup import (who knew it was still needed :P )
+
+= 1.14.3 =
+
+* Bug fix: missing placeholder in array - thanks Chris J.
+
+= 1.14.2 =
+
+* Bug fix: if petition had expired, widget wasn't closing elements properly.  Thanks Dominik B.
+
+= 1.14.1 =
+
+* Bug fix: database tables not updated properly
+
+= 1.14.0 =
+
+* Bug fix: If no confirmation return URL email confirmation page no longer tries to redirect.
+* Bug fix: In dashboard, confirmation return URL defaults to site URL instead of "0" if blank.
+* Bug fix: Custom message wasn't being displayed.  Is now below the "thank you" after signing.
+* Improvement: Added some info under display options fields
+* Improvement: Added location (top, above country or bottom) for position of custom field.
+* Improvement: Text for confirmation page dynamically changes for better UI if no return URL 
+* Improvement: updated language files
+* Improvement: removed link for legacy import from speakup, the original plugin.
+* Improvement: Added Slovak language - thanks @Beata
+* Improvement: Language updates
+
+= 1.13.2 =
+
+* Bug fix: one line wasn't being translated properly in petition or widget.  Thanks @sixtyseven
+
+= 1.13.1 =
+
+* Improvement: Korean translation - Thanks Paul!
+
+= 1.13.0 =
+
+* Improvement: added optional footer that will be included below signature
+* Bug fix: some strings in admin area made translatable
+* Improvement: updated language files
+
+= 1.12.3 =
+
+* Bug fix: Emails are now sent using the character set of the blog - thanks Dominik B.
+* Bug fix: Widget not subitted if privacy policy option not active - thanks Dominik B.
+
+= 1.12.2 =
+
+* Bug Fix: javascript variable declared out of scope
+* Bug Fix: javascript validation testing wrong field - that will teach me to copy and paste and not double check that I changed all field names :o(
+
+= 1.12.1 =
+
+* Bug fix: count() replaced to stop warnings in PHP 7.2+ - thanks @philiprabbett
+* Bug fix: error in new CC field if "collect signatures only" was selected when creating new petition  - thanks @philiprabbett
+
+= 1.12.0.1 =
+
+* Version bump: readme.txt hadn't been saved before plugin update.
+
+= 1.12.0 =
+
+* Improvement: added target email CC so you can have your target and also CC to other email addresses.  Thanks for the idea @sixtyseven
+* Bug fix: code change in class.petition.php to stop warning in PHP 7.2 - thanks @sixtyseven
+* Improvement:  If you have multiple petitions, when viewing the signature list in the dashboard, it shows the petition number beside the petition title.
+* Bug fix: if using link directly to petition e.g. /?petition=4 signatures for that petition now displayed
+* Improvement: designated email fields as "type='email'" to pop email friendly keyboard on mobile.
+* Improvement: tidy up CSS file
+* Bug fix: removed extra field value from form
+
+= 1.11.0 =
+
+* Bug fix: added test to make sure jquery isn't already loaded in admin settings page.  Some themes do load jquery and this seems to have been the source of several reports of content missing from settings page and only tabs visible.  Yay!  Thanks Patrick S, footballmaestro25 and Alberto C who worked with me on this.
+
+= 1.10.5 =
+
+* Bug fix: petition wouldn't submit if Privacy Policy checkbox wasn't being displayed.  Thanks Dominik!
+
+= 1.10.4 =
+
+* Bug fix: widget was showing an admin checkbox instead of the honorific field.  It has been like that for a while, surprised no one reported this.
+
+= 1.10.3 =
+
+* Bug fix: Fix the bug fix done in too much of a hurry :o(
+
+= 1.10.2 =
+
+* Bug fix: something I *know* I edited earlier had reverted itself somehow
+
+= 1.10.1 =
+
+* Bug fix: Privacy Policy display was enabled by default.  Enable via dashboard > SpeakOut! > settings
+
+= 1.10.0 =
+
+* Improvement: added Privacy Policy checkbox option (under settings) to comply with the EU GDPR.  Works on both petition and widget.
+* Update: languages
+
+
+= 1.9.1 =
+
+* Bug fix: I left a debug line in the installer script which prevented the signature table being created for new installs...sigh... 
+
+= 1.9.0 =
+
+* Bug fix: missing value in function saving signature when confirmation not required  Another of those "how did it ever work?" errors :P
+* Improvement: moved the FAQ to https://speakoutpetitions.com/FAQ
+* Improvement: IP address now being saved with signature and exported with CSV
+* Improvement: updated languages - some are incomplete, if yours is, I would love your contribution.
+
+= 1.8.4 =
+
+* Bug fix: BCC wasn't working if people had to confirm email address
+
+
+= 1.8.3 =
+
+* Improvement: updated some functions to ensure compatability with future PHP versions
+* Improvement: Nicer HTML in confirmation emails - I was sure I had done this in the past :P
+
+= 1.8.2 =
+
+* Bug fix: typo must have caused problems with honorific :P
+* Bug fix: fine tuned HTML in confirmation email message
+* Improvement: allowed some formatting tags in confirmation email message
+* Improvement: update all translations including correction to German translation (Thanks @MKJ2)
+* Improvement: if the full name is displayed in the signature list (not anonymised surname) it also displays the honorific.  I am sure someone is going to ask for this to become an option ;o)
+* Improvement: the _[your signature]_ in the displayed petition text looks like shortcode to site owners.  I have changed it to _\*\*your signature\*\*_ to lessen confusion 
+* Improvement: Danish translation added.  Thanks to A.L. who didn't want to be acknowledged but will be anyway :o)
+
+= 1.8.1 =
+
+* Improvement: confirmation emails now HTML instead of plain text
+* Improvement: added signaturegoal shortcode to display signaure goal.  Useful in conjuction with the signaturecount shortcode e.g. We have [signaturecount id="1"] signatures towards our goal of [signaturegoal id="1"]. 
+* Improvement: updated petitions list to show all the shortcodes possible  
+
+= 1.8 =
+* Bug fix: moved the code for the response message outside the form - this only affected anyone who had the form hide on submission
+* Bug fix: hadn't updated one CSS colour
+* Bug fix: optin label bumping to new line if long.
+* Improvement: addition of non-gender specific honorific "Mx"
+* Improvement: updated German translation didn't get included
+
+= 1.7.2 --
+* Bug fix: removed recaptcha code - it wasn't implemented anyway, but was ready to be activated.  The recaptcha process is tied to each website requiring a site ID and a secret code.  If it is included in a plugin then you would be required to open a google developer account and get your authentication codes to submit via the plugin.  This is too onerous a request of people so I am looking at alternatives so that spam can be stopped.
+
+= 1.7.1 =
+
+* Bug fix: recaptcha shouldn't be displaying.  I am working on integrating it and this was preliminary code
+* Improvement: Box displaying confirmation of signing and any errors moved from top of form to bottom.  Makes more sense that it is underneath where person just clicked
+* Big fix: incorrect color value in CSS for progress bar when more than 50% to goal
+
+= 1.7.0 = 
+
+* Bug fix: incorrect code uploaded in 1.6.9.1
+
+= 1.6.9.1 =
+
+* Bug fix: Typo in widget code caused closing </div> to not be included.
+
+= 1.6.9 =
+* Improvement: Added percentage thingy to widget as well
+* Improvement: CSS files updated to fix some errors
+* Improvement: Added "thanks for signing"/error notification box at bottom as well as at top (Thanks Sherry)
+ 
+= 1.6.8 =
+* Bug fix: the percentage of goal worked fine in testing with low goals, but high goals didn't calculate % properly
+* Improvement: added "of goals" to all language files
+* Bug fix: hopefully :P  the word signature wasn't pluralising properly, at least in French.
+
+= 1.6.7 =
+* Improvement:  When you have set a goal, it how shows the percentage of the goal reached so far beside the signature count, plus the goal value on the right of the progress bar. (Thanks for pointing this out @anderenbenutzer)
+* Improvement: reversed the colours of the progress bar.  It is now red when hardly signed and green when 100% of goal.  Makes more sense I reckon.
+* Improvement: Added blank index.php file in each directory to prevent directory listing.  This is more for housekeeping, since like all like all WP plugins, SpeakOut! is open source so anyone can download it and view the file structure.
+* Improvement: reduced the time for confirmation redirect from 10 seconds to 2 seconds.
+* Improvement: fixes to German translation (Thanks Frank J)
+* Update: minor tweaks to the file that generates this text
+* Bug fix: If optin text is long, it wrapped onto a new line leaving the checkbox orphaned on a new line.
+* Bug fix: The phrase "Your Signature" wasn't being translated when viewing petition text
+* Bug fix: Custom field label wasn't being saved when petition was created
+
+= 1.6.6 =
+* Feature: It is now possible to have the petition form hide after it is signed, leaving the success message and social media icons.  Look at /wp-content/plugins/speakout/js/public.js on line 108 (Thanks for the suggestion @kayleyathomas)
+* Update: Added honorific _Dr._  Can add others on request ;o) (Thanksf for the suggestion @jimkcombs3)
+* Update: All language files (Thanks Frank J. for German fixes)
+* Update: changed text in signature field to black (from dark grey on grey).  Remember that you can have your own .CSS file if you want to modify styles.
+* Bug fix: Honorific was completely broken on widget
+* Bug fix: Some phrases weren't translating in confirmation email (Thanks Frank J.)
+
+= 1.6.5 =
+
+* NEW FEATURE:  If you have multiple petitions and don't want to have a separate page for each one, you can load petitions dynamically by using the url example.com/?petition=(petitionID)  e.g. https://speakoutpetitions.com/?petition=2  Thanks Rick for this cool idea plus the code to make it work.
+
+= 1.6.4.1 =
+* Added Arabic translation - thanks Asem Alzoubi
+* Updated German translation to include Fraulein for Miss
+* Changed the term Post Code to the more generic Postal Code and updated all translations
+
+= 1.6.4 =
+* Updated countries to match the current situation in the former Yugoslavia - thanks @cello78ss
+* Another tweak to try to solve broken confirmation links in some email clients - thanks @rotegras
+
+= 1.6.3.1 =
+* Tweak of CSS to suit honorific fix
+
+= 1.6.3 =
+* Made honorific optional - you can't please everyone :o)
+
+= 1.6.2 =
+* Some edited files not included in 1.6.1
+
+= 1.6.1 =
+
+* forgot about the translation of honorifics (Ms, Mr etc)
+
+= 1.6.0 =
+
+* rearranged fields on dashboard > speakout > settings > signature list, moving the Display above Columns as choosing _long list_ disables the Columns fields.  This makes it more clear why they might be disabled
+* petition admin display options, _Display custom message_ slider wasn't opening
+* added honorific (Ms, Mr etc) field on petition.  This is displayed in target email.
+
+= 1.5.6 =
+* fixed bug where comma separated signature list only showed abbreviated surnames. Thanks Stefan
+
+= 1.5.5 =
+* for new installs removed extra space character after the petition title in confirmation message.  Existing installs can edit this in dashboard > speakout > settings > confirmation emails
+* changed the email content type from text/html to text/plain following reports it messed with Outlook emails.
+
+= 1.5.4 =
+
+* changed the email for confirmation emails to utf-8 to fix the link only being half clickable in some email apps (GMX in particular).  It will now be a non clickable URL in some software, but it is still fine in gmail.  Not quite sure what is going on here, but this solves the problem of the link breaking.
+* to match the previous fix, default text for confirmation emails in new installs is now "Please confirm your email address by clicking _or copying and pasting_ the link below:".  In existing installs you can change the text by going to dashboard > speakout > settings > confirmation emails > email message
+
+= 1.5.3 =
+
+* set default value for 'custom field value' (new installs only)
+* set default value 0 for 'signature confirmation' field (new installs only)
+* tweaked default email confirmation message to include petition title (new installs only)
+* changed function type to fix errors when landing on email confirmation page
+* added text on Admin Display tab of settings to remind about default values
+* added missing translation for the word 'signatures'
+* updated all translations - I am sure some of them are a bit dodgy
+
+= 1.5.2 =
+
+* typo in database update - not sure why I can see this on the development site before I commit update :o(
+
+= 1.5.1 =
+
+* typo in database update
+
+= 1.5.0 =
+
+* Fixed mislabelling of petition version so that it updates properly automatically.
+* Trying to get languages more efficient a few functions were broken e.g. deleting petitions  They should be fixed.
+* When choosing to display signatures in a row rather than a table, column checkboxes are disabled.
+* Only display 1st 100 characters of custom message column in signature list
+* Added nowrap to signer's name in signature list
+
+= 1.4.5 =
+
+* changed the name of the translation text domain from dk_speakout to speakout as specified here https://developer.wordpress.org/plugins/internationalization/how-to-internationalize-your-plugin/
+
+= 1.4.4 =
+
+* fixed a typo that caused radio buttons to not fill on the petition tab of the setup page.
+
+= 1.4.3 =
+
+* added ability to display in signature list a custom message signer has sent. _dashboard > SpeakOut! > Signature List > check Custom Message
+* added requested option (dashboard > speakout > settings > signatures) to display signatures as long comma separated list rather than table e.g. Judy R., Robert F., Steve D., etc
+* remembered to update language files to match :o)
+* changed width of count column to 12% when displaying signatures in table
+* extended maximum execution time of CSV exporter from the default 30 seconds to 3 minutes
+
+= 1.4.2 =
+
+* fixed settings page not displaying in 1.4.1 - ouch! 
+
+= 1.4.1 =
+* Forgot to update translations to include new "Display BCC field" phrase
+
+= 1.4.0 =
+* Added option to globally display or hide BCC field
+* Added code to theme_basic.css to fix size of modal popup on mobile devices - thanks @pattihis
+
+= 1.3.11 =
+* Add Czech translation.  Thanks Petr Štepán
+
+= 1.3.10 =
+* updating some phrases
+* language file updates to match
+
+= 1.3.9 =
+* Fixed warning that '$this->WP_Widget' is deprecated, replaced with 'parent::__construct' - had already done this in 1.3.0.  Not sure what happened there.
+* fixed typo in German translation
+
+= 1.3.8 =
+* Fixed bug BCC not working (again).  Discovered that I hadn't uploaded an edited file from my development site, then when I did the upgrade locally it over-wrote my changes with the original code that should have been changed...sigh...
+* Housekeeping cleanups
+* Fixed Norwegian translation
+
+= 1.3.7 =
+* Added Norwegian translation (requested by Robert)
+* Added Estonian translation (requested by Janno)
+* Updated all translation files with missing strings
+* Replaced some hard coded strings with translatable strings
+
+= 1.3.6 =
+* Fixed bug BCC not working
+* Fixed bug class.petitions.php
+* Updated all translation files - I have bought poedit, so translation requests are welcome
+* Fixed misnamed German translation file
+
+= 1.3.5 =
+* Removed non-breaking-space '&nbsp' from the shortcode example so that if people copy and past the example it doesn't break the petition.
+
+= 1.3.4 =
+
+* Tidied up uninstall to be better behaved and remove options from database
+* Made label text for BCC field auto translatable
+
+= 1.3.3 =
+
+* Importer from speakup had bug.  Only change in this version, upgrade not needed if not using importer.
+
+= 1.3.2 =
+
+* Oops!  When copying code from test site to code store, accidentally copied contents of one file into another similarly named.  FIXED!
+* Typo in CSS caused new BCC field to be out of alignment
+* Fixed typo and reworded import page for clarity
+
+= 1.3.1 =
+
+* Added option for person signing to BCC self
+* Added option to import global settings from speakup over-writing settings in SpeakOut!
+* Added some fancies to disable the import button if there are no legacy speakup petitions to import, but enable if settings import is checked
+* Added new column with Petition ID to petition list.  ID was in display of short codes, but wasn't intuitive.
+* Added petition ID number to edit success message
+* Changed settings page title and header from Email Petitions Settings to SpeakOut! Petition Settings to further distinguish from old plugin
+* Changed option from "Allow custom messages" to "Allow message to be edited" for clarity
+* If option "Allow message to be edited" is checked, on petition top section text will change from "READ THE PETITION" to "READ OR EDIT THE PETITION"
+
+= 1.3.0 =
+
+* Added importer from speakup to SpeakOut!
+* Version jump to clean up some confusion after roll back due to broken widget
+* Changed dashboard menu titles including main title SpeakOut! to make distinct from "email petition" used in SpeakUp
+* Add clarification that multiple email target email addresses can be comma separated
+* Removed list of US states from drop-down.  This is an international plugin :P
+* Added how to make postal code required to FAQ - thanks @altinkaya
+* Fixed warning that $this->WP_Widget is deprecated, replaced with parent::__construct - thanks @mannweb
+* Various typo fixes
+
+= 1.2.0 =
+
+Abandon this version - widget broken, version control messed up.
+
+= 1.1.3 =
+
+Wrong icon being displayed
+
+= 1.1.2 =
+
+File missed in commit
+
+= 1.1.1 =
+
+Getting dashboard icons right
+
+= 1.1.0 =
+
+Fix broken directory references missed as part of fork.
+
+= 1.0.0 =
+
+Initial fork of SpeakUp! with additional privacy option in setting so only display first letter of surname

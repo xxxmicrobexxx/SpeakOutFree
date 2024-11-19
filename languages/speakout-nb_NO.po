@@ -1,0 +1,2092 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeakOut! Email Petitions\n"
+"POT-Creation-Date: 2023-04-03 09:33+1000\n"
+"PO-Revision-Date: 2023-10-04 17:12+1000\n"
+"Last-Translator: Steve D <info@123host.com.au>\n"
+"Language-Team: Howard Gittela\n"
+"Language: nb\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: speakout-email-petitions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/addnew.php:38 includes/addnew.php:64
+msgid "Edit Petition"
+msgstr "Rediger underskriftskampanje"
+
+#: includes/addnew.php:42 includes/addnew.php:68 includes/addnew.php:116
+msgid "Update Petition"
+msgstr "Oppdater underskriftskampanje"
+
+#: includes/addnew.php:50
+#, php-format
+msgid ""
+"Petition created. Use %1$s %2$s %3$s to display in a page or post. Use %1$s "
+"%4$s %3$s to display the signatures list or %1$s %5$s %3$s to show just the "
+"signature count."
+msgstr ""
+"Underskriftskampanje opprettet. Bruk %1$s %2$s %3$s til å vise i en side "
+"eller post. Bruk %1$s %4$s %3$s for å vise signaturlisten eller %1$s %5$s "
+"%3$s for å vise bare signaturtellingen."
+
+#: includes/addnew.php:85
+msgid "Duplicate Petition"
+msgstr "Duplisert underskriftskampanje"
+
+#: includes/addnew.php:89
+msgid "Save Duplicate Petition"
+msgstr "Lagre duplikatbegjæring"
+
+#: includes/addnew.php:97
+#, php-format
+msgid ""
+"Petition created - you can edit it here. Use %1$s %2$s %3$s to display in a "
+"page or post."
+msgstr ""
+"Underskriftskampanje opprettet - du kan redigere den her. Bruk %1$s %2$s "
+"%3$s til å vise på en side eller et innlegg."
+
+#: includes/addnew.php:112
+msgid "Edit New Petition"
+msgstr "Rediger ny underskriftskampanje"
+
+#: includes/addnew.php:117
+msgid "Petition "
+msgstr "Underskriftskampanje "
+
+#: includes/addnew.php:124
+msgid "Add New Petition"
+msgstr "Legg til ny underskriftskampanje"
+
+#: includes/addnew.php:128
+msgid "Create Petition"
+msgstr "Opprett underskriftskampanje"
+
+#: includes/addnew.php:130
+msgid "Add me to your mailing list"
+msgstr "Legg meg til adresselisten"
+
+#: includes/addnew.view.php:9
+msgid ""
+"Error: Please correct the highlighted fields.  It may be behind a closed tab"
+msgstr "Feil: Rett opp de merkede feltene.  Det kan være bak en lukket fane"
+
+#: includes/addnew.view.php:18 includes/help.php:42
+msgid "Petition Content"
+msgstr "Underskriftskampanje for innhold"
+
+#: includes/addnew.view.php:19 includes/help.php:47
+msgid "Petition Options"
+msgstr "Kampanjealternativer"
+
+#: includes/addnew.view.php:20 includes/help.php:52
+msgid "Display Options"
+msgstr "Visningsalternativer"
+
+#: includes/addnew.view.php:21 includes/help.php:57
+msgid "3rd Party Integrations"
+msgstr "Tredjepartsintegrasjoner"
+
+#: includes/addnew.view.php:29 includes/help.php:6 includes/help.php:85
+#: includes/settings.view.php:338 includes/widget.php:88
+msgid "Title"
+msgstr "Tittel"
+
+#: includes/addnew.view.php:30
+msgid "Enter title here"
+msgstr "Skriv inn tittel her"
+
+#: includes/addnew.view.php:46 includes/help.php:7
+msgid "Do not send email (only collect signatures)"
+msgstr "Ikke send epost (kun samle signaturer)"
+
+#: includes/addnew.view.php:50 includes/help.php:8
+msgid "Target Email"
+msgstr "Mottakeradresse"
+
+#: includes/addnew.view.php:50 includes/addnew.view.php:53
+msgid "you may enter multiple addresses separated by commas"
+msgstr "du kan angi flere adresser atskilt med komma"
+
+#: includes/addnew.view.php:53
+msgid "CC Email"
+msgstr "CC E-post"
+
+#: includes/addnew.view.php:56 includes/help.php:9 includes/help.php:80
+#: includes/settings.view.php:319
+msgid "Email Subject"
+msgstr "E-post emne"
+
+#: includes/addnew.view.php:59 includes/help.php:10
+msgid "Greeting"
+msgstr "Hilsen"
+
+#: includes/addnew.view.php:65 includes/help.php:11
+msgid "Petition Message"
+msgstr "Kampanjemelding"
+
+#: includes/addnew.view.php:67
+msgid "You can personalise the message by inserting tags"
+msgstr "Du kan tilpasse meldingen ved å sette inn koder"
+
+#: includes/addnew.view.php:68
+msgid "You or the signer can format the message using Markdown syntax - see"
+msgstr ""
+"Du eller underskriveren kan formatere meldingen ved hjelp av Markdown-"
+"syntaks - se"
+
+#: includes/addnew.view.php:70
+msgid "Petition Footer (below signature)"
+msgstr "Kampanje-footer (under signatur)"
+
+#: includes/addnew.view.php:75 includes/help.php:13
+msgid "Twitter Message"
+msgstr "Twitter-melding"
+
+#: includes/addnew.view.php:100
+msgid "Don't collect email address"
+msgstr "Ikke samle inn e-postadresse"
+
+#: includes/addnew.view.php:101
+msgid "This cannot be reversed"
+msgstr "Dette kan ikke reverseres"
+
+#: includes/addnew.view.php:108 includes/help.php:17
+msgid "Allow public anonymous"
+msgstr "Tillat offentlig anonym"
+
+#: includes/addnew.view.php:117 includes/help.php:18
+msgid "Confirm signatures"
+msgstr "Bekreft signaturer"
+
+#: includes/addnew.view.php:120
+msgid "Return URL"
+msgstr "Returner URL"
+
+#: includes/addnew.view.php:129
+msgid "Allow message to be edited"
+msgstr "Tillat at meldingen redigeres"
+
+#: includes/addnew.view.php:137 includes/help.php:20
+msgid "Set signature goal"
+msgstr "Angi signaturmål"
+
+#: includes/addnew.view.php:140 includes/petitions.view.php:19
+#: includes/petitions.view.php:29
+msgid "Goal"
+msgstr "Målsettning"
+
+#: includes/addnew.view.php:143
+msgid "Auto increase goal"
+msgstr "Øk målet automatisk"
+
+#: includes/addnew.view.php:144
+msgid "by"
+msgstr "av"
+
+#: includes/addnew.view.php:145
+msgid "when count"
+msgstr "når antall"
+
+#: includes/addnew.view.php:145 includes/emailpetition.php:661
+#: includes/widget.php:207
+msgid "of goal"
+msgstr "målet"
+
+#: includes/addnew.view.php:153 includes/help.php:22
+msgid "Set expiration date"
+msgstr "Sett utløpsdato"
+
+#: includes/addnew.view.php:157
+msgid "Jan"
+msgstr "Jan"
+
+#: includes/addnew.view.php:158
+msgid "Feb"
+msgstr "Feb"
+
+#: includes/addnew.view.php:159
+msgid "Mar"
+msgstr "Mar"
+
+#: includes/addnew.view.php:160
+msgid "Apr"
+msgstr "Apr"
+
+#: includes/addnew.view.php:161
+msgid "May"
+msgstr "Mai"
+
+#: includes/addnew.view.php:162
+msgid "Jun"
+msgstr "Jun"
+
+#: includes/addnew.view.php:163
+msgid "Jul"
+msgstr "Jul"
+
+#: includes/addnew.view.php:164
+msgid "Aug"
+msgstr "Aug"
+
+#: includes/addnew.view.php:165
+msgid "Sep"
+msgstr "Sept"
+
+#: includes/addnew.view.php:166
+msgid "Oct"
+msgstr "Okt"
+
+#: includes/addnew.view.php:167
+msgid "Nov"
+msgstr "Nov"
+
+#: includes/addnew.view.php:168
+msgid "Dec"
+msgstr "Des"
+
+#: includes/addnew.view.php:184
+msgid "Redirect after successful sign"
+msgstr "Omdiriger etter vellykket signering"
+
+#: includes/addnew.view.php:187
+msgid "Full URL"
+msgstr "Fullstendig URL-adresse"
+
+#: includes/addnew.view.php:189
+msgid "Delay?"
+msgstr "Forsinkelse?"
+
+#: includes/addnew.view.php:190
+msgid "milliseconds"
+msgstr "millisekunder"
+
+#: includes/addnew.view.php:191
+msgid "Open in new window (target='_blank')"
+msgstr "Åpne i nytt vindu (target='_blank')"
+
+#: includes/addnew.view.php:205
+msgid "Text to open/close petition message"
+msgstr "Tekst for å åpne/lukke underskriftskampanje"
+
+#: includes/addnew.view.php:210
+msgid "Text to open/close editable petition message"
+msgstr "Tekst for å åpne/lukke redigerbar underskriftskampanje"
+
+#: includes/addnew.view.php:219 includes/help.php:27
+msgid "Display opt-in checkbox"
+msgstr "Vis avkrysningsruten for opt-in"
+
+#: includes/addnew.view.php:222 includes/addnew.view.php:287
+#: includes/addnew.view.php:322 includes/addnew.view.php:357
+#: includes/addnew.view.php:393 includes/addnew.view.php:434
+#: includes/addnew.view.php:465 includes/addnew.view.php:494
+msgid "Label"
+msgstr "Merke"
+
+#: includes/addnew.view.php:230
+msgid "Display petition message"
+msgstr "Vis underskriftsmelding"
+
+#: includes/addnew.view.php:237 includes/help.php:28
+msgid "Display address fields"
+msgstr "Vis adressefeltene"
+
+#: includes/addnew.view.php:244 includes/help.php:88
+#: includes/settings.view.php:355
+msgid "Display"
+msgstr "Skjerm"
+
+#: includes/addnew.view.php:245 includes/addnew.view.php:298
+#: includes/addnew.view.php:333 includes/addnew.view.php:368
+#: includes/addnew.view.php:404 includes/addnew.view.php:432
+msgid "Required"
+msgstr "Obligatorisk"
+
+#: includes/addnew.view.php:251 includes/addnew.view.php:597
+#: includes/emailpetition.php:426 includes/settings.view.php:456
+#: includes/signatures.view.php:134
+msgid "Street"
+msgstr "Gateadresse"
+
+#: includes/addnew.view.php:256 includes/csv.php:54
+#: includes/emailpetition.php:443 includes/settings.view.php:377
+#: includes/settings.view.php:460 includes/signatures.view.php:135
+#: includes/widget.php:434
+msgid "City"
+msgstr "By"
+
+#: includes/addnew.view.php:261 includes/emailpetition.php:450
+#: includes/settings.view.php:380 includes/widget.php:440
+msgid "State / Province"
+msgstr "Delstat/Provins"
+
+#: includes/addnew.view.php:266
+msgid "Postal Code - see settings for EU style"
+msgstr "Postnummer - se innstillinger for EU-stil"
+
+#: includes/addnew.view.php:271 includes/addnew.view.php:629
+#: includes/csv.php:57 includes/emailpetition.php:491
+#: includes/settings.view.php:386 includes/settings.view.php:472
+#: includes/signatures.view.php:138 includes/widget.php:476
+msgid "Country"
+msgstr "Land"
+
+#: includes/addnew.view.php:283
+msgid "Display custom field 1"
+msgstr "Vis egendefinert felt 1"
+
+#: includes/addnew.view.php:300 includes/addnew.view.php:335
+#: includes/addnew.view.php:370 includes/addnew.view.php:406
+#: includes/addnew.view.php:447 includes/addnew.view.php:475
+#: includes/addnew.view.php:504
+msgid "Location"
+msgstr "Sted"
+
+#: includes/addnew.view.php:301 includes/addnew.view.php:336
+#: includes/addnew.view.php:371 includes/addnew.view.php:407
+#: includes/addnew.view.php:448 includes/addnew.view.php:476
+#: includes/addnew.view.php:505
+msgid "Top"
+msgstr "Topp"
+
+#: includes/addnew.view.php:303 includes/addnew.view.php:338
+#: includes/addnew.view.php:373 includes/addnew.view.php:409
+#: includes/addnew.view.php:450 includes/addnew.view.php:478
+#: includes/addnew.view.php:507
+msgid "Above email"
+msgstr "Over e-post"
+
+#: includes/addnew.view.php:305 includes/addnew.view.php:340
+#: includes/addnew.view.php:375 includes/addnew.view.php:411
+#: includes/addnew.view.php:453 includes/addnew.view.php:481
+#: includes/addnew.view.php:510
+msgid "Bottom"
+msgstr "Bunn"
+
+#: includes/addnew.view.php:308 includes/addnew.view.php:343
+#: includes/addnew.view.php:378 includes/addnew.view.php:414
+#: includes/addnew.view.php:428
+msgid "Include with petition"
+msgstr "Inkluder med underskriftskampanje"
+
+#: includes/addnew.view.php:310 includes/addnew.view.php:345
+#: includes/addnew.view.php:380 includes/addnew.view.php:416
+msgid "Trim when displaying"
+msgstr "Trim når du viser"
+
+#: includes/addnew.view.php:318
+msgid "Display custom field 2"
+msgstr "Vis egendefinert felt 2"
+
+#: includes/addnew.view.php:353
+msgid "Display custom field 3"
+msgstr "Vis egendefinert felt 3"
+
+#: includes/addnew.view.php:389
+msgid "Display custom field 4"
+msgstr "Vis egendefinert felt 4"
+
+#: includes/addnew.view.php:424
+msgid "Display custom drop-down"
+msgstr "Vis egendefinert rullegardinliste"
+
+#: includes/addnew.view.php:444
+msgid "Values"
+msgstr "Verdier"
+
+#: includes/addnew.view.php:461
+msgid "Display custom checkbox 1"
+msgstr "Vis egendefinert avmerkingsboks 1"
+
+#: includes/addnew.view.php:490
+msgid "Display custom checkbox 2"
+msgstr "Vis egendefinert avmerkingsboks 2"
+
+#: includes/addnew.view.php:520 includes/help.php:30
+msgid "Display custom message"
+msgstr "Vis egendefinert melding"
+
+#: includes/addnew.view.php:521
+msgid "Displayed beneath `Thank you` after petition is signed"
+msgstr "Vises under \"Takk\" etter at kampanjen er signert"
+
+#: includes/addnew.view.php:524
+msgid "Message"
+msgstr "Vis egendefinert melding"
+
+#: includes/addnew.view.php:535
+msgid ""
+"You must also enable 'Display opt-in checkbox' under the Display Options tab"
+msgstr ""
+"Du må også aktivere «Merk av for Vis opt-in» under kategorien "
+"Visningsalternativer"
+
+#: includes/addnew.view.php:542
+msgid "Enable ActiveCampaign"
+msgstr "Aktiver ActiveCampaign"
+
+#: includes/addnew.view.php:549 includes/addnew.view.php:717
+#: includes/addnew.view.php:737 includes/addnew.view.php:759
+msgid "API Key"
+msgstr "API-nøkkel"
+
+#: includes/addnew.view.php:552
+msgid "Server URL"
+msgstr "URL-adresse for server"
+
+#: includes/addnew.view.php:563
+msgid "Select list"
+msgstr "Select liste"
+
+#: includes/addnew.view.php:571
+msgid ""
+"Map the SpeakOut! fields to your Active Campaign fields. Leave those you "
+"don't use blank."
+msgstr ""
+"Kartlegg SpeakOut! til Aktive kampanje-feltene. La dem du ikke bruker stå "
+"tomme."
+
+#: includes/addnew.view.php:574 includes/csv.php:49
+msgid "Honorific"
+msgstr "Tiltaleform"
+
+#: includes/addnew.view.php:582 includes/csv.php:50
+#: includes/emailpetition.php:355 includes/widget.php:358
+msgid "First Name"
+msgstr "Fornavn"
+
+#: includes/addnew.view.php:587 includes/csv.php:51
+#: includes/emailpetition.php:359 includes/widget.php:362
+msgid "Last Name"
+msgstr "Etternavn"
+
+#: includes/addnew.view.php:592 includes/emailpetition.php:418
+#: includes/settings.view.php:449 includes/signatures.view.php:132
+#: includes/widget.php:409
+msgid "Email"
+msgstr "E-post"
+
+#: includes/addnew.view.php:605
+msgid "Suburb"
+msgstr "Forstad"
+
+#: includes/addnew.view.php:613 includes/csv.php:55
+#: includes/settings.view.php:464 includes/signatures.view.php:136
+msgid "State"
+msgstr "Fylke"
+
+#: includes/addnew.view.php:621 includes/csv.php:56
+#: includes/emailpetition.php:436 includes/emailpetition.php:459
+#: includes/settings.view.php:383 includes/signatures.view.php:137
+#: includes/widget.php:447
+msgid "Postal Code"
+msgstr "Postnummer"
+
+#: includes/addnew.view.php:712
+msgid "Enable MailChimp"
+msgstr "Aktiver MailChimp"
+
+#: includes/addnew.view.php:720
+msgid "Server ID"
+msgstr "Server-ID"
+
+#: includes/addnew.view.php:723 includes/addnew.view.php:762
+msgid "List ID"
+msgstr "Liste-ID"
+
+#: includes/addnew.view.php:732
+msgid "Enable Mailerlite"
+msgstr "Aktiver Mailerlite"
+
+#: includes/addnew.view.php:740
+msgid "Group ID"
+msgstr "Gruppe-ID"
+
+#: includes/addnew.view.php:750
+msgid "Enable Sendy"
+msgstr "Aktivere Sendy?"
+
+#: includes/addnew.view.php:756
+msgid "Installation URL"
+msgstr "URL for installasjon"
+
+#: includes/admin.php:11 includes/admin.php:20 includes/admin.php:32
+msgid "SpeakOut! Email Petitions"
+msgstr "SpeakOut! E-postkampanje"
+
+#: includes/admin.php:33 includes/petitions.php:44 includes/petitions.php:57
+msgid "Petitions"
+msgstr "Underskriftskampanje"
+
+#: includes/admin.php:44 includes/admin.php:45 includes/license.view.php:74
+msgid "Activate license"
+msgstr "Aktiver Lisens"
+
+#: includes/admin.php:55 includes/admin.php:56 includes/petitions.view.php:4
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: includes/admin.php:66 includes/admin.php:67 includes/petitions.view.php:18
+#: includes/petitions.view.php:28 includes/signatures.view.php:4
+msgid "Signatures"
+msgstr "Signaturer"
+
+#: includes/admin.php:77 includes/settings.view.php:142
+msgid "SpeakOut! Petitions Settings"
+msgstr "SpeakOut! Underskriftskampanjer innstillinger"
+
+#: includes/admin.php:78
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: includes/class.petition.php:505
+msgid "No Title"
+msgstr "Ingen Tittel"
+
+#: includes/class.signaturelist.php:155 includes/class.signaturelist.php:215
+#: includes/class.signaturelist.php:319
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: includes/class.speakout.php:118
+msgid "items"
+msgstr "artikler"
+
+#: includes/class.speakout.php:121
+msgid "page"
+msgstr "side"
+
+#: includes/class.speakout.php:131
+msgid "of"
+msgstr "av"
+
+#: includes/confirmations.php:105
+msgid "Thank you. Your signature has been added to the petition."
+msgstr "Takk. Signaturen er lagt til underskriftskampanjen."
+
+#: includes/confirmations.php:124
+msgid "Your signature has already been confirmed."
+msgstr "Signaturen er allerede bekreftet."
+
+#: includes/confirmations.php:128
+msgid "The confirmation code you provided is invalid."
+msgstr "Bekreftelseskoden du oppga er ugyldig."
+
+#: includes/confirmations.php:167
+msgid "Email Confirmation"
+msgstr "E-postbekreftelse"
+
+#: includes/confirmations.php:169
+msgid "If you aren't redirected"
+msgstr "Dersom du ikke blir omdirigert"
+
+#: includes/confirmations.php:169 includes/settings.view.php:603
+msgid "Click here"
+msgstr "Klikk her"
+
+#: includes/confirmations.php:169
+msgid "to return to site "
+msgstr "å gå tilbake til nettstedet "
+
+#: includes/csv.php:10 includes/signatures.php:5
+msgid "Insufficient privileges: You need to be an editor to do that."
+msgstr "Utilstrekkelige rettigheter: du må være redaktør for å gjøre det."
+
+#: includes/csv.php:28 includes/signatures.view.php:212
+msgid "No signatures found."
+msgstr "Fant ingen signaturer."
+
+#: includes/csv.php:52
+msgid "Email Address"
+msgstr "E-post adresse"
+
+#: includes/csv.php:53 includes/widget.php:428
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/csv.php:58
+msgid "Date Signed"
+msgstr "Signert dato"
+
+#: includes/csv.php:59 includes/signatures.view.php:147
+msgid "Confirmed"
+msgstr "Bekreftet"
+
+#: includes/csv.php:60
+msgid "Petition Title"
+msgstr "Kampanjetittel"
+
+#: includes/csv.php:61
+msgid "Petition ID"
+msgstr "Kampanje ID"
+
+#: includes/csv.php:62 includes/settings.view.php:506
+msgid "Email Opt-in"
+msgstr "E-post opt-in"
+
+#: includes/csv.php:63 includes/settings.view.php:410
+msgid "Custom Message"
+msgstr "Vis egendefinert melding"
+
+#: includes/csv.php:72
+msgid "Language"
+msgstr "Språk"
+
+#: includes/csv.php:73 includes/signatures.view.php:149
+msgid "IP Address"
+msgstr "IP-adresse"
+
+#: includes/csv.php:83
+msgid "Custom Field"
+msgstr "Egendefinert felt"
+
+#: includes/csv.php:103
+msgid "confirmed"
+msgstr "bekreftet"
+
+#: includes/csv.php:106
+msgid "unconfirmed"
+msgstr "ubekreftet"
+
+#: includes/csv.php:115 includes/csv.php:125 includes/csv.php:135
+msgid "Y"
+msgstr "Y"
+
+#: includes/csv.php:118 includes/csv.php:128 includes/csv.php:138
+msgid "N"
+msgstr "N"
+
+#: includes/emailpetition.php:564
+msgid "You can add formatting using markdown syntax"
+msgstr "Du kan legge til formatering ved hjelp av markdown syntaks"
+
+#: includes/emailpetition.php:564
+msgid "read more"
+msgstr "les mer"
+
+#: includes/emailpetition.php:579 includes/widget.php:242
+#: includes/widget.php:256
+msgid "your signature"
+msgstr "din signatur"
+
+#: includes/emailpetition.php:607 includes/widget.php:535
+msgid "BCC yourself"
+msgstr "BCC deg selv"
+
+#: includes/emailpetition.php:620 includes/widget.php:545
+msgid "Hide name from public"
+msgstr "Skjul navn fra offentligheten"
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "Yes, I accept your "
+msgstr "Ja, jeg godtar deres "
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "privacy policy"
+msgstr "personvernregler"
+
+#: includes/emailpetition.php:666 includes/widget.php:212
+msgid "signatures"
+msgstr "signaturer"
+
+#: includes/emailpetition.php:697 includes/widget.php:281
+msgid "Signature goal"
+msgstr "Signaturmål"
+
+#: includes/emailpetition.php:702 includes/widget.php:278
+msgid "End date"
+msgstr "Sluttdato"
+
+#: includes/emailpetition.php:703 includes/widget.php:279
+msgid "Signatures collected"
+msgstr "Innsamlede signaturer"
+
+#: includes/emailpetition.php:708
+msgid "signature"
+msgid_plural "signatures"
+msgstr[0] "underskrift"
+msgstr[1] "underskrifter"
+
+#: includes/emailpetition.php:726 includes/signatures.view.php:133
+#: includes/widget.php:91
+msgid "Petition"
+msgstr "Underskriftskampanje"
+
+#: includes/emailpetition.php:728
+msgid ""
+"Error: The site administrator must include a valid petition id  in the "
+"shortcode."
+msgstr ""
+"Feil: Områdeadministratoren må inneholde en gyldig underskriftskampanje-ID i "
+"kortkoden."
+
+#: includes/help.php:6
+msgid ""
+"Enter the title of your petition, which will appear at the top of the "
+"petition form."
+msgstr ""
+"Skriv inn tittelen på underskriftskampanje som vil vises på toppen av "
+"kampanjeskjemaet."
+
+#: includes/help.php:7
+msgid ""
+"Use this option if do not wish to send petition emails to a target address."
+msgstr ""
+"Bruk dette alternativet hvis ikke ønsker å sende signaturlisten fra "
+"kampanjen på e-post til en mottaker."
+
+#: includes/help.php:8
+msgid ""
+"Enter the email address to which the petition will be sent. You may enter "
+"multiple email addresses, separated by commas."
+msgstr ""
+"Skriv inn e-postadressen som underskriftskampanjen skal sendes til. Du kan "
+"skrive inn flere e-postadresser adskilt med komma."
+
+#: includes/help.php:9
+msgid "Enter the subject of your petition email."
+msgstr "Angi emnet for din kampanje e-post."
+
+#: includes/help.php:10
+msgid ""
+"Include a greeting to the recipient of your petition, such as \"Dear Mayor,"
+"\" which will appear as the first line of the email."
+msgstr ""
+"Legg til en hilsen til mottakeren av underskriftskampanje som vil vises som "
+"den første linjen i e-posten."
+
+#: includes/help.php:11
+msgid "Enter the content of your petition email."
+msgstr "Skriv inn innholdet i din kampanje e-post."
+
+#: includes/help.php:12
+msgid "Petition Footer"
+msgstr "Kampanje-footer (under signatur)"
+
+#: includes/help.php:12
+msgid "This is included at the bottom of each petition that is sent."
+msgstr "Dette er inkludert nederst i hver begjæring som sendes."
+
+#: includes/help.php:13
+msgid ""
+"Enter a prepared tweet that will be presented to users when the Twitter "
+"button is clicked."
+msgstr ""
+"Angi en forhåndsdefinert tweet som vil bli presentert for brukerne når "
+"Twitter knappen klikkes."
+
+#: includes/help.php:17
+msgid ""
+"Gives option for person to be displayed as \"Anonymous\" if they choose it "
+"when signing"
+msgstr ""
+"Gir mulighet for at personen kan vises som \"Anonym\" hvis de velger det når "
+"de signerer"
+
+#: includes/help.php:18
+msgid ""
+"Use this option to cause an email to be sent to the signers of your "
+"petition. This email contains a special link must be clicked to confirm the "
+"signer's email address. Petition emails will not be sent until the signature "
+"is confirmed."
+msgstr ""
+"Bruk dette alternativet til å få sende en e-post til deltakerne av kampanjen "
+"din. Denne e-posten inneholder en spesiell kobling må klikkes for å bekrefte "
+"deltakerens e-postadresse. Underskriftskampanjen vil ikke bli sendt på e-"
+"post endelig mottaker før signaturen er bekreftet."
+
+#: includes/help.php:19
+msgid "Allow messages to be edited"
+msgstr "Tillate at meldinger redigeres"
+
+#: includes/help.php:19
+msgid ""
+"Check this option to allow signatories to customize the text of their "
+"petition email - this should be used with caution."
+msgstr ""
+"Merk av for dette alternativet for å tillate underskrivere å tilpasse "
+"teksten til deres petisjons-e-post - dette bør brukes med forsiktighet."
+
+#: includes/help.php:20
+msgid ""
+"Enter the number of signatures you hope to collect. This number is used to "
+"calculate the progress bar display."
+msgstr ""
+"Angi antall signaturer du håper å samle inn. Dette tallet brukes til å "
+"beregne fremdriftsindikatoren."
+
+#: includes/help.php:21
+msgid "Auto increase signature goal"
+msgstr "Øk målet automatisk"
+
+#: includes/help.php:21
+msgid ""
+"If set goal is enabled, this is a further option - click the ? for more "
+"information."
+msgstr ""
+"Hvis angitt mål er aktivert, er dette et ytterligere alternativ - klikk på ? "
+"for mer informasjon."
+
+#: includes/help.php:22
+msgid "Use this option to stop collecting signatures on a specific date."
+msgstr ""
+"Bruk dette alternativet til å slutte å samle inn signaturer på en bestemt "
+"dato."
+
+#: includes/help.php:23
+msgid "Redirect after signing"
+msgstr "Omdiriger etter vellykket signering"
+
+#: includes/help.php:23
+msgid ""
+"Take your users to a different page or site after they sign.  Make sure you "
+"use the full URL including \"https://\" or whatever. You can specify the "
+"delay in milliseconds.  One second = 1000 milliseconds."
+msgstr ""
+"Ta brukerne til en annen side eller et annet område etter at de har "
+"signert.  Forsikre deg om at du bruker hele nettadressen, inkludert "
+"\"https://\" eller hva som helst. Du kan angi forsinkelsen i millisekunder.  "
+"Ett sekund = 1000 millisekunder."
+
+#: includes/help.php:26
+msgid "These are pretty obvious."
+msgstr "Disse er ganske åpenbare."
+
+#: includes/help.php:27
+msgid ""
+"Include a checkbox that allows users to consent to receiving further email."
+msgstr ""
+"Inkludere en sjekkboks som tar brukerne samtykke i å mottar fremtidige e-"
+"poster."
+
+#: includes/help.php:28
+msgid ""
+"Select the address fields to display in the petition form. Note that you can "
+"make them required or not."
+msgstr ""
+"Velg adressefeltene som skal vises i begjæringsskjemaet. Merk at du kan "
+"gjøre dem obligatoriske eller ikke."
+
+#: includes/help.php:29
+msgid "Display custom fields"
+msgstr "Vis adressefeltene"
+
+#: includes/help.php:29
+msgid ""
+"There is a variety of custom fields that can be added to the petition form "
+"for collecting additional data.  You can position each field at the top, "
+"above the email address or at the bottom of the petition form"
+msgstr ""
+"Det finnes en rekke egendefinerte felt som kan legges til i "
+"begjæringsskjemaet for innsamling av tilleggsdata.  Du kan plassere hvert "
+"felt øverst, over e-postadressen eller nederst i søknadsskjemaet"
+
+#: includes/help.php:30
+msgid "This is displayed after the petition is signed."
+msgstr "Dette vises etter at begjæringen er signert."
+
+#: includes/help.php:34
+msgid ""
+"If you use any of these 3rd party email services, you can allow users to "
+"subscribe as long as you have  \"opt in\" enabled."
+msgstr ""
+"Hvis du bruker noen av disse 3rd-parts e-posttjenestene, kan du tillate "
+"brukere å abonnere så lenge du har \"opt in\" aktivert."
+
+#: includes/help.php:66
+msgid ""
+"These settings control the display of the [emailpetition] shortcode and "
+"sidebar widget."
+msgstr ""
+"Disse innstillingene kontrollerer visningen av [emailpetition] kortkoden og "
+"sidefeltsminiprogram."
+
+#: includes/help.php:67 includes/settings.view.php:170
+msgid "Petition Theme"
+msgstr "Tema for Underskriftskampanje"
+
+#: includes/help.php:67
+msgid "Select a CSS theme that will control the appearance of petition forms."
+msgstr "Velg et CSS-tema som bestemmer utseendet på kampanjeskjemaene."
+
+#: includes/help.php:68 includes/settings.view.php:177
+msgid "Widget Theme"
+msgstr "Miniprogram-tema"
+
+#: includes/help.php:68
+msgid ""
+"Select a CSS theme that will control the appearance of petition widgets."
+msgstr ""
+"Velg et CSS-tema som bestemmer utseendet til miniprogrammer til kampanjen."
+
+#: includes/help.php:69 includes/settings.view.php:184
+msgid "Submit Button Text"
+msgstr "Tekst på Send-knappen"
+
+#: includes/help.php:69
+msgid ""
+"Enter the text that displays in the orange submit button on petition forms."
+msgstr ""
+"Skriv inn teksten som vises i den oransje Send-knappen på kampanjeskjemaene."
+
+#: includes/help.php:70 includes/settings.view.php:188
+msgid "Success Message"
+msgstr "Vellykket melding"
+
+#: includes/help.php:70
+msgid ""
+"Enter the text that appears when a user successfully signs your petition "
+"with a unique email address."
+msgstr ""
+"Skriv inn teksten som vises når en bruker lykkes med å signere kampanjen med "
+"en unik e-postadresse."
+
+#: includes/help.php:71 includes/settings.view.php:202
+msgid "Share Message"
+msgstr "Del meldingen"
+
+#: includes/help.php:71
+msgid ""
+"Enter the text that appears above the Twitter and Facebook buttons after the "
+"petition form has been submitted."
+msgstr ""
+"Skriv inn teksten som vises over Twitter- og Facebookknappene etter at "
+"skjemaet skjemaet er sendt inn."
+
+#: includes/help.php:72 includes/settings.view.php:206
+msgid "Expiration Message"
+msgstr "Utløpsmelding"
+
+#: includes/help.php:72
+msgid ""
+"Enter the text to display in place of the petition form when a petition is "
+"past its expiration date."
+msgstr ""
+"Skriv inn teksten som skal vises i stedet for kampanjeskjemaet når en "
+"underskriftskampanjen er forbi utløpsdatoen."
+
+#: includes/help.php:73 includes/settings.view.php:210
+msgid "Already Signed Message"
+msgstr "Allerede signert melding"
+
+#: includes/help.php:73
+msgid ""
+"Enter the text to display when a petition is signed using an email address "
+"that has already been submitted."
+msgstr ""
+"Skriv inn teksten som skal vises når en underskriftskampanje signeres ved "
+"hjelp av en e-postadresse som allerede er sendt."
+
+#: includes/help.php:74 includes/settings.view.php:214
+msgid "Opt-in Default"
+msgstr "Opt-in standard"
+
+#: includes/help.php:74
+msgid "Choose whether the opt-in checkbox is checked or unchecked by default."
+msgstr "Velg om opt-in avkrysningsruten er avkrysset eller ikke som standard."
+
+#: includes/help.php:75 includes/settings.view.php:221
+msgid "Display signature count"
+msgstr "Visning signaturteller"
+
+#: includes/help.php:75
+msgid ""
+"Choose whether you wish to display the number of signatures that have been "
+"collected."
+msgstr "Velg om du vil vise antall signaturer som er samlet inn."
+
+#: includes/help.php:78
+msgid "These settings control the content of the confirmation emails."
+msgstr "Disse innstillingene kontrollerer innholdet i e-postbekreftelsen."
+
+#: includes/help.php:79 includes/settings.view.php:315
+msgid "Email From"
+msgstr "Send e-post fra"
+
+#: includes/help.php:79
+msgid ""
+"Enter the email address associated with your website. Confirmation emails "
+"will be sent from this address."
+msgstr ""
+"Angi e-postadressen som er knyttet til webområdet. Bekreftelse på e-post vil "
+"bli sendt fra denne adressen."
+
+#: includes/help.php:80
+msgid "Enter the subject of the confirmation email."
+msgstr "Angi emnet for e-postbekreftelsen."
+
+#: includes/help.php:81 includes/settings.view.php:323
+msgid "Email Message"
+msgstr "E-postmelding"
+
+#: includes/help.php:81
+msgid "Enter the content of the confirmation email."
+msgstr "Skriv inn innholdet i e-postbekreftelsen."
+
+#: includes/help.php:84
+msgid "These settings control the display of the [signaturelist] shortcode."
+msgstr "Disse innstillingene styrer visningen av [signaturelist] kortkoden."
+
+#: includes/help.php:85
+msgid "Enter the text that appears above the signature list."
+msgstr "Skriv inn teksten som vises over signaturlisten."
+
+#: includes/help.php:86 includes/settings.view.php:341
+msgid "Theme"
+msgstr "Tema"
+
+#: includes/help.php:86
+msgid "Select a CSS theme that will control the appearance of signature lists."
+msgstr "Velg et CSS-tema som skal styre utseendet til signaturlister."
+
+#: includes/help.php:87 includes/settings.view.php:351
+msgid "Rows"
+msgstr "Rader"
+
+#: includes/help.php:87
+msgid ""
+"Enter the number of signatures that will be displayed in the signature list."
+msgstr "Angi antall signaturer som skal vises i signaturlisten."
+
+#: includes/help.php:88
+msgid "Choose the signature list styling, click the ? for more information."
+msgstr "Velg signaturlisten styling, klikk på ? for mer informasjon."
+
+#: includes/help.php:89 includes/help.php:95 includes/settings.view.php:365
+msgid "Columns"
+msgstr "Kolonner"
+
+#: includes/help.php:89
+msgid "Select the columns that will appear in the public signature list."
+msgstr "Velg kolonnene som skal vises i signaturlisten."
+
+#: includes/help.php:90
+msgid "Flags"
+msgstr "Flagg"
+
+#: includes/help.php:90
+msgid ""
+"You can display the flag of the country the signer has chosen, if you have "
+"Country enabled."
+msgstr ""
+"Du kan vise flagget til landet underskriveren har valgt, hvis du har Land "
+"aktivert."
+
+#: includes/help.php:91 includes/settings.view.php:427
+msgid "Privacy"
+msgstr "Personvern"
+
+#: includes/help.php:91
+msgid "Hide all but the first letter of the last name.."
+msgstr "Skjul alle unntatt den første bokstaven i etternavnet.."
+
+#: includes/help.php:94
+msgid "These settings control the display of the signatures in the dashboard."
+msgstr "Disse innstillingene styrer visningen av [signaturelist] kortkoden."
+
+#: includes/help.php:95
+msgid "Select the columns that will appear in the admin signature list."
+msgstr "Velg kolonnene som skal vises i signaturlisten."
+
+#: includes/help.php:96
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/help.php:96
+msgid "When outputting the CSV file, what should be included?"
+msgstr "Hva skal inkluderes når du sender ut CSV-filen?"
+
+#: includes/help.php:99
+msgid ""
+"These settings control the look of the plugin's options pages within the "
+"WordPress administrator."
+msgstr ""
+"Disse innstillingene bestemmer utseendet på utvidelsens inntillingssider i "
+"administratorgrensesnittet i Wordpress."
+
+#: includes/help.php:100 includes/settings.view.php:540
+msgid "Petitions table shows"
+msgstr "Kampanjetabellen synes"
+
+#: includes/help.php:100
+msgid ""
+"Enter the number of rows to display in the \"Email Petitions\" table "
+"(default=20)"
+msgstr ""
+"Skriv inn antall rader som skal vises i \"e-postkampanjer” tabellen "
+"(standard = 20)"
+
+#: includes/help.php:101 includes/settings.view.php:544
+msgid "Signatures table shows"
+msgstr "Signaturertabellen synes"
+
+#: includes/help.php:101
+msgid ""
+"Enter the number of rows to display in the \"Signatures\" table (default=50)"
+msgstr ""
+"Angi antall rader som skal vises i \"signaturer\"-tabellen (standard = 50)"
+
+#: includes/help.php:104
+msgid "These settings refer to the license key"
+msgstr "Tast inn din lisensnøkkel"
+
+#: includes/help.php:105
+msgid "License key"
+msgstr "Lisensnøkkel"
+
+#: includes/help.php:105
+msgid ""
+"Enter the license key your received in an email after purchase.  If it is "
+"invalid, a message will be displayed with the reason."
+msgstr ""
+"Skriv inn lisensnøkkelen du mottok i en e-post etter kjøpet.  Hvis den er "
+"ugyldig, vises en melding med årsaken."
+
+#: includes/help.php:106
+msgid "Revoke key"
+msgstr "Tilbakekall nøkkel"
+
+#: includes/help.php:106
+msgid ""
+"Perhaps you are moving to a new site or from development to production.  "
+"Revoke the key, this allows it to be used elsewhere.  The current site will "
+"lose all access to any settings."
+msgstr ""
+"Kanskje du flytter til et nytt nettsted eller fra utvikling til produksjon.  "
+"Tilbakekall nøkkelen, dette gjør at den kan brukes andre steder.  Det "
+"nåværende nettstedet vil miste all tilgang til alle innstillinger."
+
+#: includes/help.php:114 includes/settings.view.php:151
+#: includes/settings.view.php:166
+msgid "Petition Form"
+msgstr "Kampanjeskjema"
+
+#: includes/help.php:119 includes/settings.view.php:152
+#: includes/settings.view.php:312
+msgid "Confirmation Emails"
+msgstr "Bekreftelse på e-post"
+
+#: includes/help.php:124 includes/settings.view.php:153
+#: includes/settings.view.php:334
+msgid "Public Signature List"
+msgstr "Liste over offentlige signaturer"
+
+#: includes/help.php:129 includes/settings.view.php:154
+#: includes/settings.view.php:438
+msgid "Admin Signature List"
+msgstr "Liste over administratorsignatur"
+
+#: includes/help.php:134 includes/settings.view.php:155
+#: includes/settings.view.php:537
+msgid "Admin Display"
+msgstr "Admin grensesnitt"
+
+#: includes/help.php:139 includes/settings.view.php:157
+msgid "License"
+msgstr "Lisens"
+
+#: includes/install.php:178
+msgid "Sign Now"
+msgstr "Signér nå"
+
+#: includes/install.php:179
+msgid "This petition is now closed."
+msgstr "Denne underskriftskampanjen er nå lukket."
+
+#: includes/install.php:180
+msgid "Thank you"
+msgstr "Takk"
+
+#: includes/install.php:180
+msgid "Your signature has been added."
+msgstr "Din signatur er lagt til."
+
+#: includes/install.php:181
+msgid "This petition has already been signed using your email address."
+msgstr "Denne kampanjen er allerede signert med din e-postadressen."
+
+#: includes/install.php:182
+msgid "Share this with your friends:"
+msgstr "Del dette innlegget med dine venner:"
+
+#: includes/install.php:183 includes/install.php:425
+msgid "Please confirm your email address"
+msgstr "Vennligst bekreft ditt e-post"
+
+#: includes/install.php:184 includes/install.php:428
+msgid "Hello"
+msgstr "Hei"
+
+#: includes/install.php:184
+msgid "Thank you for signing our petition %petition_title% "
+msgstr "Takk for at du signerte vår kampanje %petition_title%  "
+
+#: includes/install.php:184 includes/install.php:428
+msgid ""
+"Please confirm your email address by clicking or copying and pasting the "
+"link below:"
+msgstr ""
+"Bekreft e-postadressen din ved å klikke eller kopiere og lime inn linken "
+"nedenfor:"
+
+#: includes/install.php:189 includes/install.php:434
+msgid "Latest Signatures"
+msgstr "Nyeste signaturer"
+
+#: includes/install.php:428
+msgid "Thank you for signing our petition"
+msgstr "Takk for at du signerte vår kampanje %petition_title%"
+
+#: includes/license.view.php:78 includes/license.view.php:105
+#: includes/settings.view.php:566 includes/settings.view.php:593
+msgid "Enter your license key"
+msgstr "Tast inn din lisensnøkkel"
+
+#: includes/license.view.php:83 includes/settings.view.php:571
+msgid "Verified"
+msgstr "Verifisert"
+
+#: includes/license.view.php:86 includes/settings.view.php:574
+msgid "Revoke license key"
+msgstr "Tast inn din lisensnøkkel"
+
+#: includes/license.view.php:90 includes/settings.view.php:578
+msgid "Thanks for upgrading"
+msgstr "Takk for at du oppgraderte"
+
+#: includes/license.view.php:100 includes/settings.view.php:588
+msgid ""
+"There appears to be a problem with your license key.  Either verify it again "
+"or contact"
+msgstr ""
+"Det ser ut til å være et problem med lisensnøkkelen.  Enten bekreft det "
+"igjen eller kontakt"
+
+#: includes/license.view.php:108 includes/settings.view.php:596
+msgid "Your license key"
+msgstr "Din lisensnøkkel"
+
+#: includes/license.view.php:111 includes/settings.view.php:599
+msgid "Verify"
+msgstr "Verifiser"
+
+#: includes/petitions.php:46
+msgid "Petition deleted."
+msgstr "Underskriftskampanje slettet."
+
+#: includes/petitions.view.php:8
+msgid "All Petitions"
+msgstr "Alle underskriftskampanjer"
+
+#: includes/petitions.view.php:15 includes/petitions.view.php:25
+msgid "ID"
+msgstr "ID"
+
+#: includes/petitions.view.php:16 includes/petitions.view.php:26
+msgid "Petition name"
+msgstr "Kampanjenavn"
+
+#: includes/petitions.view.php:17 includes/petitions.view.php:27
+msgid "Shortcodes"
+msgstr "Kortlenke"
+
+#: includes/petitions.view.php:34
+msgid "No petitions found."
+msgstr "Ingen kampanjer funnet."
+
+#: includes/petitions.view.php:44
+msgid "Edit"
+msgstr "Rediger"
+
+#: includes/petitions.view.php:45
+msgid "Delete"
+msgstr "Slett"
+
+#: includes/petitions.view.php:46
+msgid "Duplicate"
+msgstr "Dupliser"
+
+#: includes/petitions.view.php:49
+msgid "display petition"
+msgstr "vis kampanje"
+
+#: includes/petitions.view.php:50
+msgid "display signature list"
+msgstr "vis signaturliste"
+
+#: includes/petitions.view.php:51
+msgid "display signature count"
+msgstr "vis signaturteller"
+
+#: includes/petitions.view.php:52
+msgid "display signature goal"
+msgstr "vis signaturmål"
+
+#: includes/petitions.view.php:53
+msgid "display petition title"
+msgstr "vise underskriftskampanje"
+
+#: includes/petitions.view.php:54
+msgid "display petition message"
+msgstr "vis underskriftsmelding"
+
+#: includes/petitions.view.php:60
+msgid "View Signatures"
+msgstr "Vis signaturer"
+
+#: includes/petitions.view.php:66
+msgid ""
+"Delete this petition permanently? All of the petition's signatures will be "
+"deleted as well."
+msgstr ""
+"Slett denne kampanjen permanent? Alle underskrifter fra kampanjen blir også "
+"slettet."
+
+#: includes/settings.php:31
+msgid "Settings updated."
+msgstr "Innstillinger oppdatert."
+
+#: includes/settings.view.php:156 includes/settings.view.php:552
+msgid "Security"
+msgstr "Sikkerhet"
+
+#: includes/settings.view.php:161 includes/settings.view.php:641
+msgid "Anedot.com Donation Form Embed"
+msgstr "Integrer Anedot.com donasjonsskjema"
+
+#: includes/settings.view.php:167
+msgid "These settings apply to all petitions"
+msgstr "Disse innstillingene gjelder for alle begjæringer"
+
+#: includes/settings.view.php:172 includes/settings.view.php:179
+#: includes/settings.view.php:343
+msgid "Default"
+msgstr "Standard"
+
+#: includes/settings.view.php:173
+msgid "Basic"
+msgstr "Grunnleggende"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "Custom"
+msgstr "Egendefinert"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "use"
+msgstr "bruk"
+
+#: includes/settings.view.php:191 includes/settings.view.php:326
+msgid "Accepted variables:"
+msgstr "Godtatte variabler:"
+
+#: includes/settings.view.php:192 includes/settings.view.php:327
+msgid "Accepted tags:"
+msgstr "Godkjente tagger:"
+
+#: includes/settings.view.php:196
+msgid "Petition fade out after signing?"
+msgstr "Begjæringen blekner ut etter signering?"
+
+#: includes/settings.view.php:216
+msgid "Checked"
+msgstr "Valgt"
+
+#: includes/settings.view.php:217
+msgid "Unchecked"
+msgstr "Ikke avkrysset"
+
+#: includes/settings.view.php:223 includes/settings.view.php:231
+#: includes/settings.view.php:239 includes/settings.view.php:245
+#: includes/settings.view.php:260
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/settings.view.php:223
+msgid "at the bottom of the petition form"
+msgstr "Kampanjeskjema"
+
+#: includes/settings.view.php:227
+msgid "Display honorific field"
+msgstr "Vis felt for tittel"
+
+#: includes/settings.view.php:235
+msgid "Display BCC field"
+msgstr "Vis Blindkopi-feltet"
+
+#: includes/settings.view.php:243
+msgid "EU postal code position?"
+msgstr "EUs postnummerposisjon?"
+
+#: includes/settings.view.php:245
+msgid "In EU postal code comes before city"
+msgstr "I EU kommer postnummer før byen"
+
+#: includes/settings.view.php:249
+msgid "Signature count format"
+msgstr "Format for signaturantall"
+
+#: includes/settings.view.php:252
+msgid "Thousands separator"
+msgstr "Tusenskilletegn"
+
+#: includes/settings.view.php:253
+msgid "Decimal separator"
+msgstr "Desimaltegn"
+
+#: includes/settings.view.php:254
+msgid "currently"
+msgstr "nå"
+
+#: includes/settings.view.php:258
+msgid "Display Privacy Policy accept?"
+msgstr "Vis personvernsaksept?"
+
+#: includes/settings.view.php:260
+msgid "GDPR"
+msgstr "GDPR"
+
+#: includes/settings.view.php:266
+msgid "Enable Google recaptcha?"
+msgstr "Aktivere Google-reCAPTCHA?"
+
+#: includes/settings.view.php:282
+msgid "Enable hCaptcha?"
+msgstr "Aktivere hCaptcha?"
+
+#: includes/settings.view.php:296
+msgid "Display sharing icons?"
+msgstr "Vise delingsikoner?"
+
+#: includes/settings.view.php:303
+msgid "Enable Anedot.com?"
+msgstr "Aktiver Anedot.com?"
+
+#: includes/settings.view.php:305
+msgid "Anedot.com is a 3rd party fund raising site"
+msgstr "Anedot.com er et 3. parts nettsted for innsamlingsaksjoner"
+
+#: includes/settings.view.php:335
+msgid ""
+"These settings apply to signatures displayed on your site using the shortcode"
+msgstr ""
+"Disse innstillingene gjelder for signaturer som vises på nettstedet ditt ved "
+"hjelp av kortkoden"
+
+#: includes/settings.view.php:348
+msgid "To style the signature list you are best using your theme's"
+msgstr "Hvis du vil style signaturlisten, bør du bruke temaets"
+
+#: includes/settings.view.php:348
+msgid "Additional CSS"
+msgstr "Ytterligere CSS"
+
+#: includes/settings.view.php:348
+msgid "setting"
+msgstr "innstillingen"
+
+#: includes/settings.view.php:352
+msgid "0 to display all"
+msgstr "0 for å vise alle"
+
+#: includes/settings.view.php:355
+msgid "Changing to \"list\" will clear column settings below"
+msgstr "Endring til \"liste\" vil fjerne kolonneinnstillingene nedenfor"
+
+#: includes/settings.view.php:357
+msgid "table"
+msgstr "tabell"
+
+#: includes/settings.view.php:359
+msgid "inline blocks - very styleable"
+msgstr "inline blokker - veldig styleable"
+
+#: includes/settings.view.php:361
+msgid "long list (comma separated)"
+msgstr "lang liste (kommaseparert)"
+
+#: includes/settings.view.php:368
+msgid "Count"
+msgstr "Antall"
+
+#: includes/settings.view.php:371 includes/settings.view.php:446
+#: includes/signatures.view.php:157 includes/signatures.view.php:185
+msgid "Name"
+msgstr "Navn"
+
+#: includes/settings.view.php:374
+msgid "Email address - unless disabled"
+msgstr "E-postadresse - med mindre den er deaktivert"
+
+#: includes/settings.view.php:389
+msgid "Custom Field 1"
+msgstr "Egendefinert felt 1"
+
+#: includes/settings.view.php:392
+msgid "Custom Field 2"
+msgstr "Egendefinert felt 2"
+
+#: includes/settings.view.php:395
+msgid "Custom Field 3"
+msgstr "Egendefinert felt 3"
+
+#: includes/settings.view.php:398
+msgid "Custom Field 4"
+msgstr "Egendefinert felt 4"
+
+#: includes/settings.view.php:401
+msgid "Custom drop-down field"
+msgstr "Egendefinert rullegardinfelt"
+
+#: includes/settings.view.php:404 includes/settings.view.php:496
+msgid "Custom Checkbox 1"
+msgstr "Egendefinert avmerkingsboks 1"
+
+#: includes/settings.view.php:407 includes/settings.view.php:500
+msgid "Custom Checkbox 2"
+msgstr "Egendefinert avmerkingsboks 2"
+
+#: includes/settings.view.php:413 includes/signatures.view.php:148
+msgid "Date"
+msgstr "Dato"
+
+#: includes/settings.view.php:418
+msgid "Display country flags?"
+msgstr "Vise landflagg?"
+
+#: includes/settings.view.php:422
+msgid "requires Country column to be enabled above"
+msgstr "krever at Land-kolonnen er aktivert ovenfor"
+
+#: includes/settings.view.php:429
+msgid "enabled - only show first letter of surname"
+msgstr "aktivert - vis bare første bokstav av etternavn"
+
+#: includes/settings.view.php:430
+msgid "disabled"
+msgstr "deaktivert"
+
+#: includes/settings.view.php:439
+msgid "Settings for the dashboard signature list"
+msgstr "Innstillinger for listen over instrumentbordsignaturer"
+
+#: includes/settings.view.php:442
+msgid "Columns to display"
+msgstr "Kolonner som skal vises"
+
+#: includes/settings.view.php:452
+msgid "Petition info"
+msgstr "Info om begjæring"
+
+#: includes/settings.view.php:468
+msgid "Postal code"
+msgstr "Postnummer"
+
+#: includes/settings.view.php:476 includes/signatures.view.php:139
+msgid "Custom field 1"
+msgstr "Egendefinert felt 1"
+
+#: includes/settings.view.php:480 includes/signatures.view.php:140
+msgid "Custom field 2"
+msgstr "Egendefinert felt 2"
+
+#: includes/settings.view.php:484 includes/signatures.view.php:141
+msgid "Custom field 3"
+msgstr "Egendefinert felt 3"
+
+#: includes/settings.view.php:488 includes/signatures.view.php:142
+msgid "Custom field 4"
+msgstr "Egendefinert felt 4"
+
+#: includes/settings.view.php:492 includes/signatures.view.php:143
+msgid "Custom field 5"
+msgstr "Egendefinert felt 5"
+
+#: includes/settings.view.php:503
+msgid "Confirmed status"
+msgstr "Bekreftet status"
+
+#: includes/settings.view.php:509
+msgid "Date signed"
+msgstr "Signert dato"
+
+#: includes/settings.view.php:513
+msgid "Display time signed?"
+msgstr "Visningstid signert?"
+
+#: includes/settings.view.php:517
+msgid "IP address"
+msgstr "IP addresse"
+
+#: includes/settings.view.php:521
+msgid "CSV file includes"
+msgstr "CSV-fil inneholder"
+
+#: includes/settings.view.php:523
+msgid "All signatures"
+msgstr "Alle signaturer"
+
+#: includes/settings.view.php:525
+msgid "Only opt-in signatures"
+msgstr "Bare opt-in signaturer"
+
+#: includes/settings.view.php:527
+msgid "Only double opt-in signatures"
+msgstr "Bare dobbelt opt-in signaturer"
+
+#: includes/settings.view.php:527
+msgid "opt-in + confirmed"
+msgstr "opt-in + bekreftet"
+
+#: includes/settings.view.php:529
+msgid "Only confirmed signatures"
+msgstr "Bare bekreftede signaturer"
+
+#: includes/settings.view.php:541
+msgid "rows - default = 20"
+msgstr "rader - standard = 20"
+
+#: includes/settings.view.php:545
+msgid "rows - default = 50"
+msgstr "rader - standard = 50"
+
+#: includes/settings.view.php:555
+msgid "Webhooks enabled"
+msgstr "Webhooks aktivert"
+
+#: includes/settings.view.php:603
+msgid "Don't have a license"
+msgstr "Har ikke lisens"
+
+#: includes/settings.view.php:644
+msgid "Anedot.com Donation Slug"
+msgstr "Anedot.com kampanjekonto"
+
+#: includes/settings.view.php:646
+msgid ""
+"Input your Anedot.com \"Account Slug\" (from Settings > Brand), a slash, and "
+"then your Campaign Slug (from Campaigns > Edit > Basic)."
+msgstr ""
+"Legg inn din Anedot.com \"Account Slug\" (fra innstillinger > Brand), en "
+"skråstrek, og deretter “Campaign Slug” (fra kampanjer > Edit > Basic)."
+
+#: includes/settings.view.php:651
+msgid "Anedot.com Embed Pref"
+msgstr "Innstillinger for Anedot.com integrasjon"
+
+#: includes/settings.view.php:653
+msgid ""
+"Enter \"true\" (without quotes) to show account name header on embedded "
+"campaigns."
+msgstr ""
+"Skriv inn \"true\" (uten anførselstegn) for å vise kontonavn-header på "
+"integrerte kampanjer."
+
+#: includes/settings.view.php:657
+msgid "Anedot.com iframe Width"
+msgstr "Anedot.com iframe-bredde"
+
+#: includes/settings.view.php:659
+msgid ""
+"Width for donation form iframe, either as percent, e.g. \"100%\" (without "
+"quotes), or pixels, e.g. \"375\" (without quotes). Iframe is to be displayed "
+"in Success Message area, after signing of a petition."
+msgstr ""
+"Bredde for kampanjeskjemaets iframe, enten som prosent, f. eks \"100%"
+"\" (uten anførselstegn), eller piksler, f. eks \"375\" (uten anførselstegn). "
+"Iframe skal vises i området for suksessmeldingen etter vellykket signering "
+"av en underskriftskampanje."
+
+#: includes/settings.view.php:663
+msgid "Anedot.com iframe Height"
+msgstr "Anedot.com iframe høyde"
+
+#: includes/settings.view.php:665
+msgid ""
+"Height for donation page iframe, either as pixels, e.g. \"1570\" (without "
+"quotes), or percent, e.g. \"100%\" (without quotes). Iframe is to be "
+"displayed in Success Message area, after signing of a petition."
+msgstr ""
+"Høyde for kampanjeskjemaets iframe, enten som prosent, f. eks “100%” (uten "
+"anførselstegn), eller piksler, f. eks “375” (uten anførselstegn). Iframe "
+"skal vises i området for suksessmeldingen etter vellykket signering av en "
+"underskriftskampanje."
+
+#: includes/settings.view.php:671
+msgid "Save Changes"
+msgstr "Lagre Endringer"
+
+#: includes/settings.view.php:374
+msgid "Are you sure you want to publicly display email addresses?"
+msgstr "Er du sikker på at du vil vise e-postadresser offentlig?"
+
+#: includes/signatures.php:39 includes/signatures.php:86
+#: includes/signatures.php:122 includes/signatures.php:193
+#: includes/signatures.php:207
+msgid "Total Signatures"
+msgstr "Totalt antall signaturer"
+
+#: includes/signatures.php:93 includes/signatures.php:129
+msgid "Confirmation emails sent."
+msgstr "Bekreftelsesepost sendt."
+
+#: includes/signatures.php:212
+msgid "Total"
+msgstr "Total"
+
+#: includes/signatures.view.php:15
+msgid "Display all signatures"
+msgstr "Vis alle signaturer"
+
+#: includes/signatures.view.php:20
+msgid "Select petition"
+msgstr "Velg Opprop"
+
+#: includes/signatures.view.php:35
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each unconfirmed signature."
+msgstr ""
+"Er du sikker på at du vil gjøre dette? En separat bekreftelses-e-post vil "
+"bli sendt for hver ubekreftet signatur."
+
+#: includes/signatures.view.php:36
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each selected signature."
+msgstr ""
+"Er du sikker på at du vil gjøre dette? En egen bekreftelses-e-post vil bli "
+"sendt for hver valgte signatur."
+
+#: includes/signatures.view.php:37
+msgid "Are you sure you want to do this? You will manually confirm "
+msgstr "Er du sikker på at du vil gjøre dette? Du vil manuelt bekrefte "
+
+#: includes/signatures.view.php:38
+msgid "Are you sure you want to do this? You will delete "
+msgstr "Er du sikker på at du vil gjøre dette? Du vil slette "
+
+#: includes/signatures.view.php:39
+msgid "selected signature"
+msgstr "valgt signatur"
+
+#: includes/signatures.view.php:51
+msgid "Reconfirm selected"
+msgstr "Konfirm valgt på nytt"
+
+#: includes/signatures.view.php:53
+msgid "Reconfirm selected: choose petition first"
+msgstr "Bekreft valgt på nytt: velg begjæring først"
+
+#: includes/signatures.view.php:55 includes/signatures.view.php:58
+msgid "Reconfirm selected: choose signatures"
+msgstr "Konfiser på nytt valgt: velg signaturer"
+
+#: includes/signatures.view.php:63
+msgid "Force confirm selected"
+msgstr "Force bekreft valgt"
+
+#: includes/signatures.view.php:65
+msgid "Force confirm selected - choose signatures"
+msgstr "Force bekreft valgt - velg signaturer"
+
+#: includes/signatures.view.php:67
+msgid "Force confirm selected: choose petition first"
+msgstr "Force bekreft valgt: velg begjæring først"
+
+#: includes/signatures.view.php:69 includes/signatures.view.php:71
+msgid "Force confirm selected: choose signatures"
+msgstr "Force bekreft valgt: velg signaturer"
+
+#: includes/signatures.view.php:75
+msgid "Delete selected"
+msgstr "Slett valgte"
+
+#: includes/signatures.view.php:77
+msgid "Delete selected: choose signatures"
+msgstr "Slett valgt: velg signaturer"
+
+#: includes/signatures.view.php:91
+msgid "Resend selected confirmations"
+msgstr "Send valgte bekreftelser på nytt"
+
+#: includes/signatures.view.php:100
+msgid "Choose signatures action"
+msgstr "Velg signaturhandling"
+
+#: includes/signatures.view.php:101
+msgid "Download CSV - see settings/admin sig list"
+msgstr "Last ned CSV - se innstillinger/sig-liste for administratorer"
+
+#: includes/signatures.view.php:102
+msgid "Display only unconfirmed"
+msgstr "Vis bare ubekreftede"
+
+#: includes/signatures.view.php:103
+msgid "Resend all unconfirmed"
+msgstr "Send alle ubekreftede på nytt"
+
+#: includes/signatures.view.php:108
+msgid "Apply"
+msgstr "Bruk"
+
+#: includes/signatures.view.php:113
+msgid "Search signatures"
+msgstr "Søk etter signaturer"
+
+#: includes/signatures.view.php:144
+msgid "Checkbox 1"
+msgstr "Avmerkingsboks 1"
+
+#: includes/signatures.view.php:145
+msgid "Checkbox 2"
+msgstr "Avmerkingsboks 2"
+
+#: includes/signatures.view.php:146
+msgid "Opt-in"
+msgstr "Meld deg på"
+
+#: includes/widget.php:14
+msgid "Display a petition form."
+msgstr "Vis et petisjonsskjema."
+
+#: includes/widget.php:76
+msgid "Sign the Petition"
+msgstr "Signere protestskriv"
+
+#: includes/widget.php:89
+msgid "Sharing URL"
+msgstr "Deling URL"
+
+#: includes/widget.php:90
+msgid "Call to Action"
+msgstr "Call to Action"
+
+#: includes/widget.php:415
+msgid "Confirm Email"
+msgstr "Bekreft din e-post"
+
+#: speakout-email-petitions.php:95
+msgid "Support"
+msgstr "Support"
+
+#. Plugin Name of the plugin/theme
+msgid "SpeakOut! Email Petitions Pro"
+msgstr "SpeakOut! E-postkampanje"
+
+#. Plugin URI of the plugin/theme
+msgid "https://speakout.123host.net.au/"
+msgstr "https://speakout.123host.net.au/"
+
+#. Description of the plugin/theme
+msgid ""
+"This is the fully featured Pro version of SpeakOut! Create custom email "
+"petition forms and include them on your site via shortcode or a widget. When "
+"signed, the petition is emailed to your target and signatures are saved in "
+"the database.  There are many customisable options to make this plugin very "
+"flexible."
+msgstr ""
+"Dette er den fullverdige Pro-versjonen av SpeakOut! Lag tilpassede e-"
+"postoppropsskjemaer og inkluder dem på nettstedet ditt via kortkode eller en "
+"widget. Når den er signert, blir petisjonen sendt til målet ditt og "
+"signaturer lagres i databasen.  Det er mange tilpassbare alternativer for å "
+"gjøre dette pluginet veldig fleksibelt."
+
+#. Author of the plugin/theme
+msgid "Steve D - 123host.au"
+msgstr "Steve D - 123host.au"
+
+#. Author URI of the plugin/theme
+msgid "https://123Host.au"
+msgstr "https://123host.au"
+
+#~ msgid "Import petitions from SpeakUp to SpeakOut!"
+#~ msgstr "Importer kampanjer fra SpeakUp til SpeakOut!"
+
+#~ msgid "Upgrade to Pro"
+#~ msgstr "Oppgrader til Pro"
+
+#~ msgid "Disabled"
+#~ msgstr "Deaktivert"
+
+#~ msgid "Import from SpeakUp"
+#~ msgstr "Importer fra SpeakUp"
+
+#~ msgid "SpeakOut! Upgrade"
+#~ msgstr "SpeakOut! Oppgradere"
+
+#~ msgid "Custom Field 5"
+#~ msgstr "Egendefinert felt 5"
+
+#~ msgid "yes"
+#~ msgstr "ja"
+
+#~ msgid "no"
+#~ msgstr "nei"
+
+#~ msgid ""
+#~ "Add a custom fields to the petition form for collecting additional data."
+#~ msgstr ""
+#~ "Legg til egendefinerte felt i underskriftskampanjeskjemaet for innsamling "
+#~ "av tilleggsdata."
+
+#~ msgid ""
+#~ "Select the subset of signatures that will be included in CSV file "
+#~ "downloads"
+#~ msgstr ""
+#~ "Velg delsettet med signaturer som skal tas med i CSV-filnedlastinger"
+
+#~ msgid "Signature List"
+#~ msgstr "Signaturliste"
+
+#~ msgid "In the free version you are limited to one petition"
+#~ msgstr "I gratisversjonen er du begrenset til en underskriftskampanje"
+
+#~ msgid ""
+#~ "Any additional existing petitions will still work but cannot be edited"
+#~ msgstr ""
+#~ "Eventuelle andre eksisterende begjæringer vil fortsatt fungere, men kan "
+#~ "ikke redigeres"
+
+#~ msgid "create"
+#~ msgstr "opprett"
+
+#~ msgid "Duplicate Email Petition"
+#~ msgstr "Duplisert e-postbegjæring"
+
+#~ msgid "Email Petitions"
+#~ msgstr "E-postkampanjer"
+
+#~ msgid "This is coming - to avoid a license fee, make a donation"
+#~ msgstr "Dette kommer - for å unngå lisensavgift, gi en donasjon"
+
+#, php-format
+#~ msgid "A donation will help keep SpeakOut! 100% free!"
+#~ msgstr "En donasjon vil bidra til å holde SpeakOut! 100% free!"
+
+#~ msgid "Download CSV"
+#~ msgstr "Last ned CSV"
+
+#~ msgid "3rd Party extras"
+#~ msgstr "Ekstrautstyr fra tredjepart"
+
+#~ msgid "This is coming"
+#~ msgstr "Dette kommer"
+
+#~ msgid "This field is included in email to target"
+#~ msgstr "Dette feltet er inkludert i e-post til Target"
+
+#~ msgid "Hide email from public"
+#~ msgstr "Skjul e-post fra offentlig"
+
+#~ msgid "Please donate if this plugin is useful."
+#~ msgstr "Vennligst donere hvis denne plugin er nyttig."
+
+#~ msgid "Custom field"
+#~ msgstr "Egendefinert felt"
+
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "Read or edit the petition"
+#~ msgstr "Lese eller redigere kampanjen"
+
+#~ msgid "Ms"
+#~ msgstr "Fr"
+
+#~ msgid "Mr"
+#~ msgstr "Herr"
+
+#~ msgid "Mrs"
+#~ msgstr "Fru"
+
+#~ msgid "Miss"
+#~ msgstr "Frøken"
+
+#~ msgid "Mx."
+#~ msgstr "Mx."
+
+#~ msgid "Dr."
+#~ msgstr "Dr."
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "You will be redirected momentarily."
+#~ msgstr "Du blir straks omdirigert."
+
+#~ msgid "instead of instant hide"
+#~ msgstr "i stedet for øyeblikkelig skjul"
+
+#~ msgid "Privacy Policy URL"
+#~ msgstr "Url-adresse for personvern"
+
+#~ msgid "You will need a pair of keys from"
+#~ msgstr "Du trenger et par taster fra"
+
+#~ msgid "You can hide Facebook and Twitter icons"
+#~ msgstr "Du kan skjule Facebook- og Twitter-ikoner"
+
+#~ msgid "Example: If your donation page's URL is"
+#~ msgstr "Eksempel: Hvis nettadressen til bidragssiden din er"
+
+#~ msgid "then your Donation Slug is:"
+#~ msgstr "deretter er donasjonssneglen:"
+
+#~ msgid "Donate, please!"
+#~ msgstr "Gi et bidrag, vær så snill!"
+
+#~ msgid "Force confirm selected: check 1 or more"
+#~ msgstr "Force bekreft valgt: sjekk 1 eller flere"
+
+#~ msgid "Delete selected: check 1 or more"
+#~ msgstr "Slett valgt: sjekk 1 eller flere"
+
+#~ msgid "Error: You must include a valid id."
+#~ msgstr "Feil: du må inkludere en gyldig ID."
+
+#~ msgid "All Signatures"
+#~ msgstr "Alle signaturer"
+
+#~ msgid "Signature deleted."
+#~ msgstr "Signatur slettet."
+
+#~ msgid "Download as CSV"
+#~ msgstr "Last ned som CSV"
+
+#~ msgid "Re-send confirmations"
+#~ msgstr "Sende bekreftelser på nytt"
+
+#~ msgid "Donate"
+#~ msgstr "Donere"
+
+#~ msgid "Search"
+#~ msgstr "Søk"
+
+#~ msgid "Street Address"
+#~ msgstr "Gateadresse"
+
+#~ msgid "Address fields required?"
+#~ msgstr "Skal adressefeltene være obligatoriske?"
+
+#~ msgid "Post Code"
+#~ msgstr "Postnummer"
+
+#~ msgid "Steve D forked from speakup"
+#~ msgstr "Steve D forking fra speakup"
+
+#~ msgid "rows"
+#~ msgstr "rader"

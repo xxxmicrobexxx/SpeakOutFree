@@ -1,0 +1,300 @@
+/* style the notice */
+
+.dk-speakout-notice {
+    display: inline-block;
+}
+
+/* custom plugin icon for h2 headers */
+#dk-speakout #icon-dk-speakout { background: transparent url(../images/icon-emailpetitions-32.png) no-repeat top left; }
+
+/* Settings & addnew tabs
+------------------------------------------------------------------- */
+ .emailWarning{
+     color:red;
+ }
+.required::after {
+  content: " *";
+  color: red;
+}
+.freeText{
+    border:1px solid black;
+    background-color:white;
+    padding:3px;
+}
+.freeCheck{
+    padding: 0 10px 0 10px;
+}
+.licenseKeyText, .upgrade-message{
+    font-size:14px;
+}
+.licenseKeyVerifiedText{
+    color:#BBBBBB;
+}
+#licenseKeyButton{
+    cursor:pointer;
+}
+.licenseKeyButtonVerified{
+    background-color:#18741A !important;
+    color:#FFF !important;
+    cursor:default !important;
+}
+#licenseKeyRevoke{
+    cursor:pointer;
+}
+.tablenav-pages{
+    font-size:12px;
+}
+ul#dk-speakout-tabbar,  ul#dk-petition-tabbar{
+	border-bottom: 1px solid #aaa;
+	margin: 2em 0;
+	padding-left: 1em;
+}
+ul#dk-speakout-tabbar li, ul#dk-petition-tabbar li  {
+	display: inline-block;
+	margin: 0 0 -1px 0;
+}
+ul#dk-speakout-tabbar li a, ul#dk-petition-tabbar li a {
+	display: inline-block;
+	background: #dcdcdc url(../images/bg-tabs-off.png) repeat-x top left;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #aaa;
+	border-right: 1px solid #ccc;
+	border-collapse: collapse;
+	font-weight: bold;
+	padding: 2px 15px 0 15px;
+	line-height: 30px;
+	font-weight: bold;
+	text-shadow: 0px 1px 0 #fff;
+	color: #666;
+	cursor: pointer;
+}
+ul#dk-speakout-tabbar li a:hover, ul#dk-petition-tabbar li a:hover { color: #21759b; }
+ul#dk-speakout-tabbar li a.dk-speakout-active, ul#dk-petition-tabbar li a.dk-petition-active {
+	background: #fff;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #aaa;
+	color: #333;
+	padding: 4px 15px 0 15px;
+	font-weight: bold;
+}
+#activecampaign-form-fields select, #activecampaign_form_fields input {
+    margin-bottom: 5px;
+    font-size: 12px;
+    min-height: 10px;
+    line-height: 1.5;
+}
+
+#activecampaign-map2, #activecampaign-map3, #activecampaign-map4{
+    width: 80px;
+    margin-right:5px !important;
+    font-size: 12px;
+    min-height: 10px;
+    line-height: 1.5;
+}
+.activecampaign-fixed{
+    color:grey;
+}
+
+/* Form styles for Add New page
+------------------------------------------------------------------- */
+.addnew-h2{
+    cursor:default !important;    
+}
+label {
+    cursor: default !important;
+}
+#dk-speakout label {
+	display: block;
+	font-weight: bold;
+    
+}
+#dk-speakout label#title-prompt-text { font-weight: normal; }
+#dk-speakout #post-body .postbox label { margin: .5em 6px .25em 0; }
+#dk-speakout form#dk-speakout-edit-petition textarea { width: 99%; }
+#dk-speakout form#dk-speakout-settings textarea { width: 85%; }
+#dk-speakout .dk-speakout-inline { display: inline; }
+#dk-speakout input[type=text] { margin: 0 0 .5em 0; }
+#dk-speakout .dk-speakout-hidden { display: none; }
+#dk-speakout .dk-speakout-right { text-align: right; }
+#dk-speakout .dk-speakout-subsection { margin-top: .5em;}
+#dk-speakout .dk-speakout-subsection label {
+	font-weight: normal;
+	display: inline;
+}
+#dk-speakout .dk-speakout-subsection #day, #dk-speakout .dk-speakout-subsection #hour, #dk-speakout .dk-speakout-subsection #minutes{
+    width:30px;
+}
+#dk-speakout .dk-speakout-subsection #year{
+    width:50px;
+}
+#dk-speakout .form-table label { font-weight: normal; }
+#dk-speakout .sends_email {
+    margin: 10px -6px 0 0;
+}
+body.admin-color-classic .sends_email { background-color: transparent !important; }
+.dk-speakout-petition-content { padding-top: 5px; }
+#dk-speakout #x-counter {
+	font-size: 1.1em;
+	text-align: right;
+	padding: 3px 7px 0 0;
+}
+.dk-speakout-address input { margin-left: 1.5em !important; }
+.dk-speakout-checkbox label { vertical-align: text-top; }
+
+/* error messages for Add / Edit form */
+.dk-speakout-error-msg { display: none; }
+.dk-speakout-error {
+	border: 1px solid #c00 !important;
+	background-color: #ffebe8 !important;
+}
+#dk-speakout #target_email, #target_email_CC, #dk-speakout #email_subject, #dk-speakout #greeting { width: 60%; }
+
+/* alterations to some default WP styles */
+#dk-speakout .postbox { padding:15px; line-height: 1.4; }
+#dk-speakout .postbox h3 { cursor: auto; }
+#dk-speakout .misc-pub-section { font-size: 11px; }
+#dk-speakout .misc-pub-section:nth-child(2n+1)  {
+    background-color: #E9E9E9;
+}
+#dk-speakout #major-publishing-actions { border-top: 1px solid #ddd; }
+
+#dk-speakout input#goal { text-align: right; }
+
+#dk-speakout .signature-table-label {
+	color: #000;
+	font-size:13px;
+}
+.table-label {
+	color: #000;
+	font-weight: bold;
+}
+#dk-speakout .table-label span.count {
+	color: #999;
+	font-weight: normal;
+}
+
+#dk-speakout #side-sortables .inside { padding: 0; margin: 5px 0 0 0;}
+
+div.dk-speakout-date input, div.dk-speakout-date select {
+  font-size: 12px;
+}
+
+/* progress bar styles */
+.dk-speakout-progress {
+	border-radius: 2px;
+	background: #e5e5e5 url(../images/bg-progressbar-back-admin.png) repeat-x top left;
+	height: 10px;
+	border: 1px solid #aaa;
+	float: right;
+}
+.dk-speakout-progressbar {
+	height: 10px;
+	border-right: 1px solid #aaa;
+}
+.dk-speakout-progressbar-low,
+.dk-speakout-progressbar-medium,
+.dk-speakout-progressbar-high,
+.dk-speakout-progressbar-complete {
+	background      : transparent url(../images/bg-progressbar.png) repeat-x top left;
+	background-size : 10px 10px;
+}
+.dk-speakout-progressbar-low {
+  background-color: #f00;
+}
+.dk-speakout-progressbar-medium {
+  background-color: #9f07ed;
+}
+.dk-speakout-progressbar-high {
+  background-color: #99ff99;
+}
+.dk-speakout-progressbar-complete {
+  background-color: #3c0;
+	border-bottom-right-radius : ( @radius - 2px );
+	border-top-right-radius    : ( @radius - 2px );
+}
+
+.dk_speakout_clear { clear: both; }
+.dk-speakout-inline { display: inline; }
+.dk-speakout-red { color: #900; }
+.dk-speakout-green { color: #090; }
+
+form#dk-speakout-settings h3 { margin: 2em 0 0 0; }
+.dk-speakout-tablerow:hover { background-color: #ffd; }
+.dk-speakout-tablerow-even { background: #fff; }
+body.admin-color-classic .dk-speakout-tablerow-even { background: #f7fcfe; }
+
+.normalText{
+    font-weight:normal;
+    color:#000;
+}
+#dk-speakout-recaptcha-keys{
+    margin-top:10px;
+}
+
+/*---- additional style for signatures page --- */
+.dk-sigform{
+    display:inline;
+    position: relative;
+    bottom: 8px;
+}
+#dk_sig_search_form{
+    left:50px;
+    position: relative;
+    bottom: 3px;
+}
+#search-button {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 8px;
+    right: 10px;
+    background: none;
+    border: none;
+}
+#search-button svg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+#dk-speakout-doaction{
+    margin: 8px 8px 0 0;
+}
+#thousands-separator, #decimal-separator{
+    width:30px;
+}
+/* ----- additional styles for settings page ----- */
+
+.recaptcha-key{
+    width:400px;
+}
+.warningIcon{
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+    top: 3px;
+    position: relative;
+}
+
+.dk-speakout-hide-email-option{
+    display:none;
+}
+.insert_tags{
+    margin: 3px 0 3px 0;
+}
+.margin-20-left{
+    margin-left:15px;
+}
+.infoText{
+    margin-bottom: 5px;
+}
+.customfieldtitle{
+    font-weight:bold;
+}
+.optin-warning{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,2014 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeakOut! Email Petitions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-03 09:33+1000\n"
+"PO-Revision-Date: 2023-04-03 09:33+1000\n"
+"Last-Translator: Steve D <info@123host.com.au>\n"
+"Language-Team: Polski\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;_n;_nx;_n_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Loco-Version: 2.4.3; wp-5.4.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/addnew.php:38 includes/addnew.php:64
+msgid "Edit Petition"
+msgstr "Edytuj petycję"
+
+#: includes/addnew.php:42 includes/addnew.php:68 includes/addnew.php:116
+msgid "Update Petition"
+msgstr "Aktualizuj Petycję"
+
+#: includes/addnew.php:50
+#, php-format
+msgid ""
+"Petition created. Use %1$s %2$s %3$s to display in a page or post. Use %1$s "
+"%4$s %3$s to display the signatures list or %1$s %5$s %3$s to show just the "
+"signature count."
+msgstr ""
+"Petycja utworzona. Użyj %1$s %2$s %3$s aby wyświetlić na stronie lub we "
+"wpisie. Użyj %1$s %4$s %3$s aby wyświetlić listę podpisów lub %1$s %5$s %3$s "
+"aby wyświetlić tylko liczbę podpisów."
+
+#: includes/addnew.php:85
+msgid "Duplicate Petition"
+msgstr "Duplikat petycji"
+
+#: includes/addnew.php:89
+msgid "Save Duplicate Petition"
+msgstr "Zapisz duplikat petycji"
+
+#: includes/addnew.php:97
+#, php-format
+msgid ""
+"Petition created - you can edit it here. Use %1$s %2$s %3$s to display in a "
+"page or post."
+msgstr ""
+"Petycja utworzona - możesz ją edytować tutaj. Użyj %1$s %2$s %3$s, aby "
+"wyświetlić je na stronie lub w poście."
+
+#: includes/addnew.php:112
+msgid "Edit New Petition"
+msgstr "Edytuj nową petycję"
+
+#: includes/addnew.php:117
+msgid "Petition "
+msgstr "Petycja "
+
+#: includes/addnew.php:124
+msgid "Add New Petition"
+msgstr "Dodaj nową petycję"
+
+#: includes/addnew.php:128
+msgid "Create Petition"
+msgstr "Stwórz Petycję"
+
+#: includes/addnew.php:130
+msgid "Add me to your mailing list"
+msgstr "Dopisz mnie do Twojej Listy Mailingowej"
+
+#: includes/addnew.view.php:9
+msgid ""
+"Error: Please correct the highlighted fields.  It may be behind a closed tab"
+msgstr ""
+"Błąd: Popraw wyróżnione pola.  Może znajdować się za zamkniętą zakładką"
+
+#: includes/addnew.view.php:18 includes/help.php:42
+msgid "Petition Content"
+msgstr "Treść petycji"
+
+#: includes/addnew.view.php:19 includes/help.php:47
+msgid "Petition Options"
+msgstr "Opcje Petycji"
+
+#: includes/addnew.view.php:20 includes/help.php:52
+msgid "Display Options"
+msgstr "Opcje wyświetlania"
+
+#: includes/addnew.view.php:21 includes/help.php:57
+msgid "3rd Party Integrations"
+msgstr "Integracje stron 3rd"
+
+#: includes/addnew.view.php:29 includes/help.php:6 includes/help.php:85
+#: includes/settings.view.php:338 includes/widget.php:88
+msgid "Title"
+msgstr "Tytuł"
+
+#: includes/addnew.view.php:30
+msgid "Enter title here"
+msgstr "Wprowadź tytuł"
+
+#: includes/addnew.view.php:46 includes/help.php:7
+msgid "Do not send email (only collect signatures)"
+msgstr "Nie wysyłaj e-maila (tylko zbieraj podpisy)"
+
+#: includes/addnew.view.php:50 includes/help.php:8
+msgid "Target Email"
+msgstr "Docelowy e-mail"
+
+#: includes/addnew.view.php:50 includes/addnew.view.php:53
+msgid "you may enter multiple addresses separated by commas"
+msgstr "można wprowadzić kilka adresów oddzielonych przecinkami"
+
+#: includes/addnew.view.php:53
+msgid "CC Email"
+msgstr "DW Email"
+
+#: includes/addnew.view.php:56 includes/help.php:9 includes/help.php:80
+#: includes/settings.view.php:319
+msgid "Email Subject"
+msgstr "Tytuł e-maila"
+
+#: includes/addnew.view.php:59 includes/help.php:10
+msgid "Greeting"
+msgstr "Przywitanie / zwrot grzecznościowy"
+
+#: includes/addnew.view.php:65 includes/help.php:11
+msgid "Petition Message"
+msgstr "Treść Petycji"
+
+#: includes/addnew.view.php:67
+msgid "You can personalise the message by inserting tags"
+msgstr "Możesz spersonalizować wiadomość, wstawiając znaczniki"
+
+#: includes/addnew.view.php:68
+msgid "You or the signer can format the message using Markdown syntax - see"
+msgstr ""
+"Ty lub sygnatariusz możesz sformatować wiadomość za pomocą funkcji Markdown "
+"- zobacz"
+
+#: includes/addnew.view.php:70
+msgid "Petition Footer (below signature)"
+msgstr "Stopka petycji (poniżej podpisu)"
+
+#: includes/addnew.view.php:75 includes/help.php:13
+msgid "Twitter Message"
+msgstr "Wiadomość w Twitter"
+
+#: includes/addnew.view.php:100
+msgid "Don't collect email address"
+msgstr "Nie zbieraj adresu e-mail"
+
+#: includes/addnew.view.php:101
+msgid "This cannot be reversed"
+msgstr "Nie można tego cofnąć"
+
+#: includes/addnew.view.php:108 includes/help.php:17
+msgid "Allow public anonymous"
+msgstr "Zezwalaj na anonimowość na publicznej liście podpisów"
+
+#: includes/addnew.view.php:117 includes/help.php:18
+msgid "Confirm signatures"
+msgstr "Potwierdzenie podpisu"
+
+#: includes/addnew.view.php:120
+msgid "Return URL"
+msgstr "Przekierowanie do URL"
+
+#: includes/addnew.view.php:129
+msgid "Allow message to be edited"
+msgstr "Zezwalaj na edycję treści petycji"
+
+#: includes/addnew.view.php:137 includes/help.php:20
+msgid "Set signature goal"
+msgstr "Ustaw Cel (ilość podpisów)"
+
+#: includes/addnew.view.php:140 includes/petitions.view.php:19
+#: includes/petitions.view.php:29
+msgid "Goal"
+msgstr "Cel"
+
+#: includes/addnew.view.php:143
+msgid "Auto increase goal"
+msgstr "Cel podpisu"
+
+#: includes/addnew.view.php:144
+msgid "by"
+msgstr "przez"
+
+#: includes/addnew.view.php:145
+msgid "when count"
+msgstr "kiedy liczą"
+
+#: includes/addnew.view.php:145 includes/emailpetition.php:661
+#: includes/widget.php:207
+msgid "of goal"
+msgstr "z celu"
+
+#: includes/addnew.view.php:153 includes/help.php:22
+msgid "Set expiration date"
+msgstr "Ustaw datę wygaśnięcia"
+
+# Month
+#: includes/addnew.view.php:157
+msgid "Jan"
+msgstr "Styczeń"
+
+# Month
+#: includes/addnew.view.php:158
+msgid "Feb"
+msgstr "Luty"
+
+# Month
+#: includes/addnew.view.php:159
+msgid "Mar"
+msgstr "Marzec"
+
+# Month
+#: includes/addnew.view.php:160
+msgid "Apr"
+msgstr "Kwiecień"
+
+# Month
+#: includes/addnew.view.php:161
+msgid "May"
+msgstr "Maj"
+
+# Month
+#: includes/addnew.view.php:162
+msgid "Jun"
+msgstr "Czerwiec"
+
+# Month
+#: includes/addnew.view.php:163
+msgid "Jul"
+msgstr "Lipiec"
+
+# Month
+#: includes/addnew.view.php:164
+msgid "Aug"
+msgstr "Sierpień"
+
+# Month
+#: includes/addnew.view.php:165
+msgid "Sep"
+msgstr "Wrzesień"
+
+# Month
+#: includes/addnew.view.php:166
+msgid "Oct"
+msgstr "Październik"
+
+# Month
+#: includes/addnew.view.php:167
+msgid "Nov"
+msgstr "Listopad"
+
+# Month
+#: includes/addnew.view.php:168
+msgid "Dec"
+msgstr "Grudzień"
+
+#: includes/addnew.view.php:184
+msgid "Redirect after successful sign"
+msgstr "Przekierowanie po pomyślnym podpisaniu petycji"
+
+#: includes/addnew.view.php:187
+msgid "Full URL"
+msgstr "Pełny adres URL"
+
+#: includes/addnew.view.php:189
+msgid "Delay?"
+msgstr "Opóźnienie?"
+
+#: includes/addnew.view.php:190
+msgid "milliseconds"
+msgstr "milisekund"
+
+#: includes/addnew.view.php:191
+msgid "Open in new window (target='_blank')"
+msgstr "Otwórz w nowym oknie (target='_blank')"
+
+#: includes/addnew.view.php:205
+msgid "Text to open/close petition message"
+msgstr "Tekst do otwarcia/zamknięcia wiadomości petycji"
+
+#: includes/addnew.view.php:210
+msgid "Text to open/close editable petition message"
+msgstr "Tekst do otwierania/zamykania edytowalnej wiadomości petycji"
+
+#: includes/addnew.view.php:219 includes/help.php:27
+msgid "Display opt-in checkbox"
+msgstr "Wyświetl checkbox opt-in"
+
+#: includes/addnew.view.php:222 includes/addnew.view.php:287
+#: includes/addnew.view.php:322 includes/addnew.view.php:357
+#: includes/addnew.view.php:393 includes/addnew.view.php:434
+#: includes/addnew.view.php:465 includes/addnew.view.php:494
+msgid "Label"
+msgstr "Etykieta"
+
+#: includes/addnew.view.php:230
+msgid "Display petition message"
+msgstr "Pokaż treść petycji"
+
+#: includes/addnew.view.php:237 includes/help.php:28
+msgid "Display address fields"
+msgstr "Wyświetlanie pól Adresu"
+
+#: includes/addnew.view.php:244 includes/help.php:88
+#: includes/settings.view.php:355
+msgid "Display"
+msgstr "Widoczne"
+
+#: includes/addnew.view.php:245 includes/addnew.view.php:298
+#: includes/addnew.view.php:333 includes/addnew.view.php:368
+#: includes/addnew.view.php:404 includes/addnew.view.php:432
+msgid "Required"
+msgstr "Wymagane"
+
+#: includes/addnew.view.php:251 includes/addnew.view.php:597
+#: includes/emailpetition.php:426 includes/settings.view.php:456
+#: includes/signatures.view.php:134
+msgid "Street"
+msgstr "Ulica"
+
+#: includes/addnew.view.php:256 includes/csv.php:54
+#: includes/emailpetition.php:443 includes/settings.view.php:377
+#: includes/settings.view.php:460 includes/signatures.view.php:135
+#: includes/widget.php:434
+msgid "City"
+msgstr "Miasto"
+
+#: includes/addnew.view.php:261 includes/emailpetition.php:450
+#: includes/settings.view.php:380 includes/widget.php:440
+msgid "State / Province"
+msgstr "Województwo"
+
+#: includes/addnew.view.php:266
+msgid "Postal Code - see settings for EU style"
+msgstr "Kod pocztowy - zobacz ustawienia formatu w UE"
+
+#: includes/addnew.view.php:271 includes/addnew.view.php:629
+#: includes/csv.php:57 includes/emailpetition.php:491
+#: includes/settings.view.php:386 includes/settings.view.php:472
+#: includes/signatures.view.php:138 includes/widget.php:476
+msgid "Country"
+msgstr "Kraj"
+
+#: includes/addnew.view.php:283
+msgid "Display custom field 1"
+msgstr "Wyświetlanie pola niestandardowego 1"
+
+#: includes/addnew.view.php:300 includes/addnew.view.php:335
+#: includes/addnew.view.php:370 includes/addnew.view.php:406
+#: includes/addnew.view.php:447 includes/addnew.view.php:475
+#: includes/addnew.view.php:504
+msgid "Location"
+msgstr "Lokalizacja"
+
+#: includes/addnew.view.php:301 includes/addnew.view.php:336
+#: includes/addnew.view.php:371 includes/addnew.view.php:407
+#: includes/addnew.view.php:448 includes/addnew.view.php:476
+#: includes/addnew.view.php:505
+msgid "Top"
+msgstr "Góra"
+
+#: includes/addnew.view.php:303 includes/addnew.view.php:338
+#: includes/addnew.view.php:373 includes/addnew.view.php:409
+#: includes/addnew.view.php:450 includes/addnew.view.php:478
+#: includes/addnew.view.php:507
+msgid "Above email"
+msgstr "Powyżej wiadomości e-mail"
+
+#: includes/addnew.view.php:305 includes/addnew.view.php:340
+#: includes/addnew.view.php:375 includes/addnew.view.php:411
+#: includes/addnew.view.php:453 includes/addnew.view.php:481
+#: includes/addnew.view.php:510
+msgid "Bottom"
+msgstr "Dół"
+
+#: includes/addnew.view.php:308 includes/addnew.view.php:343
+#: includes/addnew.view.php:378 includes/addnew.view.php:414
+#: includes/addnew.view.php:428
+msgid "Include with petition"
+msgstr "Dołącz do petycji"
+
+#: includes/addnew.view.php:310 includes/addnew.view.php:345
+#: includes/addnew.view.php:380 includes/addnew.view.php:416
+msgid "Trim when displaying"
+msgstr "Przycinanie podczas wyświetlania"
+
+#: includes/addnew.view.php:318
+msgid "Display custom field 2"
+msgstr "Wyświetlanie pola niestandardowego 2"
+
+#: includes/addnew.view.php:353
+msgid "Display custom field 3"
+msgstr "Wyświetlanie pola niestandardowego 3"
+
+#: includes/addnew.view.php:389
+msgid "Display custom field 4"
+msgstr "Wyświetlanie pola niestandardowego 4"
+
+#: includes/addnew.view.php:424
+msgid "Display custom drop-down"
+msgstr "Wyświetl niestandardową listę rozwijaną"
+
+#: includes/addnew.view.php:444
+msgid "Values"
+msgstr "Wartości"
+
+#: includes/addnew.view.php:461
+msgid "Display custom checkbox 1"
+msgstr "Wyświetl niestandardowe pole wyboru 1"
+
+#: includes/addnew.view.php:490
+msgid "Display custom checkbox 2"
+msgstr "Wyświetl niestandardowe pole wyboru 2"
+
+#: includes/addnew.view.php:520 includes/help.php:30
+msgid "Display custom message"
+msgstr "Wyświetl niestandardową wiadomość"
+
+#: includes/addnew.view.php:521
+msgid "Displayed beneath `Thank you` after petition is signed"
+msgstr "Wyświetlana pod \"dziękuję\" po podpisaniu petycji"
+
+#: includes/addnew.view.php:524
+msgid "Message"
+msgstr "Wiadomość"
+
+#: includes/addnew.view.php:535
+msgid ""
+"You must also enable 'Display opt-in checkbox' under the Display Options tab"
+msgstr ""
+"Należy również włączyć pole wyboru \"Wyświetl opcję opt-in\" na karcie Opcje "
+"wyświetlania"
+
+#: includes/addnew.view.php:542
+msgid "Enable ActiveCampaign"
+msgstr "Włącz ActiveCampaign"
+
+#: includes/addnew.view.php:549 includes/addnew.view.php:717
+#: includes/addnew.view.php:737 includes/addnew.view.php:759
+msgid "API Key"
+msgstr "Klucz API"
+
+#: includes/addnew.view.php:552
+msgid "Server URL"
+msgstr "Adres URL serwera"
+
+#: includes/addnew.view.php:563
+msgid "Select list"
+msgstr "Wybierz listę"
+
+#: includes/addnew.view.php:571
+msgid ""
+"Map the SpeakOut! fields to your Active Campaign fields. Leave those you "
+"don't use blank."
+msgstr ""
+"Mapuj SpeakOut! pola aktywnej kampanii. Pozostaw te, których nie używasz, "
+"puste."
+
+#: includes/addnew.view.php:574 includes/csv.php:49
+msgid "Honorific"
+msgstr "Zwrot grzecznościowy"
+
+#: includes/addnew.view.php:582 includes/csv.php:50
+#: includes/emailpetition.php:355 includes/widget.php:358
+msgid "First Name"
+msgstr "Imię"
+
+#: includes/addnew.view.php:587 includes/csv.php:51
+#: includes/emailpetition.php:359 includes/widget.php:362
+msgid "Last Name"
+msgstr "Nazwisko"
+
+#: includes/addnew.view.php:592 includes/emailpetition.php:418
+#: includes/settings.view.php:449 includes/signatures.view.php:132
+#: includes/widget.php:409
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/addnew.view.php:605
+msgid "Suburb"
+msgstr "Przedmieście"
+
+#: includes/addnew.view.php:613 includes/csv.php:55
+#: includes/settings.view.php:464 includes/signatures.view.php:136
+msgid "State"
+msgstr "Województwo"
+
+#: includes/addnew.view.php:621 includes/csv.php:56
+#: includes/emailpetition.php:436 includes/emailpetition.php:459
+#: includes/settings.view.php:383 includes/signatures.view.php:137
+#: includes/widget.php:447
+msgid "Postal Code"
+msgstr "Kod pocztowy"
+
+#: includes/addnew.view.php:712
+msgid "Enable MailChimp"
+msgstr "Włącz MailChimp"
+
+#: includes/addnew.view.php:720
+msgid "Server ID"
+msgstr "Identyfikator serwera"
+
+#: includes/addnew.view.php:723 includes/addnew.view.php:762
+msgid "List ID"
+msgstr "Nr ID listy"
+
+#: includes/addnew.view.php:732
+msgid "Enable Mailerlite"
+msgstr "Włącz Mailerlite"
+
+#: includes/addnew.view.php:740
+msgid "Group ID"
+msgstr "Identyfikator grupy"
+
+#: includes/addnew.view.php:750
+msgid "Enable Sendy"
+msgstr "Włącz Sendy"
+
+#: includes/addnew.view.php:756
+msgid "Installation URL"
+msgstr "Adres URL instalacji"
+
+#: includes/admin.php:11 includes/admin.php:20 includes/admin.php:32
+msgid "SpeakOut! Email Petitions"
+msgstr "SpeakOut! Petycje mailowe"
+
+#: includes/admin.php:33 includes/petitions.php:44 includes/petitions.php:57
+msgid "Petitions"
+msgstr "Petycje"
+
+#: includes/admin.php:44 includes/admin.php:45 includes/license.view.php:74
+msgid "Activate license"
+msgstr "Aktywuj licencję"
+
+#: includes/admin.php:55 includes/admin.php:56 includes/petitions.view.php:4
+msgid "Add New"
+msgstr "Dodaj Nową"
+
+#: includes/admin.php:66 includes/admin.php:67 includes/petitions.view.php:18
+#: includes/petitions.view.php:28 includes/signatures.view.php:4
+msgid "Signatures"
+msgstr "Podpisy"
+
+#: includes/admin.php:77 includes/settings.view.php:142
+msgid "SpeakOut! Petitions Settings"
+msgstr "SpeakOut! Ustawienia petycji"
+
+#: includes/admin.php:78
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/class.petition.php:505
+msgid "No Title"
+msgstr "Brak Tytułu"
+
+#: includes/class.signaturelist.php:155 includes/class.signaturelist.php:215
+#: includes/class.signaturelist.php:319
+msgid "Anonymous"
+msgstr "Anonimowy"
+
+#: includes/class.speakout.php:118
+msgid "items"
+msgstr "pozycje"
+
+#: includes/class.speakout.php:121
+msgid "page"
+msgstr "strona"
+
+#: includes/class.speakout.php:131
+msgid "of"
+msgstr "z"
+
+#: includes/confirmations.php:105
+msgid "Thank you. Your signature has been added to the petition."
+msgstr "Dziękujemy. Twój podpis został złożony pod petycją."
+
+#: includes/confirmations.php:124
+msgid "Your signature has already been confirmed."
+msgstr "Twój podpis został już potwierdzony."
+
+#: includes/confirmations.php:128
+msgid "The confirmation code you provided is invalid."
+msgstr "Wprowadzony przez Ciebie kod potwierdzający jest nieprawidłowy."
+
+#: includes/confirmations.php:167
+msgid "Email Confirmation"
+msgstr "Potwierdzenie e-mailowe"
+
+#: includes/confirmations.php:169
+msgid "If you aren't redirected"
+msgstr "Jeśli nie zostałeś przekierowany"
+
+#: includes/confirmations.php:169 includes/settings.view.php:603
+msgid "Click here"
+msgstr "Kliknij tutaj"
+
+#: includes/confirmations.php:169
+msgid "to return to site "
+msgstr "aby powrócić do witryny "
+
+#: includes/csv.php:10 includes/signatures.php:5
+msgid "Insufficient privileges: You need to be an editor to do that."
+msgstr ""
+"Niewystarczające uprawnienia. Musisz być administratorem, żeby wykonać tę "
+"akcję."
+
+#: includes/csv.php:28 includes/signatures.view.php:212
+msgid "No signatures found."
+msgstr "Nie znaleziono podpisów."
+
+#: includes/csv.php:52
+msgid "Email Address"
+msgstr "Adres e-mail"
+
+#: includes/csv.php:53 includes/widget.php:428
+msgid "Address"
+msgstr "Adres"
+
+#: includes/csv.php:58
+msgid "Date Signed"
+msgstr "Data podpisu"
+
+#: includes/csv.php:59 includes/signatures.view.php:147
+msgid "Confirmed"
+msgstr "Potwierdzone"
+
+#: includes/csv.php:60
+msgid "Petition Title"
+msgstr "Tytuł Petycji"
+
+#: includes/csv.php:61
+msgid "Petition ID"
+msgstr "ID Petycji"
+
+#: includes/csv.php:62 includes/settings.view.php:506
+msgid "Email Opt-in"
+msgstr "E-mail Opt-in"
+
+#: includes/csv.php:63 includes/settings.view.php:410
+msgid "Custom Message"
+msgstr "Niestandardowa Wiadomość"
+
+#: includes/csv.php:72
+msgid "Language"
+msgstr "Język"
+
+#: includes/csv.php:73 includes/signatures.view.php:149
+msgid "IP Address"
+msgstr "Adres IP"
+
+#: includes/csv.php:83
+msgid "Custom Field"
+msgstr "Niestandardowe Pole"
+
+#: includes/csv.php:103
+msgid "confirmed"
+msgstr "potwierdzono"
+
+#: includes/csv.php:106
+msgid "unconfirmed"
+msgstr "nie potwierdzono"
+
+#: includes/csv.php:115 includes/csv.php:125 includes/csv.php:135
+msgid "Y"
+msgstr "Y"
+
+#: includes/csv.php:118 includes/csv.php:128 includes/csv.php:138
+msgid "N"
+msgstr "M"
+
+#: includes/emailpetition.php:564
+msgid "You can add formatting using markdown syntax"
+msgstr ""
+"Można dodawać formatowanie tekstu z wykorzystaniem składni znaczników (tzw. "
+"markdown)"
+
+#: includes/emailpetition.php:564
+msgid "read more"
+msgstr "czytaj więcej"
+
+#: includes/emailpetition.php:579 includes/widget.php:242
+#: includes/widget.php:256
+msgid "your signature"
+msgstr "twój podpis"
+
+#: includes/emailpetition.php:607 includes/widget.php:535
+msgid "BCC yourself"
+msgstr "Wyślij do mnie kopię maila (UDW)"
+
+#: includes/emailpetition.php:620 includes/widget.php:545
+msgid "Hide name from public"
+msgstr "Ukryj moje dane na publicznej liście podpisów"
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "Yes, I accept your "
+msgstr "Tak, zgadzam się "
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "privacy policy"
+msgstr "polityka prywatności"
+
+#: includes/emailpetition.php:666 includes/widget.php:212
+msgid "signatures"
+msgstr "podpisy"
+
+#: includes/emailpetition.php:697 includes/widget.php:281
+msgid "Signature goal"
+msgstr "Cel podpisu"
+
+#: includes/emailpetition.php:702 includes/widget.php:278
+msgid "End date"
+msgstr "Data końcowa"
+
+#: includes/emailpetition.php:703 includes/widget.php:279
+msgid "Signatures collected"
+msgstr "Zebrane podpisy"
+
+#: includes/emailpetition.php:708
+msgid "signature"
+msgstr "podpis"
+
+#: includes/emailpetition.php:726 includes/signatures.view.php:133
+#: includes/widget.php:91
+msgid "Petition"
+msgstr "Petycja"
+
+#: includes/emailpetition.php:728
+msgid ""
+"Error: The site administrator must include a valid petition id  in the "
+"shortcode."
+msgstr ""
+"Błąd: administrator witryny musi dołączyć prawidłowy identyfikator petycji w "
+"shortcode."
+
+#: includes/help.php:6
+msgid ""
+"Enter the title of your petition, which will appear at the top of the "
+"petition form."
+msgstr ""
+"Wprowadź tytuł swojej petycji, który pojawi się w górnej części formularza."
+
+#: includes/help.php:7
+msgid ""
+"Use this option if do not wish to send petition emails to a target address."
+msgstr ""
+"Wykorzystaj tę opcję jeśli nie chcesz wysyłać e-maili na adres docelowy."
+
+#: includes/help.php:8
+msgid ""
+"Enter the email address to which the petition will be sent. You may enter "
+"multiple email addresses, separated by commas."
+msgstr ""
+"Wpisz adres e-mail, na który petycja zostanie wysłana. Możesz podać kilka "
+"adresów e-mail, rozdzielając je przecinkami."
+
+#: includes/help.php:9
+msgid "Enter the subject of your petition email."
+msgstr "Wpisz tytuł wiadomości e-mail Twojej petycji mailowej."
+
+#: includes/help.php:10
+msgid ""
+"Include a greeting to the recipient of your petition, such as \"Dear Mayor,"
+"\" which will appear as the first line of the email."
+msgstr ""
+"Dołącz pozdrowienia dla odbiorcy petycji, takie jak \"Szanowny Panie,\", "
+"które ukażą się w pierwszej linii wiadomości."
+
+#: includes/help.php:11
+msgid "Enter the content of your petition email."
+msgstr "Wprowadź treść petycji mailowej."
+
+#: includes/help.php:12
+msgid "Petition Footer"
+msgstr "Stopka petycji"
+
+#: includes/help.php:12
+msgid "This is included at the bottom of each petition that is sent."
+msgstr "Jest on zawarty na dole każdej wysyłanej petycji."
+
+#: includes/help.php:13
+msgid ""
+"Enter a prepared tweet that will be presented to users when the Twitter "
+"button is clicked."
+msgstr ""
+"Wpisz treść tweeta, która będzie prezentowana użytkownikom, gdy przycisk "
+"Twitter zostanie kliknięty."
+
+#: includes/help.php:17
+msgid ""
+"Gives option for person to be displayed as \"Anonymous\" if they choose it "
+"when signing"
+msgstr ""
+"Daje opcję wyświetlania osoby jako \"Anonimowa\", jeśli wybierze ją podczas "
+"podpisywania"
+
+#: includes/help.php:18
+msgid ""
+"Use this option to cause an email to be sent to the signers of your "
+"petition. This email contains a special link must be clicked to confirm the "
+"signer's email address. Petition emails will not be sent until the signature "
+"is confirmed."
+msgstr ""
+"Użyj tej opcji aby przesłać e-maila do sygnatariuszy petycji. Ten e-mail "
+"zawiera specjalny link, który musi być kliknięty, aby potwierdzić adres e-"
+"mail osoby podpisującej. Petycja nie zostanie podpisana, dopóki podpis nie "
+"zostanie potwierdzony."
+
+#: includes/help.php:19
+msgid "Allow messages to be edited"
+msgstr "Zezwalaj na edycję wiadomości"
+
+#: includes/help.php:19
+msgid ""
+"Check this option to allow signatories to customize the text of their "
+"petition email - this should be used with caution."
+msgstr ""
+"Zaznacz tę opcję, aby umożliwić sygnatariuszom dostosowanie tekstu e-maila z "
+"petycją - należy z niej korzystać ostrożnie."
+
+#: includes/help.php:20
+msgid ""
+"Enter the number of signatures you hope to collect. This number is used to "
+"calculate the progress bar display."
+msgstr ""
+"Wpisz liczbę podpisów którą chcesz zebrać. Liczba ta jest wykorzystywana do "
+"pokazania paska postępu."
+
+#: includes/help.php:21
+msgid "Auto increase signature goal"
+msgstr "Automatyczne zwiększanie celu podpisu"
+
+#: includes/help.php:21
+msgid ""
+"If set goal is enabled, this is a further option - click the ? for more "
+"information."
+msgstr ""
+"Jeśli ustawiony cel jest włączony, jest to kolejna opcja - kliknij ? aby "
+"uzyskać więcej informacji."
+
+#: includes/help.php:22
+msgid "Use this option to stop collecting signatures on a specific date."
+msgstr "Użyj tej opcji, aby zatrzymać zbieranie podpisów w określonym dniu."
+
+#: includes/help.php:23
+msgid "Redirect after signing"
+msgstr "Przekierowanie po podpisaniu"
+
+#: includes/help.php:23
+msgid ""
+"Take your users to a different page or site after they sign.  Make sure you "
+"use the full URL including \"https://\" or whatever. You can specify the "
+"delay in milliseconds.  One second = 1000 milliseconds."
+msgstr ""
+"Przenoszenie użytkowników na inną stronę lub do innej witryny po zalogowaniu "
+"się.  Upewnij się, że używasz pełnego adresu URL, w tym \"https://\" lub "
+"czegokolwiek innego. Opóźnienie można określić w milisekundach.  Jedna "
+"sekunda = 1000 milisekund."
+
+#: includes/help.php:26
+msgid "These are pretty obvious."
+msgstr "Są one dość oczywiste."
+
+#: includes/help.php:27
+msgid ""
+"Include a checkbox that allows users to consent to receiving further email."
+msgstr ""
+"Dodaje checkbox, który pozwala użytkownikom wyrazić zgodę na otrzymywanie "
+"dodatkowych wiadomości e-mail (np. newsletter)."
+
+#: includes/help.php:28
+msgid ""
+"Select the address fields to display in the petition form. Note that you can "
+"make them required or not."
+msgstr ""
+"Wybierz pola adresu, które mają być wyświetlane w formularzu petycji. "
+"Pamiętaj, że możesz je uczynić wymaganymi lub nie."
+
+#: includes/help.php:29
+msgid "Display custom fields"
+msgstr "Wyświetlanie pól niestandardowych"
+
+#: includes/help.php:29
+msgid ""
+"There is a variety of custom fields that can be added to the petition form "
+"for collecting additional data.  You can position each field at the top, "
+"above the email address or at the bottom of the petition form"
+msgstr ""
+"Istnieje wiele pól niestandardowych, które można dodać do formularza petycji "
+"w celu zebrania dodatkowych danych.  Każde pole można umieścić na górze, nad "
+"adresem e-mail lub na dole formularza petycji"
+
+#: includes/help.php:30
+msgid "This is displayed after the petition is signed."
+msgstr "Jest on wyświetlany po podpisaniu petycji."
+
+#: includes/help.php:34
+msgid ""
+"If you use any of these 3rd party email services, you can allow users to "
+"subscribe as long as you have  \"opt in\" enabled."
+msgstr ""
+"Jeśli korzystasz z którejkolwiek z tych usług e-mail stron 3rd, możesz "
+"zezwolić użytkownikom na subskrypcję, o ile masz włączoną opcję \"opt in\"."
+
+#: includes/help.php:66
+msgid ""
+"These settings control the display of the [emailpetition] shortcode and "
+"sidebar widget."
+msgstr ""
+"Te ustawienia sterują wyświetlaniem [emailpetition] shortcode i widgetu w "
+"pasku bocznym."
+
+#: includes/help.php:67 includes/settings.view.php:170
+msgid "Petition Theme"
+msgstr "Motyw Petycji"
+
+#: includes/help.php:67
+msgid "Select a CSS theme that will control the appearance of petition forms."
+msgstr "Wybierz motyw CSS, który będzie kontrolować wygląd formularzy petycji."
+
+#: includes/help.php:68 includes/settings.view.php:177
+msgid "Widget Theme"
+msgstr "Motyw widgetu"
+
+#: includes/help.php:68
+msgid ""
+"Select a CSS theme that will control the appearance of petition widgets."
+msgstr "Wybierz motyw CSS, który będzie kontrolować wygląd widgetów petycji."
+
+#: includes/help.php:69 includes/settings.view.php:184
+msgid "Submit Button Text"
+msgstr "Tekst przycisku wysłania"
+
+#: includes/help.php:69
+msgid ""
+"Enter the text that displays in the orange submit button on petition forms."
+msgstr ""
+"Wpisz tekst, który wyświetla się na pomarańczowym przycisku Wyślij na "
+"formularzach petycji."
+
+#: includes/help.php:70 includes/settings.view.php:188
+msgid "Success Message"
+msgstr "Komunikat o sukcesie"
+
+#: includes/help.php:70
+msgid ""
+"Enter the text that appears when a user successfully signs your petition "
+"with a unique email address."
+msgstr ""
+"Wprowadź tekst, który pojawia się gdy użytkownik pomyślnie podpisze petycję "
+"unikatowym adresem e-mail."
+
+#: includes/help.php:71 includes/settings.view.php:202
+msgid "Share Message"
+msgstr "Wiadomość Podziel się"
+
+#: includes/help.php:71
+msgid ""
+"Enter the text that appears above the Twitter and Facebook buttons after the "
+"petition form has been submitted."
+msgstr ""
+"Wprowadź tekst, który pojawia się nad odnośnikami do portali Twitter i "
+"Facebook po tym jak petycja zostanie podpisana."
+
+#: includes/help.php:72 includes/settings.view.php:206
+msgid "Expiration Message"
+msgstr "Wiadomość wygaśnięcia"
+
+#: includes/help.php:72
+msgid ""
+"Enter the text to display in place of the petition form when a petition is "
+"past its expiration date."
+msgstr ""
+"Wprowadź tekst do wyświetlenia w miejscu petycji gdy minęła data wygaśnięcia "
+"petycji."
+
+#: includes/help.php:73 includes/settings.view.php:210
+msgid "Already Signed Message"
+msgstr "Już podpisałeś wiadomość"
+
+#: includes/help.php:73
+msgid ""
+"Enter the text to display when a petition is signed using an email address "
+"that has already been submitted."
+msgstr ""
+"Wprowadź tekst wyświetlany gdy petycja zostaje podpisana przy użyciu adresu "
+"e-mail, który już wcześniej został użyty."
+
+#: includes/help.php:74 includes/settings.view.php:214
+msgid "Opt-in Default"
+msgstr "Opt-in domyślne"
+
+#: includes/help.php:74
+msgid "Choose whether the opt-in checkbox is checked or unchecked by default."
+msgstr ""
+"Wybierz, czy opt-in checkbox ma być domyślnie zaznaczony czy odznaczony."
+
+#: includes/help.php:75 includes/settings.view.php:221
+msgid "Display signature count"
+msgstr "Wyświetl liczbę podpisów"
+
+#: includes/help.php:75
+msgid ""
+"Choose whether you wish to display the number of signatures that have been "
+"collected."
+msgstr ""
+"Wybierz, czy chcesz wyświetlać liczbę podpisów, które zostały zebrane pod "
+"petycją."
+
+#: includes/help.php:78
+msgid "These settings control the content of the confirmation emails."
+msgstr "Te ustawienia kontrolują treść e-maila potwierdzającego."
+
+#: includes/help.php:79 includes/settings.view.php:315
+msgid "Email From"
+msgstr "Nadawca e-maila"
+
+#: includes/help.php:79
+msgid ""
+"Enter the email address associated with your website. Confirmation emails "
+"will be sent from this address."
+msgstr ""
+"Wpisz adres e-mail przypisany do Twojej witryny. Wiadomości e-mail z "
+"potwierdzeniem zostanie wysłany z tego adresu."
+
+#: includes/help.php:80
+msgid "Enter the subject of the confirmation email."
+msgstr "Wpisz tytuł wiadomości e-mail z potwierdzeniem."
+
+#: includes/help.php:81 includes/settings.view.php:323
+msgid "Email Message"
+msgstr "Treść e-mail"
+
+#: includes/help.php:81
+msgid "Enter the content of the confirmation email."
+msgstr "Wpisz treść e-maila potwierdzającego."
+
+#: includes/help.php:84
+msgid "These settings control the display of the [signaturelist] shortcode."
+msgstr "Te ustawienia sterują wyświetlaniem [signaturelist] shortcode."
+
+#: includes/help.php:85
+msgid "Enter the text that appears above the signature list."
+msgstr "Wprowadź tekst, który pojawi się nad listą podpisów."
+
+#: includes/help.php:86 includes/settings.view.php:341
+msgid "Theme"
+msgstr "Motyw"
+
+#: includes/help.php:86
+msgid "Select a CSS theme that will control the appearance of signature lists."
+msgstr "Wybierz motyw CSS, który będzie kontrolować wygląd list podpisów."
+
+#: includes/help.php:87 includes/settings.view.php:351
+msgid "Rows"
+msgstr "Wiersze"
+
+#: includes/help.php:87
+msgid ""
+"Enter the number of signatures that will be displayed in the signature list."
+msgstr ""
+"Wprowadź ilość podpisów, które będą wyświetlane na raz na liście podpisów."
+
+#: includes/help.php:88
+msgid "Choose the signature list styling, click the ? for more information."
+msgstr ""
+"Wybierz styl listy podpisów, kliknij ikonę ? aby uzyskać więcej informacji."
+
+#: includes/help.php:89 includes/help.php:95 includes/settings.view.php:365
+msgid "Columns"
+msgstr "Kolumny"
+
+#: includes/help.php:89
+msgid "Select the columns that will appear in the public signature list."
+msgstr ""
+"Wybierz kolumny, które będą wyświetlane na liście podpisów publicznych."
+
+#: includes/help.php:90
+msgid "Flags"
+msgstr "Flagi"
+
+#: includes/help.php:90
+msgid ""
+"You can display the flag of the country the signer has chosen, if you have "
+"Country enabled."
+msgstr ""
+"Możesz wyświetlić flagę kraju wybranego przez sygnatariusza, jeśli masz "
+"włączoną opcję Kraj."
+
+#: includes/help.php:91 includes/settings.view.php:427
+msgid "Privacy"
+msgstr "Prywatność"
+
+#: includes/help.php:91
+msgid "Hide all but the first letter of the last name.."
+msgstr "Ukryj wszystkie oprócz pierwszej litery nazwiska."
+
+#: includes/help.php:94
+msgid "These settings control the display of the signatures in the dashboard."
+msgstr "Te ustawienia sterują wyświetlaniem podpisów na pulpicie nawigacyjnym."
+
+#: includes/help.php:95
+msgid "Select the columns that will appear in the admin signature list."
+msgstr ""
+"Wybierz kolumny, które będą wyświetlane na liście podpisów administratora."
+
+#: includes/help.php:96
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/help.php:96
+msgid "When outputting the CSV file, what should be included?"
+msgstr "Co należy uwzględnić podczas wysyłania pliku CSV?"
+
+#: includes/help.php:99
+msgid ""
+"These settings control the look of the plugin's options pages within the "
+"WordPress administrator."
+msgstr ""
+"Te ustawienia sterują wyglądem stron Opcji pluginu w obszarze administratora "
+"WordPress."
+
+#: includes/help.php:100 includes/settings.view.php:540
+msgid "Petitions table shows"
+msgstr "Tabela z petycjami pokazuje"
+
+#: includes/help.php:100
+msgid ""
+"Enter the number of rows to display in the \"Email Petitions\" table "
+"(default=20)"
+msgstr ""
+"Wprowadź liczbę wierszy do wyświetlenia w tabeli \"Petycje E-"
+"mail\" (domyślnie = 20)"
+
+#: includes/help.php:101 includes/settings.view.php:544
+msgid "Signatures table shows"
+msgstr "Tabela z podpisami pokazuje"
+
+#: includes/help.php:101
+msgid ""
+"Enter the number of rows to display in the \"Signatures\" table (default=50)"
+msgstr ""
+"Wprowadź liczbę wierszy do wyświetlenia w tabeli \"Podpisy\" (domyślnie = 50)"
+
+#: includes/help.php:104
+msgid "These settings refer to the license key"
+msgstr "Ustawienia te odnoszą się do klucza licencyjnego"
+
+#: includes/help.php:105
+msgid "License key"
+msgstr "Klucz licencji"
+
+#: includes/help.php:105
+msgid ""
+"Enter the license key your received in an email after purchase.  If it is "
+"invalid, a message will be displayed with the reason."
+msgstr ""
+"Wprowadź klucz licencyjny otrzymany w wiadomości e-mail po zakupie.  Jeśli "
+"jest nieprawidłowy, zostanie wyświetlony komunikat z przyczyną."
+
+#: includes/help.php:106
+msgid "Revoke key"
+msgstr "Klucz Revoke"
+
+#: includes/help.php:106
+msgid ""
+"Perhaps you are moving to a new site or from development to production.  "
+"Revoke the key, this allows it to be used elsewhere.  The current site will "
+"lose all access to any settings."
+msgstr ""
+"Być może przenosisz się do nowej witryny lub z rozwoju do produkcji.  "
+"Odwołaj klucz, dzięki czemu można go użyć w innym miejscu.  Bieżąca witryna "
+"utraci dostęp do wszystkich ustawień."
+
+#: includes/help.php:114 includes/settings.view.php:151
+#: includes/settings.view.php:166
+msgid "Petition Form"
+msgstr "Formularz petycji"
+
+#: includes/help.php:119 includes/settings.view.php:152
+#: includes/settings.view.php:312
+msgid "Confirmation Emails"
+msgstr "E-mail potwierdzający"
+
+#: includes/help.php:124 includes/settings.view.php:153
+#: includes/settings.view.php:334
+msgid "Public Signature List"
+msgstr "Publiczna lista podpisów"
+
+#: includes/help.php:129 includes/settings.view.php:154
+#: includes/settings.view.php:438
+msgid "Admin Signature List"
+msgstr "Admin - opcje listy podpisów"
+
+#: includes/help.php:134 includes/settings.view.php:155
+#: includes/settings.view.php:537
+msgid "Admin Display"
+msgstr "Admin - opcje wyświetlania"
+
+#: includes/help.php:139 includes/settings.view.php:157
+msgid "License"
+msgstr "Licencja"
+
+#: includes/install.php:178
+msgid "Sign Now"
+msgstr "Podpisz teraz"
+
+#: includes/install.php:179
+msgid "This petition is now closed."
+msgstr "Petycja wygasła."
+
+#: includes/install.php:180
+msgid "Thank you"
+msgstr "Dziękujemy"
+
+#: includes/install.php:180
+msgid "Your signature has been added."
+msgstr "Twój podpis został dodany."
+
+#: includes/install.php:181
+msgid "This petition has already been signed using your email address."
+msgstr "Petycja została już podpisana przy użyciu Twojego adresu e-mail."
+
+#: includes/install.php:182
+msgid "Share this with your friends:"
+msgstr "Podziel się tym ze znajomymi:"
+
+#: includes/install.php:183 includes/install.php:425
+msgid "Please confirm your email address"
+msgstr "Potwierdź swój adres e-mail"
+
+#: includes/install.php:184 includes/install.php:428
+msgid "Hello"
+msgstr "Witamy"
+
+#: includes/install.php:184
+msgid "Thank you for signing our petition %petition_title% "
+msgstr "Dziękujemy za podpisanie naszej petycji %petition_title% "
+
+#: includes/install.php:184 includes/install.php:428
+msgid ""
+"Please confirm your email address by clicking or copying and pasting the "
+"link below:"
+msgstr ""
+"Proszę potwierdzić swój adres e-mail klikając w poniższy link lub kopiując i "
+"wklejając go do paska adresu:"
+
+#: includes/install.php:189 includes/install.php:434
+msgid "Latest Signatures"
+msgstr "Najnowsze podpisy"
+
+#: includes/install.php:428
+msgid "Thank you for signing our petition"
+msgstr "Dziękujemy za podpisanie naszej petycji"
+
+#: includes/license.view.php:78 includes/license.view.php:105
+#: includes/settings.view.php:566 includes/settings.view.php:593
+msgid "Enter your license key"
+msgstr "Wprowadź klucz licencyjny"
+
+#: includes/license.view.php:83 includes/settings.view.php:571
+msgid "Verified"
+msgstr "Zweryfikowany"
+
+#: includes/license.view.php:86 includes/settings.view.php:574
+msgid "Revoke license key"
+msgstr "Odwołaj klucz licencyjny"
+
+#: includes/license.view.php:90 includes/settings.view.php:578
+msgid "Thanks for upgrading"
+msgstr "Dziękujemy za uaktualnienie"
+
+#: includes/license.view.php:100 includes/settings.view.php:588
+msgid ""
+"There appears to be a problem with your license key.  Either verify it again "
+"or contact"
+msgstr ""
+"Wygląda na to, że wystąpił problem z kluczem licencyjnym.  Sprawdź to "
+"ponownie lub skontaktuj się z nami"
+
+#: includes/license.view.php:108 includes/settings.view.php:596
+msgid "Your license key"
+msgstr "Twój klucz licencyjny"
+
+#: includes/license.view.php:111 includes/settings.view.php:599
+msgid "Verify"
+msgstr "Zweryfikuj"
+
+#: includes/petitions.php:46
+msgid "Petition deleted."
+msgstr "Petycja usunięta."
+
+#: includes/petitions.view.php:8
+msgid "All Petitions"
+msgstr "Wszystkie petycje"
+
+#: includes/petitions.view.php:15 includes/petitions.view.php:25
+msgid "ID"
+msgstr "ID"
+
+#: includes/petitions.view.php:16 includes/petitions.view.php:26
+msgid "Petition name"
+msgstr "Nazwa petycji"
+
+#: includes/petitions.view.php:17 includes/petitions.view.php:27
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/petitions.view.php:34
+msgid "No petitions found."
+msgstr "Brak petycji."
+
+#: includes/petitions.view.php:44
+msgid "Edit"
+msgstr "Edytuj"
+
+#: includes/petitions.view.php:45
+msgid "Delete"
+msgstr "Usuń"
+
+#: includes/petitions.view.php:46
+msgid "Duplicate"
+msgstr "Duplikuj"
+
+#: includes/petitions.view.php:49
+msgid "display petition"
+msgstr "wyświetl petycję"
+
+#: includes/petitions.view.php:50
+msgid "display signature list"
+msgstr "wyświetl listę podpisów"
+
+#: includes/petitions.view.php:51
+msgid "display signature count"
+msgstr "wyświetl liczbę podpisów"
+
+#: includes/petitions.view.php:52
+msgid "display signature goal"
+msgstr "wyświetl Cel (ilość podpisów)"
+
+#: includes/petitions.view.php:53
+msgid "display petition title"
+msgstr "wyświetl tytuł petycji"
+
+#: includes/petitions.view.php:54
+msgid "display petition message"
+msgstr "pokaż treść petycji"
+
+#: includes/petitions.view.php:60
+msgid "View Signatures"
+msgstr "Zobacz podpisy"
+
+#: includes/petitions.view.php:66
+msgid ""
+"Delete this petition permanently? All of the petition's signatures will be "
+"deleted as well."
+msgstr ""
+"Usunąć trwale tę petycję? Wszystkie podpisy pod tą petycji zostaną również "
+"trwale usunięte."
+
+#: includes/settings.php:31
+msgid "Settings updated."
+msgstr "Ustawienia zostały zaktualizowane."
+
+#: includes/settings.view.php:156 includes/settings.view.php:552
+msgid "Security"
+msgstr "Bezpieczeństwo"
+
+#: includes/settings.view.php:161 includes/settings.view.php:641
+msgid "Anedot.com Donation Form Embed"
+msgstr "Osadzenie formularza darowizny Anedot.com"
+
+#: includes/settings.view.php:167
+msgid "These settings apply to all petitions"
+msgstr "Ustawienia te mają zastosowanie do wszystkich petycji"
+
+#: includes/settings.view.php:172 includes/settings.view.php:179
+#: includes/settings.view.php:343
+msgid "Default"
+msgstr "Domyślne"
+
+#: includes/settings.view.php:173
+msgid "Basic"
+msgstr "Podstawowe"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "Custom"
+msgstr "Własny"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "use"
+msgstr "użyj"
+
+#: includes/settings.view.php:191 includes/settings.view.php:326
+msgid "Accepted variables:"
+msgstr "Akceptowane zmienne:"
+
+#: includes/settings.view.php:192 includes/settings.view.php:327
+msgid "Accepted tags:"
+msgstr "Akceptowane tagi:"
+
+#: includes/settings.view.php:196
+msgid "Petition fade out after signing?"
+msgstr "Petycja zanika po podpisaniu? (efekt wizualny - półprzezroczystość)"
+
+#: includes/settings.view.php:216
+msgid "Checked"
+msgstr "Zaznaczone/sprawdzone"
+
+#: includes/settings.view.php:217
+msgid "Unchecked"
+msgstr "Niezaznaczone/niesprawdzone"
+
+#: includes/settings.view.php:223 includes/settings.view.php:231
+#: includes/settings.view.php:239 includes/settings.view.php:245
+#: includes/settings.view.php:260
+msgid "Yes"
+msgstr "Tak"
+
+#: includes/settings.view.php:223
+msgid "at the bottom of the petition form"
+msgstr "na dole formularza petycji"
+
+#: includes/settings.view.php:227
+msgid "Display honorific field"
+msgstr "Pokaż pole ze zwrotem grzecznościowym (Pan, Pani, itd.)"
+
+#: includes/settings.view.php:235
+msgid "Display BCC field"
+msgstr "Wyświetlanie pola UDW"
+
+#: includes/settings.view.php:243
+msgid "EU postal code position?"
+msgstr "Format kodu pocztowego obowiązujący w UE?"
+
+#: includes/settings.view.php:245
+msgid "In EU postal code comes before city"
+msgstr "W UE kod pocztowy pokazywany jest przed miastem"
+
+#: includes/settings.view.php:249
+msgid "Signature count format"
+msgstr "Format liczby podpisów"
+
+#: includes/settings.view.php:252
+msgid "Thousands separator"
+msgstr "Separator tysięcy"
+
+#: includes/settings.view.php:253
+msgid "Decimal separator"
+msgstr "Separator liczb dziesiętnych"
+
+#: includes/settings.view.php:254
+msgid "currently"
+msgstr "obecnie"
+
+#: includes/settings.view.php:258
+msgid "Display Privacy Policy accept?"
+msgstr "Wyświetlać checkbox z zaakceptowaną Polityką Prywatności?"
+
+#: includes/settings.view.php:260
+msgid "GDPR"
+msgstr "GDPR"
+
+#: includes/settings.view.php:266
+msgid "Enable Google recaptcha?"
+msgstr "Włącz Google reCAPTCHA?"
+
+#: includes/settings.view.php:282
+msgid "Enable hCaptcha?"
+msgstr "Włącz hCaptcha?"
+
+#: includes/settings.view.php:296
+msgid "Display sharing icons?"
+msgstr "Wyświetlać ikony udostępniania? (Fb, Twitter)"
+
+#: includes/settings.view.php:303
+msgid "Enable Anedot.com?"
+msgstr "Włącz Anedot.com?"
+
+#: includes/settings.view.php:305
+msgid "Anedot.com is a 3rd party fund raising site"
+msgstr "Anedot.com jest zewnętrzną platformą do zbiórki darowizn/funduszy"
+
+#: includes/settings.view.php:335
+msgid ""
+"These settings apply to signatures displayed on your site using the shortcode"
+msgstr "Te ustawienia dotyczą podpisów wyświetlanych w witrynie przy użyciu"
+
+#: includes/settings.view.php:348
+msgid "To style the signature list you are best using your theme's"
+msgstr "Aby nacielić listę podpisów, najlepiej użyć"
+
+#: includes/settings.view.php:348
+msgid "Additional CSS"
+msgstr "Dodatkowy CSS"
+
+#: includes/settings.view.php:348
+msgid "setting"
+msgstr "ustawienie"
+
+#: includes/settings.view.php:352
+msgid "0 to display all"
+msgstr "Wpisz 0, aby wyświetlić wszystkie"
+
+#: includes/settings.view.php:355
+msgid "Changing to \"list\" will clear column settings below"
+msgstr "Zmiana na \"listę\" spowoduje wyczyszczenie poniższych ustawień kolumn"
+
+#: includes/settings.view.php:357
+msgid "table"
+msgstr "tabela"
+
+#: includes/settings.view.php:359
+msgid "inline blocks - very styleable"
+msgstr "bloki inline - bardzo stylowe"
+
+#: includes/settings.view.php:361
+msgid "long list (comma separated)"
+msgstr "długa lista (wpisy oddzielone przecinkami)"
+
+#: includes/settings.view.php:368
+msgid "Count"
+msgstr "Liczba"
+
+#: includes/settings.view.php:371 includes/settings.view.php:446
+#: includes/signatures.view.php:157 includes/signatures.view.php:185
+msgid "Name"
+msgstr "Nazwisko"
+
+#: includes/settings.view.php:374
+msgid "Email address - unless disabled"
+msgstr "Adres e-mail - o ile jego zbieranie nie jest wyłączone"
+
+#: includes/settings.view.php:389
+msgid "Custom Field 1"
+msgstr "Pole niestandardowe 1"
+
+#: includes/settings.view.php:392
+msgid "Custom Field 2"
+msgstr "Pole niestandardowe 2"
+
+#: includes/settings.view.php:395
+msgid "Custom Field 3"
+msgstr "Pole niestandardowe 3"
+
+#: includes/settings.view.php:398
+msgid "Custom Field 4"
+msgstr "Pole niestandardowe 4"
+
+#: includes/settings.view.php:401
+msgid "Custom drop-down field"
+msgstr "Niestandardowe pole rozwijane"
+
+#: includes/settings.view.php:404 includes/settings.view.php:496
+msgid "Custom Checkbox 1"
+msgstr "Niestandardowe pole wyboru 1"
+
+#: includes/settings.view.php:407 includes/settings.view.php:500
+msgid "Custom Checkbox 2"
+msgstr "Niestandardowe pole wyboru 2"
+
+#: includes/settings.view.php:413 includes/signatures.view.php:148
+msgid "Date"
+msgstr "Data"
+
+#: includes/settings.view.php:418
+msgid "Display country flags?"
+msgstr "Wyświetlać flagę kraju?"
+
+#: includes/settings.view.php:422
+msgid "requires Country column to be enabled above"
+msgstr "wymaga włączenia kolumny Kraj powyżej"
+
+#: includes/settings.view.php:429
+msgid "enabled - only show first letter of surname"
+msgstr "włączone - pokaż tylko imię + pierwszą literę nazwiska"
+
+#: includes/settings.view.php:430
+msgid "disabled"
+msgstr "wyłączone"
+
+#: includes/settings.view.php:439
+msgid "Settings for the dashboard signature list"
+msgstr "Ustawienia listy podpisów na pulpicie nawigacyjnym"
+
+#: includes/settings.view.php:442
+msgid "Columns to display"
+msgstr "Kolumny do wyświetlenia"
+
+#: includes/settings.view.php:452
+msgid "Petition info"
+msgstr "Informacje o petycji"
+
+#: includes/settings.view.php:468
+msgid "Postal code"
+msgstr "Kod pocztowy"
+
+#: includes/settings.view.php:476 includes/signatures.view.php:139
+msgid "Custom field 1"
+msgstr "Pole niestandardowe 1"
+
+#: includes/settings.view.php:480 includes/signatures.view.php:140
+msgid "Custom field 2"
+msgstr "Pole niestandardowe 2"
+
+#: includes/settings.view.php:484 includes/signatures.view.php:141
+msgid "Custom field 3"
+msgstr "Pole niestandardowe 3"
+
+#: includes/settings.view.php:488 includes/signatures.view.php:142
+msgid "Custom field 4"
+msgstr "Pole niestandardowe 4"
+
+#: includes/settings.view.php:492 includes/signatures.view.php:143
+msgid "Custom field 5"
+msgstr "Pole niestandardowe 5"
+
+#: includes/settings.view.php:503
+msgid "Confirmed status"
+msgstr "Potwierdzony status"
+
+#: includes/settings.view.php:509
+msgid "Date signed"
+msgstr "Data podpisu"
+
+#: includes/settings.view.php:513
+msgid "Display time signed?"
+msgstr "Wyświetlać datę podpisania?"
+
+#: includes/settings.view.php:517
+msgid "IP address"
+msgstr "Adres IP"
+
+#: includes/settings.view.php:521
+msgid "CSV file includes"
+msgstr "CSV zawiera"
+
+#: includes/settings.view.php:523
+msgid "All signatures"
+msgstr "Wszystkie podpisy"
+
+#: includes/settings.view.php:525
+msgid "Only opt-in signatures"
+msgstr "Tylko podpisy z opt-in"
+
+#: includes/settings.view.php:527
+msgid "Only double opt-in signatures"
+msgstr "Tylko podpisy z podwójnym opt-in"
+
+#: includes/settings.view.php:527
+msgid "opt-in + confirmed"
+msgstr "opt-in + potwierdzone"
+
+#: includes/settings.view.php:529
+msgid "Only confirmed signatures"
+msgstr "Tylko potwierdzone podpisy"
+
+#: includes/settings.view.php:541
+msgid "rows - default = 20"
+msgstr "wiersze - domyślnie = 20"
+
+#: includes/settings.view.php:545
+msgid "rows - default = 50"
+msgstr "wiersze - domyślnie = 50"
+
+#: includes/settings.view.php:555
+msgid "Webhooks enabled"
+msgstr "Włączone elementy webhook"
+
+#: includes/settings.view.php:603
+msgid "Don't have a license"
+msgstr "Nie masz licencji"
+
+#: includes/settings.view.php:644
+msgid "Anedot.com Donation Slug"
+msgstr "Slug (końcówka URL) formularza darowizny Anedot.com"
+
+#: includes/settings.view.php:646
+msgid ""
+"Input your Anedot.com \"Account Slug\" (from Settings > Brand), a slash, and "
+"then your Campaign Slug (from Campaigns > Edit > Basic)."
+msgstr ""
+"Wprowadź swój \"Account Slug\" dla Anedot.com (z ustawienia > Brand), potem "
+"ukośnik, a następnie Twój Slug kampanii (z Kampanie > Edit > Basic)."
+
+#: includes/settings.view.php:651
+msgid "Anedot.com Embed Pref"
+msgstr "Osadzenie PREF formularza darowizny Anedot.com"
+
+#: includes/settings.view.php:653
+msgid ""
+"Enter \"true\" (without quotes) to show account name header on embedded "
+"campaigns."
+msgstr ""
+"Wpisz \"true\" (bez cudzysłowów), aby wyświetlić nagłówek nazwy konta w "
+"kampaniach osadzonych."
+
+#: includes/settings.view.php:657
+msgid "Anedot.com iframe Width"
+msgstr "Anedot.com - szerokość iframe"
+
+#: includes/settings.view.php:659
+msgid ""
+"Width for donation form iframe, either as percent, e.g. \"100%\" (without "
+"quotes), or pixels, e.g. \"375\" (without quotes). Iframe is to be displayed "
+"in Success Message area, after signing of a petition."
+msgstr ""
+"Szerokość dla elementu iframe formularza darowizny, albo w procentach, np. "
+"\"100%\" (bez cudzysłowów) albo w pikselach, np. \"375\" (bez cudzysłowów). "
+"Iframe będzie wyświetlany w obszarze komunikatu sukcesu, po podpisaniu "
+"petycji."
+
+#: includes/settings.view.php:663
+msgid "Anedot.com iframe Height"
+msgstr "Anedot.com - wysokość iframe"
+
+#: includes/settings.view.php:665
+msgid ""
+"Height for donation page iframe, either as pixels, e.g. \"1570\" (without "
+"quotes), or percent, e.g. \"100%\" (without quotes). Iframe is to be "
+"displayed in Success Message area, after signing of a petition."
+msgstr ""
+"Wysokość elementu iframe dla strony darowizny, albo w pikselach, np. "
+"\"1570\" (bez cudzysłowów), albo w procentach, np. \"100%\" (bez "
+"cudzysłowów). Iframe będzie wyświetlany w polu komunikatu sukcesu po "
+"podpisaniu petycji."
+
+#: includes/settings.view.php:671
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: includes/settings.view.php:374
+msgid "Are you sure you want to publicly display email addresses?"
+msgstr "Czy na pewno chcesz publicznie wyświetlać adresy e-mail?"
+
+#: includes/signatures.php:39 includes/signatures.php:86
+#: includes/signatures.php:122 includes/signatures.php:193
+#: includes/signatures.php:207
+msgid "Total Signatures"
+msgstr "Łączna liczba podpisów"
+
+#: includes/signatures.php:93 includes/signatures.php:129
+msgid "Confirmation emails sent."
+msgstr "E-mail potwierdzający został wysłany."
+
+#: includes/signatures.php:212
+msgid "Total"
+msgstr "Łącznie"
+
+#: includes/signatures.view.php:15
+msgid "Display all signatures"
+msgstr "Wyświetl wszystkie podpisy"
+
+#: includes/signatures.view.php:20
+msgid "Select petition"
+msgstr "Wybierz petycję"
+
+#: includes/signatures.view.php:35
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each unconfirmed signature."
+msgstr ""
+"Czy na pewno chcesz to zrobić? Osobny e-mail z potwierdzeniem zostanie "
+"wysłany dla każdego niepotwierdzonego podpisu."
+
+#: includes/signatures.view.php:36
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each selected signature."
+msgstr ""
+"Czy na pewno chcesz to zrobić? Dla każdego wybranego podpisu zostanie "
+"wysłana osobna wiadomość e-mail z potwierdzeniem."
+
+#: includes/signatures.view.php:37
+msgid "Are you sure you want to do this? You will manually confirm "
+msgstr "Czy na pewno chcesz to zrobić? Potwierdzisz ręcznie "
+
+#: includes/signatures.view.php:38
+msgid "Are you sure you want to do this? You will delete "
+msgstr "Czy na pewno chcesz to zrobić? Usuniesz "
+
+#: includes/signatures.view.php:39
+msgid "selected signature"
+msgstr "wybrany podpis"
+
+#: includes/signatures.view.php:51
+msgid "Reconfirm selected"
+msgstr "Potwierdź ponownie wybrane"
+
+#: includes/signatures.view.php:53
+msgid "Reconfirm selected: choose petition first"
+msgstr "Potwierdź ponownie wybrane: najpierw wybierz petycję"
+
+#: includes/signatures.view.php:55 includes/signatures.view.php:58
+msgid "Reconfirm selected: choose signatures"
+msgstr "Potwierdź ponownie wybrane: wybierz podpisy"
+
+#: includes/signatures.view.php:63
+msgid "Force confirm selected"
+msgstr "Potwierdź ręcznie zaznaczone"
+
+#: includes/signatures.view.php:65
+msgid "Force confirm selected - choose signatures"
+msgstr "Potwierdź ręcznie zaznaczone - wybierz podpisy"
+
+#: includes/signatures.view.php:67
+msgid "Force confirm selected: choose petition first"
+msgstr "Potwierdź ręcznie zaznaczone: najpierw wybierz petycję"
+
+#: includes/signatures.view.php:69 includes/signatures.view.php:71
+msgid "Force confirm selected: choose signatures"
+msgstr "Potwierdź ręcznie zaznaczone: wybierz podpisy"
+
+#: includes/signatures.view.php:75
+msgid "Delete selected"
+msgstr "Usuń wybrane"
+
+#: includes/signatures.view.php:77
+msgid "Delete selected: choose signatures"
+msgstr "Usuwanie zaznaczonych: wybierz podpisy"
+
+#: includes/signatures.view.php:91
+msgid "Resend selected confirmations"
+msgstr "Ponownie wyślij do wybranych niepotwierdzonych"
+
+#: includes/signatures.view.php:100
+msgid "Choose signatures action"
+msgstr "Wybierz akcję podpisy"
+
+#: includes/signatures.view.php:101
+msgid "Download CSV - see settings/admin sig list"
+msgstr "Pobierz PLIK CSV - zobacz listę ustawień/sig administratora"
+
+#: includes/signatures.view.php:102
+msgid "Display only unconfirmed"
+msgstr "Wyświetl tylko niepotwierdzone"
+
+#: includes/signatures.view.php:103
+msgid "Resend all unconfirmed"
+msgstr "Ponownie wyślij do wszystkich niepotwierdzonych"
+
+#: includes/signatures.view.php:108
+msgid "Apply"
+msgstr "Zastosuj"
+
+#: includes/signatures.view.php:113
+msgid "Search signatures"
+msgstr "Wyszukiwanie podpisów"
+
+#: includes/signatures.view.php:144
+msgid "Checkbox 1"
+msgstr "Pole wyboru 1"
+
+#: includes/signatures.view.php:145
+msgid "Checkbox 2"
+msgstr "Pole wyboru 2"
+
+#: includes/signatures.view.php:146
+msgid "Opt-in"
+msgstr "Opt-in"
+
+#: includes/widget.php:14
+msgid "Display a petition form."
+msgstr "Pokaż formularz petycji."
+
+#: includes/widget.php:76
+msgid "Sign the Petition"
+msgstr "Podpisz petycję"
+
+#: includes/widget.php:89
+msgid "Sharing URL"
+msgstr "URL do udostępniania"
+
+#: includes/widget.php:90
+msgid "Call to Action"
+msgstr "Wezwanie do działania"
+
+#: includes/widget.php:415
+msgid "Confirm Email"
+msgstr "Potwierdź email"
+
+#: speakout-email-petitions.php:95
+msgid "Support"
+msgstr "Wsparcie"
+
+#~ msgid "Import petitions from SpeakUp to SpeakOut!"
+#~ msgstr "Importuj petycje ze SpeakUp do SpeakOut!"
+
+#~ msgid "Upgrade to Pro"
+#~ msgstr "Przejdź na wersje Pro"
+
+#~ msgid "Disabled"
+#~ msgstr "Wyłączone"
+
+#~ msgid "Import from SpeakUp"
+#~ msgstr "Import ze SpeakUp"
+
+#~ msgid "SpeakOut! Upgrade"
+#~ msgstr "SpeakOut! Upgrade"
+
+#~ msgid "Custom Field 5"
+#~ msgstr "Pole niestandardowe 5"
+
+#~ msgid "yes"
+#~ msgstr "tak"
+
+#~ msgid "no"
+#~ msgstr "nie"
+
+#~ msgid ""
+#~ "Add a custom fields to the petition form for collecting additional data."
+#~ msgstr ""
+#~ "Dodaj pola niestandardowe do formularza petycji w celu zbierania "
+#~ "dodatkowych danych."
+
+#~ msgid ""
+#~ "Select the subset of signatures that will be included in CSV file "
+#~ "downloads"
+#~ msgstr ""
+#~ "Wybierz podzbiór podpisów, które zostaną włączone do pobieranych plików "
+#~ "CSV"
+
+#~ msgid "Signature List"
+#~ msgstr "Lista Podpisów"
+
+#~ msgid "In the free version you are limited to one petition"
+#~ msgstr "W darmowej wersji jesteś ograniczony do jednej petycji"
+
+#~ msgid ""
+#~ "Any additional existing petitions will still work but cannot be edited"
+#~ msgstr ""
+#~ "Wszelkie dodatkowe istniejące petycje będą nadal działać, ale nie można "
+#~ "ich edytować"
+
+#~ msgid "create"
+#~ msgstr "utwórz"
+
+#~ msgid "Duplicate Email Petition"
+#~ msgstr "Zduplikowana petycja e-mail"
+
+#~ msgid "Email Petitions"
+#~ msgstr "Petycje e-mail"
+
+#~ msgid "only confirmed"
+#~ msgstr "tylko potwierdzone"
+
+#~ msgid "This is coming - to avoid a license fee, make a donation"
+#~ msgstr "To nadchodzi - aby uniknąć opłaty licencyjnej, przekaż darowiznę"
+
+#, php-format
+#~ msgid "A donation will help keep SpeakOut! 100% free!"
+#~ msgstr "Darowizna pomoże utrzymać SpeakOut! 100% free!"
+
+#~ msgid "Download CSV"
+#~ msgstr "Pobierz CSV"
+
+#~ msgid "3rd Party extras"
+#~ msgstr "Dodatki 3rd Party"
+
+#~ msgid "This is coming"
+#~ msgstr "To nadchodzi"
+
+#~ msgid "This field is included in email to target"
+#~ msgstr "To pole jest zawarte w wiadomości e-mail do adresata"
+
+#~ msgid "Hide email from public"
+#~ msgstr "Ukryj moje dane na publicznej liście podpisów"
+
+#~ msgid "Please donate if this plugin is useful."
+#~ msgstr "Proszę o wsparcie darowizną, jeśli ta wtyczka jest przydatna."
+
+#~ msgid "Custom field"
+#~ msgstr "Niestandardowe Pole"
+
+#~ msgid "None"
+#~ msgstr "Żadne/brak"
+
+#~ msgid "Read or edit the petition"
+#~ msgstr "Przeczytaj lub edytuj petycję"
+
+#~ msgid "Ms"
+#~ msgstr "Pani"
+
+# Month
+#~ msgid "Mr"
+#~ msgstr "Pan"
+
+# Month
+#~ msgid "Mrs"
+#~ msgstr "Pani"
+
+#~ msgid "Miss"
+#~ msgstr "Panna"
+
+#~ msgid "Mx."
+#~ msgstr "P."
+
+#~ msgid "Dr."
+#~ msgstr "Dr."

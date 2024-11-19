@@ -1,0 +1,2107 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeakOut! Email Petitions\n"
+"POT-Creation-Date: 2023-04-03 09:34+1000\n"
+"PO-Revision-Date: 2023-04-03 09:35+1000\n"
+"Last-Translator: Steve D <info@123host.com.au>\n"
+"Language-Team: \n"
+"Language: sq\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: speakout-email-petitions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/addnew.php:38 includes/addnew.php:64
+msgid "Edit Petition"
+msgstr "Ndrysho Peticionin"
+
+#: includes/addnew.php:42 includes/addnew.php:68 includes/addnew.php:116
+msgid "Update Petition"
+msgstr "Aktualizo"
+
+#: includes/addnew.php:50
+#, php-format
+msgid ""
+"Petition created. Use %1$s %2$s %3$s to display in a page or post. Use %1$s "
+"%4$s %3$s to display the signatures list or %1$s %5$s %3$s to show just the "
+"signature count."
+msgstr ""
+"Peticioni u krijua. Përdorni%1$s %2$s %3$s për të shfaqur në një faqe ose "
+"postim. Përdor%1$s %4$s %3$s për të shfaqur listën e nënshkrimeve ose%1$s "
+"%5$s %3$s për të treguar vetëm numrin e nënshkrimit."
+
+#: includes/addnew.php:85
+msgid "Duplicate Petition"
+msgstr "Peticion i dyfishuar"
+
+#: includes/addnew.php:89
+msgid "Save Duplicate Petition"
+msgstr "Ruaj Peticionin e Dyfishuar"
+
+#: includes/addnew.php:97
+#, php-format
+msgid ""
+"Petition created - you can edit it here. Use %1$s %2$s %3$s to display in a "
+"page or post."
+msgstr ""
+"Peticion i krijuar - mund ta redaktoni këtu. Përdor %1$s %2$s %3$s për t'u "
+"shfaqur në një faqe ose në një postim."
+
+#: includes/addnew.php:112
+msgid "Edit New Petition"
+msgstr "Ndrysho peticionin e ri"
+
+#: includes/addnew.php:117
+msgid "Petition "
+msgstr "Faleminderit për …"
+
+#: includes/addnew.php:124
+msgid "Add New Petition"
+msgstr "Shto peticion të ri"
+
+#: includes/addnew.php:128
+msgid "Create Petition"
+msgstr "Krijoni"
+
+#: includes/addnew.php:130
+msgid "Add me to your mailing list"
+msgstr "Më shto në listën tënde të postës"
+
+#: includes/addnew.view.php:9
+msgid ""
+"Error: Please correct the highlighted fields.  It may be behind a closed tab"
+msgstr ""
+"Gabim: Korrigjo fushat e theksuara.  Mund të jetë pas një tab të mbyllur"
+
+#: includes/addnew.view.php:18 includes/help.php:42
+msgid "Petition Content"
+msgstr "Përmbajtja e peticionit"
+
+#: includes/addnew.view.php:19 includes/help.php:47
+msgid "Petition Options"
+msgstr "Opstione"
+
+#: includes/addnew.view.php:20 includes/help.php:52
+msgid "Display Options"
+msgstr "Paraqit opsionet"
+
+#: includes/addnew.view.php:21 includes/help.php:57
+msgid "3rd Party Integrations"
+msgstr "Integrimi i tretë i partisë"
+
+#: includes/addnew.view.php:29 includes/help.php:6 includes/help.php:85
+#: includes/settings.view.php:338 includes/widget.php:88
+msgid "Title"
+msgstr "Titulli"
+
+#: includes/addnew.view.php:30
+msgid "Enter title here"
+msgstr "Shkruaj titullin këtu"
+
+#: includes/addnew.view.php:46 includes/help.php:7
+msgid "Do not send email (only collect signatures)"
+msgstr "Nuk mund te dergohej emaili"
+
+#: includes/addnew.view.php:50 includes/help.php:8
+msgid "Target Email"
+msgstr "Posta elektronike"
+
+#: includes/addnew.view.php:50 includes/addnew.view.php:53
+msgid "you may enter multiple addresses separated by commas"
+msgstr "mund të futni disa adresa të ndara me presje"
+
+#: includes/addnew.view.php:53
+msgid "CC Email"
+msgstr "CC Email"
+
+#: includes/addnew.view.php:56 includes/help.php:9 includes/help.php:80
+#: includes/settings.view.php:319
+msgid "Email Subject"
+msgstr "Subjekti i Email-it"
+
+#: includes/addnew.view.php:59 includes/help.php:10
+msgid "Greeting"
+msgstr "Përshëndetje"
+
+#: includes/addnew.view.php:65 includes/help.php:11
+msgid "Petition Message"
+msgstr "Mesazhi i Peticionit"
+
+#: includes/addnew.view.php:67
+msgid "You can personalise the message by inserting tags"
+msgstr "Mund ta personalizoni mesazhin duke futur etiketa"
+
+#: includes/addnew.view.php:68
+msgid "You or the signer can format the message using Markdown syntax - see"
+msgstr ""
+"Ju ose nënshkruesi mund ta formatoni mesazhin duke përdorur Markdown - shih"
+
+#: includes/addnew.view.php:70
+msgid "Petition Footer (below signature)"
+msgstr "Fshehja e kërkesës (nën nënshkrimin)"
+
+#: includes/addnew.view.php:75 includes/help.php:13
+msgid "Twitter Message"
+msgstr "Porosi"
+
+#: includes/addnew.view.php:100
+msgid "Don't collect email address"
+msgstr "Adresa Email"
+
+#: includes/addnew.view.php:101
+msgid "This cannot be reversed"
+msgstr "Jo, kjo nuk mund të ndodhë."
+
+#: includes/addnew.view.php:108 includes/help.php:17
+msgid "Allow public anonymous"
+msgstr "Lejo anonimin publik"
+
+#: includes/addnew.view.php:117 includes/help.php:18
+msgid "Confirm signatures"
+msgstr "Konfirmo nënshkrimet"
+
+#: includes/addnew.view.php:120
+msgid "Return URL"
+msgstr "Kthehu URL"
+
+#: includes/addnew.view.php:129
+msgid "Allow message to be edited"
+msgstr "Lejo që mesazhi të redaktohet"
+
+#: includes/addnew.view.php:137 includes/help.php:20
+msgid "Set signature goal"
+msgstr "I pamundur caktimi i skriptit të firmës &quot;{0}quot;."
+
+#: includes/addnew.view.php:140 includes/petitions.view.php:19
+#: includes/petitions.view.php:29
+msgid "Goal"
+msgstr "Qëllimi"
+
+#: includes/addnew.view.php:143
+msgid "Auto increase goal"
+msgstr "Qëllimi i rritjes së auto"
+
+#: includes/addnew.view.php:144
+msgid "by"
+msgstr "postuar nga"
+
+#: includes/addnew.view.php:145
+msgid "when count"
+msgstr "kur numërohen"
+
+#: includes/addnew.view.php:145 includes/emailpetition.php:661
+#: includes/widget.php:207
+msgid "of goal"
+msgstr "Qëllimi"
+
+#: includes/addnew.view.php:153 includes/help.php:22
+msgid "Set expiration date"
+msgstr "_Cakto datën e skadimit"
+
+#: includes/addnew.view.php:157
+msgid "Jan"
+msgstr "Jan"
+
+#: includes/addnew.view.php:158
+msgid "Feb"
+msgstr "Shk"
+
+#: includes/addnew.view.php:159
+msgid "Mar"
+msgstr "Mar"
+
+#: includes/addnew.view.php:160
+msgid "Apr"
+msgstr "Pri"
+
+#: includes/addnew.view.php:161
+msgid "May"
+msgstr "Maj"
+
+#: includes/addnew.view.php:162
+msgid "Jun"
+msgstr "Qer"
+
+#: includes/addnew.view.php:163
+msgid "Jul"
+msgstr "Kor"
+
+#: includes/addnew.view.php:164
+msgid "Aug"
+msgstr "Gush"
+
+#: includes/addnew.view.php:165
+msgid "Sep"
+msgstr "Sht"
+
+#: includes/addnew.view.php:166
+msgid "Oct"
+msgstr "Tet"
+
+#: includes/addnew.view.php:167
+msgid "Nov"
+msgstr "Nen"
+
+#: includes/addnew.view.php:168
+msgid "Dec"
+msgstr "Dhj"
+
+#: includes/addnew.view.php:184
+msgid "Redirect after successful sign"
+msgstr "Drejtojeni pas shenjës së suksesshme"
+
+#: includes/addnew.view.php:187
+msgid "Full URL"
+msgstr "URL e plotë"
+
+#: includes/addnew.view.php:189
+msgid "Delay?"
+msgstr "Vonesa"
+
+#: includes/addnew.view.php:190
+msgid "milliseconds"
+msgstr "unit-format"
+
+#: includes/addnew.view.php:191
+msgid "Open in new window (target='_blank')"
+msgstr "_Hap në një dritare të re"
+
+#: includes/addnew.view.php:205
+msgid "Text to open/close petition message"
+msgstr "Tekst për të hapur/mbyllur mesazhin e peticionit"
+
+#: includes/addnew.view.php:210
+msgid "Text to open/close editable petition message"
+msgstr "Tekst për të hapur/mbyllur mesazhin e peticionit të editueshëm"
+
+#: includes/addnew.view.php:219 includes/help.php:27
+msgid "Display opt-in checkbox"
+msgstr "Prano abonimin"
+
+#: includes/addnew.view.php:222 includes/addnew.view.php:287
+#: includes/addnew.view.php:322 includes/addnew.view.php:357
+#: includes/addnew.view.php:393 includes/addnew.view.php:434
+#: includes/addnew.view.php:465 includes/addnew.view.php:494
+msgid "Label"
+msgstr "Opsione"
+
+#: includes/addnew.view.php:230
+msgid "Display petition message"
+msgstr "Shfaq mesazhin e peticionit"
+
+#: includes/addnew.view.php:237 includes/help.php:28
+msgid "Display address fields"
+msgstr "Shfaq fushat e adresave"
+
+#: includes/addnew.view.php:244 includes/help.php:88
+#: includes/settings.view.php:355
+msgid "Display"
+msgstr "Pamja"
+
+#: includes/addnew.view.php:245 includes/addnew.view.php:298
+#: includes/addnew.view.php:333 includes/addnew.view.php:368
+#: includes/addnew.view.php:404 includes/addnew.view.php:432
+msgid "Required"
+msgstr "Kërkohet"
+
+#: includes/addnew.view.php:251 includes/addnew.view.php:597
+#: includes/emailpetition.php:426 includes/settings.view.php:456
+#: includes/signatures.view.php:134
+msgid "Street"
+msgstr "Rruga"
+
+#: includes/addnew.view.php:256 includes/csv.php:54
+#: includes/emailpetition.php:443 includes/settings.view.php:377
+#: includes/settings.view.php:460 includes/signatures.view.php:135
+#: includes/widget.php:434
+msgid "City"
+msgstr "Qyteti"
+
+#: includes/addnew.view.php:261 includes/emailpetition.php:450
+#: includes/settings.view.php:380 includes/widget.php:440
+msgid "State / Province"
+msgstr "Shteti / Provinca"
+
+#: includes/addnew.view.php:266
+msgid "Postal Code - see settings for EU style"
+msgstr "Kodi Postar - shiko cilësimet për stilin e BE-së"
+
+#: includes/addnew.view.php:271 includes/addnew.view.php:629
+#: includes/csv.php:57 includes/emailpetition.php:491
+#: includes/settings.view.php:386 includes/settings.view.php:472
+#: includes/signatures.view.php:138 includes/widget.php:476
+msgid "Country"
+msgstr "Shteti juaj"
+
+#: includes/addnew.view.php:283
+msgid "Display custom field 1"
+msgstr "Shfaq fushën e personalizuar 1"
+
+#: includes/addnew.view.php:300 includes/addnew.view.php:335
+#: includes/addnew.view.php:370 includes/addnew.view.php:406
+#: includes/addnew.view.php:447 includes/addnew.view.php:475
+#: includes/addnew.view.php:504
+msgid "Location"
+msgstr "Lokacioni"
+
+#: includes/addnew.view.php:301 includes/addnew.view.php:336
+#: includes/addnew.view.php:371 includes/addnew.view.php:407
+#: includes/addnew.view.php:448 includes/addnew.view.php:476
+#: includes/addnew.view.php:505
+msgid "Top"
+msgstr "Më i lartë"
+
+#: includes/addnew.view.php:303 includes/addnew.view.php:338
+#: includes/addnew.view.php:373 includes/addnew.view.php:409
+#: includes/addnew.view.php:450 includes/addnew.view.php:478
+#: includes/addnew.view.php:507
+msgid "Above email"
+msgstr "Sipër e-mail"
+
+#: includes/addnew.view.php:305 includes/addnew.view.php:340
+#: includes/addnew.view.php:375 includes/addnew.view.php:411
+#: includes/addnew.view.php:453 includes/addnew.view.php:481
+#: includes/addnew.view.php:510
+msgid "Bottom"
+msgstr "Fund"
+
+#: includes/addnew.view.php:308 includes/addnew.view.php:343
+#: includes/addnew.view.php:378 includes/addnew.view.php:414
+#: includes/addnew.view.php:428
+msgid "Include with petition"
+msgstr "Përfshi me peticion"
+
+#: includes/addnew.view.php:310 includes/addnew.view.php:345
+#: includes/addnew.view.php:380 includes/addnew.view.php:416
+msgid "Trim when displaying"
+msgstr "Prerja gjatë shfaqjes"
+
+#: includes/addnew.view.php:318
+msgid "Display custom field 2"
+msgstr "Shfaq fushën e personalizuar 2"
+
+#: includes/addnew.view.php:353
+msgid "Display custom field 3"
+msgstr "Shfaq fushën e personalizuar 3"
+
+#: includes/addnew.view.php:389
+msgid "Display custom field 4"
+msgstr "Shfaq fushën e personalizuar 4"
+
+#: includes/addnew.view.php:424
+msgid "Display custom drop-down"
+msgstr "Shfaq zbritjen e personalizuar"
+
+#: includes/addnew.view.php:444
+msgid "Values"
+msgstr "Vlerat"
+
+#: includes/addnew.view.php:461
+msgid "Display custom checkbox 1"
+msgstr "Shfaq kutinë e kontrollit të personalizuar 1"
+
+#: includes/addnew.view.php:490
+msgid "Display custom checkbox 2"
+msgstr "Shfaq kutinë e kontrollit të personalizuar 2"
+
+#: includes/addnew.view.php:520 includes/help.php:30
+msgid "Display custom message"
+msgstr "Shfaq mesazh personal"
+
+#: includes/addnew.view.php:521
+msgid "Displayed beneath `Thank you` after petition is signed"
+msgstr "Shfaqet nën `Thank you` pasi peticioni është nënshkruar"
+
+#: includes/addnew.view.php:524
+msgid "Message"
+msgstr "Mesazh"
+
+#: includes/addnew.view.php:535
+msgid ""
+"You must also enable 'Display opt-in checkbox' under the Display Options tab"
+msgstr ""
+"Gjithashtu duhet të aktivosh 'Display opt-in checkbox' nën tabIn Display "
+"Options"
+
+#: includes/addnew.view.php:542
+msgid "Enable ActiveCampaign"
+msgstr "Aktivizo AktivCampaign"
+
+#: includes/addnew.view.php:549 includes/addnew.view.php:717
+#: includes/addnew.view.php:737 includes/addnew.view.php:759
+msgid "API Key"
+msgstr "Çelësi API"
+
+#: includes/addnew.view.php:552
+msgid "Server URL"
+msgstr "URL e serverit"
+
+#: includes/addnew.view.php:563
+msgid "Select list"
+msgstr "Zgjidh listën"
+
+#: includes/addnew.view.php:571
+msgid ""
+"Map the SpeakOut! fields to your Active Campaign fields. Leave those you "
+"don't use blank."
+msgstr ""
+"Hartoje fletunë! fushat në fushat tuaja aktive të Fushatës. Lëri ato që nuk "
+"i përdor bosh."
+
+#: includes/addnew.view.php:574 includes/csv.php:49
+msgid "Honorific"
+msgstr "Shfaq fushën honorific"
+
+#: includes/addnew.view.php:582 includes/csv.php:50
+#: includes/emailpetition.php:355 includes/widget.php:358
+msgid "First Name"
+msgstr "Emri"
+
+#: includes/addnew.view.php:587 includes/csv.php:51
+#: includes/emailpetition.php:359 includes/widget.php:362
+msgid "Last Name"
+msgstr "Mbiemri"
+
+#: includes/addnew.view.php:592 includes/emailpetition.php:418
+#: includes/settings.view.php:449 includes/signatures.view.php:132
+#: includes/widget.php:409
+msgid "Email"
+msgstr "Email"
+
+#: includes/addnew.view.php:605
+msgid "Suburb"
+msgstr "Rrethina"
+
+#: includes/addnew.view.php:613 includes/csv.php:55
+#: includes/settings.view.php:464 includes/signatures.view.php:136
+msgid "State"
+msgstr "Shteti"
+
+#: includes/addnew.view.php:621 includes/csv.php:56
+#: includes/emailpetition.php:436 includes/emailpetition.php:459
+#: includes/settings.view.php:383 includes/signatures.view.php:137
+#: includes/widget.php:447
+msgid "Postal Code"
+msgstr "Kodi postar"
+
+#: includes/addnew.view.php:712
+msgid "Enable MailChimp"
+msgstr "Aktivo MailChimp"
+
+#: includes/addnew.view.php:720
+msgid "Server ID"
+msgstr "ID e serverit"
+
+#: includes/addnew.view.php:723 includes/addnew.view.php:762
+msgid "List ID"
+msgstr "Lista ID"
+
+#: includes/addnew.view.php:732
+msgid "Enable Mailerlite"
+msgstr "Aktivo Mailerlite"
+
+#: includes/addnew.view.php:740
+msgid "Group ID"
+msgstr "ID e grupit"
+
+#: includes/addnew.view.php:750
+msgid "Enable Sendy"
+msgstr "Aktivo Sendy"
+
+#: includes/addnew.view.php:756
+msgid "Installation URL"
+msgstr "URL e instalimit"
+
+#: includes/admin.php:11 includes/admin.php:20 includes/admin.php:32
+msgid "SpeakOut! Email Petitions"
+msgstr "Fol! Peticione Email"
+
+#: includes/admin.php:33 includes/petitions.php:44 includes/petitions.php:57
+msgid "Petitions"
+msgstr "Një ekzaminim i thjeshtë i tabelës tregon kompaninë"
+
+#: includes/admin.php:44 includes/admin.php:45 includes/license.view.php:74
+msgid "Activate license"
+msgstr "Aktivizo liçensën"
+
+#: includes/admin.php:55 includes/admin.php:56 includes/petitions.view.php:4
+msgid "Add New"
+msgstr "Shto të ri"
+
+#: includes/admin.php:66 includes/admin.php:67 includes/petitions.view.php:18
+#: includes/petitions.view.php:28 includes/signatures.view.php:4
+msgid "Signatures"
+msgstr "Firmat"
+
+#: includes/admin.php:77 includes/settings.view.php:142
+msgid "SpeakOut! Petitions Settings"
+msgstr "Fol! Peticione Cilësimet"
+
+#: includes/admin.php:78
+msgid "Settings"
+msgstr "Rregullimet"
+
+#: includes/class.petition.php:505
+msgid "No Title"
+msgstr "Pa Titull"
+
+#: includes/class.signaturelist.php:155 includes/class.signaturelist.php:215
+#: includes/class.signaturelist.php:319
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: includes/class.speakout.php:118
+msgid "items"
+msgstr "Njësi"
+
+#: includes/class.speakout.php:121
+msgid "page"
+msgstr "faqe"
+
+#: includes/class.speakout.php:131
+msgid "of"
+msgstr "nga"
+
+#: includes/confirmations.php:105
+msgid "Thank you. Your signature has been added to the petition."
+msgstr "Faleminderit. Porosia juaj është pranuar."
+
+#: includes/confirmations.php:124
+msgid "Your signature has already been confirmed."
+msgstr "Llogaria juaj eshte verifikuar njehere."
+
+#: includes/confirmations.php:128
+msgid "The confirmation code you provided is invalid."
+msgstr "Data e dhene e pavlefshme"
+
+#: includes/confirmations.php:167
+msgid "Email Confirmation"
+msgstr "Posta elektronike"
+
+#: includes/confirmations.php:169
+msgid "If you aren't redirected"
+msgstr "Nëse nuk ridrejtoheni"
+
+#: includes/confirmations.php:169 includes/settings.view.php:603
+msgid "Click here"
+msgstr "Klikoni këtu"
+
+#: includes/confirmations.php:169
+msgid "to return to site "
+msgstr "për t&#39;u kthyer në vend "
+
+#: includes/csv.php:10 includes/signatures.php:5
+msgid "Insufficient privileges: You need to be an editor to do that."
+msgstr "- Ju duhet lejekalimi për këtë zotëri."
+
+#: includes/csv.php:28 includes/signatures.view.php:212
+msgid "No signatures found."
+msgstr "Pa dokumente dhe firma."
+
+#: includes/csv.php:52
+msgid "Email Address"
+msgstr "Adresa Email"
+
+#: includes/csv.php:53 includes/widget.php:428
+msgid "Address"
+msgstr "Adresa"
+
+#: includes/csv.php:58
+msgid "Date Signed"
+msgstr "Firmosur më"
+
+#: includes/csv.php:59 includes/signatures.view.php:147
+msgid "Confirmed"
+msgstr "Të Konfirmuara"
+
+#: includes/csv.php:60
+msgid "Petition Title"
+msgstr "Titulli"
+
+#: includes/csv.php:61
+msgid "Petition ID"
+msgstr "ID e peticionit"
+
+#: includes/csv.php:62 includes/settings.view.php:506
+msgid "Email Opt-in"
+msgstr "Prano abonimin"
+
+#: includes/csv.php:63 includes/settings.view.php:410
+msgid "Custom Message"
+msgstr "Mesazh i personalizuar"
+
+#: includes/csv.php:72
+msgid "Language"
+msgstr "Gjuha"
+
+#: includes/csv.php:73 includes/signatures.view.php:149
+msgid "IP Address"
+msgstr "Adresa IP"
+
+#: includes/csv.php:83
+msgid "Custom Field"
+msgstr "Fusha e personalizuar"
+
+#: includes/csv.php:103
+msgid "confirmed"
+msgstr "Të Konfirmuara"
+
+#: includes/csv.php:106
+msgid "unconfirmed"
+msgstr "Ende pakonfirmuara"
+
+#: includes/csv.php:115 includes/csv.php:125 includes/csv.php:135
+msgid "Y"
+msgstr "Y"
+
+#: includes/csv.php:118 includes/csv.php:128 includes/csv.php:138
+msgid "N"
+msgstr "N"
+
+#: includes/emailpetition.php:564
+msgid "You can add formatting using markdown syntax"
+msgstr "Ju mund të shtoni formatimin duke përdorur markdown"
+
+#: includes/emailpetition.php:564
+msgid "read more"
+msgstr "lexo me shume"
+
+#: includes/emailpetition.php:579 includes/widget.php:242
+#: includes/widget.php:256
+msgid "your signature"
+msgstr "Llogaria juaj eshte verifikuar njehere."
+
+#: includes/emailpetition.php:607 includes/widget.php:535
+msgid "BCC yourself"
+msgstr "Vetë BCC"
+
+#: includes/emailpetition.php:620 includes/widget.php:545
+msgid "Hide name from public"
+msgstr "Fshih emrin nga publiku "
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "Yes, I accept your "
+msgstr "Po, e pranoj "
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "privacy policy"
+msgstr "politika e privatësisë"
+
+#: includes/emailpetition.php:666 includes/widget.php:212
+msgid "signatures"
+msgstr "Firmat"
+
+#: includes/emailpetition.php:697 includes/widget.php:281
+msgid "Signature goal"
+msgstr "I pamundur caktimi i skriptit të firmës &quot;{0}quot;."
+
+#: includes/emailpetition.php:702 includes/widget.php:278
+msgid "End date"
+msgstr "Data e Mbarimit"
+
+#: includes/emailpetition.php:703 includes/widget.php:279
+msgid "Signatures collected"
+msgstr "Firmat"
+
+#: includes/emailpetition.php:708
+msgid "signature"
+msgid_plural "signatures"
+msgstr[0] "Tregon renditjen që do të shfaqet në pyetje."
+msgstr[1] "Firmat"
+
+#: includes/emailpetition.php:726 includes/signatures.view.php:133
+#: includes/widget.php:91
+msgid "Petition"
+msgstr "Faleminderit për …"
+
+#: includes/emailpetition.php:728
+msgid ""
+"Error: The site administrator must include a valid petition id  in the "
+"shortcode."
+msgstr ""
+"Gabim: Administratori i faqes duhet të përfshijë një ID të vlefshme të "
+"peticionit në kodin e shkurtër."
+
+#: includes/help.php:6
+msgid ""
+"Enter the title of your petition, which will appear at the top of the "
+"petition form."
+msgstr ""
+"Ky reklamë do të shfaqet në faqen kryesore të faqes suaj të internetit. Ajo "
+"do të shfaqet si në krye dhe në fund të faqes tuaj të sitit. Vini re se "
+"madhësia e reklamës duhet të jetë 728x90 pikselë."
+
+#: includes/help.php:7
+msgid ""
+"Use this option if do not wish to send petition emails to a target address."
+msgstr ""
+"Përdoreni këtë opsion nëse nuk dëshironi të dërgoni email të peticioneve në "
+"një adresë të synuar."
+
+#: includes/help.php:8
+msgid ""
+"Enter the email address to which the petition will be sent. You may enter "
+"multiple email addresses, separated by commas."
+msgstr ""
+"Futni adresën e emailit në të cilën do të dërgohet peticioni. Ju mund të "
+"futni disa adresa elektronike, të ndara me presje."
+
+#: includes/help.php:9
+msgid "Enter the subject of your petition email."
+msgstr "Shto shtegu nga"
+
+#: includes/help.php:10
+msgid ""
+"Include a greeting to the recipient of your petition, such as \"Dear Mayor,"
+"\" which will appear as the first line of the email."
+msgstr ""
+"Përfshini një përshëndetje për marrësin e peticionit tuaj, të tillë si \"I "
+"dashur kryetar\", i cili do të shfaqet si linja e parë e email-it."
+
+#: includes/help.php:11
+msgid "Enter the content of your petition email."
+msgstr "Shto shtegu nga"
+
+#: includes/help.php:12
+msgid "Petition Footer"
+msgstr "Këmbana peticioni"
+
+#: includes/help.php:12
+msgid "This is included at the bottom of each petition that is sent."
+msgstr "Kjo përfshihet në fund të çdo peticioni që dërgohet."
+
+#: includes/help.php:13
+msgid ""
+"Enter a prepared tweet that will be presented to users when the Twitter "
+"button is clicked."
+msgstr ""
+"Futni një cicërimë të përgatitur që do t&#39;u paraqitet përdoruesve kur "
+"klikohet butoni Twitter."
+
+#: includes/help.php:17
+msgid ""
+"Gives option for person to be displayed as \"Anonymous\" if they choose it "
+"when signing"
+msgstr ""
+"Jep opsionin që personi të shfaqet si \"Anonim\" nëse e zgjedhin kur "
+"nënshkruajnë"
+
+#: includes/help.php:18
+msgid ""
+"Use this option to cause an email to be sent to the signers of your "
+"petition. This email contains a special link must be clicked to confirm the "
+"signer's email address. Petition emails will not be sent until the signature "
+"is confirmed."
+msgstr ""
+"Përdoreni këtë opsion për të shkaktuar një email që do t&#39;u dërgohet "
+"nënshkruesve të kërkesës suaj. Kjo email përmban një lidhje të veçantë që "
+"duhet të klikohet për të konfirmuar adresën e emailit të nënshkruesit. "
+"Emaili i peticionit nuk do të dërgohet derisa firma të konfirmohet."
+
+#: includes/help.php:19
+msgid "Allow messages to be edited"
+msgstr "Lejo mesazhet të redaktohen"
+
+#: includes/help.php:19
+msgid ""
+"Check this option to allow signatories to customize the text of their "
+"petition email - this should be used with caution."
+msgstr ""
+"Kontrolloni këtë opsion për të lejuar nënshkruesit të personalizuar tekstin "
+"e peticionit të tyre email - kjo duhet të përdoret me kujdes."
+
+#: includes/help.php:20
+msgid ""
+"Enter the number of signatures you hope to collect. This number is used to "
+"calculate the progress bar display."
+msgstr ""
+"Shkruani numrin e nënshkrimeve që shpresoni të mbledhni. Ky numër përdoret "
+"për të llogaritur shiritin e përparimit të ekranit."
+
+#: includes/help.php:21
+msgid "Auto increase signature goal"
+msgstr "Auto rritje e objektivit të firmës"
+
+#: includes/help.php:21
+msgid ""
+"If set goal is enabled, this is a further option - click the ? for more "
+"information."
+msgstr ""
+"Nëse qëllimi i caktuar është aktivuar, ky është një opsion tjetër - kliko "
+"në ? për më shumë informacion."
+
+#: includes/help.php:22
+msgid "Use this option to stop collecting signatures on a specific date."
+msgstr ""
+"Përdor këtë opsion për të përdorur në mënyrë të pavarur Akismet për lidhjen "
+"tuaj Jetpack."
+
+#: includes/help.php:23
+msgid "Redirect after signing"
+msgstr "Ridrejton pas nënshkrimit"
+
+#: includes/help.php:23
+msgid ""
+"Take your users to a different page or site after they sign.  Make sure you "
+"use the full URL including \"https://\" or whatever. You can specify the "
+"delay in milliseconds.  One second = 1000 milliseconds."
+msgstr ""
+"Çojini përdoruesit tuaj në një faqe ose sit tjetër pasi të firmosin.  "
+"Sigurohuni që të përdorni URL-në e plotë duke përfshirë \"https://\" ose "
+"çfarëdo. Mund të specifikoni vonesën në milisekonda.  Një sekondë = 1000 "
+"milisekonda."
+
+#: includes/help.php:26
+msgid "These are pretty obvious."
+msgstr "Këto janë shumë të dukshme."
+
+#: includes/help.php:27
+msgid ""
+"Include a checkbox that allows users to consent to receiving further email."
+msgstr ""
+"Përfshini një kuti që lejon përdoruesit të pranojnë të marrin email të "
+"mëtejshëm."
+
+#: includes/help.php:28
+msgid ""
+"Select the address fields to display in the petition form. Note that you can "
+"make them required or not."
+msgstr ""
+"Zgjidh fushat e adresës për t'u shfaqur në formularin e peticionit. Vër re "
+"se mund t'i bësh të kërkuara ose jo."
+
+#: includes/help.php:29
+msgid "Display custom fields"
+msgstr "Shfaq fushat e personalizuar"
+
+#: includes/help.php:29
+msgid ""
+"There is a variety of custom fields that can be added to the petition form "
+"for collecting additional data.  You can position each field at the top, "
+"above the email address or at the bottom of the petition form"
+msgstr ""
+"Ka një shumëllojshmëri fushash të personalizuar që mund të shtohen në "
+"formularin e peticionit për mbledhjen e të dhënave shtesë.  Mund të "
+"pozicionosh çdo fushë në krye, sipër adresës së postës elektronike ose në "
+"fund të formularit të peticionit"
+
+#: includes/help.php:30
+msgid "This is displayed after the petition is signed."
+msgstr "Kjo shfaqet pas firmosjes së peticionit."
+
+#: includes/help.php:34
+msgid ""
+"If you use any of these 3rd party email services, you can allow users to "
+"subscribe as long as you have  \"opt in\" enabled."
+msgstr ""
+"Nëse përdorni ndonjë nga këto shërbime email të partisë së tretë, ju mund të "
+"lejoni përdoruesit të abonojnë për aq kohë sa ju keni \"opt in\" të "
+"aktivizuar."
+
+#: includes/help.php:66
+msgid ""
+"These settings control the display of the [emailpetition] shortcode and "
+"sidebar widget."
+msgstr ""
+"Këto cilësime kontrollojnë shfaqjen e shortcut [emailpetition] dhe widgetit "
+"sidebar."
+
+#: includes/help.php:67 includes/settings.view.php:170
+msgid "Petition Theme"
+msgstr "Tema"
+
+#: includes/help.php:67
+msgid "Select a CSS theme that will control the appearance of petition forms."
+msgstr ""
+"Zgjidh një temë CSS që do të kontrollojë paraqitjen e formularëve të "
+"peticionit."
+
+#: includes/help.php:68 includes/settings.view.php:177
+msgid "Widget Theme"
+msgstr "Widget"
+
+#: includes/help.php:68
+msgid ""
+"Select a CSS theme that will control the appearance of petition widgets."
+msgstr "Zgjidh një temë CSS që do të kontrollojë pamjen e peticioneve."
+
+#: includes/help.php:69 includes/settings.view.php:184
+msgid "Submit Button Text"
+msgstr "Buton Teksti"
+
+#: includes/help.php:69
+msgid ""
+"Enter the text that displays in the orange submit button on petition forms."
+msgstr ""
+"Futni tekstin që shfaqet në butonin portativ të paraqitjes në formularët e "
+"peticionit."
+
+#: includes/help.php:70 includes/settings.view.php:188
+msgid "Success Message"
+msgstr "Porosi"
+
+#: includes/help.php:70
+msgid ""
+"Enter the text that appears when a user successfully signs your petition "
+"with a unique email address."
+msgstr ""
+"Shkruani tekstin që shfaqet kur një përdorues me sukses nënshkruan kërkesën "
+"tuaj me një adresë unike të postës elektronike."
+
+#: includes/help.php:71 includes/settings.view.php:202
+msgid "Share Message"
+msgstr "SHPËRNDAJ"
+
+#: includes/help.php:71
+msgid ""
+"Enter the text that appears above the Twitter and Facebook buttons after the "
+"petition form has been submitted."
+msgstr ""
+"Shkruani tekstin që shfaqet mbi butonat e Twitter dhe Facebook pas "
+"paraqitjes së formularit të peticionit."
+
+#: includes/help.php:72 includes/settings.view.php:206
+msgid "Expiration Message"
+msgstr "Porosi"
+
+#: includes/help.php:72
+msgid ""
+"Enter the text to display in place of the petition form when a petition is "
+"past its expiration date."
+msgstr ""
+"Shkruani tekstin për të shfaqur në vend të formularit të peticionit kur një "
+"peticion ka kaluar datën e skadimit."
+
+#: includes/help.php:73 includes/settings.view.php:210
+msgid "Already Signed Message"
+msgstr "Mesazh i firmosur tashmë"
+
+#: includes/help.php:73
+msgid ""
+"Enter the text to display when a petition is signed using an email address "
+"that has already been submitted."
+msgstr ""
+"Shkruani tekstin për të shfaqur kur një peticion është nënshkruar duke "
+"përdorur një adresë emaili që tashmë është dërguar."
+
+#: includes/help.php:74 includes/settings.view.php:214
+msgid "Opt-in Default"
+msgstr "Prano abonimin"
+
+#: includes/help.php:74
+msgid "Choose whether the opt-in checkbox is checked or unchecked by default."
+msgstr ""
+"Zgjidh nëse kutia e kontrollit opt-in kontrollohet ose nuk kontrollohet nga "
+"prezgjedhur."
+
+#: includes/help.php:75 includes/settings.view.php:221
+msgid "Display signature count"
+msgstr "Shfaqni numërimin e nënshkrimit"
+
+#: includes/help.php:75
+msgid ""
+"Choose whether you wish to display the number of signatures that have been "
+"collected."
+msgstr ""
+"Zgjidh nëse dëshiron të shfaqësh numrin e nënshkrimeve që janë mbledhur."
+
+#: includes/help.php:78
+msgid "These settings control the content of the confirmation emails."
+msgstr "Këto cilësime kontrollojnë përmbajtjen e mesazheve konfirmuese."
+
+#: includes/help.php:79 includes/settings.view.php:315
+msgid "Email From"
+msgstr "Email nga"
+
+#: includes/help.php:79
+msgid ""
+"Enter the email address associated with your website. Confirmation emails "
+"will be sent from this address."
+msgstr ""
+"Shkruani adresën e emailit të lidhur me faqen tuaj te internetit. Email-i i "
+"konfirmimit do të dërgohet nga kjo adresë."
+
+#: includes/help.php:80
+msgid "Enter the subject of the confirmation email."
+msgstr "Vendos emrin e Asetit"
+
+#: includes/help.php:81 includes/settings.view.php:323
+msgid "Email Message"
+msgstr "Mesazh Email"
+
+#: includes/help.php:81
+msgid "Enter the content of the confirmation email."
+msgstr "Vendos emrin e Asetit"
+
+#: includes/help.php:84
+msgid "These settings control the display of the [signaturelist] shortcode."
+msgstr "Këto cilësime kontrollojnë shfaqjen e shortcode [signaturelist]."
+
+#: includes/help.php:85
+msgid "Enter the text that appears above the signature list."
+msgstr "Futni tekstin që shfaqet mbi listën e nënshkrimit."
+
+#: includes/help.php:86 includes/settings.view.php:341
+msgid "Theme"
+msgstr "Tema"
+
+#: includes/help.php:86
+msgid "Select a CSS theme that will control the appearance of signature lists."
+msgstr ""
+"Zgjidh një temë CSS që do të kontrollojë paraqitjen e listave të "
+"nënshkrimeve."
+
+#: includes/help.php:87 includes/settings.view.php:351
+msgid "Rows"
+msgstr "Rreshtat"
+
+#: includes/help.php:87
+msgid ""
+"Enter the number of signatures that will be displayed in the signature list."
+msgstr ""
+"Shkruani numrin e nënshkrimeve që do të shfaqen në listën e nënshkrimit."
+
+#: includes/help.php:88
+msgid "Choose the signature list styling, click the ? for more information."
+msgstr ""
+"Zgjidhni stilimin e listës së firmave, kliko tek ? për më shumë informacion."
+
+#: includes/help.php:89 includes/help.php:95 includes/settings.view.php:365
+msgid "Columns"
+msgstr "Kollona"
+
+#: includes/help.php:89
+msgid "Select the columns that will appear in the public signature list."
+msgstr "Zgjidh kolonat që do të shfaqen në listën e firmave publike."
+
+#: includes/help.php:90
+msgid "Flags"
+msgstr "Flamuj"
+
+#: includes/help.php:90
+msgid ""
+"You can display the flag of the country the signer has chosen, if you have "
+"Country enabled."
+msgstr ""
+"Ju mund të shfaqni flamurin e vendit që nënshkruesi ka zgjedhur, nëse keni "
+"Vendin e mundësuar."
+
+#: includes/help.php:91 includes/settings.view.php:427
+msgid "Privacy"
+msgstr "Privatesia"
+
+#: includes/help.php:91
+msgid "Hide all but the first letter of the last name.."
+msgstr "Fshihe të gjithë, përveç shkronjës së parë të mbiemrit."
+
+#: includes/help.php:94
+msgid "These settings control the display of the signatures in the dashboard."
+msgstr ""
+"Këto rregullime kontrollojnë shfaqjen e nënshkrimeve në panelin e bordeve."
+
+#: includes/help.php:95
+msgid "Select the columns that will appear in the admin signature list."
+msgstr "Zgjidh kolonat që do të shfaqen në listën e firmave admin."
+
+#: includes/help.php:96
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/help.php:96
+msgid "When outputting the CSV file, what should be included?"
+msgstr "Kur del file CSV, çfarë duhet përfshirë?"
+
+#: includes/help.php:99
+msgid ""
+"These settings control the look of the plugin's options pages within the "
+"WordPress administrator."
+msgstr ""
+"Këto cilësime kontrollojnë pamjen e faqeve të opsioneve të pluginit brenda "
+"administratorit të WordPress."
+
+#: includes/help.php:100 includes/settings.view.php:540
+msgid "Petitions table shows"
+msgstr "Një ekzaminim i thjeshtë i tabelës tregon kompaninë"
+
+#: includes/help.php:100
+msgid ""
+"Enter the number of rows to display in the \"Email Petitions\" table "
+"(default=20)"
+msgstr ""
+"Shkruani numrin e rreshtave për tu shfaqur në tabelën &quot;Email "
+"Petitions&quot; (default = 20)"
+
+#: includes/help.php:101 includes/settings.view.php:544
+msgid "Signatures table shows"
+msgstr "Tabela e nënshkrimeve tregon"
+
+#: includes/help.php:101
+msgid ""
+"Enter the number of rows to display in the \"Signatures\" table (default=50)"
+msgstr "Shkruaj numrin e diteve"
+
+#: includes/help.php:104
+msgid "These settings refer to the license key"
+msgstr "Këto rregullime i referohen çelësit të liçensës"
+
+#: includes/help.php:105
+msgid "License key"
+msgstr "Çelësi i liçensës"
+
+#: includes/help.php:105
+msgid ""
+"Enter the license key your received in an email after purchase.  If it is "
+"invalid, a message will be displayed with the reason."
+msgstr ""
+"Shkruaj çelësin e liçensës që ke marrë në një e-mail pas blerjes.  Nëse "
+"është i pavlefshëm, një mesazh do të shfaqet me arsyen."
+
+#: includes/help.php:106
+msgid "Revoke key"
+msgstr "Anulloi çelësin"
+
+#: includes/help.php:106
+msgid ""
+"Perhaps you are moving to a new site or from development to production.  "
+"Revoke the key, this allows it to be used elsewhere.  The current site will "
+"lose all access to any settings."
+msgstr ""
+"Ndoshta po transferoheni në një vend të ri ose nga zhvillimi në prodhim.  "
+"Hiqeni çelësin, kjo lejon që ai të përdoret diku tjetër.  Faqja aktuale do "
+"të humbasë të gjitha hyrjet në çdo rregullim."
+
+#: includes/help.php:114 includes/settings.view.php:151
+#: includes/settings.view.php:166
+msgid "Petition Form"
+msgstr ""
+"Kontakti për tu shfaqur në miniaplikativ. Bosh do të thotë asnjë kontakt i "
+"shfaqur."
+
+#: includes/help.php:119 includes/settings.view.php:152
+#: includes/settings.view.php:312
+msgid "Confirmation Emails"
+msgstr "Emailet e konfirmimit"
+
+#: includes/help.php:124 includes/settings.view.php:153
+#: includes/settings.view.php:334
+msgid "Public Signature List"
+msgstr "shfaqni listën e nënshkrimit"
+
+#: includes/help.php:129 includes/settings.view.php:154
+#: includes/settings.view.php:438
+msgid "Admin Signature List"
+msgstr "shfaqni listën e nënshkrimit"
+
+#: includes/help.php:134 includes/settings.view.php:155
+#: includes/settings.view.php:537
+msgid "Admin Display"
+msgstr "Shfaq Admin"
+
+#: includes/help.php:139 includes/settings.view.php:157
+msgid "License"
+msgstr "Licensa"
+
+#: includes/install.php:178
+msgid "Sign Now"
+msgstr "Regjistrohu Tani"
+
+#: includes/install.php:179
+msgid "This petition is now closed."
+msgstr "Ky peticion tani është mbyllur."
+
+#: includes/install.php:180
+msgid "Thank you"
+msgstr "Falemnderit"
+
+#: includes/install.php:180
+msgid "Your signature has been added."
+msgstr "Fusha eshte shtuar"
+
+#: includes/install.php:181
+msgid "This petition has already been signed using your email address."
+msgstr ""
+"Na vjen keq, por një anëtar tjetër është regjistruar me këtë adresë të "
+"postës elektronike."
+
+#: includes/install.php:182
+msgid "Share this with your friends:"
+msgstr "Ndajeni këtë me shokët tuaj:"
+
+#: includes/install.php:183 includes/install.php:425
+msgid "Please confirm your email address"
+msgstr "Lutemi konfirmoni adresën tuaj të postës elektronike"
+
+#: includes/install.php:184 includes/install.php:428
+msgid "Hello"
+msgstr "Përshëndetje"
+
+#: includes/install.php:184
+msgid "Thank you for signing our petition %petition_title% "
+msgstr "Faleminderit për …"
+
+#: includes/install.php:184 includes/install.php:428
+msgid ""
+"Please confirm your email address by clicking or copying and pasting the "
+"link below:"
+msgstr ""
+"Lutemi konfirmoni adresën tuaj të postës elektronike duke klikuar ose "
+"kopjuar dhe pasting lidhjen më poshtë:"
+
+#: includes/install.php:189 includes/install.php:434
+msgid "Latest Signatures"
+msgstr "Të fundit"
+
+#: includes/install.php:428
+msgid "Thank you for signing our petition"
+msgstr "Faleminderit për …"
+
+#: includes/license.view.php:78 includes/license.view.php:105
+#: includes/settings.view.php:566 includes/settings.view.php:593
+msgid "Enter your license key"
+msgstr "Shkruaj çelësin e liçensës"
+
+#: includes/license.view.php:83 includes/settings.view.php:571
+msgid "Verified"
+msgstr "Verifikuar"
+
+#: includes/license.view.php:86 includes/settings.view.php:574
+msgid "Revoke license key"
+msgstr "Anulloi çelësin e liçensës"
+
+#: includes/license.view.php:90 includes/settings.view.php:578
+msgid "Thanks for upgrading"
+msgstr "Faleminderit për përtëritjen"
+
+#: includes/license.view.php:100 includes/settings.view.php:588
+msgid ""
+"There appears to be a problem with your license key.  Either verify it again "
+"or contact"
+msgstr ""
+"Duket se ka një problem me çelësin e liçensës.  Ose verifiko përsëri ose "
+"kontakt"
+
+#: includes/license.view.php:108 includes/settings.view.php:596
+msgid "Your license key"
+msgstr "Çelësi yt i liçensës"
+
+#: includes/license.view.php:111 includes/settings.view.php:599
+msgid "Verify"
+msgstr "Verifikoj"
+
+#: includes/petitions.php:46
+msgid "Petition deleted."
+msgstr "Peticioni fshihet."
+
+#: includes/petitions.view.php:8
+msgid "All Petitions"
+msgstr "Të gjitha"
+
+#: includes/petitions.view.php:15 includes/petitions.view.php:25
+msgid "ID"
+msgstr "ID"
+
+#: includes/petitions.view.php:16 includes/petitions.view.php:26
+msgid "Petition name"
+msgstr "Emri i peticionit"
+
+#: includes/petitions.view.php:17 includes/petitions.view.php:27
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/petitions.view.php:34
+msgid "No petitions found."
+msgstr "Pa dokumente dhe firma."
+
+#: includes/petitions.view.php:44
+msgid "Edit"
+msgstr "Redakto"
+
+#: includes/petitions.view.php:45
+msgid "Delete"
+msgstr "Fshi"
+
+#: includes/petitions.view.php:46
+msgid "Duplicate"
+msgstr "Dyfisho"
+
+#: includes/petitions.view.php:49
+msgid "display petition"
+msgstr "shfaq peticionin"
+
+#: includes/petitions.view.php:50
+msgid "display signature list"
+msgstr "shfaqni listën e nënshkrimit"
+
+#: includes/petitions.view.php:51
+msgid "display signature count"
+msgstr "shfaqni numërimin e nënshkrimit"
+
+#: includes/petitions.view.php:52
+msgid "display signature goal"
+msgstr "shfaqni qëllimin e nënshkrimit"
+
+#: includes/petitions.view.php:53
+msgid "display petition title"
+msgstr "shfaq titullin e peticionit"
+
+#: includes/petitions.view.php:54
+msgid "display petition message"
+msgstr "shfaq mesazhin e peticionit"
+
+#: includes/petitions.view.php:60
+msgid "View Signatures"
+msgstr "Shiko nënshkrimet"
+
+#: includes/petitions.view.php:66
+msgid ""
+"Delete this petition permanently? All of the petition's signatures will be "
+"deleted as well."
+msgstr ""
+"Fshije këtë peticion përgjithmonë? Të gjitha firmat e peticionit do të "
+"fshihen gjithashtu."
+
+#: includes/settings.php:31
+msgid "Settings updated."
+msgstr "Cilësimet përditësohen"
+
+#: includes/settings.view.php:156 includes/settings.view.php:552
+msgid "Security"
+msgstr "Siguria"
+
+#: includes/settings.view.php:161 includes/settings.view.php:641
+msgid "Anedot.com Donation Form Embed"
+msgstr "Formulari i Donacionit të Anedot.com Embed"
+
+#: includes/settings.view.php:167
+msgid "These settings apply to all petitions"
+msgstr "Këto rregullimet zbatohen për të gjitha peticionet"
+
+#: includes/settings.view.php:172 includes/settings.view.php:179
+#: includes/settings.view.php:343
+msgid "Default"
+msgstr "Paracaktuar"
+
+#: includes/settings.view.php:173
+msgid "Basic"
+msgstr "Bazë"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "Custom"
+msgstr "Përshtat"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "use"
+msgstr "Përdorim"
+
+#: includes/settings.view.php:191 includes/settings.view.php:326
+msgid "Accepted variables:"
+msgstr "Ndryshoret e pranuara:"
+
+#: includes/settings.view.php:192 includes/settings.view.php:327
+msgid "Accepted tags:"
+msgstr "Etiketat e pranuara:"
+
+#: includes/settings.view.php:196
+msgid "Petition fade out after signing?"
+msgstr "Peticioni zbehet pas nënshkrimit?"
+
+#: includes/settings.view.php:216
+msgid "Checked"
+msgstr "kontrolluar."
+
+#: includes/settings.view.php:217
+msgid "Unchecked"
+msgstr "Mos lini asnjë makinë të vetme të shkojë e pakontrolluar."
+
+#: includes/settings.view.php:223 includes/settings.view.php:231
+#: includes/settings.view.php:239 includes/settings.view.php:245
+#: includes/settings.view.php:260
+msgid "Yes"
+msgstr "Po"
+
+#: includes/settings.view.php:223
+msgid "at the bottom of the petition form"
+msgstr "në fund të formularit të peticionit"
+
+#: includes/settings.view.php:227
+msgid "Display honorific field"
+msgstr "Shfaq fushën honorific"
+
+#: includes/settings.view.php:235
+msgid "Display BCC field"
+msgstr "Shkëmben shfaqjen e fushës BCC"
+
+#: includes/settings.view.php:243
+msgid "EU postal code position?"
+msgstr "Pozicioni i kodit postar të BE-së?"
+
+#: includes/settings.view.php:245
+msgid "In EU postal code comes before city"
+msgstr "Në BE, kodi postar vjen para qytetit"
+
+#: includes/settings.view.php:249
+msgid "Signature count format"
+msgstr "Formati i numërimit të firmës"
+
+#: includes/settings.view.php:252
+msgid "Thousands separator"
+msgstr "Mijëra ndarës"
+
+#: includes/settings.view.php:253
+msgid "Decimal separator"
+msgstr "Presja dhjetore"
+
+#: includes/settings.view.php:254
+msgid "currently"
+msgstr "aktualisht"
+
+#: includes/settings.view.php:258
+msgid "Display Privacy Policy accept?"
+msgstr "Trego Politikën e Privatësisë të pranojë?"
+
+#: includes/settings.view.php:260
+msgid "GDPR"
+msgstr "GDPR"
+
+#: includes/settings.view.php:266
+msgid "Enable Google recaptcha?"
+msgstr "Aktivizo rekaptcha në Google?"
+
+#: includes/settings.view.php:282
+msgid "Enable hCaptcha?"
+msgstr "Aktivizo hCaptcha?"
+
+#: includes/settings.view.php:296
+msgid "Display sharing icons?"
+msgstr "Shfaq ikonat e ndarjes?"
+
+#: includes/settings.view.php:303
+msgid "Enable Anedot.com?"
+msgstr "Aktivizoni Anedot.com?"
+
+#: includes/settings.view.php:305
+msgid "Anedot.com is a 3rd party fund raising site"
+msgstr "Anedot.com është një sit i mbledhjes së fondeve të palëve të treta"
+
+#: includes/settings.view.php:335
+msgid ""
+"These settings apply to signatures displayed on your site using the shortcode"
+msgstr ""
+"Këto rregullimet zbatohen për nënshkrimet e shfaqura në faqen tuaj duke "
+"përdorur kod të shkurtër"
+
+#: includes/settings.view.php:348
+msgid "To style the signature list you are best using your theme's"
+msgstr ""
+"Për të stiluar listën e nënshkrimeve ju jeni më së miri duke përdorur temën "
+"tuaj"
+
+#: includes/settings.view.php:348
+msgid "Additional CSS"
+msgstr "CSS shtesë"
+
+#: includes/settings.view.php:348
+msgid "setting"
+msgstr "faqosje"
+
+#: includes/settings.view.php:352
+msgid "0 to display all"
+msgstr "0 për të shfaqur të gjitha"
+
+#: includes/settings.view.php:355
+msgid "Changing to \"list\" will clear column settings below"
+msgstr "Ndryshimi në \"listë\" do të qartësojë rregullimet e kolonës më poshtë"
+
+#: includes/settings.view.php:357
+msgid "table"
+msgstr "tabelë"
+
+#: includes/settings.view.php:359
+msgid "inline blocks - very styleable"
+msgstr "blloqe inline - shumë të stilit"
+
+#: includes/settings.view.php:361
+msgid "long list (comma separated)"
+msgstr "Lista ndarëse Presje"
+
+#: includes/settings.view.php:368
+msgid "Count"
+msgstr "Numëro"
+
+#: includes/settings.view.php:371 includes/settings.view.php:446
+#: includes/signatures.view.php:157 includes/signatures.view.php:185
+msgid "Name"
+msgstr "Emri"
+
+#: includes/settings.view.php:374
+msgid "Email address - unless disabled"
+msgstr "Adresa Email"
+
+#: includes/settings.view.php:389
+msgid "Custom Field 1"
+msgstr "Fusha e personalizuar 1"
+
+#: includes/settings.view.php:392
+msgid "Custom Field 2"
+msgstr "Fusha e personalizuar 2"
+
+#: includes/settings.view.php:395
+msgid "Custom Field 3"
+msgstr "Fusha e personalizuar 3"
+
+#: includes/settings.view.php:398
+msgid "Custom Field 4"
+msgstr "Fusha e personalizuar 4"
+
+#: includes/settings.view.php:401
+msgid "Custom drop-down field"
+msgstr "Fushë zbritje e personalizuar"
+
+#: includes/settings.view.php:404 includes/settings.view.php:496
+msgid "Custom Checkbox 1"
+msgstr "Kutia e kontrollit të personalizuar 1"
+
+#: includes/settings.view.php:407 includes/settings.view.php:500
+msgid "Custom Checkbox 2"
+msgstr "Kutia e kontrollit të personalizuar 2"
+
+#: includes/settings.view.php:413 includes/signatures.view.php:148
+msgid "Date"
+msgstr "Data"
+
+#: includes/settings.view.php:418
+msgid "Display country flags?"
+msgstr "Shfaq flamuj të vendit?"
+
+#: includes/settings.view.php:422
+msgid "requires Country column to be enabled above"
+msgstr "kërkon që kolona e vendit të aktivizohet më lart"
+
+#: includes/settings.view.php:429
+msgid "enabled - only show first letter of surname"
+msgstr "Kthe në të madhe gërmën e parë për secilën nga fjalët e zgjedhura"
+
+#: includes/settings.view.php:430
+msgid "disabled"
+msgstr "çaktivuar"
+
+#: includes/settings.view.php:439
+msgid "Settings for the dashboard signature list"
+msgstr "Rregullimet për listën e firmës së të përparmës"
+
+#: includes/settings.view.php:442
+msgid "Columns to display"
+msgstr "Kolonat për t'u shfaqur"
+
+#: includes/settings.view.php:452
+msgid "Petition info"
+msgstr "Aktualizo"
+
+#: includes/settings.view.php:468
+msgid "Postal code"
+msgstr "Kodi postar"
+
+#: includes/settings.view.php:476 includes/signatures.view.php:139
+msgid "Custom field 1"
+msgstr "Fusha e personalizuar 1"
+
+#: includes/settings.view.php:480 includes/signatures.view.php:140
+msgid "Custom field 2"
+msgstr "Fusha e personalizuar 2"
+
+#: includes/settings.view.php:484 includes/signatures.view.php:141
+msgid "Custom field 3"
+msgstr "Fusha e personalizuar 3"
+
+#: includes/settings.view.php:488 includes/signatures.view.php:142
+msgid "Custom field 4"
+msgstr "Fusha e personalizuar 4"
+
+#: includes/settings.view.php:492 includes/signatures.view.php:143
+msgid "Custom field 5"
+msgstr "Fusha e personalizuar 5"
+
+#: includes/settings.view.php:503
+msgid "Confirmed status"
+msgstr "Gjendja e konfirmuar"
+
+#: includes/settings.view.php:509
+msgid "Date signed"
+msgstr "Firmosur më"
+
+#: includes/settings.view.php:513
+msgid "Display time signed?"
+msgstr "Firmosur më"
+
+#: includes/settings.view.php:517
+msgid "IP address"
+msgstr "Adresa IP"
+
+#: includes/settings.view.php:521
+msgid "CSV file includes"
+msgstr "Importo nga édo skedar CSV"
+
+#: includes/settings.view.php:523
+msgid "All signatures"
+msgstr "Të gjitha firmat"
+
+#: includes/settings.view.php:525
+msgid "Only opt-in signatures"
+msgstr "Prano abonimin"
+
+#: includes/settings.view.php:527
+msgid "Only double opt-in signatures"
+msgstr "Prano abonimin"
+
+#: includes/settings.view.php:527
+msgid "opt-in + confirmed"
+msgstr "Prano abonimin"
+
+#: includes/settings.view.php:529
+msgid "Only confirmed signatures"
+msgstr "Vetëm nënshkrimet e konfirmuara"
+
+#: includes/settings.view.php:541
+msgid "rows - default = 20"
+msgstr "rreshta - default = 20"
+
+#: includes/settings.view.php:545
+msgid "rows - default = 50"
+msgstr "rreshta - default = 50"
+
+#: includes/settings.view.php:555
+msgid "Webhooks enabled"
+msgstr "U aktivizua Webhooks"
+
+#: includes/settings.view.php:603
+msgid "Don't have a license"
+msgstr "Nuk kam patentë."
+
+#: includes/settings.view.php:644
+msgid "Anedot.com Donation Slug"
+msgstr "Slug Donation Anedot.com"
+
+#: includes/settings.view.php:646
+msgid ""
+"Input your Anedot.com \"Account Slug\" (from Settings > Brand), a slash, and "
+"then your Campaign Slug (from Campaigns > Edit > Basic)."
+msgstr ""
+"Futni \"Slug Account\" tuaj të Anedot.com (nga Parametrat> Markë), një çikë, "
+"dhe më pas Slug tuaj të fushatës (nga fushatat> Redakto> Thelbësore)."
+
+#: includes/settings.view.php:651
+msgid "Anedot.com Embed Pref"
+msgstr "Anedot.com Embed pref"
+
+#: includes/settings.view.php:653
+msgid ""
+"Enter \"true\" (without quotes) to show account name header on embedded "
+"campaigns."
+msgstr ""
+"Vendosni \"true\" (pa thonjëza) për të treguar titullin e emrit të llogarisë "
+"në fushatat e ngulitura."
+
+#: includes/settings.view.php:657
+msgid "Anedot.com iframe Width"
+msgstr "Gjerësia e Anedot.com iframe"
+
+#: includes/settings.view.php:659
+msgid ""
+"Width for donation form iframe, either as percent, e.g. \"100%\" (without "
+"quotes), or pixels, e.g. \"375\" (without quotes). Iframe is to be displayed "
+"in Success Message area, after signing of a petition."
+msgstr ""
+"Gjerësia e formës së dhurimit iframe, qoftë si përqind, p.sh. \"100%\" (pa "
+"thonjëza), ose piksel, p.sh. \"375\" (pa thonjëza). Iframe do të shfaqet në "
+"zonën e mesazhit të suksesit, pas nënshkrimit të një peticioni."
+
+#: includes/settings.view.php:663
+msgid "Anedot.com iframe Height"
+msgstr "Anedot.com iframe Lartësia"
+
+#: includes/settings.view.php:665
+msgid ""
+"Height for donation page iframe, either as pixels, e.g. \"1570\" (without "
+"quotes), or percent, e.g. \"100%\" (without quotes). Iframe is to be "
+"displayed in Success Message area, after signing of a petition."
+msgstr ""
+"Lartësia për faqe dhurimi iframe, qoftë si piksele, p.sh. \"1570\" (pa "
+"thonjëza), ose përqind, p.sh. \"100%\" (pa thonjëza). Iframe do të shfaqet "
+"në zonën e mesazhit të suksesit, pas nënshkrimit të një peticioni."
+
+#: includes/settings.view.php:671
+msgid "Save Changes"
+msgstr "Ruaj ndryshimet"
+
+#: includes/settings.view.php:374
+msgid "Are you sure you want to publicly display email addresses?"
+msgstr "Je i sigurt që dëshiron të shfaqësh publikisht adresat e e-mailit?"
+
+#: includes/signatures.php:39 includes/signatures.php:86
+#: includes/signatures.php:122 includes/signatures.php:193
+#: includes/signatures.php:207
+msgid "Total Signatures"
+msgstr "Konfirmoni"
+
+#: includes/signatures.php:93 includes/signatures.php:129
+msgid "Confirmation emails sent."
+msgstr "Emailet e konfirmimit të dërguara."
+
+#: includes/signatures.php:212
+msgid "Total"
+msgstr "Totali"
+
+#: includes/signatures.view.php:15
+msgid "Display all signatures"
+msgstr "Shfaq të gjitha nënshkrimet"
+
+#: includes/signatures.view.php:20
+msgid "Select petition"
+msgstr "Zgjedhni"
+
+#: includes/signatures.view.php:35
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each unconfirmed signature."
+msgstr ""
+"Je i sigurt që do ta bësh këtë? Një email i veçantë konfirmimi do të "
+"dërgohet për çdo nënshkrim të pakonfirmuar."
+
+#: includes/signatures.view.php:36
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each selected signature."
+msgstr ""
+"Je i sigurt që do ta bësh këtë? Një email i veçantë konfirmimi do të "
+"dërgohet për çdo nënshkrim të zgjedhur."
+
+#: includes/signatures.view.php:37
+msgid "Are you sure you want to do this? You will manually confirm "
+msgstr "Je i sigurt që do ta bësh këtë? Do ta konfirmosh manualisht "
+
+#: includes/signatures.view.php:38
+msgid "Are you sure you want to do this? You will delete "
+msgstr "Je i sigurt që do ta bësh këtë? Ti do të eleminosh "
+
+#: includes/signatures.view.php:39
+msgid "selected signature"
+msgstr "firma e zgjedhur"
+
+#: includes/signatures.view.php:51
+msgid "Reconfirm selected"
+msgstr "Llogaria juaj eshte verifikuar njehere."
+
+#: includes/signatures.view.php:53
+msgid "Reconfirm selected: choose petition first"
+msgstr "Rikonfirmoni të zgjedhur: zgjidhni së pari peticionin"
+
+#: includes/signatures.view.php:55 includes/signatures.view.php:58
+msgid "Reconfirm selected: choose signatures"
+msgstr "Rikonfirmoni të zgjedhur: zgjidhni së pari peticionin"
+
+#: includes/signatures.view.php:63
+msgid "Force confirm selected"
+msgstr "Lutemi konfirmoni adresën tuaj të postës elektronike"
+
+#: includes/signatures.view.php:65
+msgid "Force confirm selected - choose signatures"
+msgstr "Pasirinkta jėga patvirtinti: pažymėkite 1 ar daugiau"
+
+#: includes/signatures.view.php:67
+msgid "Force confirm selected: choose petition first"
+msgstr "Rikonfirmoni të zgjedhur: zgjidhni së pari peticionin"
+
+#: includes/signatures.view.php:69 includes/signatures.view.php:71
+msgid "Force confirm selected: choose signatures"
+msgstr "Pasirinkta jėga patvirtinti: pažymėkite 1 ar daugiau"
+
+#: includes/signatures.view.php:75
+msgid "Delete selected"
+msgstr "Harro plugin e zgjedhur"
+
+#: includes/signatures.view.php:77
+msgid "Delete selected: choose signatures"
+msgstr "Rikonfirmoni të zgjedhur: zgjidhni së pari peticionin"
+
+#: includes/signatures.view.php:91
+msgid "Resend selected confirmations"
+msgstr "Ri-dërgoni konfirmime"
+
+#: includes/signatures.view.php:100
+msgid "Choose signatures action"
+msgstr "Zgjidh veprimet e firmave"
+
+#: includes/signatures.view.php:101
+msgid "Download CSV - see settings/admin sig list"
+msgstr "Shkarko CSV - shih listën e rregullimeve/admin sig"
+
+#: includes/signatures.view.php:102
+msgid "Display only unconfirmed"
+msgstr "Ende pakonfirmuara"
+
+#: includes/signatures.view.php:103
+msgid "Resend all unconfirmed"
+msgstr "Ende pakonfirmuara"
+
+#: includes/signatures.view.php:108
+msgid "Apply"
+msgstr "Apliko"
+
+#: includes/signatures.view.php:113
+msgid "Search signatures"
+msgstr "Firmat"
+
+#: includes/signatures.view.php:144
+msgid "Checkbox 1"
+msgstr "Kutia e çeqeve 1"
+
+#: includes/signatures.view.php:145
+msgid "Checkbox 2"
+msgstr "Kutia e çeqeve 2"
+
+#: includes/signatures.view.php:146
+msgid "Opt-in"
+msgstr "Prano abonimin"
+
+#: includes/widget.php:14
+msgid "Display a petition form."
+msgstr "Shfaq një formë të çështjes së procesit % app_name%"
+
+#: includes/widget.php:76
+msgid "Sign the Petition"
+msgstr "Firmoseni peticionin."
+
+#: includes/widget.php:89
+msgid "Sharing URL"
+msgstr "Ndarja e URL-së"
+
+#: includes/widget.php:90
+msgid "Call to Action"
+msgstr "Thirr per te vepruar"
+
+#: includes/widget.php:415
+msgid "Confirm Email"
+msgstr "Konfirmo Adresen Email"
+
+#: speakout-email-petitions.php:95
+msgid "Support"
+msgstr "Suport"
+
+#. Plugin Name of the plugin/theme
+msgid "SpeakOut! Email Petitions Pro"
+msgstr "SpeakOut! Email Petitions Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://speakout.123host.net.au/"
+msgstr "https://speakout.123host.net.au/"
+
+#. Description of the plugin/theme
+msgid ""
+"This is the fully featured Pro version of SpeakOut! Create custom email "
+"petition forms and include them on your site via shortcode or a widget. When "
+"signed, the petition is emailed to your target and signatures are saved in "
+"the database.  There are many customisable options to make this plugin very "
+"flexible."
+msgstr ""
+"Ky është versioni pro plotësisht i SpeakOut! Krijo formularët e peticionit "
+"të personalizuar të email-it dhe përfshiji ato në faqen tuaj nëpërmjet "
+"shortcode ose një widget. Kur nënshkruhet, peticioni është dërguar me e-mail "
+"në objektivin tuaj dhe nënshkrimet ruhen në bazën e të dhënave.  Ka shumë "
+"opsione të personalizuar për ta bërë këtë plugin shumë fleksibël."
+
+#. Author of the plugin/theme
+msgid "Steve D - 123host.au"
+msgstr "Stiv D - 123host.au"
+
+#. Author URI of the plugin/theme
+msgid "https://123Host.au"
+msgstr "https://123host.au"
+
+#~ msgid "Import petitions from SpeakUp to SpeakOut!"
+#~ msgstr "Importoni peticione nga SpeakUp për të folur!"
+
+#~ msgid "Upgrade to Pro"
+#~ msgstr "Përmirëso në Pro"
+
+#~ msgid "Disabled"
+#~ msgstr "Pasivizuar"
+
+#~ msgid "Import from SpeakUp"
+#~ msgstr "Importo nga QIF"
+
+#~ msgid "SpeakOut! Upgrade"
+#~ msgstr "SpeakOut! Rinovim"
+
+#~ msgid "Custom Field 5"
+#~ msgstr "Fusha e personalizuar 5"
+
+#~ msgid "yes"
+#~ msgstr "po"
+
+#~ msgid "no"
+#~ msgstr "jo"
+
+#~ msgid ""
+#~ "Add a custom fields to the petition form for collecting additional data."
+#~ msgstr ""
+#~ "Shto një fushë të personalizuar në formularin e peticionit për mbledhjen "
+#~ "e të dhënave shtesë."
+
+#~ msgid ""
+#~ "Select the subset of signatures that will be included in CSV file "
+#~ "downloads"
+#~ msgstr ""
+#~ "Detyra e tyre është përcaktimi i elemetëve që do të përfshihen në adresat "
+#~ "e reja."
+
+#~ msgid "Signature List"
+#~ msgstr "Lista e Nënshkrimit"
+
+#~ msgid "In the free version you are limited to one petition"
+#~ msgstr "Në versionin falas jeni të kufizuar në një peticion"
+
+#~ msgid ""
+#~ "Any additional existing petitions will still work but cannot be edited"
+#~ msgstr ""
+#~ "Çdo peticion shtesë ekzistues do të funksionojë ende por nuk mund të "
+#~ "redaktohet"
+
+#~ msgid "create"
+#~ msgstr "krijon"
+
+#~ msgid "Duplicate Email Petition"
+#~ msgstr "Duplikim i peticionit të emailit"
+
+#~ msgid "Email Petitions"
+#~ msgstr "Posta elektronike"
+
+#~ msgid "This is coming - to avoid a license fee, make a donation"
+#~ msgstr ""
+#~ "Kjo po vjen - për të shmangur një pagesë liçense, për të bërë një donacion"
+
+#, php-format
+#~ msgid "A donation will help keep SpeakOut! 100% free!"
+#~ msgstr "Një donacion do të ndihmojë për të mbajtur SpeakOut! 100% fre!"
+
+#~ msgid "Download CSV"
+#~ msgstr "shkarko"
+
+#~ msgid "3rd Party extras"
+#~ msgstr "Ekstrat e partisë së tretë"
+
+#~ msgid "This is coming"
+#~ msgstr "Kjo po vjen."
+
+#~ msgid "This field is included in email to target"
+#~ msgstr "Kjo fushë është e përfshirë në email për të synuar"
+
+#~ msgid "Hide email from public"
+#~ msgstr "Email nga"
+
+#~ msgid "Please donate if this plugin is useful."
+#~ msgstr "Ju lutemi dhuroni nëse kjo shtojcë është e dobishme."
+
+#~ msgid "Custom field"
+#~ msgstr "Fusha të Personaliyuara"
+
+#~ msgid "None"
+#~ msgstr "Asnjë"
+
+#~ msgid "Read or edit the petition"
+#~ msgstr "Firmoseni peticionin."
+
+#~ msgid "Ms"
+#~ msgstr "Znj."
+
+#~ msgid "Mr"
+#~ msgstr "Z."
+
+#~ msgid "Mrs"
+#~ msgstr "Znj"
+
+#~ msgid "Miss"
+#~ msgstr "Znj.sha"
+
+#~ msgid "Mx."
+#~ msgstr "Mx."
+
+#~ msgid "Dr."
+#~ msgstr "Dr."
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "You will be redirected momentarily."
+#~ msgstr "Do kthehem pas pak."
+
+#~ msgid "instead of instant hide"
+#~ msgstr "në vend të fshehjes së menjëhershme"
+
+#~ msgid "Privacy Policy URL"
+#~ msgstr "URL e politikës së privatësisë"
+
+#~ msgid "You will need a pair of keys from"
+#~ msgstr "Do t'ju duhet një palë çelësa nga"
+
+#~ msgid "You can hide Facebook and Twitter icons"
+#~ msgstr "Ju mund të fshehni ikonat në Facebook dhe Twitter"
+
+#~ msgid "Example: If your donation page's URL is"
+#~ msgstr "Shembull: Nga faqja juaj e donacionit URL është"
+
+#~ msgid "then your Donation Slug is:"
+#~ msgstr "atëherë Slug Your Donation është:"
+
+#~ msgid "Donate, please!"
+#~ msgstr "- Jo, eja!"
+
+#~ msgid "Force confirm selected: check 1 or more"
+#~ msgstr "Pasirinkta jėga patvirtinti: pažymėkite 1 ar daugiau"
+
+#~ msgid "Delete selected: check 1 or more"
+#~ msgstr "Pasirinkta jėga patvirtinti: pažymėkite 1 ar daugiau"
+
+#~ msgid "Error: You must include a valid id."
+#~ msgstr "Duhet të jepni një adresë të vlefshme emaili."
+
+#~ msgid "All Signatures"
+#~ msgstr "Të gjitha nënshkrimet"
+
+#~ msgid "Signature deleted."
+#~ msgstr "Nënshkrimi u fshi."
+
+#~ msgid "Download as CSV"
+#~ msgstr "Mund ta shkarkosh si CSV ose të ngjeshur si ZIP."
+
+#~ msgid "Re-send confirmations"
+#~ msgstr "Ri-dërgoni konfirmime"
+
+#~ msgid "Donate"
+#~ msgstr "Dhuro"
+
+#~ msgid "Search"
+#~ msgstr "Kërko"
+
+#~ msgid "Street Address"
+#~ msgstr "Street Address"
+
+#~ msgid "Address fields required?"
+#~ msgstr "Kërkohen fushat e adresës?"
+
+#~ msgid "Post Code"
+#~ msgstr "Kodi Postar"
+
+#~ msgid "Steve D forked from speakup"
+#~ msgstr "Steve D futi nga biseda"

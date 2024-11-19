@@ -1,0 +1,345 @@
+/* any custom changes should be made in the theme custom CSS. */
+.dk-speakout-petition-wrap,
+.dk-speakout-petition-wrap input,
+.dk-speakout-message,
+.dk-speakout-message-editable textarea {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+.dk-speakout-petition-wrap {
+  background: #f6f6f6;
+  font: normal 15px/1.4em Helvetica, Arial, sans-serif;
+  margin: .5em 0 .5em 0;
+  width: 100%;
+}
+.dk-speakout-petition-wrap a {
+  outline: none;
+  text-decoration: none;
+}
+.dk-speakout-petition-wrap p {
+  margin: 0 0 .75em 0;
+}
+.dk-speakout-petition-wrap h3 {
+  font: bold 20px/1.4em Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+  line-height: 2em;
+  margin: 0 0 0 0 !important;
+  padding: 0.5em 3% 0.25em 3% !important;
+  text-shadow: none;
+  text-transform: none;
+}
+.dk-speakout-readme {
+  display: none;
+}
+.aligncenter{
+    margin:auto;
+}
+/*
+ *	Form elements
+ */
+.dk-speakout-petition-wrap input[type=text],
+.dk-speakout-message,
+.dk-speakout-message-editable textarea, .dk-speakout-petition-wrap input[type=email] {
+  background: #fff;
+  border: 1px solid #c3c3c3;
+  color: #444;
+  font: normal 15px/1.4em Helvetica, Arial, sans-serif;
+  padding: 0 0 0 .5em;
+}
+.dk-speakout-petition-wrap input {
+  /* height: 2em; */
+}
+.dk-speakout-half {
+  display: inline-block;
+    margin: 0 0 4px 5%;
+    width: 45.5%;
+}
+.dk-speakout-full {
+  display: inline-block;
+  margin: 8px 0 0 3%;
+  width: 94%;
+}
+/* .dk-speakout-half input,
+.dk-speakout-full input, */
+.dk-speakout-message-editable textarea {
+  width: 100%;
+}
+.dk-speakout-message,
+.dk-speakout-message-editable textarea {
+  font-size: 14px !important;
+  height: 250px !important;
+  margin-top: 16px;
+  overflow: auto;
+  padding: .3em 0 0 .5em;
+}
+
+.dk-speakout-options-checkbox{
+    margin-top:5px;
+}
+/*
+ *	Submit button
+ */
+.dk-speakout-submit-wrap {
+  margin: 0 3% 30px 3%;
+  text-align: center;
+}
+.dk-speakout-submit {
+  background: #fc861d url(../images/bg-submit-button.png) repeat-x top left;
+  background: -webkit-linear-gradient(#ff9a40, #d94200);
+  background: -moz-linear-gradient(#ff9a40, #d94200);
+  background: -ms-linear-gradient(#ff9a40, #d94200);
+  background: -o-linear-gradient(#ff9a40, #d94200);
+  background: linear-gradient(#ff9a40, #d94200);
+  border-radius: 4px;
+  border: 1px solid #d94200;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: .5em 4em;
+  position: relative;
+  text-shadow: 0 -1px 0 #a63200;
+}
+.dk-speakout-submit:active {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: 1px;
+}
+.dk-speakout-submit span {
+  color: #fff;
+}
+.dk-speakout-ajaxloader {
+  background: transparent url("data:image/gif;base64,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") no-repeat 50% 50%;
+  background-size: 64px 8px;
+  display: block;
+  height: 8px;
+  margin: 5px 0 10px 0;
+}
+/*
+ *	Form input fields
+ */
+.dk-speakout-petition-wrap label {
+  color: #666;
+  font-size: .8em;
+  font-weight: bold;
+  margin-left: 1px;
+  position: relative;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
+}
+.dk-speakout-petition-wrap label.required span {
+  color: #e81e00;
+}
+
+.dk-speakout-error {
+  background-color: #ffebe8 !important;
+  border: 1px solid #e81e00 !important;
+}
+#dk-speakout-options-wrap{
+    margin-left:3%;
+}
+/*
+ * Sharing Buttons and Progress bar
+ */
+.dk-speakout-share,
+.dk-speakout-progress-wrap {
+  background: #e7e7e7;
+  text-align: center;
+}
+.dk-speakout-progress-wrap {
+  border-top: 1px solid #d0d0d0;
+}
+.dk-speakout-share {
+  font-weight: bold;
+  padding: 0 2% 1em 2%;
+}
+a.dk-speakout-facebook {
+  background: #2e4a88 url(../images/bg-button-facebook.png) repeat-x top left;
+  background: -webkit-linear-gradient(#cfdeff, #6f8ac4);
+  background: -moz-linear-gradient(#cfdeff, #6f8ac4);
+  background: -ms-linear-gradient(#cfdeff, #6f8ac4);
+  background: -o-linear-gradient(#cfdeff, #6f8ac4);
+  background: linear-gradient(#cfdeff, #6f8ac4);
+  border-radius: 4px;
+  border: 1px solid #112b66;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.25), 0 1px 4px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  height: 32px;
+  margin: 0 0 0 0;
+  width: 100px;
+}
+a.dk-speakout-facebook span {
+  background: url("../images/facebook-logo.svg") 50% 50% no-repeat;
+  background-size: 28px 24px;
+  display: inline-block;
+  height: 31px;
+  width: 28px;
+}
+
+a.dk-speakout-email {
+  display: inline-block;
+  height: 32px;
+  margin: 0 0 0 19px;
+  text-align: center;
+  width: 50px;
+}
+a.dk-speakout-email span {
+  background:  url('../images/email-icon.svg') 50% 50% no-repeat;
+  background-size: 24px 21px;
+  display: inline-block;
+  height: 32px;
+  width: 24px;
+  transform: scale(2);
+  opacity: .7;
+}
+
+
+
+a.dk-speakout-x {
+  background: #2477b3 url(../images/bg-button-X.png) repeat-x top left;
+  background: -webkit-linear-gradient(#d5d7d9, #757575);
+  background: -moz-linear-gradient(#d5d7d9, #757575);
+  background: -ms-linear-gradient(#d5d7d9, #757575);
+  background: -o-linear-gradient(#d5d7d9, #757575);
+  background: linear-gradient(#d5d7d9, #757575);
+  border-radius: 4px;
+  border: 1px solid #606568;
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.5), 0 1px 4px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  height: 32px;
+  margin: 0 0 0 19px;
+  text-align: center;
+  width: 100px;
+}
+a.dk-speakout-x span {
+  background: url("../images/x-logo.svg") 50% 50% no-repeat;
+  background-size: 24px 21px;
+  background-position: 0 5px;
+  display: inline-block;
+  height: 28px;
+  width: 24px;
+}
+a.dk-speakout-x:active,
+a.dk-speakout-facebook:active,
+a.dk-speakout-email:active {
+  position: relative;
+  top: 1px;
+}
+
+.dk-speakout-progress-wrap {
+  border-top: 1px solid #e9e9e9;
+  margin-top: 1em;
+  padding: 5px 0;
+  text-align: center;
+}
+.dk-speakout-progress {
+  background: #d7d7d7 url(../images/bg-progressbar-back.png) repeat-x top left;
+  background: -webkit-linear-gradient(#bbbbbb, #eeeeee);
+  background: -moz-linear-gradient(#bbbbbb, #eeeeee);
+  background: -ms-linear-gradient(#bbbbbb, #eeeeee);
+  background: -o-linear-gradient(#bbbbbb, #eeeeee);
+  background: linear-gradient(#bbbbbb, #eeeeee);
+  border: 1px solid #9d9d9d;
+  border-radius: 3px;
+  display: inline-block;
+  height: 16px;
+  margin: .5em 0 0 3%;
+}
+.dk-speakout-progressbar {
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  border-right: 1px solid #c3c3c3;
+  height: 16px;
+}
+.dk-speakout-progressbar-low,
+.dk-speakout-progressbar-medium,
+.dk-speakout-progressbar-high,
+.dk-speakout-progressbar-complete {
+  background: transparent url(../images/bg-progressbar.png) repeat-x top left;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0.4) 100%);
+  background: -moz-linear-gradient(rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0.4) 100%);
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0.4) 100%);
+  background: linear-gradient(rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, 0.4) 100%);
+  background-size: 16px 16px;
+}
+.dk-speakout-progressbar-low {
+  background-color: #3c0;
+}
+.dk-speakout-progressbar-medium {
+  background-color: #09f;
+}
+.dk-speakout-progressbar-high {
+  background-color: #9f07ed;
+}
+.dk-speakout-progressbar-complete {
+  background-color: #f00;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.dk-speakout-signature-count {
+  display: inline-block;
+  vertical-align: 15%;
+}
+.dk-speakout-signature-count span {
+  font-weight: bold;
+}
+
+.dk-speakout-bcc-wrap, .dk-speakout-privacypolicy-wrap, .dk-speakout-full, .dk-speakout-optin-wrap, .dk-speakout-anonymise-wrap  {
+  display: inline-block;
+  margin: 0 0 0 5%;
+  width: 90%;
+}
+.dk-speakout-optin-wrap input {
+  margin: 5px 0 0 0;
+  position: relative;
+  top: 1px;
+  /* vertical-align: bottom; */
+}
+.dk-speakout-optin-label{
+ margin: 0 0 0 18px;   
+}
+.dk-speakout-optin-checkbox{
+    float:left;
+}
+.dk-speakout-full{
+    margin-bottom:5px !important;
+}
+/*
+ * Response messages
+ */
+.dk-speakout-response, .dk-speakout-response-bottom,
+.dk-speakout-notice {
+  margin: 1em 0;
+  padding: 0 3% 0 3%;
+}
+.dk-speakout-response, .dk-speakout-response-bottom {
+  display: none;
+}
+/*
+ *	Expired petitions
+ */
+.dk-speakout-expired p {
+  font-size: .9em;
+  margin: 0.25em 3% 0.25em 3%;
+}
+.dk-speakout-expired .dk-speakout-progress-wrap {
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.dk-speakout-message-editable .dk-speakout-greeting,
+.dk-speakout-message-editable .dk-speakout-caps {
+  display: none;
+}
+.dk-speakout-caps {
+  text-transform: capitalize;
+}
+.dk-speakout-clear {
+  clear: both;
+}
+.dk-speakout-recaptcha, .dk-speakout-hcaptcha{
+	width:fit-content;
+	margin:auto;
+}

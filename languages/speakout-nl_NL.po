@@ -1,0 +1,2155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeakOut! Email Petitions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-03 09:35+1000\n"
+"PO-Revision-Date: 2023-04-03 09:36+1000\n"
+"Last-Translator: Steve D <info@123host.com.au>\n"
+"Language-Team: Oren <oren@windowslive.com>, Petronella van Leusden\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;_n;_nx;_n_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/addnew.php:38 includes/addnew.php:64
+msgid "Edit Petition"
+msgstr "Petitie bewerken"
+
+#: includes/addnew.php:42 includes/addnew.php:68 includes/addnew.php:116
+msgid "Update Petition"
+msgstr "Update Petitie"
+
+#: includes/addnew.php:50
+#, php-format
+msgid ""
+"Petition created. Use %1$s %2$s %3$s to display in a page or post. Use %1$s "
+"%4$s %3$s to display the signatures list or %1$s %5$s %3$s to show just the "
+"signature count."
+msgstr ""
+"Petitie gemaakt. Gebruik %1$s %2$s %3$s om te laten zien op een pagina of "
+"post. Gebruik %1$s %4$s %3$s om de handtekeningen weer te geven of %1$s %5$s "
+"%3$s om alleen het aantal handtekeningen weer te geven.."
+
+#: includes/addnew.php:85
+msgid "Duplicate Petition"
+msgstr "Dubbele petitie"
+
+#: includes/addnew.php:89
+msgid "Save Duplicate Petition"
+msgstr "Dubbele petitie opslaan"
+
+#: includes/addnew.php:97
+#, php-format
+msgid ""
+"Petition created - you can edit it here. Use %1$s %2$s %3$s to display in a "
+"page or post."
+msgstr ""
+"Petitie gemaakt - u kunt het hier bewerken. Gebruik %1$s %2$s %3$s om weer "
+"te geven in een pagina of bericht."
+
+#: includes/addnew.php:112
+msgid "Edit New Petition"
+msgstr "Nieuwe petitie bewerken"
+
+#: includes/addnew.php:117
+msgid "Petition "
+msgstr "Petitie "
+
+#: includes/addnew.php:124
+msgid "Add New Petition"
+msgstr "Nieuwe petitie toevoegen"
+
+#: includes/addnew.php:128
+msgid "Create Petition"
+msgstr "Maak Petitie"
+
+#: includes/addnew.php:130
+msgid "Add me to your mailing list"
+msgstr "Voeg me toe aan uw mailing list"
+
+#: includes/addnew.view.php:9
+msgid ""
+"Error: Please correct the highlighted fields.  It may be behind a closed tab"
+msgstr "Fout : Verbeter aub de opgelichte velden"
+
+#: includes/addnew.view.php:18 includes/help.php:42
+msgid "Petition Content"
+msgstr "Inhoud petitie"
+
+#: includes/addnew.view.php:19 includes/help.php:47
+msgid "Petition Options"
+msgstr "Petitie"
+
+#: includes/addnew.view.php:20 includes/help.php:52
+msgid "Display Options"
+msgstr "Scherm Opties"
+
+#: includes/addnew.view.php:21 includes/help.php:57
+msgid "3rd Party Integrations"
+msgstr "3rd Party Integraties"
+
+#: includes/addnew.view.php:29 includes/help.php:6 includes/help.php:85
+#: includes/settings.view.php:338 includes/widget.php:88
+msgid "Title"
+msgstr "Titel"
+
+#: includes/addnew.view.php:30
+msgid "Enter title here"
+msgstr "Toon titel hier"
+
+#: includes/addnew.view.php:46 includes/help.php:7
+msgid "Do not send email (only collect signatures)"
+msgstr "Geen email versturen ( alleen handtekeningen verzamelen)"
+
+#: includes/addnew.view.php:50 includes/help.php:8
+msgid "Target Email"
+msgstr "Doel Email"
+
+#: includes/addnew.view.php:50 includes/addnew.view.php:53
+msgid "you may enter multiple addresses separated by commas"
+msgstr "u kunt het invoeren van meerdere adressen gescheiden door komma 's"
+
+#: includes/addnew.view.php:53
+msgid "CC Email"
+msgstr "CC E-mail"
+
+#: includes/addnew.view.php:56 includes/help.php:9 includes/help.php:80
+#: includes/settings.view.php:319
+msgid "Email Subject"
+msgstr "Email Onderwerp"
+
+#: includes/addnew.view.php:59 includes/help.php:10
+msgid "Greeting"
+msgstr "Begroeting"
+
+#: includes/addnew.view.php:65 includes/help.php:11
+msgid "Petition Message"
+msgstr "Petitie Boodschap"
+
+#: includes/addnew.view.php:67
+msgid "You can personalise the message by inserting tags"
+msgstr "U het bericht personaliseren door tags in te voegen"
+
+#: includes/addnew.view.php:68
+msgid "You or the signer can format the message using Markdown syntax - see"
+msgstr ""
+"U of de ondertekenaar kan het bericht opmaken met de syntaxis van Markdown - "
+"zie"
+
+#: includes/addnew.view.php:70
+msgid "Petition Footer (below signature)"
+msgstr "Verzoekschrift Voet (onder handtekening)"
+
+#: includes/addnew.view.php:75 includes/help.php:13
+msgid "Twitter Message"
+msgstr "Twitter Bericht"
+
+#: includes/addnew.view.php:100
+msgid "Don't collect email address"
+msgstr "Geen e-mailadres verzamelen"
+
+#: includes/addnew.view.php:101
+msgid "This cannot be reversed"
+msgstr "Dit kan niet worden teruggedraaid"
+
+#: includes/addnew.view.php:108 includes/help.php:17
+msgid "Allow public anonymous"
+msgstr "Openbaar anoniem toestaan"
+
+#: includes/addnew.view.php:117 includes/help.php:18
+msgid "Confirm signatures"
+msgstr "Bevestig handtekeningen"
+
+#: includes/addnew.view.php:120
+msgid "Return URL"
+msgstr "Keer terug URL"
+
+#: includes/addnew.view.php:129
+msgid "Allow message to be edited"
+msgstr "Laat bericht bewerken"
+
+#: includes/addnew.view.php:137 includes/help.php:20
+msgid "Set signature goal"
+msgstr "Zet handtekening gewenst resultaat"
+
+#: includes/addnew.view.php:140 includes/petitions.view.php:19
+#: includes/petitions.view.php:29
+msgid "Goal"
+msgstr "Doel"
+
+#: includes/addnew.view.php:143
+msgid "Auto increase goal"
+msgstr "Doel automatisch verhogen"
+
+#: includes/addnew.view.php:144
+msgid "by"
+msgstr "door"
+
+#: includes/addnew.view.php:145
+msgid "when count"
+msgstr "bij tellen"
+
+#: includes/addnew.view.php:145 includes/emailpetition.php:661
+#: includes/widget.php:207
+msgid "of goal"
+msgstr "van doel"
+
+#: includes/addnew.view.php:153 includes/help.php:22
+msgid "Set expiration date"
+msgstr "Zet vervaldatum"
+
+#: includes/addnew.view.php:157
+msgid "Jan"
+msgstr "Jan"
+
+#: includes/addnew.view.php:158
+msgid "Feb"
+msgstr "Feb"
+
+#: includes/addnew.view.php:159
+msgid "Mar"
+msgstr "Mar"
+
+#: includes/addnew.view.php:160
+msgid "Apr"
+msgstr "Apr"
+
+#: includes/addnew.view.php:161
+msgid "May"
+msgstr "Mei"
+
+#: includes/addnew.view.php:162
+msgid "Jun"
+msgstr "Jun"
+
+#: includes/addnew.view.php:163
+msgid "Jul"
+msgstr "Jul"
+
+#: includes/addnew.view.php:164
+msgid "Aug"
+msgstr "Aug"
+
+#: includes/addnew.view.php:165
+msgid "Sep"
+msgstr "Sep"
+
+#: includes/addnew.view.php:166
+msgid "Oct"
+msgstr "Oct"
+
+#: includes/addnew.view.php:167
+msgid "Nov"
+msgstr "Nov"
+
+#: includes/addnew.view.php:168
+msgid "Dec"
+msgstr "Dec"
+
+#: includes/addnew.view.php:184
+msgid "Redirect after successful sign"
+msgstr "Omleiden na een geslaagd teken"
+
+#: includes/addnew.view.php:187
+msgid "Full URL"
+msgstr "Volledige URL"
+
+#: includes/addnew.view.php:189
+msgid "Delay?"
+msgstr "Vertraging?"
+
+#: includes/addnew.view.php:190
+msgid "milliseconds"
+msgstr "milliseconden"
+
+#: includes/addnew.view.php:191
+msgid "Open in new window (target='_blank')"
+msgstr "Geopend in nieuw venster (target='_blank')"
+
+#: includes/addnew.view.php:205
+msgid "Text to open/close petition message"
+msgstr "Tekst om petitiebericht te openen/sluiten"
+
+#: includes/addnew.view.php:210
+msgid "Text to open/close editable petition message"
+msgstr "Tekst om bewerkbaar petitiebericht te openen/sluiten"
+
+#: includes/addnew.view.php:219 includes/help.php:27
+msgid "Display opt-in checkbox"
+msgstr "Toon de opt-in checkbox"
+
+#: includes/addnew.view.php:222 includes/addnew.view.php:287
+#: includes/addnew.view.php:322 includes/addnew.view.php:357
+#: includes/addnew.view.php:393 includes/addnew.view.php:434
+#: includes/addnew.view.php:465 includes/addnew.view.php:494
+msgid "Label"
+msgstr "Label"
+
+#: includes/addnew.view.php:230
+msgid "Display petition message"
+msgstr "Petitie bericht weergeven"
+
+#: includes/addnew.view.php:237 includes/help.php:28
+msgid "Display address fields"
+msgstr "Weergave adresvelden"
+
+#: includes/addnew.view.php:244 includes/help.php:88
+#: includes/settings.view.php:355
+msgid "Display"
+msgstr "Weergave"
+
+#: includes/addnew.view.php:245 includes/addnew.view.php:298
+#: includes/addnew.view.php:333 includes/addnew.view.php:368
+#: includes/addnew.view.php:404 includes/addnew.view.php:432
+msgid "Required"
+msgstr "Verplicht"
+
+#: includes/addnew.view.php:251 includes/addnew.view.php:597
+#: includes/emailpetition.php:426 includes/settings.view.php:456
+#: includes/signatures.view.php:134
+msgid "Street"
+msgstr "Straat"
+
+#: includes/addnew.view.php:256 includes/csv.php:54
+#: includes/emailpetition.php:443 includes/settings.view.php:377
+#: includes/settings.view.php:460 includes/signatures.view.php:135
+#: includes/widget.php:434
+msgid "City"
+msgstr "Woonplaats"
+
+#: includes/addnew.view.php:261 includes/emailpetition.php:450
+#: includes/settings.view.php:380 includes/widget.php:440
+msgid "State / Province"
+msgstr "Staat / Provincie"
+
+#: includes/addnew.view.php:266
+msgid "Postal Code - see settings for EU style"
+msgstr "Postcode - zie instellingen voor EU-stijl"
+
+#: includes/addnew.view.php:271 includes/addnew.view.php:629
+#: includes/csv.php:57 includes/emailpetition.php:491
+#: includes/settings.view.php:386 includes/settings.view.php:472
+#: includes/signatures.view.php:138 includes/widget.php:476
+msgid "Country"
+msgstr "Land"
+
+#: includes/addnew.view.php:283
+msgid "Display custom field 1"
+msgstr "Aangepast veld weergeven 1"
+
+#: includes/addnew.view.php:300 includes/addnew.view.php:335
+#: includes/addnew.view.php:370 includes/addnew.view.php:406
+#: includes/addnew.view.php:447 includes/addnew.view.php:475
+#: includes/addnew.view.php:504
+msgid "Location"
+msgstr "Locatie"
+
+#: includes/addnew.view.php:301 includes/addnew.view.php:336
+#: includes/addnew.view.php:371 includes/addnew.view.php:407
+#: includes/addnew.view.php:448 includes/addnew.view.php:476
+#: includes/addnew.view.php:505
+msgid "Top"
+msgstr "Top"
+
+#: includes/addnew.view.php:303 includes/addnew.view.php:338
+#: includes/addnew.view.php:373 includes/addnew.view.php:409
+#: includes/addnew.view.php:450 includes/addnew.view.php:478
+#: includes/addnew.view.php:507
+msgid "Above email"
+msgstr "Boven e-mail"
+
+#: includes/addnew.view.php:305 includes/addnew.view.php:340
+#: includes/addnew.view.php:375 includes/addnew.view.php:411
+#: includes/addnew.view.php:453 includes/addnew.view.php:481
+#: includes/addnew.view.php:510
+msgid "Bottom"
+msgstr "Onder"
+
+#: includes/addnew.view.php:308 includes/addnew.view.php:343
+#: includes/addnew.view.php:378 includes/addnew.view.php:414
+#: includes/addnew.view.php:428
+msgid "Include with petition"
+msgstr "Opnemen met petitie"
+
+#: includes/addnew.view.php:310 includes/addnew.view.php:345
+#: includes/addnew.view.php:380 includes/addnew.view.php:416
+msgid "Trim when displaying"
+msgstr "Bijsnijden bij weergave"
+
+#: includes/addnew.view.php:318
+msgid "Display custom field 2"
+msgstr "Aangepast veld 2 weergeven"
+
+#: includes/addnew.view.php:353
+msgid "Display custom field 3"
+msgstr "Aangepast veld weergeven 3"
+
+#: includes/addnew.view.php:389
+msgid "Display custom field 4"
+msgstr "Aangepast veld weergeven 4"
+
+#: includes/addnew.view.php:424
+msgid "Display custom drop-down"
+msgstr "Aangepaste vervolgkeuzelijst weergeven"
+
+#: includes/addnew.view.php:444
+msgid "Values"
+msgstr "Waarden"
+
+#: includes/addnew.view.php:461
+msgid "Display custom checkbox 1"
+msgstr "Aangepast selectievakje 1 weergeven"
+
+#: includes/addnew.view.php:490
+msgid "Display custom checkbox 2"
+msgstr "Aangepast selectievakje 2 weergeven"
+
+#: includes/addnew.view.php:520 includes/help.php:30
+msgid "Display custom message"
+msgstr "Toon aangepast bericht"
+
+#: includes/addnew.view.php:521
+msgid "Displayed beneath `Thank you` after petition is signed"
+msgstr "Weergegeven onder ' dank u ' na de petitie is ondertekend"
+
+#: includes/addnew.view.php:524
+msgid "Message"
+msgstr "Message"
+
+#: includes/addnew.view.php:535
+msgid ""
+"You must also enable 'Display opt-in checkbox' under the Display Options tab"
+msgstr ""
+"U moet ook 'Selectievakje voor opt-in weergeven' inschakelen op het tabblad "
+"Weergaveopties"
+
+#: includes/addnew.view.php:542
+msgid "Enable ActiveCampaign"
+msgstr "ActiveCampaign inschakelen"
+
+#: includes/addnew.view.php:549 includes/addnew.view.php:717
+#: includes/addnew.view.php:737 includes/addnew.view.php:759
+msgid "API Key"
+msgstr "API sleutel"
+
+#: includes/addnew.view.php:552
+msgid "Server URL"
+msgstr "Server-URL"
+
+#: includes/addnew.view.php:563
+msgid "Select list"
+msgstr "Lijst kiezen"
+
+#: includes/addnew.view.php:571
+msgid ""
+"Map the SpeakOut! fields to your Active Campaign fields. Leave those you "
+"don't use blank."
+msgstr ""
+"Breng de SpeakOut in kaart! velden naar uw actieve campagne velden. Laat de "
+"bestanden die u niet gebruikt leeg."
+
+#: includes/addnew.view.php:574 includes/csv.php:49
+msgid "Honorific"
+msgstr "Eretitel"
+
+#: includes/addnew.view.php:582 includes/csv.php:50
+#: includes/emailpetition.php:355 includes/widget.php:358
+msgid "First Name"
+msgstr "Voornaam"
+
+#: includes/addnew.view.php:587 includes/csv.php:51
+#: includes/emailpetition.php:359 includes/widget.php:362
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: includes/addnew.view.php:592 includes/emailpetition.php:418
+#: includes/settings.view.php:449 includes/signatures.view.php:132
+#: includes/widget.php:409
+msgid "Email"
+msgstr "Email"
+
+#: includes/addnew.view.php:605
+msgid "Suburb"
+msgstr "Wijk"
+
+#: includes/addnew.view.php:613 includes/csv.php:55
+#: includes/settings.view.php:464 includes/signatures.view.php:136
+msgid "State"
+msgstr "Staat"
+
+#: includes/addnew.view.php:621 includes/csv.php:56
+#: includes/emailpetition.php:436 includes/emailpetition.php:459
+#: includes/settings.view.php:383 includes/signatures.view.php:137
+#: includes/widget.php:447
+msgid "Postal Code"
+msgstr "Postcode"
+
+#: includes/addnew.view.php:712
+msgid "Enable MailChimp"
+msgstr "Inschakelen MailChimp"
+
+#: includes/addnew.view.php:720
+msgid "Server ID"
+msgstr "Server-ID"
+
+#: includes/addnew.view.php:723 includes/addnew.view.php:762
+msgid "List ID"
+msgstr "Lijst ID"
+
+#: includes/addnew.view.php:732
+msgid "Enable Mailerlite"
+msgstr "Mailerlite inschakelen"
+
+#: includes/addnew.view.php:740
+msgid "Group ID"
+msgstr "Groeps-ID"
+
+#: includes/addnew.view.php:750
+msgid "Enable Sendy"
+msgstr "Sendy inschakelen"
+
+#: includes/addnew.view.php:756
+msgid "Installation URL"
+msgstr "Url van de installatie"
+
+#: includes/admin.php:11 includes/admin.php:20 includes/admin.php:32
+msgid "SpeakOut! Email Petitions"
+msgstr "SpeakOut! E-mail verzoekschriften"
+
+#: includes/admin.php:33 includes/petitions.php:44 includes/petitions.php:57
+msgid "Petitions"
+msgstr "Verzoekschriften"
+
+#: includes/admin.php:44 includes/admin.php:45 includes/license.view.php:74
+msgid "Activate license"
+msgstr "Activeer licentie"
+
+#: includes/admin.php:55 includes/admin.php:56 includes/petitions.view.php:4
+msgid "Add New"
+msgstr "Voeg nieuwe toe"
+
+#: includes/admin.php:66 includes/admin.php:67 includes/petitions.view.php:18
+#: includes/petitions.view.php:28 includes/signatures.view.php:4
+msgid "Signatures"
+msgstr "Handtekeningen"
+
+#: includes/admin.php:77 includes/settings.view.php:142
+msgid "SpeakOut! Petitions Settings"
+msgstr "SpeakOut! Verzoekschriften instellingen"
+
+#: includes/admin.php:78
+msgid "Settings"
+msgstr "Instellingen"
+
+#: includes/class.petition.php:505
+msgid "No Title"
+msgstr "Geen Titel"
+
+#: includes/class.signaturelist.php:155 includes/class.signaturelist.php:215
+#: includes/class.signaturelist.php:319
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#: includes/class.speakout.php:118
+msgid "items"
+msgstr "items"
+
+#: includes/class.speakout.php:121
+msgid "page"
+msgstr "pagina"
+
+#: includes/class.speakout.php:131
+msgid "of"
+msgstr "of"
+
+#: includes/confirmations.php:105
+msgid "Thank you. Your signature has been added to the petition."
+msgstr "Dank u. Uw handtekening is bijgevoegd voor deze petitie."
+
+#: includes/confirmations.php:124
+msgid "Your signature has already been confirmed."
+msgstr "Uw handtekening is reeds bevestigd."
+
+#: includes/confirmations.php:128
+msgid "The confirmation code you provided is invalid."
+msgstr "De bevestigingscode is niet geldig."
+
+#: includes/confirmations.php:167
+msgid "Email Confirmation"
+msgstr "Email Bevestiging"
+
+#: includes/confirmations.php:169
+msgid "If you aren't redirected"
+msgstr "Als u niet wordt omgeleid"
+
+#: includes/confirmations.php:169 includes/settings.view.php:603
+msgid "Click here"
+msgstr "Klik hier"
+
+#: includes/confirmations.php:169
+msgid "to return to site "
+msgstr "om terug te keren naar de site "
+
+#: includes/csv.php:10 includes/signatures.php:5
+msgid "Insufficient privileges: You need to be an editor to do that."
+msgstr "U hebt onvoldoende rechten om dit uit te voeren."
+
+#: includes/csv.php:28 includes/signatures.view.php:212
+msgid "No signatures found."
+msgstr "Geen handtekeningen gevonden."
+
+#: includes/csv.php:52
+msgid "Email Address"
+msgstr "Email Adres"
+
+#: includes/csv.php:53 includes/widget.php:428
+msgid "Address"
+msgstr "Adres"
+
+#: includes/csv.php:58
+msgid "Date Signed"
+msgstr "Datum Getekend"
+
+#: includes/csv.php:59 includes/signatures.view.php:147
+msgid "Confirmed"
+msgstr "Bevestigd"
+
+#: includes/csv.php:60
+msgid "Petition Title"
+msgstr "Petitie Titel"
+
+#: includes/csv.php:61
+msgid "Petition ID"
+msgstr "Petitie ID"
+
+#: includes/csv.php:62 includes/settings.view.php:506
+msgid "Email Opt-in"
+msgstr "Email Opt-in"
+
+#: includes/csv.php:63 includes/settings.view.php:410
+msgid "Custom Message"
+msgstr "Aangepast bericht"
+
+#: includes/csv.php:72
+msgid "Language"
+msgstr "Taal"
+
+#: includes/csv.php:73 includes/signatures.view.php:149
+msgid "IP Address"
+msgstr "IP-adres"
+
+#: includes/csv.php:83
+msgid "Custom Field"
+msgstr "Veld"
+
+#: includes/csv.php:103
+msgid "confirmed"
+msgstr "bevestigd"
+
+#: includes/csv.php:106
+msgid "unconfirmed"
+msgstr "onbevestigd"
+
+#: includes/csv.php:115 includes/csv.php:125 includes/csv.php:135
+msgid "Y"
+msgstr "Ja"
+
+#: includes/csv.php:118 includes/csv.php:128 includes/csv.php:138
+msgid "N"
+msgstr "N"
+
+#: includes/emailpetition.php:564
+msgid "You can add formatting using markdown syntax"
+msgstr "U opmaak toevoegen met de syntaxis van markdown"
+
+#: includes/emailpetition.php:564
+msgid "read more"
+msgstr "lees verder"
+
+#: includes/emailpetition.php:579 includes/widget.php:242
+#: includes/widget.php:256
+msgid "your signature"
+msgstr "uw handtekening"
+
+#: includes/emailpetition.php:607 includes/widget.php:535
+msgid "BCC yourself"
+msgstr "BCC jezelf"
+
+#: includes/emailpetition.php:620 includes/widget.php:545
+msgid "Hide name from public"
+msgstr "Naam verbergen voor openbaar"
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "Yes, I accept your "
+msgstr "Ja, ik accepteer het  "
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "privacy policy"
+msgstr "privacybeleid"
+
+#: includes/emailpetition.php:666 includes/widget.php:212
+msgid "signatures"
+msgstr "handtekeningen"
+
+#: includes/emailpetition.php:697 includes/widget.php:281
+msgid "Signature goal"
+msgstr "Gewenst aantal handtekeningen"
+
+#: includes/emailpetition.php:702 includes/widget.php:278
+msgid "End date"
+msgstr "Eind datum"
+
+#: includes/emailpetition.php:703 includes/widget.php:279
+msgid "Signatures collected"
+msgstr "Verzamelde handtekeningen"
+
+#: includes/emailpetition.php:708
+msgid "signature"
+msgstr "handtekening"
+
+#: includes/emailpetition.php:726 includes/signatures.view.php:133
+#: includes/widget.php:91
+msgid "Petition"
+msgstr "Petitie"
+
+#: includes/emailpetition.php:728
+msgid ""
+"Error: The site administrator must include a valid petition id  in the "
+"shortcode."
+msgstr ""
+"Fout: De sitebeheerder moet een geldig verzoekschrift-id in de shortcode "
+"opnemen."
+
+#: includes/help.php:6
+msgid ""
+"Enter the title of your petition, which will appear at the top of the "
+"petition form."
+msgstr ""
+"Geef de titel van uw verzoekschrift, die zal verschijnen op de top van de "
+"petitie."
+
+#: includes/help.php:7
+msgid ""
+"Use this option if do not wish to send petition emails to a target address."
+msgstr ""
+"Gebruik deze optie als niet wilt petitie e-mails te sturen naar een doel "
+"adres."
+
+#: includes/help.php:8
+msgid ""
+"Enter the email address to which the petition will be sent. You may enter "
+"multiple email addresses, separated by commas."
+msgstr ""
+"Voer het e-mailadres waarnaar de petitie zal worden verzonden. U kunt "
+"meerdere e-mailadressen in te voeren, gescheiden door komma's."
+
+#: includes/help.php:9
+msgid "Enter the subject of your petition email."
+msgstr "Voer het onderwerp van uw verzoekschrift e-mail."
+
+#: includes/help.php:10
+msgid ""
+"Include a greeting to the recipient of your petition, such as \"Dear Mayor,"
+"\" which will appear as the first line of the email."
+msgstr ""
+"Voeg een groet toe aan de ontvanger van uw petitie, zoals 'Geachte "
+"burgemeester', die als eerste regel van de e-mail wordt weergegeven."
+
+#: includes/help.php:11
+msgid "Enter the content of your petition email."
+msgstr "Geef de inhoud van uw verzoekschrift e-mail."
+
+#: includes/help.php:12
+msgid "Petition Footer"
+msgstr "Petitie Footer"
+
+#: includes/help.php:12
+msgid "This is included at the bottom of each petition that is sent."
+msgstr "Dit staat onderaan elke petitie die wordt verzonden."
+
+#: includes/help.php:13
+msgid ""
+"Enter a prepared tweet that will be presented to users when the Twitter "
+"button is clicked."
+msgstr ""
+"Voer een voorbereide tweet, dat zal worden voorgelegd aan gebruikers wanneer "
+"de Twitter-knop wordt geklikt."
+
+#: includes/help.php:17
+msgid ""
+"Gives option for person to be displayed as \"Anonymous\" if they choose it "
+"when signing"
+msgstr ""
+"Geeft optie voor persoon om te worden weergegeven als \"Anoniem\" als ze "
+"ervoor kiezen bij het ondertekenen"
+
+#: includes/help.php:18
+msgid ""
+"Use this option to cause an email to be sent to the signers of your "
+"petition. This email contains a special link must be clicked to confirm the "
+"signer's email address. Petition emails will not be sent until the signature "
+"is confirmed."
+msgstr ""
+"Gebruik deze optie te veroorzaken een e-mail worden toegezonden aan de "
+"ondertekenaars van de petitie. Deze e-mail bevat een speciale link moet "
+"worden geklikt om e-mail adres van de ondertekenaar te bevestigen. Petitie e-"
+"mails wordt niet verzonden totdat de handtekening wordt bevestigd."
+
+#: includes/help.php:19
+msgid "Allow messages to be edited"
+msgstr "Laat berichten toe om te worden bewerkt"
+
+#: includes/help.php:19
+msgid ""
+"Check this option to allow signatories to customize the text of their "
+"petition email - this should be used with caution."
+msgstr ""
+"Vink deze optie aan om ondertekenaars toe te staan de tekst van hun petitie-"
+"e-mail aan te passen - dit moet met de nodige voorzichtigheid worden "
+"gebruikt."
+
+#: includes/help.php:20
+msgid ""
+"Enter the number of signatures you hope to collect. This number is used to "
+"calculate the progress bar display."
+msgstr ""
+"Voer het aantal handtekeningen je hoopt te verzamelen. Dit nummer wordt "
+"gebruikt om de voortgangsbalk scherm te berekenen."
+
+#: includes/help.php:21
+msgid "Auto increase signature goal"
+msgstr "Handtekeningdoel automatisch verhogen"
+
+#: includes/help.php:21
+msgid ""
+"If set goal is enabled, this is a further option - click the ? for more "
+"information."
+msgstr ""
+"Als het ingestelde doel is ingeschakeld, is dit een andere optie - klik op "
+"de ? voor meer informatie."
+
+#: includes/help.php:22
+msgid "Use this option to stop collecting signatures on a specific date."
+msgstr ""
+"Gebruik deze optie om te stoppen met het verzamelen van handtekeningen op "
+"een specifieke datum."
+
+#: includes/help.php:23
+msgid "Redirect after signing"
+msgstr "Omleiden na ondertekening"
+
+#: includes/help.php:23
+msgid ""
+"Take your users to a different page or site after they sign.  Make sure you "
+"use the full URL including \"https://\" or whatever. You can specify the "
+"delay in milliseconds.  One second = 1000 milliseconds."
+msgstr ""
+"Breng uw gebruikers naar een andere pagina of site nadat ze zich hebben "
+"aangemeld.  Zorg ervoor dat u de volledige URL gebruikt, inclusief \"https://"
+"\" of wat dan ook. U kunt de vertraging in milliseconden opgeven.  Eén "
+"seconde = 1000 milliseconden."
+
+#: includes/help.php:26
+msgid "These are pretty obvious."
+msgstr "Deze zijn vrij duidelijk."
+
+#: includes/help.php:27
+msgid ""
+"Include a checkbox that allows users to consent to receiving further email."
+msgstr ""
+"Voeg een selectievakje waarmee gebruikers in te stemmen met het ontvangen "
+"van verdere e-mail."
+
+#: includes/help.php:28
+msgid ""
+"Select the address fields to display in the petition form. Note that you can "
+"make them required or not."
+msgstr ""
+"Selecteer de adresvelden die u in het petitieformulier wilt weergeven. Houd "
+"er rekening mee dat u ze verplicht kunt maken of niet."
+
+#: includes/help.php:29
+msgid "Display custom fields"
+msgstr "Aangepaste velden weergeven"
+
+#: includes/help.php:29
+msgid ""
+"There is a variety of custom fields that can be added to the petition form "
+"for collecting additional data.  You can position each field at the top, "
+"above the email address or at the bottom of the petition form"
+msgstr ""
+"Er zijn verschillende aangepaste velden die kunnen worden toegevoegd aan het "
+"petitieformulier voor het verzamelen van aanvullende gegevens.  U kunt elk "
+"veld bovenaan, boven het e-mailadres of onder aan het petitieformulier "
+"plaatsen"
+
+#: includes/help.php:30
+msgid "This is displayed after the petition is signed."
+msgstr "Dit wordt weergegeven nadat de petitie is ondertekend."
+
+#: includes/help.php:34
+msgid ""
+"If you use any of these 3rd party email services, you can allow users to "
+"subscribe as long as you have  \"opt in\" enabled."
+msgstr ""
+"Als u een van deze 3rd party e-mailservices gebruikt, kunt u gebruikers "
+"toestaan zich te abonneren zolang u \"opt-in\" hebt ingeschakeld."
+
+#: includes/help.php:66
+msgid ""
+"These settings control the display of the [emailpetition] shortcode and "
+"sidebar widget."
+msgstr ""
+"Deze instellingen bepalen de weergave van de [emailpetition] shortcode en "
+"sidebar widget."
+
+#: includes/help.php:67 includes/settings.view.php:170
+msgid "Petition Theme"
+msgstr "Thema"
+
+#: includes/help.php:67
+msgid "Select a CSS theme that will control the appearance of petition forms."
+msgstr ""
+"Selecteer een CSS-thema dat de verschijning van het verzoekschrift "
+"formulieren te controleren."
+
+#: includes/help.php:68 includes/settings.view.php:177
+msgid "Widget Theme"
+msgstr "Widget Thema"
+
+#: includes/help.php:68
+msgid ""
+"Select a CSS theme that will control the appearance of petition widgets."
+msgstr ""
+"Selecteer een CSS-thema dat de verschijning van het verzoekschrift widgets "
+"zal controleren."
+
+#: includes/help.php:69 includes/settings.view.php:184
+msgid "Submit Button Text"
+msgstr "Submit knop Text"
+
+#: includes/help.php:69
+msgid ""
+"Enter the text that displays in the orange submit button on petition forms."
+msgstr ""
+"Typ de tekst die wordt weergegeven in de oranje knop Verzenden op petitie "
+"formulieren."
+
+#: includes/help.php:70 includes/settings.view.php:188
+msgid "Success Message"
+msgstr "Bericht Succesvol"
+
+#: includes/help.php:70
+msgid ""
+"Enter the text that appears when a user successfully signs your petition "
+"with a unique email address."
+msgstr ""
+"Voer de tekst die verschijnt wanneer een gebruiker zich met succes tekent uw "
+"verzoekschrift met een uniek e-mailadres."
+
+#: includes/help.php:71 includes/settings.view.php:202
+msgid "Share Message"
+msgstr "Deel Bericht"
+
+#: includes/help.php:71
+msgid ""
+"Enter the text that appears above the Twitter and Facebook buttons after the "
+"petition form has been submitted."
+msgstr ""
+"Voer de tekst die boven de Twitter-en Facebook-knoppen na de petitie is "
+"ingediend."
+
+#: includes/help.php:72 includes/settings.view.php:206
+msgid "Expiration Message"
+msgstr "Verval Bericht"
+
+#: includes/help.php:72
+msgid ""
+"Enter the text to display in place of the petition form when a petition is "
+"past its expiration date."
+msgstr ""
+"Voer de tekst die boven de Twitter-en Facebook-knoppen nadat de petitie was "
+"submitted.Enter de tekst om weer te geven in plaats van de petitie als een "
+"petitie is over zijn houdbaarheidsdatum."
+
+#: includes/help.php:73 includes/settings.view.php:210
+msgid "Already Signed Message"
+msgstr "Reeds Getekend Boodschap"
+
+#: includes/help.php:73
+msgid ""
+"Enter the text to display when a petition is signed using an email address "
+"that has already been submitted."
+msgstr ""
+"Voer de tekst wordt weergegeven wanneer een petitie is ondertekend met een e-"
+"mailadres dat al is ingediend."
+
+#: includes/help.php:74 includes/settings.view.php:214
+msgid "Opt-in Default"
+msgstr "Opt-in Standaard"
+
+#: includes/help.php:74
+msgid "Choose whether the opt-in checkbox is checked or unchecked by default."
+msgstr "Kies of de opt-in is aangevinkt of niet aangevinkt standaard."
+
+#: includes/help.php:75 includes/settings.view.php:221
+msgid "Display signature count"
+msgstr "Weergave handtekening tellen"
+
+#: includes/help.php:75
+msgid ""
+"Choose whether you wish to display the number of signatures that have been "
+"collected."
+msgstr "Kies of u het aantal handtekeningen die zijn verzameld weer te geven."
+
+#: includes/help.php:78
+msgid "These settings control the content of the confirmation emails."
+msgstr "Deze instellingen bepalen de inhoud van de bevestiging e-mails."
+
+#: includes/help.php:79 includes/settings.view.php:315
+msgid "Email From"
+msgstr "E-mail Van"
+
+#: includes/help.php:79
+msgid ""
+"Enter the email address associated with your website. Confirmation emails "
+"will be sent from this address."
+msgstr ""
+"Voer het e-mailadres van uw website. Bevestiging e-mails worden verzonden "
+"uit dit adres."
+
+#: includes/help.php:80
+msgid "Enter the subject of the confirmation email."
+msgstr "Voer het onderwerp van de bevestigingsmail."
+
+#: includes/help.php:81 includes/settings.view.php:323
+msgid "Email Message"
+msgstr "E-mail bericht"
+
+#: includes/help.php:81
+msgid "Enter the content of the confirmation email."
+msgstr "Geef de inhoud van de bevestiging e-mail."
+
+#: includes/help.php:84
+msgid "These settings control the display of the [signaturelist] shortcode."
+msgstr ""
+"Deze instellingen bepalen de weergave van de [signaturelist] shortcode."
+
+#: includes/help.php:85
+msgid "Enter the text that appears above the signature list."
+msgstr "Voer de tekst die boven de handtekening lijst."
+
+#: includes/help.php:86 includes/settings.view.php:341
+msgid "Theme"
+msgstr "Thema"
+
+#: includes/help.php:86
+msgid "Select a CSS theme that will control the appearance of signature lists."
+msgstr ""
+"Selecteer een CSS-thema dat het uiterlijk van de ondertekening lijsten "
+"zullen controleren."
+
+#: includes/help.php:87 includes/settings.view.php:351
+msgid "Rows"
+msgstr "Rijen"
+
+#: includes/help.php:87
+msgid ""
+"Enter the number of signatures that will be displayed in the signature list."
+msgstr ""
+"Voer het aantal handtekeningen dat wordt weergegeven in de handtekening "
+"lijst."
+
+#: includes/help.php:88
+msgid "Choose the signature list styling, click the ? for more information."
+msgstr ""
+"Kies de styling van de handtekeninglijst, klik op de knop ? voor meer "
+"informatie."
+
+#: includes/help.php:89 includes/help.php:95 includes/settings.view.php:365
+msgid "Columns"
+msgstr "Kolommen"
+
+#: includes/help.php:89
+msgid "Select the columns that will appear in the public signature list."
+msgstr ""
+"Selecteer de kolommen die in de lijst met openbare handtekeningen worden "
+"weergegeven."
+
+#: includes/help.php:90
+msgid "Flags"
+msgstr "Markeringen"
+
+#: includes/help.php:90
+msgid ""
+"You can display the flag of the country the signer has chosen, if you have "
+"Country enabled."
+msgstr ""
+"U kunt de vlag weergeven van het land dat de ondertekenaar heeft gekozen, "
+"als u Land hebt ingeschakeld."
+
+#: includes/help.php:91 includes/settings.view.php:427
+msgid "Privacy"
+msgstr "Privacy"
+
+#: includes/help.php:91
+msgid "Hide all but the first letter of the last name.."
+msgstr "Verberg alles behalve de eerste letter van de achternaam.."
+
+#: includes/help.php:94
+msgid "These settings control the display of the signatures in the dashboard."
+msgstr ""
+"Deze instellingen bepalen de weergave van de handtekeningen in het dashboard."
+
+#: includes/help.php:95
+msgid "Select the columns that will appear in the admin signature list."
+msgstr ""
+"Selecteer de kolommen die worden weergegeven in de lijst met "
+"beheerdershandtekeningen."
+
+#: includes/help.php:96
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/help.php:96
+msgid "When outputting the CSV file, what should be included?"
+msgstr "Wat moet er bij het uitvoeren van het CSV-bestand worden opgenomen?"
+
+#: includes/help.php:99
+msgid ""
+"These settings control the look of the plugin's options pages within the "
+"WordPress administrator."
+msgstr ""
+"Deze instellingen bepalen het uiterlijk van de opties van de plugin pagina's "
+"binnen de WordPress beheerder."
+
+#: includes/help.php:100 includes/settings.view.php:540
+msgid "Petitions table shows"
+msgstr "Verzoekschriften tabel laat zien"
+
+#: includes/help.php:100
+msgid ""
+"Enter the number of rows to display in the \"Email Petitions\" table "
+"(default=20)"
+msgstr ""
+"Voer het aantal rijen weer te geven in de \"E-mail Verzoekschriften\" tabel"
+
+#: includes/help.php:101 includes/settings.view.php:544
+msgid "Signatures table shows"
+msgstr "Handtekeningen tabel laat zien"
+
+#: includes/help.php:101
+msgid ""
+"Enter the number of rows to display in the \"Signatures\" table (default=50)"
+msgstr ""
+"Geef het aantal rijen wilt weergeven in de tabel "
+"\"Handtekeningen\" (standaard = 50)"
+
+#: includes/help.php:104
+msgid "These settings refer to the license key"
+msgstr "Deze instellingen verwijzen naar de licentiesleutel"
+
+#: includes/help.php:105
+msgid "License key"
+msgstr "Licentiesleutel"
+
+#: includes/help.php:105
+msgid ""
+"Enter the license key your received in an email after purchase.  If it is "
+"invalid, a message will be displayed with the reason."
+msgstr ""
+"Voer de licentiesleutel in die u na aankoop in een e-mail hebt ontvangen.  "
+"Als het ongeldig is, wordt een bericht weergegeven met de reden."
+
+#: includes/help.php:106
+msgid "Revoke key"
+msgstr "Key intrekken"
+
+#: includes/help.php:106
+msgid ""
+"Perhaps you are moving to a new site or from development to production.  "
+"Revoke the key, this allows it to be used elsewhere.  The current site will "
+"lose all access to any settings."
+msgstr ""
+"Misschien verhuist u naar een nieuwe locatie of van ontwikkeling naar "
+"productie.  Trek de sleutel in, hierdoor kan deze elders worden gebruikt.  "
+"De huidige site verliest alle toegang tot alle instellingen."
+
+#: includes/help.php:114 includes/settings.view.php:151
+#: includes/settings.view.php:166
+msgid "Petition Form"
+msgstr "Petitie"
+
+#: includes/help.php:119 includes/settings.view.php:152
+#: includes/settings.view.php:312
+msgid "Confirmation Emails"
+msgstr "Bevestiging Emails"
+
+#: includes/help.php:124 includes/settings.view.php:153
+#: includes/settings.view.php:334
+msgid "Public Signature List"
+msgstr "Lijst met openbare handtekeningen"
+
+#: includes/help.php:129 includes/settings.view.php:154
+#: includes/settings.view.php:438
+msgid "Admin Signature List"
+msgstr "Lijst met beheerdershandtekeningen"
+
+#: includes/help.php:134 includes/settings.view.php:155
+#: includes/settings.view.php:537
+msgid "Admin Display"
+msgstr "Beheerder Scherm"
+
+#: includes/help.php:139 includes/settings.view.php:157
+msgid "License"
+msgstr "Licentie"
+
+#: includes/install.php:178
+msgid "Sign Now"
+msgstr "Ondertekenen Nu"
+
+#: includes/install.php:179
+msgid "This petition is now closed."
+msgstr "Deze petitie is nu afgesloten."
+
+#: includes/install.php:180
+msgid "Thank you"
+msgstr "Dank u"
+
+#: includes/install.php:180
+msgid "Your signature has been added."
+msgstr "Uw handtekening is toegevoegd."
+
+#: includes/install.php:181
+msgid "This petition has already been signed using your email address."
+msgstr "Deze petitie is reeds getekend met dit email adres."
+
+#: includes/install.php:182
+msgid "Share this with your friends:"
+msgstr "Deel met uw vrienden:"
+
+#: includes/install.php:183 includes/install.php:425
+msgid "Please confirm your email address"
+msgstr "Bevestig uw email adres aub"
+
+#: includes/install.php:184 includes/install.php:428
+msgid "Hello"
+msgstr "Hallo"
+
+#: includes/install.php:184
+msgid "Thank you for signing our petition %petition_title% "
+msgstr "Dank u voor de ondertekening van onze petitie %petition_title% "
+
+#: includes/install.php:184 includes/install.php:428
+msgid ""
+"Please confirm your email address by clicking or copying and pasting the "
+"link below:"
+msgstr ""
+"Bevestig uw e-mailadres door te klikken op of kopiëren en plakken van de "
+"link hieronder:"
+
+#: includes/install.php:189 includes/install.php:434
+msgid "Latest Signatures"
+msgstr "Nieuwste handtekeningen"
+
+#: includes/install.php:428
+msgid "Thank you for signing our petition"
+msgstr "Dank u voor de ondertekening van onze petitie"
+
+#: includes/license.view.php:78 includes/license.view.php:105
+#: includes/settings.view.php:566 includes/settings.view.php:593
+msgid "Enter your license key"
+msgstr "Geef uw licentiesleutel in"
+
+#: includes/license.view.php:83 includes/settings.view.php:571
+msgid "Verified"
+msgstr "Geverifieerd"
+
+#: includes/license.view.php:86 includes/settings.view.php:574
+msgid "Revoke license key"
+msgstr "Licentiesleutel intrekken"
+
+#: includes/license.view.php:90 includes/settings.view.php:578
+msgid "Thanks for upgrading"
+msgstr "Bedankt voor het upgraden"
+
+#: includes/license.view.php:100 includes/settings.view.php:588
+msgid ""
+"There appears to be a problem with your license key.  Either verify it again "
+"or contact"
+msgstr ""
+"Er lijkt een probleem te zijn met uw licentiesleutel.  Controleer het "
+"opnieuw of neem contact op met"
+
+#: includes/license.view.php:108 includes/settings.view.php:596
+msgid "Your license key"
+msgstr "De licentiesleutel"
+
+#: includes/license.view.php:111 includes/settings.view.php:599
+msgid "Verify"
+msgstr "Verifiëren"
+
+#: includes/petitions.php:46
+msgid "Petition deleted."
+msgstr "Petitie verwijderd."
+
+#: includes/petitions.view.php:8
+msgid "All Petitions"
+msgstr "Alle Petities"
+
+#: includes/petitions.view.php:15 includes/petitions.view.php:25
+msgid "ID"
+msgstr "ID"
+
+#: includes/petitions.view.php:16 includes/petitions.view.php:26
+msgid "Petition name"
+msgstr "De naam van de petitie"
+
+#: includes/petitions.view.php:17 includes/petitions.view.php:27
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/petitions.view.php:34
+msgid "No petitions found."
+msgstr "Geen petities gevonden."
+
+#: includes/petitions.view.php:44
+msgid "Edit"
+msgstr "Bewerk"
+
+#: includes/petitions.view.php:45
+msgid "Delete"
+msgstr "Verwijder"
+
+#: includes/petitions.view.php:46
+msgid "Duplicate"
+msgstr "Kopiëren"
+
+#: includes/petitions.view.php:49
+msgid "display petition"
+msgstr "display-petitie"
+
+#: includes/petitions.view.php:50
+msgid "display signature list"
+msgstr "lijst met displaishandtekeningen"
+
+#: includes/petitions.view.php:51
+msgid "display signature count"
+msgstr "aantal handtekeningen weergeven"
+
+#: includes/petitions.view.php:52
+msgid "display signature goal"
+msgstr "doel voor displayhandtekening"
+
+#: includes/petitions.view.php:53
+msgid "display petition title"
+msgstr "titel van petitie weergeven"
+
+#: includes/petitions.view.php:54
+msgid "display petition message"
+msgstr "petitie bericht weergeven"
+
+#: includes/petitions.view.php:60
+msgid "View Signatures"
+msgstr "Bekijk Handtekeningen"
+
+#: includes/petitions.view.php:66
+msgid ""
+"Delete this petition permanently? All of the petition's signatures will be "
+"deleted as well."
+msgstr ""
+"Definitief te verwijderen deze petitie? Alle handtekeningen van de petitie "
+"zullen ook worden verwijderd."
+
+#: includes/settings.php:31
+msgid "Settings updated."
+msgstr "Wijziging uitgevoerd."
+
+#: includes/settings.view.php:156 includes/settings.view.php:552
+msgid "Security"
+msgstr "Beveiliging"
+
+#: includes/settings.view.php:161 includes/settings.view.php:641
+msgid "Anedot.com Donation Form Embed"
+msgstr "Anedot.com donatieformulier insluiten"
+
+#: includes/settings.view.php:167
+msgid "These settings apply to all petitions"
+msgstr "Deze instellingen zijn van toepassing op alle verzoekschriften"
+
+#: includes/settings.view.php:172 includes/settings.view.php:179
+#: includes/settings.view.php:343
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/settings.view.php:173
+msgid "Basic"
+msgstr "Basis"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "Custom"
+msgstr "Aangepast"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "use"
+msgstr "gebruiken"
+
+#: includes/settings.view.php:191 includes/settings.view.php:326
+msgid "Accepted variables:"
+msgstr "Toegestane variabelen:"
+
+#: includes/settings.view.php:192 includes/settings.view.php:327
+msgid "Accepted tags:"
+msgstr "Geaccepteerde tags:"
+
+#: includes/settings.view.php:196
+msgid "Petition fade out after signing?"
+msgstr "Petitie vervagen na ondertekening?"
+
+#: includes/settings.view.php:216
+msgid "Checked"
+msgstr "Gechecked"
+
+#: includes/settings.view.php:217
+msgid "Unchecked"
+msgstr "Niet Gechecked"
+
+#: includes/settings.view.php:223 includes/settings.view.php:231
+#: includes/settings.view.php:239 includes/settings.view.php:245
+#: includes/settings.view.php:260
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/settings.view.php:223
+msgid "at the bottom of the petition form"
+msgstr "onderaan het petitieformulier"
+
+#: includes/settings.view.php:227
+msgid "Display honorific field"
+msgstr "Eervolle weergaveveld"
+
+#: includes/settings.view.php:235
+msgid "Display BCC field"
+msgstr "Weergeven BCC-veld"
+
+#: includes/settings.view.php:243
+msgid "EU postal code position?"
+msgstr "Eu-postcodepositie?"
+
+#: includes/settings.view.php:245
+msgid "In EU postal code comes before city"
+msgstr "In de EU komt postcode voor de stad"
+
+#: includes/settings.view.php:249
+msgid "Signature count format"
+msgstr "Indeling voor het aantal handtekeningen"
+
+#: includes/settings.view.php:252
+msgid "Thousands separator"
+msgstr "Duizendtallen scheidingsteken"
+
+#: includes/settings.view.php:253
+msgid "Decimal separator"
+msgstr "Decimaalscheidingsteken"
+
+#: includes/settings.view.php:254
+msgid "currently"
+msgstr "momenteel"
+
+#: includes/settings.view.php:258
+msgid "Display Privacy Policy accept?"
+msgstr "Privacybeleid van het scherm accepteren?"
+
+#: includes/settings.view.php:260
+msgid "GDPR"
+msgstr "GDPR"
+
+#: includes/settings.view.php:266
+msgid "Enable Google recaptcha?"
+msgstr "Google reCAPTCHA inschakelen?"
+
+#: includes/settings.view.php:282
+msgid "Enable hCaptcha?"
+msgstr "hCaptcha inschakelen?"
+
+#: includes/settings.view.php:296
+msgid "Display sharing icons?"
+msgstr "Pictogrammen voordelen weergeven?"
+
+#: includes/settings.view.php:303
+msgid "Enable Anedot.com?"
+msgstr "Anedot.com inschakelen?"
+
+#: includes/settings.view.php:305
+msgid "Anedot.com is a 3rd party fund raising site"
+msgstr "Anedot.com is een 3e partij fondsenwerving site"
+
+#: includes/settings.view.php:335
+msgid ""
+"These settings apply to signatures displayed on your site using the shortcode"
+msgstr ""
+"Deze instellingen zijn van toepassing op handtekeningen die op uw site "
+"worden weergegeven met behulp van de shortcode"
+
+#: includes/settings.view.php:348
+msgid "To style the signature list you are best using your theme's"
+msgstr ""
+"Om de handtekeninglijst te stylen, kunt u het beste de thema's van uw thema "
+"gebruiken"
+
+#: includes/settings.view.php:348
+msgid "Additional CSS"
+msgstr "Aanvullende CSS"
+
+#: includes/settings.view.php:348
+msgid "setting"
+msgstr "instelling"
+
+#: includes/settings.view.php:352
+msgid "0 to display all"
+msgstr "0 om alles weer te geven"
+
+#: includes/settings.view.php:355
+msgid "Changing to \"list\" will clear column settings below"
+msgstr ""
+"Als u naar \"lijst\" gaat, worden de onderstaande kolominstellingen gewist"
+
+#: includes/settings.view.php:357
+msgid "table"
+msgstr "tabel verwijderen"
+
+#: includes/settings.view.php:359
+msgid "inline blocks - very styleable"
+msgstr "inline blokken - zeer styleable"
+
+#: includes/settings.view.php:361
+msgid "long list (comma separated)"
+msgstr "lange lijst (komma gescheiden)"
+
+#: includes/settings.view.php:368
+msgid "Count"
+msgstr "Aantal"
+
+#: includes/settings.view.php:371 includes/settings.view.php:446
+#: includes/signatures.view.php:157 includes/signatures.view.php:185
+msgid "Name"
+msgstr "Naam"
+
+#: includes/settings.view.php:374
+msgid "Email address - unless disabled"
+msgstr "E-mailadres - tenzij uitgeschakeld"
+
+#: includes/settings.view.php:389
+msgid "Custom Field 1"
+msgstr "Aangepast veld 1"
+
+#: includes/settings.view.php:392
+msgid "Custom Field 2"
+msgstr "Aangepast veld 2"
+
+#: includes/settings.view.php:395
+msgid "Custom Field 3"
+msgstr "Aangepast veld 3"
+
+#: includes/settings.view.php:398
+msgid "Custom Field 4"
+msgstr "Aangepast veld 4"
+
+#: includes/settings.view.php:401
+msgid "Custom drop-down field"
+msgstr "Aangepast vervolgkeuzeveld"
+
+#: includes/settings.view.php:404 includes/settings.view.php:496
+msgid "Custom Checkbox 1"
+msgstr "Aangepast selectievakje 1"
+
+#: includes/settings.view.php:407 includes/settings.view.php:500
+msgid "Custom Checkbox 2"
+msgstr "Aangepast selectievakje 2"
+
+#: includes/settings.view.php:413 includes/signatures.view.php:148
+msgid "Date"
+msgstr "Datum"
+
+#: includes/settings.view.php:418
+msgid "Display country flags?"
+msgstr "Landvlaggen weergeven?"
+
+#: includes/settings.view.php:422
+msgid "requires Country column to be enabled above"
+msgstr "vereist dat de kolom Land hierboven is ingeschakeld"
+
+#: includes/settings.view.php:429
+msgid "enabled - only show first letter of surname"
+msgstr "ingeschakeld - toon alleen de eerste letter van de achternaam"
+
+#: includes/settings.view.php:430
+msgid "disabled"
+msgstr "uitgeschakeld"
+
+#: includes/settings.view.php:439
+msgid "Settings for the dashboard signature list"
+msgstr "Instellingen voor de lijst met dashboardhandtekeningen"
+
+#: includes/settings.view.php:442
+msgid "Columns to display"
+msgstr "Kolommen die moeten worden weergegeven"
+
+#: includes/settings.view.php:452
+msgid "Petition info"
+msgstr "Petitie info"
+
+#: includes/settings.view.php:468
+msgid "Postal code"
+msgstr "Postcode"
+
+#: includes/settings.view.php:476 includes/signatures.view.php:139
+msgid "Custom field 1"
+msgstr "Aangepast veld 1"
+
+#: includes/settings.view.php:480 includes/signatures.view.php:140
+msgid "Custom field 2"
+msgstr "Aangepast veld 2"
+
+#: includes/settings.view.php:484 includes/signatures.view.php:141
+msgid "Custom field 3"
+msgstr "Aangepast veld 3"
+
+#: includes/settings.view.php:488 includes/signatures.view.php:142
+msgid "Custom field 4"
+msgstr "Aangepast veld 4"
+
+#: includes/settings.view.php:492 includes/signatures.view.php:143
+msgid "Custom field 5"
+msgstr "Aangepast veld 5"
+
+#: includes/settings.view.php:503
+msgid "Confirmed status"
+msgstr "Bevestigde status"
+
+#: includes/settings.view.php:509
+msgid "Date signed"
+msgstr "Datum getekend"
+
+#: includes/settings.view.php:513
+msgid "Display time signed?"
+msgstr "Weergavetijd ondertekend?"
+
+#: includes/settings.view.php:517
+msgid "IP address"
+msgstr "IP adres"
+
+#: includes/settings.view.php:521
+msgid "CSV file includes"
+msgstr "CSV-bestand bevat"
+
+#: includes/settings.view.php:523
+msgid "All signatures"
+msgstr "Alle handtekeningen"
+
+#: includes/settings.view.php:525
+msgid "Only opt-in signatures"
+msgstr "Alleen opt-in handtekeningen"
+
+#: includes/settings.view.php:527
+msgid "Only double opt-in signatures"
+msgstr "Alleen dubbele opt-in handtekeningen"
+
+#: includes/settings.view.php:527
+msgid "opt-in + confirmed"
+msgstr "opt-in + bevestigd"
+
+#: includes/settings.view.php:529
+msgid "Only confirmed signatures"
+msgstr "Alleen bevestigde handtekeningen"
+
+#: includes/settings.view.php:541
+msgid "rows - default = 20"
+msgstr "rijen - standaard = 20"
+
+#: includes/settings.view.php:545
+msgid "rows - default = 50"
+msgstr "rijen - standaard = 50"
+
+#: includes/settings.view.php:555
+msgid "Webhooks enabled"
+msgstr "Webhooks ingeschakeld"
+
+#: includes/settings.view.php:603
+msgid "Don't have a license"
+msgstr "Heb geen licentie"
+
+#: includes/settings.view.php:644
+msgid "Anedot.com Donation Slug"
+msgstr "Anedot.com donatie slug"
+
+#: includes/settings.view.php:646
+msgid ""
+"Input your Anedot.com \"Account Slug\" (from Settings > Brand), a slash, and "
+"then your Campaign Slug (from Campaigns > Edit > Basic)."
+msgstr ""
+"Voer uw Anedot.com ' account slug ' (van instellingen > merk), een slash en "
+"vervolgens uw campagne slug (uit campagnes > bewerken > Basic)."
+
+#: includes/settings.view.php:651
+msgid "Anedot.com Embed Pref"
+msgstr "Anedot.com embed pref"
+
+#: includes/settings.view.php:653
+msgid ""
+"Enter \"true\" (without quotes) to show account name header on embedded "
+"campaigns."
+msgstr ""
+"Voer ' true ' (zonder aanhalingstekens) in om de accountnaamkop weer te "
+"geven op ingesloten campagnes."
+
+#: includes/settings.view.php:657
+msgid "Anedot.com iframe Width"
+msgstr "Breedte Anedot.com IFRAME"
+
+#: includes/settings.view.php:659
+msgid ""
+"Width for donation form iframe, either as percent, e.g. \"100%\" (without "
+"quotes), or pixels, e.g. \"375\" (without quotes). Iframe is to be displayed "
+"in Success Message area, after signing of a petition."
+msgstr ""
+"Breedte voor donatieformulier iframe, hetzij als percentage, bijvoorbeeld "
+"\"100%\" (zonder aanhalingstekens), of pixels, bijvoorbeeld \"375\" (zonder "
+"aanhalingstekens). Iframe moet worden weergegeven in het gedeelte met "
+"Succesberichten na ondertekening van een petitie."
+
+#: includes/settings.view.php:663
+msgid "Anedot.com iframe Height"
+msgstr "Hoogte van Anedot.com IFRAME"
+
+#: includes/settings.view.php:665
+msgid ""
+"Height for donation page iframe, either as pixels, e.g. \"1570\" (without "
+"quotes), or percent, e.g. \"100%\" (without quotes). Iframe is to be "
+"displayed in Success Message area, after signing of a petition."
+msgstr ""
+"Hoogte voor donatiepagina iframe, hetzij als pixels, bijvoorbeeld "
+"\"1570\" (zonder aanhalingstekens), of procent, bijvoorbeeld \"100%"
+"\" (zonder aanhalingstekens). Iframe moet worden weergegeven in het gedeelte "
+"met Succesberichten na ondertekening van een petitie."
+
+#: includes/settings.view.php:671
+msgid "Save Changes"
+msgstr "Bewaar Wijzigingen"
+
+#: includes/settings.view.php:374
+msgid "Are you sure you want to publicly display email addresses?"
+msgstr "Weet u zeker dat u e-mailadressen openbaar wilt weergeven?"
+
+#: includes/signatures.php:39 includes/signatures.php:86
+#: includes/signatures.php:122 includes/signatures.php:193
+#: includes/signatures.php:207
+msgid "Total Signatures"
+msgstr "Totaal aantal handtekeningen"
+
+#: includes/signatures.php:93 includes/signatures.php:129
+msgid "Confirmation emails sent."
+msgstr "Bevestigings emails verstuurd."
+
+#: includes/signatures.php:212
+msgid "Total"
+msgstr "Totaal"
+
+#: includes/signatures.view.php:15
+msgid "Display all signatures"
+msgstr "Alle handtekeningen weergeven"
+
+#: includes/signatures.view.php:20
+msgid "Select petition"
+msgstr "Kies Petitie"
+
+#: includes/signatures.view.php:35
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each unconfirmed signature."
+msgstr ""
+"Weet je zeker dat je dit wilt doen? Een aparte bevestiging email worden "
+"verzonden voor elke onbevestigde handtekening."
+
+#: includes/signatures.view.php:36
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each selected signature."
+msgstr ""
+"Weet je zeker dat je dit wilt doen? Voor elke geselecteerde handtekening "
+"wordt een afzonderlijke bevestigingse-mail verzonden."
+
+#: includes/signatures.view.php:37
+msgid "Are you sure you want to do this? You will manually confirm "
+msgstr "Weet je zeker dat je dit wilt doen? U bevestigt handmatig "
+
+#: includes/signatures.view.php:38
+msgid "Are you sure you want to do this? You will delete "
+msgstr "Weet je zeker dat je dit wilt doen? U verwijdert "
+
+#: includes/signatures.view.php:39
+msgid "selected signature"
+msgstr "geselecteerde handtekening"
+
+#: includes/signatures.view.php:51
+msgid "Reconfirm selected"
+msgstr "Opnieuw bevestigen geselecteerd"
+
+#: includes/signatures.view.php:53
+msgid "Reconfirm selected: choose petition first"
+msgstr "Herbevestigen geselecteerd: kies eerst petitie"
+
+#: includes/signatures.view.php:55 includes/signatures.view.php:58
+msgid "Reconfirm selected: choose signatures"
+msgstr "Opnieuw bevestigen geselecteerd: handtekeningen kiezen"
+
+#: includes/signatures.view.php:63
+msgid "Force confirm selected"
+msgstr "Forceren bevestigen geselecteerd"
+
+#: includes/signatures.view.php:65
+msgid "Force confirm selected - choose signatures"
+msgstr "Bevestigen forceren geselecteerd - handtekeningen kiezen"
+
+#: includes/signatures.view.php:67
+msgid "Force confirm selected: choose petition first"
+msgstr "Force bevestigen geselecteerd: kies eerst petitie"
+
+#: includes/signatures.view.php:69 includes/signatures.view.php:71
+msgid "Force confirm selected: choose signatures"
+msgstr "Force bevestigen geselecteerd: handtekeningen kiezen"
+
+#: includes/signatures.view.php:75
+msgid "Delete selected"
+msgstr "Verwijder selectie"
+
+#: includes/signatures.view.php:77
+msgid "Delete selected: choose signatures"
+msgstr "Geselecteerde verwijderen: handtekeningen kiezen"
+
+#: includes/signatures.view.php:91
+msgid "Resend selected confirmations"
+msgstr "Geselecteerde bevestigingen opnieuw opsteden"
+
+#: includes/signatures.view.php:100
+msgid "Choose signatures action"
+msgstr "Actie handtekeningen kiezen"
+
+#: includes/signatures.view.php:101
+msgid "Download CSV - see settings/admin sig list"
+msgstr "Download CSV - zie instellingen / admin sig lijst"
+
+#: includes/signatures.view.php:102
+msgid "Display only unconfirmed"
+msgstr "Alleen onbevestigd weergeven"
+
+#: includes/signatures.view.php:103
+msgid "Resend all unconfirmed"
+msgstr "Alle onbevestigde"
+
+#: includes/signatures.view.php:108
+msgid "Apply"
+msgstr "Toepassen"
+
+#: includes/signatures.view.php:113
+msgid "Search signatures"
+msgstr "Zoekhandtekeningen"
+
+#: includes/signatures.view.php:144
+msgid "Checkbox 1"
+msgstr "Selectievakje 1"
+
+#: includes/signatures.view.php:145
+msgid "Checkbox 2"
+msgstr "Selectievakje 2"
+
+#: includes/signatures.view.php:146
+msgid "Opt-in"
+msgstr "Opt-in"
+
+#: includes/widget.php:14
+msgid "Display a petition form."
+msgstr "Toon een petitie formulier."
+
+#: includes/widget.php:76
+msgid "Sign the Petition"
+msgstr "Teken de petitie"
+
+#: includes/widget.php:89
+msgid "Sharing URL"
+msgstr "Het delen van URL"
+
+#: includes/widget.php:90
+msgid "Call to Action"
+msgstr "Oproep tot Aktie"
+
+#: includes/widget.php:415
+msgid "Confirm Email"
+msgstr "Bevestig email"
+
+#: speakout-email-petitions.php:95
+msgid "Support"
+msgstr "Ondersteuning"
+
+#~ msgid "Import petitions from SpeakUp to SpeakOut!"
+#~ msgstr "De verzoekschriften van de import van SpeakUp aan SpeakOut!"
+
+#~ msgid "Upgrade to Pro"
+#~ msgstr "Upgraden naar de Pro-versie"
+
+#~ msgid "These features are only available in the Pro version"
+#~ msgstr "Deze functies zijn alleen beschikbaar in de Pro-versie"
+
+#~ msgid "Edit petition"
+#~ msgstr "Petitie bewerken"
+
+#~ msgid "SpeakOut! Upgrade"
+#~ msgstr "SpeakOut! Opwaarderen"
+
+#, fuzzy
+#~| msgid "Confirmation Message"
+#~ msgid "Confirmation code"
+#~ msgstr "Bevestigings Boodschap"
+
+#, fuzzy
+#~| msgid "Anonymous"
+#~ msgid "Anonymise"
+#~ msgstr "Anoniem"
+
+#~ msgid "In the free version you are limited to one petition"
+#~ msgstr "In de gratis versie ben je beperkt tot één petitie"
+
+#~ msgid ""
+#~ "Any additional existing petitions will still work but cannot be edited"
+#~ msgstr ""
+#~ "Eventuele aanvullende bestaande petities werken nog steeds, maar kunnen "
+#~ "niet worden bewerkt"
+
+#~ msgid "create"
+#~ msgstr "aanmaken"
+
+#~ msgid "petition"
+#~ msgstr "petitie"
+
+#~ msgid "petitions"
+#~ msgstr "verzoekschriften"
+
+#~ msgid ""
+#~ "Add a custom fields to the petition form for collecting additional data."
+#~ msgstr ""
+#~ "Voeg een aangepast veld toe aan het petitieformulier voor het verzamelen "
+#~ "van aanvullende gegevens."
+
+#~ msgid ""
+#~ "Select the subset of signatures that will be included in CSV file "
+#~ "downloads"
+#~ msgstr ""
+#~ "Selecteer de subset van handtekeningen die zullen worden opgenomen in CSV-"
+#~ "bestand downloaden"
+
+#~ msgid "Signature List"
+#~ msgstr "Handtekeningenlijst"
+
+#~ msgid "Disabled"
+#~ msgstr "Uitgeschakeld"
+
+#~ msgid "Import from SpeakUp"
+#~ msgstr "Importeren van SpeakUp"
+
+#~ msgid "Custom Field 5"
+#~ msgstr "Aangepast veld 5"
+
+#~ msgid "yes"
+#~ msgstr "ja"
+
+#~ msgid "no"
+#~ msgstr "nee"
+
+#~ msgid "Duplicate Email Petition"
+#~ msgstr "Dubbele e-mail petitie"
+
+#~ msgid "Email Petitions"
+#~ msgstr "Email Petities"
+
+#~ msgid "This is coming - to avoid a license fee, make a donation"
+#~ msgstr ""
+#~ "Dit komt eraan - om een licentievergoeding te voorkomen, doe een donatie"
+
+#, php-format
+#~ msgid "A donation will help keep SpeakOut! 100% free!"
+#~ msgstr "Een donatie helpt SpeakOut te behouden! 100% free!"
+
+#~ msgid "only confirmed"
+#~ msgstr "alleen bevestigd"
+
+#~ msgid "Download CSV"
+#~ msgstr "CSV downloaden"
+
+#~ msgid "3rd Party extras"
+#~ msgstr "Extra's van derden"
+
+#~ msgid "This is coming"
+#~ msgstr "Dit komt eraan"
+
+#~ msgid "This field is included in email to target"
+#~ msgstr "Dit veld is opgenomen in e-mail naar target"
+
+#~ msgid "Hide email from public"
+#~ msgstr "E-mail verbergen voor openbaar"
+
+#~ msgid "Please donate if this plugin is useful."
+#~ msgstr "Gelieve te doneren als deze plugin nuttig is."
+
+#~ msgid "Custom field"
+#~ msgstr "Veld"
+
+#~ msgid "None"
+#~ msgstr "Geen"
+
+#~ msgid "Read or edit the petition"
+#~ msgstr "Lezen of bewerken van de petitie"
+
+#~ msgid "Ms"
+#~ msgstr "Mej"
+
+#~ msgid "Mr"
+#~ msgstr "Dhr"
+
+#~ msgid "Mrs"
+#~ msgstr "Mevr"
+
+#~ msgid "Miss"
+#~ msgstr "Mej"
+
+#~ msgid "Mx."
+#~ msgstr "Mx."
+
+#~ msgid "Dr."
+#~ msgstr "Dr."
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "You will be redirected momentarily."
+#~ msgstr "U wordt zo omgeleid naar de site."
+
+#~ msgid "instead of instant hide"
+#~ msgstr "in plaats van direct te verbergen"
+
+#~ msgid "Privacy Policy URL"
+#~ msgstr "URL van het privacybeleid"
+
+#~ msgid "You will need a pair of keys from"
+#~ msgstr "Je hebt een paar toetsen nodig van"
+
+#~ msgid "You can hide Facebook and Twitter icons"
+#~ msgstr "U Facebook- en Twitter-pictogrammen verbergen"
+
+#~ msgid "Example: If your donation page's URL is"
+#~ msgstr "Voorbeeld: als de URL van uw donatiepagina"
+
+#~ msgid "then your Donation Slug is:"
+#~ msgstr "dan is uw Donatie Slak:"
+
+#~ msgid "Donate, please!"
+#~ msgstr "Doneer alsjeblieft!"
+
+#~ msgid "Force confirm selected: check 1 or more"
+#~ msgstr "Force bevestigen geselecteerd: controleer 1 of meer"
+
+#~ msgid "Delete selected: check 1 or more"
+#~ msgstr "Verwijderen geselecteerd: controleer 1 of meer"
+
+#~ msgid "Error: You must include a valid id."
+#~ msgstr "Fout : u moet een geldige id invoegen."
+
+#~ msgid "All Signatures"
+#~ msgstr "Alle Handtekeningen"
+
+#~ msgid "Signature deleted."
+#~ msgstr "Handtekening verwijderd."
+
+#~ msgid "Download as CSV"
+#~ msgstr "Download als CSV"
+
+#~ msgid "Re-send confirmations"
+#~ msgstr "Herzend bevestigingen"
+
+#~ msgid "Donate"
+#~ msgstr "Schenken"
+
+#~ msgid "Search"
+#~ msgstr "Zoeken"
+
+#~ msgid "Street Address"
+#~ msgstr "Straat en Huisnummer"
+
+#~ msgid "Address fields required?"
+#~ msgstr "Adresvelden vereist?"
+
+#~ msgid "Post Code"
+#~ msgstr "Postal Code"
+
+#~ msgid "rows"
+#~ msgstr "rijen"
+
+#~ msgid "Petition updated."
+#~ msgstr "Petitie gewijzigd."
+
+#~ msgid "Allow custom messages"
+#~ msgstr "Laat Aangepaste berichten"
+
+#~ msgid "Petition Display"
+#~ msgstr "Petitie Scherm"
+
+#~ msgid "Standard theme (default)"
+#~ msgstr "Standaard thema (default)"
+
+#~ msgid "No theme. I will style the petition form myself."
+#~ msgstr "Geen thema. Ik zal het formulier zelf een stijl geven."
+
+#~ msgid "Signature List Display"
+#~ msgstr "Handtekeningen Lijst "
+
+#~ msgid "Signature list header"
+#~ msgstr "Handtekeningenlijst header"
+
+#~ msgid "Signature list shows"
+#~ msgstr "Handtekeningen lijst toont"
+
+#~ msgid "Signature list columns"
+#~ msgstr "Handtekening lijstkolommen"
+
+#~ msgid "SIGN THE PETITION"
+#~ msgstr "Teken de petitie "
+
+#~ msgid "SIGN NOW"
+#~ msgstr "Teken nu aub"
+
+#~ msgid ""
+#~ "If you find this plugin useful, please consider %1$s making a donation "
+#~ "%2$s to support it's development."
+#~ msgstr ""
+#~ "Als u deze pluging apprecieert,  verzoeken wij u %1$s om een donatie te "
+#~ "doen %2$s ter ondersteuning van verdere ontwikkeling"
+
+#~ msgid "Your Name"
+#~ msgstr "Uw Naam"
+
+#~ msgid "Your Email"
+#~ msgstr "Uw Email"
+
+#~ msgid "This petition"
+#~ msgstr "Deze petitie"
+
+#~ msgid "Petition Header"
+#~ msgstr "Petitie Hoofding"

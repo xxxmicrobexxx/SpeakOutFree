@@ -1,0 +1,110 @@
+/* any custom changes should be made in the theme custom CSS. */
+
+.dk-speakout-signaturelistWrapper{
+    margin-left:10px;
+}
+.dk-speakout-signaturelist-header{
+    font-weight:bold;
+    margin-top:10px;
+}
+table{
+    margin: 1rem 0 !important;
+}
+tr{
+    white-space: nowrap
+}
+.dk-speakout-signaturelistWrapper table {
+    table-layout: auto;
+    width:100%;
+}
+.dk-speakout-signaturelist table{
+	 border-top: 1px solid #999;  /*uncomment if you would like a border at the top of each name*/
+	clear: both;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: .9em;
+	width: 100%; /* change this to e.g. 250px, for multiple columns */
+    display: inline-table;
+}
+.dk-speakout-signaturelist-flag-icon{
+    height:15px !important;
+    float:left;
+    margin: 5px 5px 0 0;
+}
+.dk-speakout-signaturelist caption {
+	font-weight: bold;
+	line-height: 2em;
+	text-align: left;
+}
+.dk-speakout-signaturelist-name,
+.dk-speakout-signaturelist-city,
+.dk-speakout-signaturelist-state,
+.dk-speakout-signaturelist-country {
+	text-transform: capitalize;
+}
+.dk-speakout-signaturelist-id{
+    color:grey;
+    font-size:80%;
+
+}
+.dk-speakout-signaturelist-name {
+	white-space: nowrap;
+}
+.dk-speakout-even {
+	background: #eee;
+}
+.dk-speakout-odd {
+	background: transparent;
+}
+
+.dk-speakout-signaturelist .dk-speakout-signaturelist-pagelinks  {
+	border-bottom: none;
+	padding: 8px 0 0 0;
+	text-align: right;
+}
+a.dk-speakout-signaturelist-first, a.dk-speakout-signaturelist-prev, a.dk-speakout-signaturelist-next,a.dk-speakout-signaturelist-last {
+    background: #dedede url(../images/bg-pagination-button.png) repeat-x top left;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 1px rgba( 0, 0, 0, 0.1 );
+	color: #777;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 22px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	padding: 0 10px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba( 255, 255, 255, 0.7 );
+}
+a.dk-speakout-signaturelist-first:hover, a.dk-speakout-signaturelist-prev:hover, a.dk-speakout-signaturelist-next:hover, a.dk-speakout-signaturelist-last:hover {
+	color: #444;
+}
+a.dk-speakout-signaturelist-first:active, a.dk-speakout-signaturelist-prev:active,
+a.dk-speakout-signaturelist-next:active, a.dk-speakout-signaturelist-last:active {
+	box-shadow: none;
+	position: relative;
+	top: 1px;
+}
+a.dk-speakout-signaturelist-prev:hover {
+	text-decoration: none;
+}
+.dk-speakout-signaturelist-disabled {
+	cursor: default !important;
+	opacity: 0.3;
+}
+#search-button {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 8px;
+    right: 10px;
+    background: none;
+    border: none;
+}
+#search-button svg {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

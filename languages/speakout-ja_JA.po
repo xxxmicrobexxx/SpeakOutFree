@@ -1,0 +1,2056 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeakOut! Email Petitions\n"
+"POT-Creation-Date: 2023-04-03 09:32+1000\n"
+"PO-Revision-Date: 2023-04-03 09:32+1000\n"
+"Last-Translator: Steve D <info@123host.com.au>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: speakout-email-petitions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/addnew.php:38 includes/addnew.php:64
+msgid "Edit Petition"
+msgstr "請願書の編集"
+
+#: includes/addnew.php:42 includes/addnew.php:68 includes/addnew.php:116
+msgid "Update Petition"
+msgstr "請願書を更新"
+
+#: includes/addnew.php:50
+#, php-format
+msgid ""
+"Petition created. Use %1$s %2$s %3$s to display in a page or post. Use %1$s "
+"%4$s %3$s to display the signatures list or %1$s %5$s %3$s to show just the "
+"signature count."
+msgstr ""
+"請願書が作成されました。%1$s %2$s %3$s を使用して、ページまたは投稿に表示しま"
+"す。署名リストを表示するには %1$s %4$s %3$s を使用するか、%1$s %5$s %3$s を使"
+"用して署名数のみを表示します。"
+
+#: includes/addnew.php:85
+msgid "Duplicate Petition"
+msgstr "請願書の重複"
+
+#: includes/addnew.php:89
+msgid "Save Duplicate Petition"
+msgstr "変更を保存"
+
+#: includes/addnew.php:97
+#, php-format
+msgid ""
+"Petition created - you can edit it here. Use %1$s %2$s %3$s to display in a "
+"page or post."
+msgstr ""
+"請願書が作成されました - あなたはここでそれを編集することができます。%1$s "
+"%2$s %3$sを使用して、ページまたは投稿に表示します。"
+
+#: includes/addnew.php:112
+msgid "Edit New Petition"
+msgstr "新しい請願書の編集"
+
+#: includes/addnew.php:117
+msgid "Petition "
+msgstr "請願書"
+
+#: includes/addnew.php:124
+msgid "Add New Petition"
+msgstr "新しい請願書を追加"
+
+#: includes/addnew.php:128
+msgid "Create Petition"
+msgstr "請願書を作成"
+
+#: includes/addnew.php:130
+msgid "Add me to your mailing list"
+msgstr "メーリングリストに追加してください"
+
+#: includes/addnew.view.php:9
+msgid ""
+"Error: Please correct the highlighted fields.  It may be behind a closed tab"
+msgstr ""
+"エラー: 強調表示されたフィールドを修正してください。 閉じたタブの後ろにある可"
+"能性があります"
+
+#: includes/addnew.view.php:18 includes/help.php:42
+msgid "Petition Content"
+msgstr "請願内容"
+
+#: includes/addnew.view.php:19 includes/help.php:47
+msgid "Petition Options"
+msgstr "請願書オプション"
+
+#: includes/addnew.view.php:20 includes/help.php:52
+msgid "Display Options"
+msgstr "表示オプション"
+
+#: includes/addnew.view.php:21 includes/help.php:57
+msgid "3rd Party Integrations"
+msgstr "サードパーティ統合"
+
+#: includes/addnew.view.php:29 includes/help.php:6 includes/help.php:85
+#: includes/settings.view.php:338 includes/widget.php:88
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/addnew.view.php:30
+msgid "Enter title here"
+msgstr "ここにタイトルを入力"
+
+#: includes/addnew.view.php:46 includes/help.php:7
+msgid "Do not send email (only collect signatures)"
+msgstr "請願対象にメールを送らない（署名機能のみ）"
+
+#: includes/addnew.view.php:50 includes/help.php:8
+msgid "Target Email"
+msgstr "請願対象のメールアドレス"
+
+#: includes/addnew.view.php:50 includes/addnew.view.php:53
+msgid "you may enter multiple addresses separated by commas"
+msgstr "複数のアドレスをカンマで区切って入力できます"
+
+#: includes/addnew.view.php:53
+msgid "CC Email"
+msgstr "CCメール"
+
+#: includes/addnew.view.php:56 includes/help.php:9 includes/help.php:80
+#: includes/settings.view.php:319
+msgid "Email Subject"
+msgstr "メールの件名"
+
+#: includes/addnew.view.php:59 includes/help.php:10
+msgid "Greeting"
+msgstr "メールの序文"
+
+#: includes/addnew.view.php:65 includes/help.php:11
+msgid "Petition Message"
+msgstr "請願書メッセージ"
+
+#: includes/addnew.view.php:67
+msgid "You can personalise the message by inserting tags"
+msgstr "タグを挿入してメッセージをパーソナライズできます。"
+
+#: includes/addnew.view.php:68
+msgid "You or the signer can format the message using Markdown syntax - see"
+msgstr ""
+"あなたまたは署名者は、マークダウン構文を使用してメッセージをフォーマットする"
+"ことができます - 参照してください"
+
+#: includes/addnew.view.php:70
+msgid "Petition Footer (below signature)"
+msgstr "請願フッター(署名の下)"
+
+#: includes/addnew.view.php:75 includes/help.php:13
+msgid "Twitter Message"
+msgstr "ツイッターメッセージ"
+
+#: includes/addnew.view.php:100
+msgid "Don't collect email address"
+msgstr "メールアドレスを収集しない"
+
+#: includes/addnew.view.php:101
+msgid "This cannot be reversed"
+msgstr "これは元に戻すことはできません"
+
+#: includes/addnew.view.php:108 includes/help.php:17
+msgid "Allow public anonymous"
+msgstr "パブリック匿名を許可する"
+
+#: includes/addnew.view.php:117 includes/help.php:18
+msgid "Confirm signatures"
+msgstr "署名を確認"
+
+#: includes/addnew.view.php:120
+msgid "Return URL"
+msgstr "戻ってくるURL"
+
+#: includes/addnew.view.php:129
+msgid "Allow message to be edited"
+msgstr "メッセージの編集を許可する"
+
+#: includes/addnew.view.php:137 includes/help.php:20
+msgid "Set signature goal"
+msgstr "署名目標を設定"
+
+#: includes/addnew.view.php:140 includes/petitions.view.php:19
+#: includes/petitions.view.php:29
+msgid "Goal"
+msgstr "目標"
+
+#: includes/addnew.view.php:143
+msgid "Auto increase goal"
+msgstr "自動増加目標"
+
+#: includes/addnew.view.php:144
+msgid "by"
+msgstr "投稿者"
+
+#: includes/addnew.view.php:145
+msgid "when count"
+msgstr "カウント時"
+
+#: includes/addnew.view.php:145 includes/emailpetition.php:661
+#: includes/widget.php:207
+msgid "of goal"
+msgstr "ゴールの"
+
+#: includes/addnew.view.php:153 includes/help.php:22
+msgid "Set expiration date"
+msgstr "有効期日を設定"
+
+#: includes/addnew.view.php:157
+msgid "Jan"
+msgstr "1月"
+
+#: includes/addnew.view.php:158
+msgid "Feb"
+msgstr "2月"
+
+#: includes/addnew.view.php:159
+msgid "Mar"
+msgstr "3月"
+
+#: includes/addnew.view.php:160
+msgid "Apr"
+msgstr "4月"
+
+#: includes/addnew.view.php:161
+msgid "May"
+msgstr "5月"
+
+#: includes/addnew.view.php:162
+msgid "Jun"
+msgstr "6月"
+
+#: includes/addnew.view.php:163
+msgid "Jul"
+msgstr "7月"
+
+#: includes/addnew.view.php:164
+msgid "Aug"
+msgstr "8月"
+
+#: includes/addnew.view.php:165
+msgid "Sep"
+msgstr "9月"
+
+#: includes/addnew.view.php:166
+msgid "Oct"
+msgstr "10月"
+
+#: includes/addnew.view.php:167
+msgid "Nov"
+msgstr "11月"
+
+#: includes/addnew.view.php:168
+msgid "Dec"
+msgstr "12月"
+
+#: includes/addnew.view.php:184
+msgid "Redirect after successful sign"
+msgstr "署名が成功した後にリダイレクトする"
+
+#: includes/addnew.view.php:187
+msgid "Full URL"
+msgstr "相対パスまたは完全な URL でページをパージします。"
+
+#: includes/addnew.view.php:189
+msgid "Delay?"
+msgstr "遅延。"
+
+#: includes/addnew.view.php:190
+msgid "milliseconds"
+msgstr "ミリ秒"
+
+#: includes/addnew.view.php:191
+msgid "Open in new window (target='_blank')"
+msgstr "新しいウィンドウで開く (ターゲット='_blank')"
+
+#: includes/addnew.view.php:205
+msgid "Text to open/close petition message"
+msgstr "請願書メッセージを開く/閉じるテキスト"
+
+#: includes/addnew.view.php:210
+msgid "Text to open/close editable petition message"
+msgstr "編集可能な請願書メッセージを開いたり閉じたりするテキスト"
+
+#: includes/addnew.view.php:219 includes/help.php:27
+msgid "Display opt-in checkbox"
+msgstr "オプトインのチェックボックスを表示"
+
+#: includes/addnew.view.php:222 includes/addnew.view.php:287
+#: includes/addnew.view.php:322 includes/addnew.view.php:357
+#: includes/addnew.view.php:393 includes/addnew.view.php:434
+#: includes/addnew.view.php:465 includes/addnew.view.php:494
+msgid "Label"
+msgstr "ラベル"
+
+#: includes/addnew.view.php:230
+msgid "Display petition message"
+msgstr "請願書のメッセージを表示する"
+
+#: includes/addnew.view.php:237 includes/help.php:28
+msgid "Display address fields"
+msgstr "住所欄を表示"
+
+#: includes/addnew.view.php:244 includes/help.php:88
+#: includes/settings.view.php:355
+msgid "Display"
+msgstr "表示"
+
+#: includes/addnew.view.php:245 includes/addnew.view.php:298
+#: includes/addnew.view.php:333 includes/addnew.view.php:368
+#: includes/addnew.view.php:404 includes/addnew.view.php:432
+msgid "Required"
+msgstr "必須"
+
+#: includes/addnew.view.php:251 includes/addnew.view.php:597
+#: includes/emailpetition.php:426 includes/settings.view.php:456
+#: includes/signatures.view.php:134
+msgid "Street"
+msgstr "町名番地"
+
+#: includes/addnew.view.php:256 includes/csv.php:54
+#: includes/emailpetition.php:443 includes/settings.view.php:377
+#: includes/settings.view.php:460 includes/signatures.view.php:135
+#: includes/widget.php:434
+msgid "City"
+msgstr "市区町村"
+
+#: includes/addnew.view.php:261 includes/emailpetition.php:450
+#: includes/settings.view.php:380 includes/widget.php:440
+msgid "State / Province"
+msgstr "州 / 都道府県"
+
+#: includes/addnew.view.php:266
+msgid "Postal Code - see settings for EU style"
+msgstr "郵便番号 - EU スタイルの設定を参照してください。"
+
+#: includes/addnew.view.php:271 includes/addnew.view.php:629
+#: includes/csv.php:57 includes/emailpetition.php:491
+#: includes/settings.view.php:386 includes/settings.view.php:472
+#: includes/signatures.view.php:138 includes/widget.php:476
+msgid "Country"
+msgstr "国"
+
+#: includes/addnew.view.php:283
+msgid "Display custom field 1"
+msgstr "ユーザー設定フィールド 1 を表示する"
+
+#: includes/addnew.view.php:300 includes/addnew.view.php:335
+#: includes/addnew.view.php:370 includes/addnew.view.php:406
+#: includes/addnew.view.php:447 includes/addnew.view.php:475
+#: includes/addnew.view.php:504
+msgid "Location"
+msgstr "場所"
+
+#: includes/addnew.view.php:301 includes/addnew.view.php:336
+#: includes/addnew.view.php:371 includes/addnew.view.php:407
+#: includes/addnew.view.php:448 includes/addnew.view.php:476
+#: includes/addnew.view.php:505
+msgid "Top"
+msgstr "上"
+
+#: includes/addnew.view.php:303 includes/addnew.view.php:338
+#: includes/addnew.view.php:373 includes/addnew.view.php:409
+#: includes/addnew.view.php:450 includes/addnew.view.php:478
+#: includes/addnew.view.php:507
+msgid "Above email"
+msgstr "電子メールの上"
+
+#: includes/addnew.view.php:305 includes/addnew.view.php:340
+#: includes/addnew.view.php:375 includes/addnew.view.php:411
+#: includes/addnew.view.php:453 includes/addnew.view.php:481
+#: includes/addnew.view.php:510
+msgid "Bottom"
+msgstr "下"
+
+#: includes/addnew.view.php:308 includes/addnew.view.php:343
+#: includes/addnew.view.php:378 includes/addnew.view.php:414
+#: includes/addnew.view.php:428
+msgid "Include with petition"
+msgstr "請願書に含める"
+
+#: includes/addnew.view.php:310 includes/addnew.view.php:345
+#: includes/addnew.view.php:380 includes/addnew.view.php:416
+msgid "Trim when displaying"
+msgstr "表示時のトリミング"
+
+#: includes/addnew.view.php:318
+msgid "Display custom field 2"
+msgstr "ユーザー設定フィールド 2 を表示する"
+
+#: includes/addnew.view.php:353
+msgid "Display custom field 3"
+msgstr "ユーザー設定フィールドの表示 3"
+
+#: includes/addnew.view.php:389
+msgid "Display custom field 4"
+msgstr "ユーザー設定フィールドの表示 4"
+
+#: includes/addnew.view.php:424
+msgid "Display custom drop-down"
+msgstr "カスタムドロップダウンの表示"
+
+#: includes/addnew.view.php:444
+msgid "Values"
+msgstr "値"
+
+#: includes/addnew.view.php:461
+msgid "Display custom checkbox 1"
+msgstr "カスタムチェックボックスを表示 1"
+
+#: includes/addnew.view.php:490
+msgid "Display custom checkbox 2"
+msgstr "カスタムチェックボックスを表示 2"
+
+#: includes/addnew.view.php:520 includes/help.php:30
+msgid "Display custom message"
+msgstr "カスタム メッセージを表示する"
+
+#: includes/addnew.view.php:521
+msgid "Displayed beneath `Thank you` after petition is signed"
+msgstr "請願書に署名した後、「ありがとう」の下に表示されます"
+
+#: includes/addnew.view.php:524
+msgid "Message"
+msgstr "メッセージ"
+
+#: includes/addnew.view.php:535
+msgid ""
+"You must also enable 'Display opt-in checkbox' under the Display Options tab"
+msgstr ""
+"[表示オプション] タブで [オプトイン チェックボックスを表示] を有効にする必要"
+"もあります。"
+
+#: includes/addnew.view.php:542
+msgid "Enable ActiveCampaign"
+msgstr "ActiveCampaignを有効にする"
+
+#: includes/addnew.view.php:549 includes/addnew.view.php:717
+#: includes/addnew.view.php:737 includes/addnew.view.php:759
+msgid "API Key"
+msgstr "APIキー"
+
+#: includes/addnew.view.php:552
+msgid "Server URL"
+msgstr "サーバー URL"
+
+#: includes/addnew.view.php:563
+msgid "Select list"
+msgstr "リストを選択"
+
+#: includes/addnew.view.php:571
+msgid ""
+"Map the SpeakOut! fields to your Active Campaign fields. Leave those you "
+"don't use blank."
+msgstr ""
+"スピークアウトをマップ!フィールドをアクティブなキャンペーンフィールドに追加し"
+"ます。使用しないものは空白のままにします。"
+
+#: includes/addnew.view.php:574 includes/csv.php:49
+msgid "Honorific"
+msgstr "敬語"
+
+#: includes/addnew.view.php:582 includes/csv.php:50
+#: includes/emailpetition.php:355 includes/widget.php:358
+msgid "First Name"
+msgstr "名"
+
+#: includes/addnew.view.php:587 includes/csv.php:51
+#: includes/emailpetition.php:359 includes/widget.php:362
+msgid "Last Name"
+msgstr "姓"
+
+#: includes/addnew.view.php:592 includes/emailpetition.php:418
+#: includes/settings.view.php:449 includes/signatures.view.php:132
+#: includes/widget.php:409
+msgid "Email"
+msgstr "メールアドレス"
+
+#: includes/addnew.view.php:605
+msgid "Suburb"
+msgstr "郊外"
+
+#: includes/addnew.view.php:613 includes/csv.php:55
+#: includes/settings.view.php:464 includes/signatures.view.php:136
+msgid "State"
+msgstr "都道府県"
+
+#: includes/addnew.view.php:621 includes/csv.php:56
+#: includes/emailpetition.php:436 includes/emailpetition.php:459
+#: includes/settings.view.php:383 includes/signatures.view.php:137
+#: includes/widget.php:447
+msgid "Postal Code"
+msgstr "郵便番号"
+
+#: includes/addnew.view.php:712
+msgid "Enable MailChimp"
+msgstr "MailChimp を有効化"
+
+#: includes/addnew.view.php:720
+msgid "Server ID"
+msgstr "サーバー ID"
+
+#: includes/addnew.view.php:723 includes/addnew.view.php:762
+msgid "List ID"
+msgstr "リストID"
+
+#: includes/addnew.view.php:732
+msgid "Enable Mailerlite"
+msgstr "メーラーライトを有効にする"
+
+#: includes/addnew.view.php:740
+msgid "Group ID"
+msgstr "グループID"
+
+#: includes/addnew.view.php:750
+msgid "Enable Sendy"
+msgstr "センディを有効にする"
+
+#: includes/addnew.view.php:756
+msgid "Installation URL"
+msgstr "インストール URL"
+
+#: includes/admin.php:11 includes/admin.php:20 includes/admin.php:32
+msgid "SpeakOut! Email Petitions"
+msgstr "スピークアウト!電子メール請願書"
+
+#: includes/admin.php:33 includes/petitions.php:44 includes/petitions.php:57
+msgid "Petitions"
+msgstr "嘆願書"
+
+#: includes/admin.php:44 includes/admin.php:45 includes/license.view.php:74
+msgid "Activate license"
+msgstr "ライセンスの有効化"
+
+#: includes/admin.php:55 includes/admin.php:56 includes/petitions.view.php:4
+msgid "Add New"
+msgstr "新規追加"
+
+#: includes/admin.php:66 includes/admin.php:67 includes/petitions.view.php:18
+#: includes/petitions.view.php:28 includes/signatures.view.php:4
+msgid "Signatures"
+msgstr "署名"
+
+#: includes/admin.php:77 includes/settings.view.php:142
+msgid "SpeakOut! Petitions Settings"
+msgstr "スピークアウト!請願設定"
+
+#: includes/admin.php:78
+msgid "Settings"
+msgstr "設定"
+
+#: includes/class.petition.php:505
+msgid "No Title"
+msgstr "タイトルなし"
+
+#: includes/class.signaturelist.php:155 includes/class.signaturelist.php:215
+#: includes/class.signaturelist.php:319
+msgid "Anonymous"
+msgstr "匿名"
+
+#: includes/class.speakout.php:118
+msgid "items"
+msgstr "アイテム"
+
+#: includes/class.speakout.php:121
+msgid "page"
+msgstr "ページ"
+
+#: includes/class.speakout.php:131
+msgid "of"
+msgstr "/"
+
+#: includes/confirmations.php:105
+msgid "Thank you. Your signature has been added to the petition."
+msgstr "ありがとうございます！あなたの署名が請願書に追加されました。"
+
+#: includes/confirmations.php:124
+msgid "Your signature has already been confirmed."
+msgstr "署名は既に確認されています。"
+
+#: includes/confirmations.php:128
+msgid "The confirmation code you provided is invalid."
+msgstr "指定した確認コードが無効です。"
+
+#: includes/confirmations.php:167
+msgid "Email Confirmation"
+msgstr "メール認証"
+
+#: includes/confirmations.php:169
+msgid "If you aren't redirected"
+msgstr "リダイレクトされない場合"
+
+#: includes/confirmations.php:169 includes/settings.view.php:603
+msgid "Click here"
+msgstr "ここをクリック"
+
+#: includes/confirmations.php:169
+msgid "to return to site "
+msgstr "サイトに戻るには"
+
+#: includes/csv.php:10 includes/signatures.php:5
+msgid "Insufficient privileges: You need to be an editor to do that."
+msgstr "権限がありません: 編集者である必要があります。"
+
+#: includes/csv.php:28 includes/signatures.view.php:212
+msgid "No signatures found."
+msgstr "署名が見つかりません。"
+
+#: includes/csv.php:52
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: includes/csv.php:53 includes/widget.php:428
+msgid "Address"
+msgstr "住所"
+
+#: includes/csv.php:58
+msgid "Date Signed"
+msgstr "署名された日付"
+
+#: includes/csv.php:59 includes/signatures.view.php:147
+msgid "Confirmed"
+msgstr "確認済み"
+
+#: includes/csv.php:60
+msgid "Petition Title"
+msgstr "請願書のタイトル"
+
+#: includes/csv.php:61
+msgid "Petition ID"
+msgstr "請願書のID"
+
+#: includes/csv.php:62 includes/settings.view.php:506
+msgid "Email Opt-in"
+msgstr "メールのオプトイン"
+
+#: includes/csv.php:63 includes/settings.view.php:410
+msgid "Custom Message"
+msgstr "任意のメッセージ"
+
+#: includes/csv.php:72
+msgid "Language"
+msgstr "言語"
+
+#: includes/csv.php:73 includes/signatures.view.php:149
+msgid "IP Address"
+msgstr "IPアドレス"
+
+#: includes/csv.php:83
+msgid "Custom Field"
+msgstr "カスタムフィールド"
+
+#: includes/csv.php:103
+msgid "confirmed"
+msgstr "確認済"
+
+#: includes/csv.php:106
+msgid "unconfirmed"
+msgstr "未確認"
+
+#: includes/csv.php:115 includes/csv.php:125 includes/csv.php:135
+msgid "Y"
+msgstr "Y"
+
+#: includes/csv.php:118 includes/csv.php:128 includes/csv.php:138
+msgid "N"
+msgstr "N"
+
+#: includes/emailpetition.php:564
+msgid "You can add formatting using markdown syntax"
+msgstr "マークダウン構文を使用して書式を追加できます。"
+
+#: includes/emailpetition.php:564
+msgid "read more"
+msgstr "続きを読む"
+
+#: includes/emailpetition.php:579 includes/widget.php:242
+#: includes/widget.php:256
+msgid "your signature"
+msgstr "署名は既に確認されています。"
+
+#: includes/emailpetition.php:607 includes/widget.php:535
+msgid "BCC yourself"
+msgstr "自分で BCC"
+
+#: includes/emailpetition.php:620 includes/widget.php:545
+msgid "Hide name from public"
+msgstr "パブリックに名前を隠す"
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "Yes, I accept your "
+msgstr "はい、私はあなたのを受け入れます"
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "privacy policy"
+msgstr "プライバシー・ポリシーをご覧ください。"
+
+#: includes/emailpetition.php:666 includes/widget.php:212
+msgid "signatures"
+msgstr "署名"
+
+#: includes/emailpetition.php:697 includes/widget.php:281
+msgid "Signature goal"
+msgstr "署名目標"
+
+#: includes/emailpetition.php:702 includes/widget.php:278
+msgid "End date"
+msgstr "終了日"
+
+#: includes/emailpetition.php:703 includes/widget.php:279
+msgid "Signatures collected"
+msgstr "収集された署名"
+
+#: includes/emailpetition.php:708
+msgid "signature"
+msgid_plural "signatures"
+msgstr[0] "署名目標を設定"
+
+#: includes/emailpetition.php:726 includes/signatures.view.php:133
+#: includes/widget.php:91
+msgid "Petition"
+msgstr "請願書"
+
+#: includes/emailpetition.php:728
+msgid ""
+"Error: The site administrator must include a valid petition id  in the "
+"shortcode."
+msgstr ""
+"エラー: サイト管理者は、ショートコードに有効な請願 ID を含める必要がありま"
+"す。"
+
+#: includes/help.php:6
+msgid ""
+"Enter the title of your petition, which will appear at the top of the "
+"petition form."
+msgstr "請願書のタイトルを入力してください（請願書フォームの上に表示されます）"
+
+#: includes/help.php:7
+msgid ""
+"Use this option if do not wish to send petition emails to a target address."
+msgstr "請願対象にメールを送らない場合にこのオプションを使用してください"
+
+#: includes/help.php:8
+msgid ""
+"Enter the email address to which the petition will be sent. You may enter "
+"multiple email addresses, separated by commas."
+msgstr ""
+"請願書の送付先のメールアドレスを入力してくだい（コンマ区切りで複数アドレスの"
+"入力が可能です）"
+
+#: includes/help.php:9
+msgid "Enter the subject of your petition email."
+msgstr "請願書メールの件名を入力してください"
+
+#: includes/help.php:10
+msgid ""
+"Include a greeting to the recipient of your petition, such as \"Dear Mayor,"
+"\" which will appear as the first line of the email."
+msgstr ""
+"請願書の受信者への挨拶を含めます(「親愛なる市長」など)、メールの最初の行とし"
+"て表示されます。"
+
+#: includes/help.php:11
+msgid "Enter the content of your petition email."
+msgstr "請願書メールの本文を入力してください"
+
+#: includes/help.php:12
+msgid "Petition Footer"
+msgstr "請願書フッター"
+
+#: includes/help.php:12
+msgid "This is included at the bottom of each petition that is sent."
+msgstr "これは、送信される各請願書の下部に含まれています。"
+
+#: includes/help.php:13
+msgid ""
+"Enter a prepared tweet that will be presented to users when the Twitter "
+"button is clicked."
+msgstr "ツイートボタンをクリックした際に表示されるツイート文を入力してください"
+
+#: includes/help.php:17
+msgid ""
+"Gives option for person to be displayed as \"Anonymous\" if they choose it "
+"when signing"
+msgstr "署名時に選択した場合に「匿名」として表示されるオプションを提供します"
+
+#: includes/help.php:18
+msgid ""
+"Use this option to cause an email to be sent to the signers of your "
+"petition. This email contains a special link must be clicked to confirm the "
+"signer's email address. Petition emails will not be sent until the signature "
+"is confirmed."
+msgstr ""
+"請願書の署名者にメールを送信する場合に使用してください。このメールには署名者"
+"のメールアドレスを確認するためのリンクが含まれます。請願書メールは署名が確認"
+"されるまで送信されません。"
+
+#: includes/help.php:19
+msgid "Allow messages to be edited"
+msgstr "メッセージの編集を許可する"
+
+#: includes/help.php:19
+msgid ""
+"Check this option to allow signatories to customize the text of their "
+"petition email - this should be used with caution."
+msgstr ""
+"署名者が請願メールのテキストをカスタマイズできるようにするには、このオプショ"
+"ンをオンにします-これは注意して使用する必要があります。"
+
+#: includes/help.php:20
+msgid ""
+"Enter the number of signatures you hope to collect. This number is used to "
+"calculate the progress bar display."
+msgstr ""
+"希望する署名数を入力してください（プログレスバーによる達成割合の表示のために"
+"使用されます）"
+
+#: includes/help.php:21
+msgid "Auto increase signature goal"
+msgstr "署名目標の自動増加"
+
+#: includes/help.php:21
+msgid ""
+"If set goal is enabled, this is a further option - click the ? for more "
+"information."
+msgstr ""
+"目標設定が有効になっている場合、これはさらなるオプションです - ?詳細について"
+"は。"
+
+#: includes/help.php:22
+msgid "Use this option to stop collecting signatures on a specific date."
+msgstr "署名活動の終了日を設定するためのオプションです"
+
+#: includes/help.php:23
+msgid "Redirect after signing"
+msgstr "署名後にリダイレクトする"
+
+#: includes/help.php:23
+msgid ""
+"Take your users to a different page or site after they sign.  Make sure you "
+"use the full URL including \"https://\" or whatever. You can specify the "
+"delay in milliseconds.  One second = 1000 milliseconds."
+msgstr ""
+"署名後にユーザーを別のページまたはサイトに誘導します。 「https://」などを含む"
+"完全なURLを使用していることを確認してください。遅延はミリ秒単位で指定できま"
+"す。 1 秒 = 1000 ミリ秒。"
+
+#: includes/help.php:26
+msgid "These are pretty obvious."
+msgstr "これらはかなり明白です。"
+
+#: includes/help.php:27
+msgid ""
+"Include a checkbox that allows users to consent to receiving further email."
+msgstr ""
+"ユーザーがこれから先もメールを受信することを同意するためのチェックボックスを"
+"追加します"
+
+#: includes/help.php:28
+msgid ""
+"Select the address fields to display in the petition form. Note that you can "
+"make them required or not."
+msgstr ""
+"請願書に表示する住所フィールドを選択します。それらを必須にすることも、必須に"
+"しないこともできます。"
+
+#: includes/help.php:29
+msgid "Display custom fields"
+msgstr "カスタムフィールドの表示"
+
+#: includes/help.php:29
+msgid ""
+"There is a variety of custom fields that can be added to the petition form "
+"for collecting additional data.  You can position each field at the top, "
+"above the email address or at the bottom of the petition form"
+msgstr ""
+"追加データを収集するために請願書フォームに追加できるさまざまなカスタムフィー"
+"ルドがあります。 各フィールドは、請願書の上部、電子メールアドレスの上、または"
+"下部に配置できます"
+
+#: includes/help.php:30
+msgid "This is displayed after the petition is signed."
+msgstr "これは、請願書が署名された後に表示されます。"
+
+#: includes/help.php:34
+msgid ""
+"If you use any of these 3rd party email services, you can allow users to "
+"subscribe as long as you have  \"opt in\" enabled."
+msgstr ""
+"これらの第三者の電子メールサービスのいずれかを使用する場合、「オプトイン」が"
+"有効になっている限り、ユーザーに購読を許可できます。"
+
+#: includes/help.php:66
+msgid ""
+"These settings control the display of the [emailpetition] shortcode and "
+"sidebar widget."
+msgstr ""
+"これらの設定は[emailpetition]ショートコードとサイドバーウィジェットの表示をコ"
+"ントロールします"
+
+#: includes/help.php:67 includes/settings.view.php:170
+msgid "Petition Theme"
+msgstr "請願書のテーマ"
+
+#: includes/help.php:67
+msgid "Select a CSS theme that will control the appearance of petition forms."
+msgstr "請願書フォームの表示スタイル（CSSテーマ）を選択してください"
+
+#: includes/help.php:68 includes/settings.view.php:177
+msgid "Widget Theme"
+msgstr "ウィジェットのテーマ"
+
+#: includes/help.php:68
+msgid ""
+"Select a CSS theme that will control the appearance of petition widgets."
+msgstr "請願書ウィジェットの表示スタイル（CSSテーマ）を選択してください"
+
+#: includes/help.php:69 includes/settings.view.php:184
+msgid "Submit Button Text"
+msgstr "送信ボタンのテキスト"
+
+#: includes/help.php:69
+msgid ""
+"Enter the text that displays in the orange submit button on petition forms."
+msgstr "請願書フォームの送信ボタンに表示するテキストを入力してください"
+
+#: includes/help.php:70 includes/settings.view.php:188
+msgid "Success Message"
+msgstr "成功メッセージ"
+
+#: includes/help.php:70
+msgid ""
+"Enter the text that appears when a user successfully signs your petition "
+"with a unique email address."
+msgstr "請願書に署名成功した際に表示するテキストを入力してください"
+
+#: includes/help.php:71 includes/settings.view.php:202
+msgid "Share Message"
+msgstr "シェアメッセージ"
+
+#: includes/help.php:71
+msgid ""
+"Enter the text that appears above the Twitter and Facebook buttons after the "
+"petition form has been submitted."
+msgstr ""
+"請願書フォームの送信後に表示されるSNSのシェアボタンの上に表示するテキストを入"
+"力してください"
+
+#: includes/help.php:72 includes/settings.view.php:206
+msgid "Expiration Message"
+msgstr "期限切れメッセージ"
+
+#: includes/help.php:72
+msgid ""
+"Enter the text to display in place of the petition form when a petition is "
+"past its expiration date."
+msgstr "請願書が期限切れの際に表示するテキストを入力してください"
+
+#: includes/help.php:73 includes/settings.view.php:210
+msgid "Already Signed Message"
+msgstr "署名済みメッセージ"
+
+#: includes/help.php:73
+msgid ""
+"Enter the text to display when a petition is signed using an email address "
+"that has already been submitted."
+msgstr ""
+"既に同じメールアドレスで署名済みの場合に表示するテキストを入力してください"
+
+#: includes/help.php:74 includes/settings.view.php:214
+msgid "Opt-in Default"
+msgstr "オプトインのデフォルト設定"
+
+#: includes/help.php:74
+msgid "Choose whether the opt-in checkbox is checked or unchecked by default."
+msgstr ""
+"オプトインチェックボックスのデフォルトの状態（チェックする／しない）を選択し"
+"てください"
+
+#: includes/help.php:75 includes/settings.view.php:221
+msgid "Display signature count"
+msgstr "署名数を表示"
+
+#: includes/help.php:75
+msgid ""
+"Choose whether you wish to display the number of signatures that have been "
+"collected."
+msgstr "既に集まっている署名数を表示するかどうかを選択してください"
+
+#: includes/help.php:78
+msgid "These settings control the content of the confirmation emails."
+msgstr "これらの設定は、確認メールの内容を制御します。"
+
+#: includes/help.php:79 includes/settings.view.php:315
+msgid "Email From"
+msgstr "送信元メールアドレス"
+
+#: includes/help.php:79
+msgid ""
+"Enter the email address associated with your website. Confirmation emails "
+"will be sent from this address."
+msgstr ""
+"Web サイトに関連付けられている電子メール アドレスを入力します。このアドレスか"
+"ら確認メールが送信されます。"
+
+#: includes/help.php:80
+msgid "Enter the subject of the confirmation email."
+msgstr "確認メールの件名を入力します。"
+
+#: includes/help.php:81 includes/settings.view.php:323
+msgid "Email Message"
+msgstr "メールメッセージ"
+
+#: includes/help.php:81
+msgid "Enter the content of the confirmation email."
+msgstr "確認メールの内容を入力します。"
+
+#: includes/help.php:84
+msgid "These settings control the display of the [signaturelist] shortcode."
+msgstr "これらの設定は[signaturelist]ショートコードの表示をコントロールします"
+
+#: includes/help.php:85
+msgid "Enter the text that appears above the signature list."
+msgstr "署名リストの上に表示するテキストを入力してください"
+
+#: includes/help.php:86 includes/settings.view.php:341
+msgid "Theme"
+msgstr "テーマ"
+
+#: includes/help.php:86
+msgid "Select a CSS theme that will control the appearance of signature lists."
+msgstr "署名リストの表示スタイル（CSSテーマ）を選択してください"
+
+#: includes/help.php:87 includes/settings.view.php:351
+msgid "Rows"
+msgstr "行"
+
+#: includes/help.php:87
+msgid ""
+"Enter the number of signatures that will be displayed in the signature list."
+msgstr "署名リストに表示する署名数を入力してください"
+
+#: includes/help.php:88
+msgid "Choose the signature list styling, click the ? for more information."
+msgstr "署名リストのスタイルを選択し、?詳細については。"
+
+#: includes/help.php:89 includes/help.php:95 includes/settings.view.php:365
+msgid "Columns"
+msgstr "カラム"
+
+#: includes/help.php:89
+msgid "Select the columns that will appear in the public signature list."
+msgstr "公開署名リストに表示される列を選択します。"
+
+#: includes/help.php:90
+msgid "Flags"
+msgstr "フラグ"
+
+#: includes/help.php:90
+msgid ""
+"You can display the flag of the country the signer has chosen, if you have "
+"Country enabled."
+msgstr ""
+"[国] が有効になっている場合は、署名者が選択した国の国旗を表示できます。"
+
+#: includes/help.php:91 includes/settings.view.php:427
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: includes/help.php:91
+msgid "Hide all but the first letter of the last name.."
+msgstr "姓の最初の文字を除くすべてを非表示にします。"
+
+#: includes/help.php:94
+msgid "These settings control the display of the signatures in the dashboard."
+msgstr "これらの設定は、ダッシュボードでの署名の表示を制御します。"
+
+#: includes/help.php:95
+msgid "Select the columns that will appear in the admin signature list."
+msgstr "管理者署名リストに表示される列を選択します。"
+
+#: includes/help.php:96
+msgid "CSV"
+msgstr "CSV"
+
+#: includes/help.php:96
+msgid "When outputting the CSV file, what should be included?"
+msgstr "CSVファイルを出力する場合、何を含めるべきですか?"
+
+#: includes/help.php:99
+msgid ""
+"These settings control the look of the plugin's options pages within the "
+"WordPress administrator."
+msgstr ""
+"これらの設定は、WordPress 管理者内のプラグインのオプションページの外観を制御"
+"します。"
+
+#: includes/help.php:100 includes/settings.view.php:540
+msgid "Petitions table shows"
+msgstr "請願書の一覧表示"
+
+#: includes/help.php:100
+msgid ""
+"Enter the number of rows to display in the \"Email Petitions\" table "
+"(default=20)"
+msgstr "「メール請願書」テーブルに表示する行数を入力します(デフォルト=20)"
+
+#: includes/help.php:101 includes/settings.view.php:544
+msgid "Signatures table shows"
+msgstr "署名の一覧表示"
+
+#: includes/help.php:101
+msgid ""
+"Enter the number of rows to display in the \"Signatures\" table (default=50)"
+msgstr "「署名」テーブルに表示する行数を入力します (デフォルト=50)。"
+
+#: includes/help.php:104
+msgid "These settings refer to the license key"
+msgstr "これらの設定はライセンスキーを参照します"
+
+#: includes/help.php:105
+msgid "License key"
+msgstr "ライセンスキー"
+
+#: includes/help.php:105
+msgid ""
+"Enter the license key your received in an email after purchase.  If it is "
+"invalid, a message will be displayed with the reason."
+msgstr ""
+"購入後にメールで受け取ったライセンスキーを入力します。 無効な場合は、理由を示"
+"すメッセージが表示されます。"
+
+#: includes/help.php:106
+msgid "Revoke key"
+msgstr "キーを取り消す"
+
+#: includes/help.php:106
+msgid ""
+"Perhaps you are moving to a new site or from development to production.  "
+"Revoke the key, this allows it to be used elsewhere.  The current site will "
+"lose all access to any settings."
+msgstr ""
+"おそらく、新しいサイトに移動するか、開発から運用に移動します。 キーを取り消す"
+"と、他の場所で使用できるようになります。 現在のサイトは、すべての設定へのアク"
+"セスを失います。"
+
+#: includes/help.php:114 includes/settings.view.php:151
+#: includes/settings.view.php:166
+msgid "Petition Form"
+msgstr "請願書フォーム"
+
+#: includes/help.php:119 includes/settings.view.php:152
+#: includes/settings.view.php:312
+msgid "Confirmation Emails"
+msgstr "確認メール"
+
+#: includes/help.php:124 includes/settings.view.php:153
+#: includes/settings.view.php:334
+msgid "Public Signature List"
+msgstr "パブリック署名リスト"
+
+#: includes/help.php:129 includes/settings.view.php:154
+#: includes/settings.view.php:438
+msgid "Admin Signature List"
+msgstr "管理者署名リスト"
+
+#: includes/help.php:134 includes/settings.view.php:155
+#: includes/settings.view.php:537
+msgid "Admin Display"
+msgstr "管理画面表示"
+
+#: includes/help.php:139 includes/settings.view.php:157
+msgid "License"
+msgstr "ライセンス"
+
+#: includes/install.php:178
+msgid "Sign Now"
+msgstr "今すぐ署名する"
+
+#: includes/install.php:179
+msgid "This petition is now closed."
+msgstr "この請願書は現在締め出されています。"
+
+#: includes/install.php:180
+msgid "Thank you"
+msgstr "ありがとうございます"
+
+#: includes/install.php:180
+msgid "Your signature has been added."
+msgstr "署名が追加されました。"
+
+#: includes/install.php:181
+msgid "This petition has already been signed using your email address."
+msgstr "この請願書は、あなたのメールアドレスを使用して既に署名されています。"
+
+#: includes/install.php:182
+msgid "Share this with your friends:"
+msgstr "友達にシェアする："
+
+#: includes/install.php:183 includes/install.php:425
+msgid "Please confirm your email address"
+msgstr "メールアドレスを確認してください"
+
+#: includes/install.php:184 includes/install.php:428
+msgid "Hello"
+msgstr "こんにちは"
+
+#: includes/install.php:184
+msgid "Thank you for signing our petition %petition_title% "
+msgstr "請願書に署名していただきありがとうございます %petition_title%"
+
+#: includes/install.php:184 includes/install.php:428
+msgid ""
+"Please confirm your email address by clicking or copying and pasting the "
+"link below:"
+msgstr ""
+"下記のリンクをクリックまたはコピーして貼り付けて、メールアドレスを確認してく"
+"ださい。"
+
+#: includes/install.php:189 includes/install.php:434
+msgid "Latest Signatures"
+msgstr "最新の署名"
+
+#: includes/install.php:428
+msgid "Thank you for signing our petition"
+msgstr "私たちの請願書に署名していただきありがとうございます"
+
+#: includes/license.view.php:78 includes/license.view.php:105
+#: includes/settings.view.php:566 includes/settings.view.php:593
+msgid "Enter your license key"
+msgstr "ライセンスキーを入力してください"
+
+#: includes/license.view.php:83 includes/settings.view.php:571
+msgid "Verified"
+msgstr "承認済み"
+
+#: includes/license.view.php:86 includes/settings.view.php:574
+msgid "Revoke license key"
+msgstr "ライセンスキーの取り消し"
+
+#: includes/license.view.php:90 includes/settings.view.php:578
+msgid "Thanks for upgrading"
+msgstr "アップグレードしてくれてありがとう"
+
+#: includes/license.view.php:100 includes/settings.view.php:588
+msgid ""
+"There appears to be a problem with your license key.  Either verify it again "
+"or contact"
+msgstr ""
+"ライセンスキーに問題があるようです。 もう一度確認するか、お問い合わせください"
+
+#: includes/license.view.php:108 includes/settings.view.php:596
+msgid "Your license key"
+msgstr "ライセンスキー"
+
+#: includes/license.view.php:111 includes/settings.view.php:599
+msgid "Verify"
+msgstr "確認する"
+
+#: includes/petitions.php:46
+msgid "Petition deleted."
+msgstr "請願書が削除されました"
+
+#: includes/petitions.view.php:8
+msgid "All Petitions"
+msgstr "すべての請願書"
+
+#: includes/petitions.view.php:15 includes/petitions.view.php:25
+msgid "ID"
+msgstr "ID"
+
+#: includes/petitions.view.php:16 includes/petitions.view.php:26
+msgid "Petition name"
+msgstr "請願書の名前"
+
+#: includes/petitions.view.php:17 includes/petitions.view.php:27
+msgid "Shortcodes"
+msgstr "ショートコード"
+
+#: includes/petitions.view.php:34
+msgid "No petitions found."
+msgstr "請願書が見つかりません"
+
+#: includes/petitions.view.php:44
+msgid "Edit"
+msgstr "編集"
+
+#: includes/petitions.view.php:45
+msgid "Delete"
+msgstr "削除"
+
+#: includes/petitions.view.php:46
+msgid "Duplicate"
+msgstr "複製"
+
+#: includes/petitions.view.php:49
+msgid "display petition"
+msgstr "請願書を表示する"
+
+#: includes/petitions.view.php:50
+msgid "display signature list"
+msgstr "署名リストを表示する"
+
+#: includes/petitions.view.php:51
+msgid "display signature count"
+msgstr "署名数を表示"
+
+#: includes/petitions.view.php:52
+msgid "display signature goal"
+msgstr "署名の目標を表示する"
+
+#: includes/petitions.view.php:53
+msgid "display petition title"
+msgstr "請願書のタイトルを表示する"
+
+#: includes/petitions.view.php:54
+msgid "display petition message"
+msgstr "請願書のメッセージを表示する"
+
+#: includes/petitions.view.php:60
+msgid "View Signatures"
+msgstr "署名を見る"
+
+#: includes/petitions.view.php:66
+msgid ""
+"Delete this petition permanently? All of the petition's signatures will be "
+"deleted as well."
+msgstr "この請願書を永久に削除しますか?請願書の署名もすべて削除されます。"
+
+#: includes/settings.php:31
+msgid "Settings updated."
+msgstr "設定を更新しました。"
+
+#: includes/settings.view.php:156 includes/settings.view.php:552
+msgid "Security"
+msgstr "セキュリティ"
+
+#: includes/settings.view.php:161 includes/settings.view.php:641
+msgid "Anedot.com Donation Form Embed"
+msgstr "Anedot.com寄付フォームの埋め込み"
+
+#: includes/settings.view.php:167
+msgid "These settings apply to all petitions"
+msgstr "これらの設定はすべての請願に適用されます"
+
+#: includes/settings.view.php:172 includes/settings.view.php:179
+#: includes/settings.view.php:343
+msgid "Default"
+msgstr "デフォルト"
+
+#: includes/settings.view.php:173
+msgid "Basic"
+msgstr "基本"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "Custom"
+msgstr "カスタム"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "use"
+msgstr "使用"
+
+#: includes/settings.view.php:191 includes/settings.view.php:326
+msgid "Accepted variables:"
+msgstr "利用できる変数："
+
+#: includes/settings.view.php:192 includes/settings.view.php:327
+msgid "Accepted tags:"
+msgstr "利用できるタグ："
+
+#: includes/settings.view.php:196
+msgid "Petition fade out after signing?"
+msgstr "署名後に請願書がフェードアウト?"
+
+#: includes/settings.view.php:216
+msgid "Checked"
+msgstr "チェック済み"
+
+#: includes/settings.view.php:217
+msgid "Unchecked"
+msgstr "チェックなし"
+
+#: includes/settings.view.php:223 includes/settings.view.php:231
+#: includes/settings.view.php:239 includes/settings.view.php:245
+#: includes/settings.view.php:260
+msgid "Yes"
+msgstr "はい"
+
+#: includes/settings.view.php:223
+msgid "at the bottom of the petition form"
+msgstr "請願書の下部"
+
+#: includes/settings.view.php:227
+msgid "Display honorific field"
+msgstr "敬称フィールドの表示"
+
+#: includes/settings.view.php:235
+msgid "Display BCC field"
+msgstr "[BCC] フィールドを表示する"
+
+#: includes/settings.view.php:243
+msgid "EU postal code position?"
+msgstr "EU 郵便番号の位置?"
+
+#: includes/settings.view.php:245
+msgid "In EU postal code comes before city"
+msgstr "EUでは、郵便番号は都市の前に来る"
+
+#: includes/settings.view.php:249
+msgid "Signature count format"
+msgstr "署名カウント形式"
+
+#: includes/settings.view.php:252
+msgid "Thousands separator"
+msgstr "千単位の区切り記号"
+
+#: includes/settings.view.php:253
+msgid "Decimal separator"
+msgstr "小数点区切り記号"
+
+#: includes/settings.view.php:254
+msgid "currently"
+msgstr "現在は"
+
+#: includes/settings.view.php:258
+msgid "Display Privacy Policy accept?"
+msgstr "表示プライバシーポリシーは受け入れますか?"
+
+#: includes/settings.view.php:260
+msgid "GDPR"
+msgstr "チェックボックスを確認してください。"
+
+#: includes/settings.view.php:266
+msgid "Enable Google recaptcha?"
+msgstr "Googleのリキャプチャを有効にしますか?"
+
+#: includes/settings.view.php:282
+msgid "Enable hCaptcha?"
+msgstr "hCaptchaを有効にしますか?"
+
+#: includes/settings.view.php:296
+msgid "Display sharing icons?"
+msgstr "共有アイコンを表示しますか?"
+
+#: includes/settings.view.php:303
+msgid "Enable Anedot.com?"
+msgstr "Anedot.comを有効にしますか?"
+
+#: includes/settings.view.php:305
+msgid "Anedot.com is a 3rd party fund raising site"
+msgstr "Anedot.comは第三者の資金調達サイトです"
+
+#: includes/settings.view.php:335
+msgid ""
+"These settings apply to signatures displayed on your site using the shortcode"
+msgstr ""
+"これらの設定は、ショートコードを使用してサイトに表示される署名に適用されま"
+"す。"
+
+#: includes/settings.view.php:348
+msgid "To style the signature list you are best using your theme's"
+msgstr "署名リストのスタイルを設定するには、テーマを使用するのが最適です。"
+
+#: includes/settings.view.php:348
+msgid "Additional CSS"
+msgstr "追加の CSS"
+
+#: includes/settings.view.php:348
+msgid "setting"
+msgstr "設定"
+
+#: includes/settings.view.php:352
+msgid "0 to display all"
+msgstr "0 を指定すると、すべて表示されます。"
+
+#: includes/settings.view.php:355
+msgid "Changing to \"list\" will clear column settings below"
+msgstr "「リスト」に変更すると、以下の列設定がクリアされます"
+
+#: includes/settings.view.php:357
+msgid "table"
+msgstr "テーブル"
+
+#: includes/settings.view.php:359
+msgid "inline blocks - very styleable"
+msgstr "インラインブロック - 非常にスタイル可能"
+
+#: includes/settings.view.php:361
+msgid "long list (comma separated)"
+msgstr "長いリスト (コンマ区切り)"
+
+#: includes/settings.view.php:368
+msgid "Count"
+msgstr "カウント"
+
+#: includes/settings.view.php:371 includes/settings.view.php:446
+#: includes/signatures.view.php:157 includes/signatures.view.php:185
+msgid "Name"
+msgstr "名前"
+
+#: includes/settings.view.php:374
+msgid "Email address - unless disabled"
+msgstr "電子メール アドレス - 無効でない場合"
+
+#: includes/settings.view.php:389
+msgid "Custom Field 1"
+msgstr "ユーザー設定フィールド 1"
+
+#: includes/settings.view.php:392
+msgid "Custom Field 2"
+msgstr "ユーザー設定フィールド 2"
+
+#: includes/settings.view.php:395
+msgid "Custom Field 3"
+msgstr "ユーザー設定フィールド 3"
+
+#: includes/settings.view.php:398
+msgid "Custom Field 4"
+msgstr "ユーザー設定フィールド 4"
+
+#: includes/settings.view.php:401
+msgid "Custom drop-down field"
+msgstr "カスタムドロップダウンフィールド"
+
+#: includes/settings.view.php:404 includes/settings.view.php:496
+msgid "Custom Checkbox 1"
+msgstr "カスタムチェックボックス1"
+
+#: includes/settings.view.php:407 includes/settings.view.php:500
+msgid "Custom Checkbox 2"
+msgstr "カスタムチェックボックス2"
+
+#: includes/settings.view.php:413 includes/signatures.view.php:148
+msgid "Date"
+msgstr "日付"
+
+#: includes/settings.view.php:418
+msgid "Display country flags?"
+msgstr "国旗を表示しますか?"
+
+#: includes/settings.view.php:422
+msgid "requires Country column to be enabled above"
+msgstr "[国] 列を上で有効にする必要があります"
+
+#: includes/settings.view.php:429
+msgid "enabled - only show first letter of surname"
+msgstr "有効：姓の一文字目のみ表示"
+
+#: includes/settings.view.php:430
+msgid "disabled"
+msgstr "無効"
+
+#: includes/settings.view.php:439
+msgid "Settings for the dashboard signature list"
+msgstr "ダッシュボード署名リストの設定"
+
+#: includes/settings.view.php:442
+msgid "Columns to display"
+msgstr "表示する列"
+
+#: includes/settings.view.php:452
+msgid "Petition info"
+msgstr "請願書情報"
+
+#: includes/settings.view.php:468
+msgid "Postal code"
+msgstr "郵便番号"
+
+#: includes/settings.view.php:476 includes/signatures.view.php:139
+msgid "Custom field 1"
+msgstr "ユーザー設定フィールド 1"
+
+#: includes/settings.view.php:480 includes/signatures.view.php:140
+msgid "Custom field 2"
+msgstr "ユーザー設定フィールド 2"
+
+#: includes/settings.view.php:484 includes/signatures.view.php:141
+msgid "Custom field 3"
+msgstr "ユーザー設定フィールド 3"
+
+#: includes/settings.view.php:488 includes/signatures.view.php:142
+msgid "Custom field 4"
+msgstr "ユーザー設定フィールド 4"
+
+#: includes/settings.view.php:492 includes/signatures.view.php:143
+msgid "Custom field 5"
+msgstr "ユーザー設定フィールド 5"
+
+#: includes/settings.view.php:503
+msgid "Confirmed status"
+msgstr "確認済みステータス"
+
+#: includes/settings.view.php:509
+msgid "Date signed"
+msgstr "署名された日付"
+
+#: includes/settings.view.php:513
+msgid "Display time signed?"
+msgstr "署名された時間を表示しますか?"
+
+#: includes/settings.view.php:517
+msgid "IP address"
+msgstr "IPアドレス"
+
+#: includes/settings.view.php:521
+msgid "CSV file includes"
+msgstr "CSVファイルに含む内容"
+
+#: includes/settings.view.php:523
+msgid "All signatures"
+msgstr "すべての署名"
+
+#: includes/settings.view.php:525
+msgid "Only opt-in signatures"
+msgstr "オプトインの署名のみ"
+
+#: includes/settings.view.php:527
+msgid "Only double opt-in signatures"
+msgstr "ダブルオプトインの署名のみ"
+
+#: includes/settings.view.php:527
+msgid "opt-in + confirmed"
+msgstr "オプトイン＋確認"
+
+#: includes/settings.view.php:529
+msgid "Only confirmed signatures"
+msgstr "確認済みの署名のみ"
+
+#: includes/settings.view.php:541
+msgid "rows - default = 20"
+msgstr "行 - デフォルト = 20"
+
+#: includes/settings.view.php:545
+msgid "rows - default = 50"
+msgstr "行 - デフォルト = 50"
+
+#: includes/settings.view.php:555
+msgid "Webhooks enabled"
+msgstr "ウェブフックが有効"
+
+#: includes/settings.view.php:603
+msgid "Don't have a license"
+msgstr "ライセンスを持っていない"
+
+#: includes/settings.view.php:644
+msgid "Anedot.com Donation Slug"
+msgstr "Anedot.com寄付スラッグ"
+
+#: includes/settings.view.php:646
+msgid ""
+"Input your Anedot.com \"Account Slug\" (from Settings > Brand), a slash, and "
+"then your Campaign Slug (from Campaigns > Edit > Basic)."
+msgstr ""
+"Anedot.com「アカウントスラッグ」(設定→ブランド)、スラッシュ、キャンペーンス"
+"ラッグ(キャンペーン>編集>基本)を入力します。"
+
+#: includes/settings.view.php:651
+msgid "Anedot.com Embed Pref"
+msgstr "Anedot.com 埋め込み前"
+
+#: includes/settings.view.php:653
+msgid ""
+"Enter \"true\" (without quotes) to show account name header on embedded "
+"campaigns."
+msgstr ""
+"埋め込みキャンペーンでアカウント名ヘッダーを表示するには、「true」(引用符なし"
+"で) と入力します。"
+
+#: includes/settings.view.php:657
+msgid "Anedot.com iframe Width"
+msgstr "Anedot.comフレーム幅"
+
+#: includes/settings.view.php:659
+msgid ""
+"Width for donation form iframe, either as percent, e.g. \"100%\" (without "
+"quotes), or pixels, e.g. \"375\" (without quotes). Iframe is to be displayed "
+"in Success Message area, after signing of a petition."
+msgstr ""
+"寄付フォーム iframe の幅は、パーセント(例えば「100%」(引用符なし)、ピクセル、"
+"例えば「375」(引用符なし)です。Iframeは、請願書の署名後に、成功メッセージ領域"
+"に表示される予定です。"
+
+#: includes/settings.view.php:663
+msgid "Anedot.com iframe Height"
+msgstr "Anedot.com iframe の高さ"
+
+#: includes/settings.view.php:665
+msgid ""
+"Height for donation page iframe, either as pixels, e.g. \"1570\" (without "
+"quotes), or percent, e.g. \"100%\" (without quotes). Iframe is to be "
+"displayed in Success Message area, after signing of a petition."
+msgstr ""
+"寄付ページのiframeの高さ(ピクセルとして、例えば「1570」(引用符なし)、または"
+"パーセント、例えば「100%」(引用符なし)。Iframeは、請願書の署名後に、成功メッ"
+"セージ領域に表示される予定です。"
+
+#: includes/settings.view.php:671
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: includes/settings.view.php:374
+msgid "Are you sure you want to publicly display email addresses?"
+msgstr "メールアドレスを公開してもよろしいですか?"
+
+#: includes/signatures.php:39 includes/signatures.php:86
+#: includes/signatures.php:122 includes/signatures.php:193
+#: includes/signatures.php:207
+msgid "Total Signatures"
+msgstr "署名の合計"
+
+#: includes/signatures.php:93 includes/signatures.php:129
+msgid "Confirmation emails sent."
+msgstr "確認メールが送信されました"
+
+#: includes/signatures.php:212
+msgid "Total"
+msgstr "合計"
+
+#: includes/signatures.view.php:15
+msgid "Display all signatures"
+msgstr "すべての署名を表示する"
+
+#: includes/signatures.view.php:20
+msgid "Select petition"
+msgstr "請願書を選択"
+
+#: includes/signatures.view.php:35
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each unconfirmed signature."
+msgstr ""
+"本当にこれをしますか?確認されていない署名ごとに、個別の確認メールが送信されま"
+"す。"
+
+#: includes/signatures.view.php:36
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each selected signature."
+msgstr ""
+"本当にこれをしますか?選択した署名ごとに、個別の確認メールが送信されます。"
+
+#: includes/signatures.view.php:37
+msgid "Are you sure you want to do this? You will manually confirm "
+msgstr "本当にこれをしますか?手動で確認します"
+
+#: includes/signatures.view.php:38
+msgid "Are you sure you want to do this? You will delete "
+msgstr "本当にこれをしますか?削除します"
+
+#: includes/signatures.view.php:39
+msgid "selected signature"
+msgstr "選択された署名"
+
+#: includes/signatures.view.php:51
+msgid "Reconfirm selected"
+msgstr "選択した再確認"
+
+#: includes/signatures.view.php:53
+msgid "Reconfirm selected: choose petition first"
+msgstr "選択した再確認: 最初に請願書を選択"
+
+#: includes/signatures.view.php:55 includes/signatures.view.php:58
+msgid "Reconfirm selected: choose signatures"
+msgstr "選択した再確認: 署名を選択"
+
+#: includes/signatures.view.php:63
+msgid "Force confirm selected"
+msgstr "[強制確認] が選択されました"
+
+#: includes/signatures.view.php:65
+msgid "Force confirm selected - choose signatures"
+msgstr "[強制確認] が選択されました - 署名を選択します"
+
+#: includes/signatures.view.php:67
+msgid "Force confirm selected: choose petition first"
+msgstr "選択した強制確認:最初に請願書を選択"
+
+#: includes/signatures.view.php:69 includes/signatures.view.php:71
+msgid "Force confirm selected: choose signatures"
+msgstr "[強制確認] が選択されました: 署名を選択します"
+
+#: includes/signatures.view.php:75
+msgid "Delete selected"
+msgstr "選択したアイテムを削除"
+
+#: includes/signatures.view.php:77
+msgid "Delete selected: choose signatures"
+msgstr "選択した削除: 署名を選択"
+
+#: includes/signatures.view.php:91
+msgid "Resend selected confirmations"
+msgstr "選択した確認を再送信"
+
+#: includes/signatures.view.php:100
+msgid "Choose signatures action"
+msgstr "署名の選択アクション"
+
+#: includes/signatures.view.php:101
+msgid "Download CSV - see settings/admin sig list"
+msgstr "CSVをダウンロード - 設定/管理者シグリストを参照してください"
+
+#: includes/signatures.view.php:102
+msgid "Display only unconfirmed"
+msgstr "未確認のみ表示"
+
+#: includes/signatures.view.php:103
+msgid "Resend all unconfirmed"
+msgstr "未確認の再送信"
+
+#: includes/signatures.view.php:108
+msgid "Apply"
+msgstr "適用"
+
+#: includes/signatures.view.php:113
+msgid "Search signatures"
+msgstr "署名の検索"
+
+#: includes/signatures.view.php:144
+msgid "Checkbox 1"
+msgstr "チェックボックス 1"
+
+#: includes/signatures.view.php:145
+msgid "Checkbox 2"
+msgstr "チェックボックス 2"
+
+#: includes/signatures.view.php:146
+msgid "Opt-in"
+msgstr "オプトイン"
+
+#: includes/widget.php:14
+msgid "Display a petition form."
+msgstr "請願書書を表示します。"
+
+#: includes/widget.php:76
+msgid "Sign the Petition"
+msgstr "請願書に署名する"
+
+#: includes/widget.php:89
+msgid "Sharing URL"
+msgstr "共有 URL"
+
+#: includes/widget.php:90
+msgid "Call to Action"
+msgstr "コールアクション"
+
+#: includes/widget.php:415
+msgid "Confirm Email"
+msgstr "メールアドレスの確認 *"
+
+#: speakout-email-petitions.php:95
+msgid "Support"
+msgstr "サポート"
+
+#. Plugin Name of the plugin/theme
+msgid "SpeakOut! Email Petitions Pro"
+msgstr "スピークアウト!請願書プロにメールを送る"
+
+#. Plugin URI of the plugin/theme
+msgid "https://speakout.123host.net.au/"
+msgstr "https://speakout.123host.net.au/"
+
+#. Description of the plugin/theme
+msgid ""
+"This is the fully featured Pro version of SpeakOut! Create custom email "
+"petition forms and include them on your site via shortcode or a widget. When "
+"signed, the petition is emailed to your target and signatures are saved in "
+"the database.  There are many customisable options to make this plugin very "
+"flexible."
+msgstr ""
+"これはスピークアウトのフル機能のProバージョンです!カスタムの電子メール請願"
+"フォームを作成し、ショートコードまたはウィジェットを介してサイトに含めます。"
+"署名されると、請願書はターゲットに電子メールで送信され、署名はデータベースに"
+"保存されます。 このプラグインを非常に柔軟にするためのカスタマイズ可能なオプ"
+"ションはたくさんあります。"
+
+#. Author of the plugin/theme
+msgid "Steve D - 123host.au"
+msgstr "スティーブD - 123host.au"
+
+#. Author URI of the plugin/theme
+msgid "https://123Host.au"
+msgstr "https://123host.au"
+
+#~ msgid "Import petitions from SpeakUp to SpeakOut!"
+#~ msgstr "スピークアップからスピークアウトに請願書をインポート!"
+
+#~ msgid "Upgrade to Pro"
+#~ msgstr "Proバージョンにアップグレード"
+
+#~ msgid "Disabled"
+#~ msgstr "無効"
+
+#~ msgid "Import from SpeakUp"
+#~ msgstr "スピークアップからインポート"
+
+#~ msgid "SpeakOut! Upgrade"
+#~ msgstr "SpeakOut!アップグレード"
+
+#~ msgid "Custom Field 5"
+#~ msgstr "ユーザー設定フィールド 5"
+
+#~ msgid "yes"
+#~ msgstr "はい"
+
+#~ msgid "no"
+#~ msgstr "いいえ"
+
+#~ msgid ""
+#~ "Add a custom fields to the petition form for collecting additional data."
+#~ msgstr ""
+#~ "追加のデータを収集するためのカスタム フィールドを請願書フォームに追加しま"
+#~ "す。"
+
+#~ msgid ""
+#~ "Select the subset of signatures that will be included in CSV file "
+#~ "downloads"
+#~ msgstr "CSV ファイルのダウンロードに含める署名のサブセットを選択します。"
+
+#~ msgid "Signature List"
+#~ msgstr "署名リスト"
+
+#~ msgid "In the free version you are limited to one petition"
+#~ msgstr "無料版では、1つの請願書に制限されています"
+
+#~ msgid ""
+#~ "Any additional existing petitions will still work but cannot be edited"
+#~ msgstr "追加の既存の請願書は引き続き機能しますが、編集することはできません"
+
+#~ msgid "create"
+#~ msgstr "作成"
+
+#~ msgid "Duplicate Email Petition"
+#~ msgstr "重複メール請願書"
+
+#~ msgid "Email Petitions"
+#~ msgstr "メール請願書"
+
+#~ msgid "This is coming - to avoid a license fee, make a donation"
+#~ msgstr "これは来ています - ライセンス料を避けるために、寄付をしてください"
+
+#, php-format
+#~ msgid "A donation will help keep SpeakOut! 100% free!"
+#~ msgstr "寄付はスピークアウトを維持するのに役立ちます!100% fリー!"
+
+#~ msgid "Download CSV"
+#~ msgstr "CSVをダウンロード"
+
+#~ msgid "3rd Party extras"
+#~ msgstr "サードパーティのエキストラ"
+
+#~ msgid "This is coming"
+#~ msgstr "これは来ています"
+
+#~ msgid "This field is included in email to target"
+#~ msgstr "このフィールドは、ターゲットに電子メールに含まれています"
+
+#~ msgid "Hide email from public"
+#~ msgstr "パブリックにメールを非表示にする"
+
+#~ msgid "Please donate if this plugin is useful."
+#~ msgstr "このプラグインが役に立つ場合は寄付してください。"
+
+#~ msgid "Custom field"
+#~ msgstr "カスタムフィールド"
+
+#~ msgid "None"
+#~ msgstr "なし"
+
+#~ msgid "Read or edit the petition"
+#~ msgstr "請願書を読む、または編集する"
+
+#~ msgid "Ms"
+#~ msgstr "さん"
+
+#~ msgid "Mr"
+#~ msgstr "氏"
+
+#~ msgid "Mrs"
+#~ msgstr "夫人"
+
+#~ msgid "Miss"
+#~ msgstr "ミス"
+
+#~ msgid "Mx."
+#~ msgstr "Mx。"
+
+#~ msgid "Dr."
+#~ msgstr "Dr."
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "You will be redirected momentarily."
+#~ msgstr "あなたはまもなくリダイレクトされます。"
+
+#~ msgid "instead of instant hide"
+#~ msgstr "インスタント非表示の代わりに"
+
+#~ msgid "Privacy Policy URL"
+#~ msgstr "個人情報に関する規約へのURL"
+
+#~ msgid "You will need a pair of keys from"
+#~ msgstr "からキーのペアが必要になります"
+
+#~ msgid "You can hide Facebook and Twitter icons"
+#~ msgstr ""
+#~ "あなたは、フェイスブックやツイッターのアイコンを非表示にすることができます"
+
+#~ msgid "Example: If your donation page's URL is"
+#~ msgstr "例: 寄付ページの URL が"
+
+#~ msgid "then your Donation Slug is:"
+#~ msgstr "その後、あなたの寄付スラッグは次のとおりです。"
+
+#~ msgid "Donate, please!"
+#~ msgstr "寄付する"
+
+#~ msgid "Force confirm selected: check 1 or more"
+#~ msgstr "[強制確認] が選択されました: 1 つ以上をチェックします。"
+
+#~ msgid "Delete selected: check 1 or more"
+#~ msgstr "選択した削除: 1 以上のチェック"
+
+#~ msgid "Error: You must include a valid id."
+#~ msgstr "エラー: 有効な ID を含める必要があります。"
+
+#~ msgid "All Signatures"
+#~ msgstr "すべての署名"
+
+#~ msgid "Signature deleted."
+#~ msgstr "署名が削除されました"
+
+#~ msgid "Download as CSV"
+#~ msgstr "CSVファイルをダウンロード"
+
+#~ msgid "Re-send confirmations"
+#~ msgstr "確認を再送する"
+
+#~ msgid "Donate"
+#~ msgstr "寄付する"
+
+#~ msgid "Search"
+#~ msgstr "検索"
+
+#~ msgid "Street Address"
+#~ msgstr "番地"
+
+#, fuzzy
+#~ msgid "Address fields required?"
+#~ msgstr "住所フィールドが必要ですか?"

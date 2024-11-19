@@ -1,0 +1,2235 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SpeakOut! Email Petitions\n"
+"POT-Creation-Date: 2023-04-03 09:29+1000\n"
+"PO-Revision-Date: 2023-10-26 15:56+1000\n"
+"Last-Translator: Steve D <info@123host.com.au>\n"
+"Language-Team: \n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: speakout-email-petitions.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/addnew.php:38 includes/addnew.php:64
+#, fuzzy
+msgid "Edit Petition"
+msgstr "Уреди петицију"
+
+#: includes/addnew.php:42 includes/addnew.php:68 includes/addnew.php:116
+#, fuzzy
+msgid "Update Petition"
+msgstr "Ажурирај петицију"
+
+#: includes/addnew.php:50
+#, fuzzy, php-format
+msgid ""
+"Petition created. Use %1$s %2$s %3$s to display in a page or post. Use %1$s "
+"%4$s %3$s to display the signatures list or %1$s %5$s %3$s to show just the "
+"signature count."
+msgstr ""
+"Петиција је створена. Користите %1$s %2$s %3$s за приказивање у страници или "
+"објави. Користите %1$s %4$s %3$s да бисте приказали листу потписа или %1$s "
+"%5$s %3$s бисте приказали само број потписа."
+
+#: includes/addnew.php:85
+#, fuzzy
+msgid "Duplicate Petition"
+msgstr "Дуплирана петиција"
+
+#: includes/addnew.php:89
+#, fuzzy
+msgid "Save Duplicate Petition"
+msgstr "Сачувај дуплирану петицију"
+
+#: includes/addnew.php:97
+#, fuzzy, php-format
+msgid ""
+"Petition created - you can edit it here. Use %1$s %2$s %3$s to display in a "
+"page or post."
+msgstr ""
+"Петицију креирану - можете је уредити овде. Користите %1$s %2$s %3$s за "
+"приказивање у страници или објави."
+
+#: includes/addnew.php:112
+#, fuzzy
+msgid "Edit New Petition"
+msgstr "Уреди нову петицију"
+
+#: includes/addnew.php:117
+#, fuzzy
+msgid "Petition "
+msgstr "Петицију "
+
+#: includes/addnew.php:124
+#, fuzzy
+msgid "Add New Petition"
+msgstr "Додај нову петицију"
+
+#: includes/addnew.php:128
+#, fuzzy
+msgid "Create Petition"
+msgstr "Креирај петицију"
+
+#: includes/addnew.php:130
+#, fuzzy
+msgid "Add me to your mailing list"
+msgstr "Додај ме на своју маилинг листу"
+
+#: includes/addnew.view.php:9
+#, fuzzy
+msgid ""
+"Error: Please correct the highlighted fields.  It may be behind a closed tab"
+msgstr ""
+"Грешка : Исправите истакнута поља.  Можда се крије иза затворене картице"
+
+#: includes/addnew.view.php:18 includes/help.php:42
+#, fuzzy
+msgid "Petition Content"
+msgstr "Садржај петиције"
+
+#: includes/addnew.view.php:19 includes/help.php:47
+#, fuzzy
+msgid "Petition Options"
+msgstr "Опције петиције"
+
+#: includes/addnew.view.php:20 includes/help.php:52
+#, fuzzy
+msgid "Display Options"
+msgstr "Опције приказа"
+
+#: includes/addnew.view.php:21 includes/help.php:57
+#, fuzzy
+msgid "3rd Party Integrations"
+msgstr "Интеграције треће стране"
+
+#: includes/addnew.view.php:29 includes/help.php:6 includes/help.php:85
+#: includes/settings.view.php:338 includes/widget.php:88
+msgid "Title"
+msgstr "Наслов"
+
+#: includes/addnew.view.php:30
+#, fuzzy
+msgid "Enter title here"
+msgstr "Овде унесите наслов"
+
+#: includes/addnew.view.php:46 includes/help.php:7
+#, fuzzy
+msgid "Do not send email (only collect signatures)"
+msgstr "Не шаљи е-пошту (само скупљај потписе)"
+
+#: includes/addnew.view.php:50 includes/help.php:8
+#, fuzzy
+msgid "Target Email"
+msgstr "Циљна е-пошта"
+
+#: includes/addnew.view.php:50 includes/addnew.view.php:53
+#, fuzzy
+msgid "you may enter multiple addresses separated by commas"
+msgstr "можете унети више адреса раздвојених зарезима"
+
+#: includes/addnew.view.php:53
+#, fuzzy
+msgid "CC Email"
+msgstr "ЦЦ е-пошта"
+
+#: includes/addnew.view.php:56 includes/help.php:9 includes/help.php:80
+#: includes/settings.view.php:319
+msgid "Email Subject"
+msgstr "Наслов поруке"
+
+#: includes/addnew.view.php:59 includes/help.php:10
+#, fuzzy
+msgid "Greeting"
+msgstr "Поздрав"
+
+#: includes/addnew.view.php:65 includes/help.php:11
+#, fuzzy
+msgid "Petition Message"
+msgstr "Порука о петицији"
+
+#: includes/addnew.view.php:67
+#, fuzzy
+msgid "You can personalise the message by inserting tags"
+msgstr "Поруку можете персонализовати уметањем ознака"
+
+#: includes/addnew.view.php:68
+#, fuzzy
+msgid "You or the signer can format the message using Markdown syntax - see"
+msgstr ""
+"Ви или потписник можете да обликујете поруку помоћу Маркдоwн синтаксе - "
+"погледајте"
+
+#: includes/addnew.view.php:70
+#, fuzzy
+msgid "Petition Footer (below signature)"
+msgstr "Подножје петиције (испод потписа)"
+
+#: includes/addnew.view.php:75 includes/help.php:13
+#, fuzzy
+msgid "Twitter Message"
+msgstr "Тwиттер порука"
+
+#: includes/addnew.view.php:100
+#, fuzzy
+msgid "Don't collect email address"
+msgstr "Не прикупљај е-адресу"
+
+#: includes/addnew.view.php:101
+#, fuzzy
+msgid "This cannot be reversed"
+msgstr "Ово се не може обрнути"
+
+#: includes/addnew.view.php:108 includes/help.php:17
+#, fuzzy
+msgid "Allow public anonymous"
+msgstr "Дозволи јавном анонимусу"
+
+#: includes/addnew.view.php:117 includes/help.php:18
+#, fuzzy
+msgid "Confirm signatures"
+msgstr "Потврда потписа"
+
+#: includes/addnew.view.php:120
+#, fuzzy
+msgid "Return URL"
+msgstr "Урл адреса повраћаја"
+
+#: includes/addnew.view.php:129
+#, fuzzy
+msgid "Allow message to be edited"
+msgstr "Дозволи уређивање поруке"
+
+#: includes/addnew.view.php:137 includes/help.php:20
+#, fuzzy
+msgid "Set signature goal"
+msgstr "Постављање циља потписа"
+
+#: includes/addnew.view.php:140 includes/petitions.view.php:19
+#: includes/petitions.view.php:29
+#, fuzzy
+msgid "Goal"
+msgstr "Циљ"
+
+#: includes/addnew.view.php:143
+#, fuzzy
+msgid "Auto increase goal"
+msgstr "Циљ аутоматског повећања"
+
+#: includes/addnew.view.php:144
+msgid "by"
+msgstr "од"
+
+#: includes/addnew.view.php:145
+#, fuzzy
+msgid "when count"
+msgstr "када се броји"
+
+#: includes/addnew.view.php:145 includes/emailpetition.php:661
+#: includes/widget.php:207
+#, fuzzy
+msgid "of goal"
+msgstr "од циља"
+
+#: includes/addnew.view.php:153 includes/help.php:22
+#, fuzzy
+msgid "Set expiration date"
+msgstr "Постављање датума престанка важења"
+
+#: includes/addnew.view.php:157
+msgid "Jan"
+msgstr "Jан"
+
+#: includes/addnew.view.php:158
+msgid "Feb"
+msgstr "феб"
+
+#: includes/addnew.view.php:159
+msgid "Mar"
+msgstr "мар"
+
+#: includes/addnew.view.php:160
+msgid "Apr"
+msgstr "апр"
+
+#: includes/addnew.view.php:161
+msgid "May"
+msgstr "Mај"
+
+#: includes/addnew.view.php:162
+msgid "Jun"
+msgstr "јун"
+
+#: includes/addnew.view.php:163
+msgid "Jul"
+msgstr "јул"
+
+#: includes/addnew.view.php:164
+msgid "Aug"
+msgstr "авг"
+
+#: includes/addnew.view.php:165
+msgid "Sep"
+msgstr "Сеп"
+
+#: includes/addnew.view.php:166
+msgid "Oct"
+msgstr "окт"
+
+#: includes/addnew.view.php:167
+msgid "Nov"
+msgstr "Нема в"
+
+#: includes/addnew.view.php:168
+msgid "Dec"
+msgstr "дец"
+
+#: includes/addnew.view.php:184
+#, fuzzy
+msgid "Redirect after successful sign"
+msgstr "Преусмеравање након успешног потписивања"
+
+#: includes/addnew.view.php:187
+msgid "Full URL"
+msgstr "Цела URLадреса"
+
+#: includes/addnew.view.php:189
+#, fuzzy
+msgid "Delay?"
+msgstr "Одлагања?"
+
+#: includes/addnew.view.php:190
+#, fuzzy
+msgid "milliseconds"
+msgstr "Милисекунди"
+
+#: includes/addnew.view.php:191
+#, fuzzy
+msgid "Open in new window (target='_blank')"
+msgstr "Отвори у новом прозору (таргет ='_blank')"
+
+#: includes/addnew.view.php:205
+#, fuzzy
+msgid "Text to open/close petition message"
+msgstr "Текст за отварање/затварање поруке петиције"
+
+#: includes/addnew.view.php:210
+#, fuzzy
+msgid "Text to open/close editable petition message"
+msgstr "Текст за поруку о отвореној/затвореној петицији која се може уређивати"
+
+#: includes/addnew.view.php:219 includes/help.php:27
+#, fuzzy
+msgid "Display opt-in checkbox"
+msgstr "Прикажи поље за потврду да бисте дали сагласност"
+
+#: includes/addnew.view.php:222 includes/addnew.view.php:287
+#: includes/addnew.view.php:322 includes/addnew.view.php:357
+#: includes/addnew.view.php:393 includes/addnew.view.php:434
+#: includes/addnew.view.php:465 includes/addnew.view.php:494
+msgid "Label"
+msgstr "Labela"
+
+#: includes/addnew.view.php:230
+#, fuzzy
+msgid "Display petition message"
+msgstr "Прикажи поруку петиције"
+
+#: includes/addnew.view.php:237 includes/help.php:28
+#, fuzzy
+msgid "Display address fields"
+msgstr "Прикажи поља адресе"
+
+#: includes/addnew.view.php:244 includes/help.php:88
+#: includes/settings.view.php:355
+msgid "Display"
+msgstr "Текст за приказ"
+
+#: includes/addnew.view.php:245 includes/addnew.view.php:298
+#: includes/addnew.view.php:333 includes/addnew.view.php:368
+#: includes/addnew.view.php:404 includes/addnew.view.php:432
+msgid "Required"
+msgstr "Обавезно"
+
+#: includes/addnew.view.php:251 includes/addnew.view.php:597
+#: includes/emailpetition.php:426 includes/settings.view.php:456
+#: includes/signatures.view.php:134
+#, fuzzy
+msgid "Street"
+msgstr "Улица"
+
+#: includes/addnew.view.php:256 includes/csv.php:54
+#: includes/emailpetition.php:443 includes/settings.view.php:377
+#: includes/settings.view.php:460 includes/signatures.view.php:135
+#: includes/widget.php:434
+msgid "City"
+msgstr "Grad"
+
+#: includes/addnew.view.php:261 includes/emailpetition.php:450
+#: includes/settings.view.php:380 includes/widget.php:440
+#, fuzzy
+msgid "State / Province"
+msgstr "Држава / покрајина"
+
+#: includes/addnew.view.php:266
+#, fuzzy
+msgid "Postal Code - see settings for EU style"
+msgstr "Поштански број - погледајте поставке за ЕУ стил"
+
+#: includes/addnew.view.php:271 includes/addnew.view.php:629
+#: includes/csv.php:57 includes/emailpetition.php:491
+#: includes/settings.view.php:386 includes/settings.view.php:472
+#: includes/signatures.view.php:138 includes/widget.php:476
+msgid "Country"
+msgstr "Држава"
+
+#: includes/addnew.view.php:283
+#, fuzzy
+msgid "Display custom field 1"
+msgstr "Прикажи прилагођено поље 1"
+
+#: includes/addnew.view.php:300 includes/addnew.view.php:335
+#: includes/addnew.view.php:370 includes/addnew.view.php:406
+#: includes/addnew.view.php:447 includes/addnew.view.php:475
+#: includes/addnew.view.php:504
+msgid "Location"
+msgstr "Lokacija"
+
+#: includes/addnew.view.php:301 includes/addnew.view.php:336
+#: includes/addnew.view.php:371 includes/addnew.view.php:407
+#: includes/addnew.view.php:448 includes/addnew.view.php:476
+#: includes/addnew.view.php:505
+msgid "Top"
+msgstr "Врх"
+
+#: includes/addnew.view.php:303 includes/addnew.view.php:338
+#: includes/addnew.view.php:373 includes/addnew.view.php:409
+#: includes/addnew.view.php:450 includes/addnew.view.php:478
+#: includes/addnew.view.php:507
+#, fuzzy
+msgid "Above email"
+msgstr "Изнад е-поште"
+
+#: includes/addnew.view.php:305 includes/addnew.view.php:340
+#: includes/addnew.view.php:375 includes/addnew.view.php:411
+#: includes/addnew.view.php:453 includes/addnew.view.php:481
+#: includes/addnew.view.php:510
+msgid "Bottom"
+msgstr "Dno"
+
+#: includes/addnew.view.php:308 includes/addnew.view.php:343
+#: includes/addnew.view.php:378 includes/addnew.view.php:414
+#: includes/addnew.view.php:428
+#, fuzzy
+msgid "Include with petition"
+msgstr "Укључи са петицијом"
+
+#: includes/addnew.view.php:310 includes/addnew.view.php:345
+#: includes/addnew.view.php:380 includes/addnew.view.php:416
+#, fuzzy
+msgid "Trim when displaying"
+msgstr "Скраћивање приликом приказивања"
+
+#: includes/addnew.view.php:318
+#, fuzzy
+msgid "Display custom field 2"
+msgstr "Прикажи прилагођено поље 2"
+
+#: includes/addnew.view.php:353
+#, fuzzy
+msgid "Display custom field 3"
+msgstr "Прикажи прилагођено поље 3"
+
+#: includes/addnew.view.php:389
+#, fuzzy
+msgid "Display custom field 4"
+msgstr "Прикажи прилагођено поље 4"
+
+#: includes/addnew.view.php:424
+#, fuzzy
+msgid "Display custom drop-down"
+msgstr "Прикажи прилагођену падајућу листу"
+
+#: includes/addnew.view.php:444
+msgid "Values"
+msgstr "Vrednosti"
+
+#: includes/addnew.view.php:461
+#, fuzzy
+msgid "Display custom checkbox 1"
+msgstr "Прикажи прилагођено поље за потврду 1"
+
+#: includes/addnew.view.php:490
+#, fuzzy
+msgid "Display custom checkbox 2"
+msgstr "Прикажи прилагођено поље за потврду 2"
+
+#: includes/addnew.view.php:520 includes/help.php:30
+#, fuzzy
+msgid "Display custom message"
+msgstr "Прикажи прилагођену поруку"
+
+#: includes/addnew.view.php:521
+#, fuzzy
+msgid "Displayed beneath `Thank you` after petition is signed"
+msgstr "Приказано испод \"Хвала\" након потписивања петиције"
+
+#: includes/addnew.view.php:524
+msgid "Message"
+msgstr "Poruka"
+
+#: includes/addnew.view.php:535
+#, fuzzy
+msgid ""
+"You must also enable 'Display opt-in checkbox' under the Display Options tab"
+msgstr ""
+"У оквиру картице \"Опције приказа\" морате омогућити и опцију \"Прикажи поље "
+"за давање сагласности\""
+
+#: includes/addnew.view.php:542
+#, fuzzy
+msgid "Enable ActiveCampaign"
+msgstr "Омогући АцтивеЦампаигн"
+
+#: includes/addnew.view.php:549 includes/addnew.view.php:717
+#: includes/addnew.view.php:737 includes/addnew.view.php:759
+msgid "API Key"
+msgstr "API кључ"
+
+#: includes/addnew.view.php:552
+#, fuzzy
+msgid "Server URL"
+msgstr "УРЛ адреса сервера"
+
+#: includes/addnew.view.php:563
+#, fuzzy
+msgid "Select list"
+msgstr "Изабери листу"
+
+#: includes/addnew.view.php:571
+#, fuzzy
+msgid ""
+"Map the SpeakOut! fields to your Active Campaign fields. Leave those you "
+"don't use blank."
+msgstr ""
+"Мапирајте \"СпеакОут\"! у поља активне кампање. Оставите оне које не "
+"користите празне."
+
+#: includes/addnew.view.php:574 includes/csv.php:49
+#, fuzzy
+msgid "Honorific"
+msgstr "Хонорифиц"
+
+#: includes/addnew.view.php:582 includes/csv.php:50
+#: includes/emailpetition.php:355 includes/widget.php:358
+msgid "First Name"
+msgstr "Ime"
+
+#: includes/addnew.view.php:587 includes/csv.php:51
+#: includes/emailpetition.php:359 includes/widget.php:362
+msgid "Last Name"
+msgstr "Prezime"
+
+#: includes/addnew.view.php:592 includes/emailpetition.php:418
+#: includes/settings.view.php:449 includes/signatures.view.php:132
+#: includes/widget.php:409
+msgid "Email"
+msgstr "Email"
+
+#: includes/addnew.view.php:605
+#, fuzzy
+msgid "Suburb"
+msgstr "Предграре"
+
+#: includes/addnew.view.php:613 includes/csv.php:55
+#: includes/settings.view.php:464 includes/signatures.view.php:136
+msgid "State"
+msgstr "Држава"
+
+#: includes/addnew.view.php:621 includes/csv.php:56
+#: includes/emailpetition.php:436 includes/emailpetition.php:459
+#: includes/settings.view.php:383 includes/signatures.view.php:137
+#: includes/widget.php:447
+#, fuzzy
+msgid "Postal Code"
+msgstr "Поштански"
+
+#: includes/addnew.view.php:712
+#, fuzzy
+msgid "Enable MailChimp"
+msgstr "Омогући МаилЦхимп"
+
+#: includes/addnew.view.php:720
+#, fuzzy
+msgid "Server ID"
+msgstr "ИД сервера"
+
+#: includes/addnew.view.php:723 includes/addnew.view.php:762
+msgid "List ID"
+msgstr "Lista ID"
+
+#: includes/addnew.view.php:732
+#, fuzzy
+msgid "Enable Mailerlite"
+msgstr "Омогући пошиљалац"
+
+#: includes/addnew.view.php:740
+msgid "Group ID"
+msgstr "Grupa ID"
+
+#: includes/addnew.view.php:750
+#, fuzzy
+msgid "Enable Sendy"
+msgstr "Омогући сенди"
+
+#: includes/addnew.view.php:756
+#, fuzzy
+msgid "Installation URL"
+msgstr "УРЛ адреса инсталације"
+
+#: includes/admin.php:11 includes/admin.php:20 includes/admin.php:32
+#, fuzzy
+msgid "SpeakOut! Email Petitions"
+msgstr "Проговори! Петиције за е-пошту"
+
+#: includes/admin.php:33 includes/petitions.php:44 includes/petitions.php:57
+#, fuzzy
+msgid "Petitions"
+msgstr "Петиције"
+
+#: includes/admin.php:44 includes/admin.php:45 includes/license.view.php:74
+#, fuzzy
+msgid "Activate license"
+msgstr "Активирај лиценцу"
+
+#: includes/admin.php:55 includes/admin.php:56 includes/petitions.view.php:4
+msgid "Add New"
+msgstr "Додај нови"
+
+#: includes/admin.php:66 includes/admin.php:67 includes/petitions.view.php:18
+#: includes/petitions.view.php:28 includes/signatures.view.php:4
+#, fuzzy
+msgid "Signatures"
+msgstr "Потписа"
+
+#: includes/admin.php:77 includes/settings.view.php:142
+#, fuzzy
+msgid "SpeakOut! Petitions Settings"
+msgstr "Проговори! Поставке петиција"
+
+#: includes/admin.php:78
+msgid "Settings"
+msgstr "Подешавања"
+
+#: includes/class.petition.php:505
+msgid "No Title"
+msgstr "Нема наслова"
+
+#: includes/class.signaturelist.php:155 includes/class.signaturelist.php:215
+#: includes/class.signaturelist.php:319
+msgid "Anonymous"
+msgstr "Anonimno"
+
+#: includes/class.speakout.php:118
+msgid "items"
+msgstr "stavke"
+
+#: includes/class.speakout.php:121
+#, fuzzy
+msgid "page"
+msgstr "страница"
+
+#: includes/class.speakout.php:131
+msgid "of"
+msgstr "od"
+
+#: includes/confirmations.php:105
+#, fuzzy
+msgid "Thank you. Your signature has been added to the petition."
+msgstr "Хвала. Ваш потпис је додат петицији."
+
+#: includes/confirmations.php:124
+#, fuzzy
+msgid "Your signature has already been confirmed."
+msgstr "Ваш потпис је већ потврђен."
+
+#: includes/confirmations.php:128
+#, fuzzy
+msgid "The confirmation code you provided is invalid."
+msgstr "Наведени кôд потврде је неважећи."
+
+#: includes/confirmations.php:167
+msgid "Email Confirmation"
+msgstr "Email Odobravanje"
+
+#: includes/confirmations.php:169
+#, fuzzy
+msgid "If you aren't redirected"
+msgstr "Ако нисте преусмерени"
+
+#: includes/confirmations.php:169 includes/settings.view.php:603
+#, fuzzy
+msgid "Click here"
+msgstr "Кликните овде"
+
+#: includes/confirmations.php:169
+#, fuzzy
+msgid "to return to site "
+msgstr "да се вратим на локацију "
+
+#: includes/csv.php:10 includes/signatures.php:5
+#, fuzzy
+msgid "Insufficient privileges: You need to be an editor to do that."
+msgstr ""
+"Недовољне привилегије: Потребно је да будете уредник да бисте то урадили."
+
+#: includes/csv.php:28 includes/signatures.view.php:212
+#, fuzzy
+msgid "No signatures found."
+msgstr "Потписи нису пронађени."
+
+#: includes/csv.php:52
+msgid "Email Address"
+msgstr "Адреса е-поште"
+
+#: includes/csv.php:53 includes/widget.php:428
+msgid "Address"
+msgstr "Adresa"
+
+#: includes/csv.php:58
+#, fuzzy
+msgid "Date Signed"
+msgstr "Датум потписаног"
+
+#: includes/csv.php:59 includes/signatures.view.php:147
+msgid "Confirmed"
+msgstr "POTVRĐEN TERMIN"
+
+#: includes/csv.php:60
+#, fuzzy
+msgid "Petition Title"
+msgstr "Наслов петиције"
+
+#: includes/csv.php:61
+#, fuzzy
+msgid "Petition ID"
+msgstr "ИД петиције"
+
+#: includes/csv.php:62 includes/settings.view.php:506
+#, fuzzy
+msgid "Email Opt-in"
+msgstr "Давање сагласности е-поштом"
+
+#: includes/csv.php:63 includes/settings.view.php:410
+#, fuzzy
+msgid "Custom Message"
+msgstr "Прилагођена порука"
+
+#: includes/csv.php:72
+msgid "Language"
+msgstr "Језик"
+
+#: includes/csv.php:73 includes/signatures.view.php:149
+msgid "IP Address"
+msgstr "IP адреса"
+
+#: includes/csv.php:83
+#, fuzzy
+msgid "Custom Field"
+msgstr "Прилагођено поље"
+
+#: includes/csv.php:103
+msgid "confirmed"
+msgstr "потврђено"
+
+#: includes/csv.php:106
+#, fuzzy
+msgid "unconfirmed"
+msgstr "није потврђено"
+
+#: includes/csv.php:115 includes/csv.php:125 includes/csv.php:135
+#, fuzzy
+msgid "Y"
+msgstr "Y"
+
+#: includes/csv.php:118 includes/csv.php:128 includes/csv.php:138
+#, fuzzy
+msgid "N"
+msgstr "Н"
+
+#: includes/emailpetition.php:564
+#, fuzzy
+msgid "You can add formatting using markdown syntax"
+msgstr "Обликовање можете додати помоћу синтаксе маркдоwн"
+
+#: includes/emailpetition.php:564
+msgid "read more"
+msgstr "прочитај више"
+
+#: includes/emailpetition.php:579 includes/widget.php:242
+#: includes/widget.php:256
+#, fuzzy
+msgid "your signature"
+msgstr "ваш потпис"
+
+#: includes/emailpetition.php:607 includes/widget.php:535
+#, fuzzy
+msgid "BCC yourself"
+msgstr "БЦЦ лично"
+
+#: includes/emailpetition.php:620 includes/widget.php:545
+#, fuzzy
+msgid "Hide name from public"
+msgstr "Сакриј име од јавног"
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+#, fuzzy
+msgid "Yes, I accept your "
+msgstr "Да , прихватам твој "
+
+#: includes/emailpetition.php:631 includes/widget.php:555
+msgid "privacy policy"
+msgstr "politikom privatnosti"
+
+#: includes/emailpetition.php:666 includes/widget.php:212
+#, fuzzy
+msgid "signatures"
+msgstr "Потписа"
+
+#: includes/emailpetition.php:697 includes/widget.php:281
+#, fuzzy
+msgid "Signature goal"
+msgstr "Циљ потписа"
+
+#: includes/emailpetition.php:702 includes/widget.php:278
+msgid "End date"
+msgstr "Датум завршетка"
+
+#: includes/emailpetition.php:703 includes/widget.php:279
+#, fuzzy
+msgid "Signatures collected"
+msgstr "Прикупљени потписи"
+
+#: includes/emailpetition.php:708
+msgid "signature"
+msgid_plural "signatures"
+msgstr[0] "потпис"
+msgstr[1] "потписи"
+msgstr[2] "потписи"
+
+#: includes/emailpetition.php:726 includes/signatures.view.php:133
+#: includes/widget.php:91
+#, fuzzy
+msgid "Petition"
+msgstr "Петицију"
+
+#: includes/emailpetition.php:728
+#, fuzzy
+msgid ""
+"Error: The site administrator must include a valid petition id  in the "
+"shortcode."
+msgstr ""
+"Грешка : Администратор локације мора да укључи важећи ИД петиције у кратки "
+"кôд."
+
+#: includes/help.php:6
+#, fuzzy
+msgid ""
+"Enter the title of your petition, which will appear at the top of the "
+"petition form."
+msgstr ""
+"Унесите наслов ваше петиције која ће се појавити на врху обрасца за петицију."
+
+#: includes/help.php:7
+#, fuzzy
+msgid ""
+"Use this option if do not wish to send petition emails to a target address."
+msgstr ""
+"Користите ову опцију ако не желите да пошаљете е-поруке са петицијом на "
+"циљну адресу."
+
+#: includes/help.php:8
+#, fuzzy
+msgid ""
+"Enter the email address to which the petition will be sent. You may enter "
+"multiple email addresses, separated by commas."
+msgstr ""
+"Унесите е-адресу на коју ће петиција бити послата. Можете унети више е-"
+"адреса раздвојених зарезима."
+
+#: includes/help.php:9
+#, fuzzy
+msgid "Enter the subject of your petition email."
+msgstr "Унесите тему ваше е-поруке са петицијом."
+
+#: includes/help.php:10
+#, fuzzy
+msgid ""
+"Include a greeting to the recipient of your petition, such as \"Dear Mayor,"
+"\" which will appear as the first line of the email."
+msgstr ""
+"Укључите поздрав примаоцу ваше петиције, као што је\"Поштовани "
+"градоначелниче\", која ће се појавити као први ред е-поруке."
+
+#: includes/help.php:11
+#, fuzzy
+msgid "Enter the content of your petition email."
+msgstr "Унесите садржај ваше е-поруке са петицијом."
+
+#: includes/help.php:12
+#, fuzzy
+msgid "Petition Footer"
+msgstr "Подножје петиције"
+
+#: includes/help.php:12
+#, fuzzy
+msgid "This is included at the bottom of each petition that is sent."
+msgstr "Ово је укључено на дну сваке петиције која се пошаље."
+
+#: includes/help.php:13
+#, fuzzy
+msgid ""
+"Enter a prepared tweet that will be presented to users when the Twitter "
+"button is clicked."
+msgstr ""
+"Унесите припремљени твит који ће бити представљен корисницима када се кликне "
+"на дугме \"Твитер\"."
+
+#: includes/help.php:17
+#, fuzzy
+msgid ""
+"Gives option for person to be displayed as \"Anonymous\" if they choose it "
+"when signing"
+msgstr ""
+"Даје опцију да особа буде приказана као \"Анонимна\" ако је одабере приликом "
+"потписивања"
+
+#: includes/help.php:18
+#, fuzzy
+msgid ""
+"Use this option to cause an email to be sent to the signers of your "
+"petition. This email contains a special link must be clicked to confirm the "
+"signer's email address. Petition emails will not be sent until the signature "
+"is confirmed."
+msgstr ""
+"Користите ову опцију да бисте изазвали слање е-поруке потписницима ваше "
+"петиције. На ову е-поруку мора се кликнути посебна веза да би се потврдила е-"
+"адреса потписника. Е -поруке са петицијом неће бити послате док се потпис не "
+"потврди."
+
+#: includes/help.php:19
+#, fuzzy
+msgid "Allow messages to be edited"
+msgstr "Дозволи уређивање порука"
+
+#: includes/help.php:19
+#, fuzzy
+msgid ""
+"Check this option to allow signatories to customize the text of their "
+"petition email - this should be used with caution."
+msgstr ""
+"Проверите ову опцију да бисте дозволили потписницима да прилагоде текст "
+"своје е-поруке са петицијом - ово би требало користити са опрезом."
+
+#: includes/help.php:20
+#, fuzzy
+msgid ""
+"Enter the number of signatures you hope to collect. This number is used to "
+"calculate the progress bar display."
+msgstr ""
+"Унесите број потписа за које се надате да ћете прикупити. Овај број се "
+"користи за израчунавање приказа траке тока."
+
+#: includes/help.php:21
+#, fuzzy
+msgid "Auto increase signature goal"
+msgstr "Аутоматско повећавање циља потписа"
+
+#: includes/help.php:21
+#, fuzzy
+msgid ""
+"If set goal is enabled, this is a further option - click the ? for more "
+"information."
+msgstr ""
+"Ако је постављени циљ омогућен, ово је даља опција - кликните на дугме ? за "
+"више информација."
+
+#: includes/help.php:22
+#, fuzzy
+msgid "Use this option to stop collecting signatures on a specific date."
+msgstr ""
+"Користите ову опцију да бисте зауставили прикупљање потписа одређеног датума."
+
+#: includes/help.php:23
+#, fuzzy
+msgid "Redirect after signing"
+msgstr "Преусмеравање након потписивања"
+
+#: includes/help.php:23
+#, fuzzy
+msgid ""
+"Take your users to a different page or site after they sign.  Make sure you "
+"use the full URL including \"https://\" or whatever. You can specify the "
+"delay in milliseconds.  One second = 1000 milliseconds."
+msgstr ""
+"Одведите кориснике на другу страницу или локацију након потписивања.  "
+"Уверите се да користите пуну УРЛ адресу, укључујући \"https://\" или шта "
+"већ. Можете навести кашњење милисекунде.  Једна секунда = 1000 милисекунде."
+
+#: includes/help.php:26
+#, fuzzy
+msgid "These are pretty obvious."
+msgstr "Ово је прилиино оиигледно."
+
+#: includes/help.php:27
+#, fuzzy
+msgid ""
+"Include a checkbox that allows users to consent to receiving further email."
+msgstr ""
+"Укључите поље за потврду које омогућава корисницима да пристану на пријем "
+"даље е-поште."
+
+#: includes/help.php:28
+#, fuzzy
+msgid ""
+"Select the address fields to display in the petition form. Note that you can "
+"make them required or not."
+msgstr ""
+"Изаберите поља адресе која ће бити приказана у обрасцу за петицију. Имајте "
+"на науда да их можете захтевати или не."
+
+#: includes/help.php:29
+#, fuzzy
+msgid "Display custom fields"
+msgstr "Прикажи прилагођена поља"
+
+#: includes/help.php:29
+#, fuzzy
+msgid ""
+"There is a variety of custom fields that can be added to the petition form "
+"for collecting additional data.  You can position each field at the top, "
+"above the email address or at the bottom of the petition form"
+msgstr ""
+"Постоји мноштво прилагођених поља која се могу додати у образац за петицију "
+"за прикупљање додатних података.  Свако поље можете поставити на врх, изнад "
+"е-адресе или на дну обрасца за петицију"
+
+#: includes/help.php:30
+#, fuzzy
+msgid "This is displayed after the petition is signed."
+msgstr "Ово је приказано након потписивања петиције."
+
+#: includes/help.php:34
+#, fuzzy
+msgid ""
+"If you use any of these 3rd party email services, you can allow users to "
+"subscribe as long as you have  \"opt in\" enabled."
+msgstr ""
+"Ако користите било коју од ових услуга е-поште треће стране, корисницима "
+"можете дозволити да се претплате све док имате омогућено \"давање "
+"сагласности\"."
+
+#: includes/help.php:66
+#, fuzzy
+msgid ""
+"These settings control the display of the [emailpetition] shortcode and "
+"sidebar widget."
+msgstr ""
+"Ове поставке контролишу приказ кратког кода [емаилпетитион] и виџета бочне "
+"траке."
+
+#: includes/help.php:67 includes/settings.view.php:170
+#, fuzzy
+msgid "Petition Theme"
+msgstr "Тема петиције"
+
+#: includes/help.php:67
+#, fuzzy
+msgid "Select a CSS theme that will control the appearance of petition forms."
+msgstr "Изаберите ЦСС тему која ће контролисати изглед образаца за петицију."
+
+#: includes/help.php:68 includes/settings.view.php:177
+#, fuzzy
+msgid "Widget Theme"
+msgstr "Тема \"Виџет\""
+
+#: includes/help.php:68
+#, fuzzy
+msgid ""
+"Select a CSS theme that will control the appearance of petition widgets."
+msgstr "Изаберите ЦСС тему која ће контролисати изглед виџета петиције."
+
+#: includes/help.php:69 includes/settings.view.php:184
+#, fuzzy
+msgid "Submit Button Text"
+msgstr "Проследи текст дугмета"
+
+#: includes/help.php:69
+#, fuzzy
+msgid ""
+"Enter the text that displays in the orange submit button on petition forms."
+msgstr ""
+"Унесите текст који се приказује у наранџастом дугмету за прослеђивање у "
+"обрасцима за петицију."
+
+#: includes/help.php:70 includes/settings.view.php:188
+msgid "Success Message"
+msgstr "Успешна порука"
+
+#: includes/help.php:70
+#, fuzzy
+msgid ""
+"Enter the text that appears when a user successfully signs your petition "
+"with a unique email address."
+msgstr ""
+"Унесите текст који се појављује када корисник успешно потпише вашу петицију "
+"јединственом е-адресом."
+
+#: includes/help.php:71 includes/settings.view.php:202
+#, fuzzy
+msgid "Share Message"
+msgstr "Дељење поруке"
+
+#: includes/help.php:71
+#, fuzzy
+msgid ""
+"Enter the text that appears above the Twitter and Facebook buttons after the "
+"petition form has been submitted."
+msgstr ""
+"Унесите текст који се појављује изнад дугмади Твитера и Фејсбука након "
+"подношења захтева за петицију."
+
+#: includes/help.php:72 includes/settings.view.php:206
+#, fuzzy
+msgid "Expiration Message"
+msgstr "Порука о истеку рока важења"
+
+#: includes/help.php:72
+#, fuzzy
+msgid ""
+"Enter the text to display in place of the petition form when a petition is "
+"past its expiration date."
+msgstr ""
+"Унесите текст који ће бити приказан уместо обрасца за петицију када петиција "
+"прође њен рок трајања."
+
+#: includes/help.php:73 includes/settings.view.php:210
+#, fuzzy
+msgid "Already Signed Message"
+msgstr "Већ потписана порука"
+
+#: includes/help.php:73
+#, fuzzy
+msgid ""
+"Enter the text to display when a petition is signed using an email address "
+"that has already been submitted."
+msgstr ""
+"Унесите текст који ће бити приказан када је петиција потписана помоћу е-"
+"адресе која је већ прослеђена."
+
+#: includes/help.php:74 includes/settings.view.php:214
+#, fuzzy
+msgid "Opt-in Default"
+msgstr "Подразумевана вредност за давање сагласности"
+
+#: includes/help.php:74
+#, fuzzy
+msgid "Choose whether the opt-in checkbox is checked or unchecked by default."
+msgstr ""
+"Одаберите да ли је поље за потврду датотека подразумевано потврђено или "
+"непроверено."
+
+#: includes/help.php:75 includes/settings.view.php:221
+#, fuzzy
+msgid "Display signature count"
+msgstr "Прикажи број потписа"
+
+#: includes/help.php:75
+#, fuzzy
+msgid ""
+"Choose whether you wish to display the number of signatures that have been "
+"collected."
+msgstr "Одаберите да ли желите да прикажете број прикупљених потписа."
+
+#: includes/help.php:78
+#, fuzzy
+msgid "These settings control the content of the confirmation emails."
+msgstr "Ове поставке контролишу садржај е-порука са потврдом."
+
+#: includes/help.php:79 includes/settings.view.php:315
+#, fuzzy
+msgid "Email From"
+msgstr "Е -пошта од"
+
+#: includes/help.php:79
+#, fuzzy
+msgid ""
+"Enter the email address associated with your website. Confirmation emails "
+"will be sent from this address."
+msgstr ""
+"Унесите е-адресу повезану са Вашом Wеб локацијом. Е -поруке са потврдом ће "
+"бити послате са ове адресе."
+
+#: includes/help.php:80
+#, fuzzy
+msgid "Enter the subject of the confirmation email."
+msgstr "Унесите тему е-поруке са потврдом."
+
+#: includes/help.php:81 includes/settings.view.php:323
+msgid "Email Message"
+msgstr "Електронска порука"
+
+#: includes/help.php:81
+#, fuzzy
+msgid "Enter the content of the confirmation email."
+msgstr "Унесите садржај е-поруке са потврдом."
+
+#: includes/help.php:84
+#, fuzzy
+msgid "These settings control the display of the [signaturelist] shortcode."
+msgstr "Ове поставке контролишу приказ кратког кода [листе потписа]."
+
+#: includes/help.php:85
+#, fuzzy
+msgid "Enter the text that appears above the signature list."
+msgstr "Унесите текст који се појављује изнад листе потписа."
+
+#: includes/help.php:86 includes/settings.view.php:341
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/help.php:86
+#, fuzzy
+msgid "Select a CSS theme that will control the appearance of signature lists."
+msgstr "Изаберите ЦСС тему која ће контролисати изглед листа потписа."
+
+#: includes/help.php:87 includes/settings.view.php:351
+msgid "Rows"
+msgstr "Rows"
+
+#: includes/help.php:87
+#, fuzzy
+msgid ""
+"Enter the number of signatures that will be displayed in the signature list."
+msgstr "Унесите број потписа који ће бити приказани на листи потписа."
+
+#: includes/help.php:88
+#, fuzzy
+msgid "Choose the signature list styling, click the ? for more information."
+msgstr ""
+"Одаберите стајлинг листе потписа, кликните на дугме ? за више информација."
+
+#: includes/help.php:89 includes/help.php:95 includes/settings.view.php:365
+msgid "Columns"
+msgstr "Kolone"
+
+#: includes/help.php:89
+#, fuzzy
+msgid "Select the columns that will appear in the public signature list."
+msgstr "Изаберите колоне које ће се појавити на листи јавних потписа."
+
+#: includes/help.php:90
+#, fuzzy
+msgid "Flags"
+msgstr "Заставице"
+
+#: includes/help.php:90
+#, fuzzy
+msgid ""
+"You can display the flag of the country the signer has chosen, if you have "
+"Country enabled."
+msgstr ""
+"Заставицу земље коју је потписник одабрао можете приказати ако је земља "
+"омогућена."
+
+#: includes/help.php:91 includes/settings.view.php:427
+msgid "Privacy"
+msgstr "Приватност"
+
+#: includes/help.php:91
+#, fuzzy
+msgid "Hide all but the first letter of the last name.."
+msgstr "Сакриј све осим првог слова презимена.."
+
+#: includes/help.php:94
+#, fuzzy
+msgid "These settings control the display of the signatures in the dashboard."
+msgstr "Ове поставке контролишу приказ потписа на контролној табли."
+
+#: includes/help.php:95
+#, fuzzy
+msgid "Select the columns that will appear in the admin signature list."
+msgstr "Изаберите колоне које ће се појавити на листи потписа администратора."
+
+#: includes/help.php:96
+#, fuzzy
+msgid "CSV"
+msgstr ".ЦСВ"
+
+#: includes/help.php:96
+#, fuzzy
+msgid "When outputting the CSV file, what should be included?"
+msgstr "Када излазимо из ЦСВ датотеке, шта би требало укључити?"
+
+#: includes/help.php:99
+#, fuzzy
+msgid ""
+"These settings control the look of the plugin's options pages within the "
+"WordPress administrator."
+msgstr ""
+"Ова подешавања контролишу изглед страница са опцијама плугина у оквиру "
+"WордПресс администратора."
+
+#: includes/help.php:100 includes/settings.view.php:540
+#, fuzzy
+msgid "Petitions table shows"
+msgstr "Приказана табела петиција"
+
+#: includes/help.php:100
+#, fuzzy
+msgid ""
+"Enter the number of rows to display in the \"Email Petitions\" table "
+"(default=20)"
+msgstr ""
+"Унесите број редова који ће бити приказани у табели \"Петиције е-"
+"поштом\" (подразумевано = 20)"
+
+#: includes/help.php:101 includes/settings.view.php:544
+#, fuzzy
+msgid "Signatures table shows"
+msgstr "Табеле потписа ће бити приказане"
+
+#: includes/help.php:101
+#, fuzzy
+msgid ""
+"Enter the number of rows to display in the \"Signatures\" table (default=50)"
+msgstr ""
+"Унесите број редова који ће бити приказани у "
+"табели\"Потписи\" (подразумевано = 50)"
+
+#: includes/help.php:104
+#, fuzzy
+msgid "These settings refer to the license key"
+msgstr "Ове поставке се односе на лиценцни кључ"
+
+#: includes/help.php:105
+#, fuzzy
+msgid "License key"
+msgstr "Лиценцни кључ"
+
+#: includes/help.php:105
+#, fuzzy
+msgid ""
+"Enter the license key your received in an email after purchase.  If it is "
+"invalid, a message will be displayed with the reason."
+msgstr ""
+"Унесите лиценцни кључ који сте примили у е-поруци након куповине.  Ако је "
+"неважећа, биће приказана порука са разлогом."
+
+#: includes/help.php:106
+#, fuzzy
+msgid "Revoke key"
+msgstr "Опозивање кључа"
+
+#: includes/help.php:106
+#, fuzzy
+msgid ""
+"Perhaps you are moving to a new site or from development to production.  "
+"Revoke the key, this allows it to be used elsewhere.  The current site will "
+"lose all access to any settings."
+msgstr ""
+"Можда се селите на нови сајт или из развоја у производњу.  Опозовете кључ, "
+"то омогућава да се користи на другом месту.  Тренутна локација ће изгубити "
+"сав приступ свим поставкама."
+
+#: includes/help.php:114 includes/settings.view.php:151
+#: includes/settings.view.php:166
+#, fuzzy
+msgid "Petition Form"
+msgstr "Образац за петицију"
+
+#: includes/help.php:119 includes/settings.view.php:152
+#: includes/settings.view.php:312
+#, fuzzy
+msgid "Confirmation Emails"
+msgstr "Е -поруке са потврдом"
+
+#: includes/help.php:124 includes/settings.view.php:153
+#: includes/settings.view.php:334
+#, fuzzy
+msgid "Public Signature List"
+msgstr "Листа јавних потписа"
+
+#: includes/help.php:129 includes/settings.view.php:154
+#: includes/settings.view.php:438
+#, fuzzy
+msgid "Admin Signature List"
+msgstr "Листа потписа администратора"
+
+#: includes/help.php:134 includes/settings.view.php:155
+#: includes/settings.view.php:537
+#, fuzzy
+msgid "Admin Display"
+msgstr "Приказ администратора"
+
+#: includes/help.php:139 includes/settings.view.php:157
+msgid "License"
+msgstr "Лиценца"
+
+#: includes/install.php:178
+#, fuzzy
+msgid "Sign Now"
+msgstr "Потпиши одмах"
+
+#: includes/install.php:179
+#, fuzzy
+msgid "This petition is now closed."
+msgstr "Ова петиција је сада затворена."
+
+#: includes/install.php:180
+msgid "Thank you"
+msgstr "Хвала"
+
+#: includes/install.php:180
+#, fuzzy
+msgid "Your signature has been added."
+msgstr "Ваш потпис је додат."
+
+#: includes/install.php:181
+#, fuzzy
+msgid "This petition has already been signed using your email address."
+msgstr "Ова петиција је већ потписана помоћу ваше е-адресе."
+
+#: includes/install.php:182
+#, fuzzy
+msgid "Share this with your friends:"
+msgstr "Поделите ово са пријатељима:"
+
+#: includes/install.php:183 includes/install.php:425
+#, fuzzy
+msgid "Please confirm your email address"
+msgstr "Потврдите своју емаил адресу"
+
+#: includes/install.php:184 includes/install.php:428
+msgid "Hello"
+msgstr "Zdravo"
+
+#: includes/install.php:184
+#, fuzzy
+msgid "Thank you for signing our petition %petition_title% "
+msgstr "Хвала вам што сте потписали нашу петицију %petition_title% "
+
+#: includes/install.php:184 includes/install.php:428
+#, fuzzy
+msgid ""
+"Please confirm your email address by clicking or copying and pasting the "
+"link below:"
+msgstr ""
+"Потврдите своју емаил адресу кликом или копирањем и лепењем линка испод:"
+
+#: includes/install.php:189 includes/install.php:434
+#, fuzzy
+msgid "Latest Signatures"
+msgstr "Најновији потписи"
+
+#: includes/install.php:428
+#, fuzzy
+msgid "Thank you for signing our petition"
+msgstr "Хвала вам што сте потписали нашу петицију"
+
+#: includes/license.view.php:78 includes/license.view.php:105
+#: includes/settings.view.php:566 includes/settings.view.php:593
+#, fuzzy
+msgid "Enter your license key"
+msgstr "Унесите лиценцни кључ"
+
+#: includes/license.view.php:83 includes/settings.view.php:571
+msgid "Verified"
+msgstr "Provereno"
+
+#: includes/license.view.php:86 includes/settings.view.php:574
+#, fuzzy
+msgid "Revoke license key"
+msgstr "Одузимање кључа за лиценцу"
+
+#: includes/license.view.php:90 includes/settings.view.php:578
+#, fuzzy
+msgid "Thanks for upgrading"
+msgstr "Хвала на надоградњи"
+
+#: includes/license.view.php:100 includes/settings.view.php:588
+#, fuzzy
+msgid ""
+"There appears to be a problem with your license key.  Either verify it again "
+"or contact"
+msgstr ""
+"Изгледа да постоји проблем са лиценцом.  Или провери поново или контактирај"
+
+#: includes/license.view.php:108 includes/settings.view.php:596
+#, fuzzy
+msgid "Your license key"
+msgstr "Ваш лиценцни кључ"
+
+#: includes/license.view.php:111 includes/settings.view.php:599
+msgid "Verify"
+msgstr "Проверите"
+
+#: includes/petitions.php:46
+#, fuzzy
+msgid "Petition deleted."
+msgstr "Петиција је избрисана."
+
+#: includes/petitions.view.php:8
+#, fuzzy
+msgid "All Petitions"
+msgstr "Све петиције"
+
+#: includes/petitions.view.php:15 includes/petitions.view.php:25
+msgid "ID"
+msgstr "ID"
+
+#: includes/petitions.view.php:16 includes/petitions.view.php:26
+#, fuzzy
+msgid "Petition name"
+msgstr "Име петиције"
+
+#: includes/petitions.view.php:17 includes/petitions.view.php:27
+msgid "Shortcodes"
+msgstr "Кратки кодови"
+
+#: includes/petitions.view.php:34
+#, fuzzy
+msgid "No petitions found."
+msgstr "Није пронађена ниједна петиција."
+
+#: includes/petitions.view.php:44
+msgid "Edit"
+msgstr "Uredi"
+
+#: includes/petitions.view.php:45
+msgid "Delete"
+msgstr "Брисање"
+
+#: includes/petitions.view.php:46
+msgid "Duplicate"
+msgstr "Дуплирај"
+
+#: includes/petitions.view.php:49
+#, fuzzy
+msgid "display petition"
+msgstr "прикажи петицију"
+
+#: includes/petitions.view.php:50
+#, fuzzy
+msgid "display signature list"
+msgstr "приказ листе потписа"
+
+#: includes/petitions.view.php:51
+#, fuzzy
+msgid "display signature count"
+msgstr "приказ броја потписа"
+
+#: includes/petitions.view.php:52
+#, fuzzy
+msgid "display signature goal"
+msgstr "приказ циља потписа"
+
+#: includes/petitions.view.php:53
+#, fuzzy
+msgid "display petition title"
+msgstr "приказ наслова петиције"
+
+#: includes/petitions.view.php:54
+#, fuzzy
+msgid "display petition message"
+msgstr "приказ поруке са петицијом"
+
+#: includes/petitions.view.php:60
+#, fuzzy
+msgid "View Signatures"
+msgstr "Прикажи потписе"
+
+#: includes/petitions.view.php:66
+#, fuzzy
+msgid ""
+"Delete this petition permanently? All of the petition's signatures will be "
+"deleted as well."
+msgstr ""
+"Трајно избрисати ову петицију? Сви потписи петиције такође ће бити избрисани."
+
+#: includes/settings.php:31
+#, fuzzy
+msgid "Settings updated."
+msgstr "Поставке ажуриране."
+
+#: includes/settings.view.php:156 includes/settings.view.php:552
+msgid "Security"
+msgstr "Безбедност"
+
+#: includes/settings.view.php:161 includes/settings.view.php:641
+#, fuzzy
+msgid "Anedot.com Donation Form Embed"
+msgstr "Anedot.com за донацију угради"
+
+#: includes/settings.view.php:167
+#, fuzzy
+msgid "These settings apply to all petitions"
+msgstr "Ова подешавања се односе на све петиције"
+
+#: includes/settings.view.php:172 includes/settings.view.php:179
+#: includes/settings.view.php:343
+msgid "Default"
+msgstr "Подраумевано"
+
+#: includes/settings.view.php:173
+msgid "Basic"
+msgstr "Основни"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+msgid "Custom"
+msgstr "Prilagođeno"
+
+#: includes/settings.view.php:174 includes/settings.view.php:180
+#: includes/settings.view.php:345
+#, fuzzy
+msgid "use"
+msgstr "Користите"
+
+#: includes/settings.view.php:191 includes/settings.view.php:326
+#, fuzzy
+msgid "Accepted variables:"
+msgstr "Прихваћене променљиве:"
+
+#: includes/settings.view.php:192 includes/settings.view.php:327
+#, fuzzy
+msgid "Accepted tags:"
+msgstr "Прихваћене ознаке:"
+
+#: includes/settings.view.php:196
+#, fuzzy
+msgid "Petition fade out after signing?"
+msgstr "Петиција је избледела после потписивања?"
+
+#: includes/settings.view.php:216
+msgid "Checked"
+msgstr "Проверено"
+
+#: includes/settings.view.php:217
+msgid "Unchecked"
+msgstr "Неометани"
+
+#: includes/settings.view.php:223 includes/settings.view.php:231
+#: includes/settings.view.php:239 includes/settings.view.php:245
+#: includes/settings.view.php:260
+msgid "Yes"
+msgstr "Да"
+
+#: includes/settings.view.php:223
+#, fuzzy
+msgid "at the bottom of the petition form"
+msgstr "на дну обрасца петиције"
+
+#: includes/settings.view.php:227
+#, fuzzy
+msgid "Display honorific field"
+msgstr "Прикажи почасно поље"
+
+#: includes/settings.view.php:235
+#, fuzzy
+msgid "Display BCC field"
+msgstr "Прикажи поље БЦЦ"
+
+#: includes/settings.view.php:243
+#, fuzzy
+msgid "EU postal code position?"
+msgstr "Позиција поштанског броја ЕУ?"
+
+#: includes/settings.view.php:245
+#, fuzzy
+msgid "In EU postal code comes before city"
+msgstr "У поштански број ЕУ долази пре града"
+
+#: includes/settings.view.php:249
+#, fuzzy
+msgid "Signature count format"
+msgstr "Формат бројања потписа"
+
+#: includes/settings.view.php:252
+#, fuzzy
+msgid "Thousands separator"
+msgstr "Знак за раздвајање хиљада"
+
+#: includes/settings.view.php:253
+#, fuzzy
+msgid "Decimal separator"
+msgstr "Знак за раздвајање децимала"
+
+#: includes/settings.view.php:254
+#, fuzzy
+msgid "currently"
+msgstr "Тренутно"
+
+#: includes/settings.view.php:258
+#, fuzzy
+msgid "Display Privacy Policy accept?"
+msgstr "Прихватање политике приватности за приказ?"
+
+#: includes/settings.view.php:260
+#, fuzzy
+msgid "GDPR"
+msgstr "ГДПР"
+
+#: includes/settings.view.php:266
+#, fuzzy
+msgid "Enable Google recaptcha?"
+msgstr "Омогућите Гоогле рецаптцха?"
+
+#: includes/settings.view.php:282
+#, fuzzy
+msgid "Enable hCaptcha?"
+msgstr "Омогућите хЦаптцха?"
+
+#: includes/settings.view.php:296
+#, fuzzy
+msgid "Display sharing icons?"
+msgstr "Приказујете иконе дељења?"
+
+#: includes/settings.view.php:303
+#, fuzzy
+msgid "Enable Anedot.com?"
+msgstr "Да омогућим Anedot.com?"
+
+#: includes/settings.view.php:305
+#, fuzzy
+msgid "Anedot.com is a 3rd party fund raising site"
+msgstr "Anedot.com је трећа локација за прикупљање средстава за странку"
+
+#: includes/settings.view.php:335
+#, fuzzy
+msgid ""
+"These settings apply to signatures displayed on your site using the shortcode"
+msgstr ""
+"Ове поставке се примењују на потписе приказане на вашој локацији помоћу "
+"кратког кода"
+
+#: includes/settings.view.php:348
+#, fuzzy
+msgid "To style the signature list you are best using your theme's"
+msgstr "Да бисте стилизовали листу потписа најбоље користите своју тему"
+
+#: includes/settings.view.php:348
+msgid "Additional CSS"
+msgstr "Dodatni CSS"
+
+#: includes/settings.view.php:348
+#, fuzzy
+msgid "setting"
+msgstr "Поставку"
+
+#: includes/settings.view.php:352
+#, fuzzy
+msgid "0 to display all"
+msgstr "0 за приказивање свих"
+
+#: includes/settings.view.php:355
+#, fuzzy
+msgid "Changing to \"list\" will clear column settings below"
+msgstr "Промена на \"листу\" ће обришити доле наведене поставке колоне"
+
+#: includes/settings.view.php:357
+msgid "table"
+msgstr "табела"
+
+#: includes/settings.view.php:359
+#, fuzzy
+msgid "inline blocks - very styleable"
+msgstr "уметнути блокови - веома стилски"
+
+#: includes/settings.view.php:361
+#, fuzzy
+msgid "long list (comma separated)"
+msgstr "дугачка листа (раздвојена зарезима)"
+
+#: includes/settings.view.php:368
+msgid "Count"
+msgstr "Brojač"
+
+#: includes/settings.view.php:371 includes/settings.view.php:446
+#: includes/signatures.view.php:157 includes/signatures.view.php:185
+msgid "Name"
+msgstr "Ime"
+
+#: includes/settings.view.php:374
+#, fuzzy
+msgid "Email address - unless disabled"
+msgstr "Емаил адреса - осим ако није онемогућена"
+
+#: includes/settings.view.php:389
+#, fuzzy
+msgid "Custom Field 1"
+msgstr "Прилагођено поље 1"
+
+#: includes/settings.view.php:392
+#, fuzzy
+msgid "Custom Field 2"
+msgstr "Прилагођено поље 2"
+
+#: includes/settings.view.php:395
+#, fuzzy
+msgid "Custom Field 3"
+msgstr "Прилагођено поље 3"
+
+#: includes/settings.view.php:398
+#, fuzzy
+msgid "Custom Field 4"
+msgstr "Прилагођено поље 4"
+
+#: includes/settings.view.php:401
+#, fuzzy
+msgid "Custom drop-down field"
+msgstr "Прилагођено падајуће поље"
+
+#: includes/settings.view.php:404 includes/settings.view.php:496
+#, fuzzy
+msgid "Custom Checkbox 1"
+msgstr "Прилагођено поље за потврду 1"
+
+#: includes/settings.view.php:407 includes/settings.view.php:500
+#, fuzzy
+msgid "Custom Checkbox 2"
+msgstr "Прилагођено поље за потврду 2"
+
+#: includes/settings.view.php:413 includes/signatures.view.php:148
+msgid "Date"
+msgstr "Datum"
+
+#: includes/settings.view.php:418
+#, fuzzy
+msgid "Display country flags?"
+msgstr "Да прикажем заставице земље?"
+
+#: includes/settings.view.php:422
+#, fuzzy
+msgid "requires Country column to be enabled above"
+msgstr "захтева да колона\"Земља\" буде омогућена изнад"
+
+#: includes/settings.view.php:429
+#, fuzzy
+msgid "enabled - only show first letter of surname"
+msgstr "омогућено - прикажи само прво слово презимена"
+
+#: includes/settings.view.php:430
+msgid "disabled"
+msgstr "онеспособљени"
+
+#: includes/settings.view.php:439
+#, fuzzy
+msgid "Settings for the dashboard signature list"
+msgstr "Поставке за листу потписа контролне табле"
+
+#: includes/settings.view.php:442
+#, fuzzy
+msgid "Columns to display"
+msgstr "Колоне које треба приказати"
+
+#: includes/settings.view.php:452
+#, fuzzy
+msgid "Petition info"
+msgstr "Информације о петицији"
+
+#: includes/settings.view.php:468
+#, fuzzy
+msgid "Postal code"
+msgstr "Поштански"
+
+#: includes/settings.view.php:476 includes/signatures.view.php:139
+#, fuzzy
+msgid "Custom field 1"
+msgstr "Прилагођено поље 1"
+
+#: includes/settings.view.php:480 includes/signatures.view.php:140
+#, fuzzy
+msgid "Custom field 2"
+msgstr "Прилагођено поље 2"
+
+#: includes/settings.view.php:484 includes/signatures.view.php:141
+#, fuzzy
+msgid "Custom field 3"
+msgstr "Прилагођено поље 3"
+
+#: includes/settings.view.php:488 includes/signatures.view.php:142
+#, fuzzy
+msgid "Custom field 4"
+msgstr "Прилагођено поље 4"
+
+#: includes/settings.view.php:492 includes/signatures.view.php:143
+#, fuzzy
+msgid "Custom field 5"
+msgstr "Прилагођено поље 5"
+
+#: includes/settings.view.php:503
+#, fuzzy
+msgid "Confirmed status"
+msgstr "Потврђен статус"
+
+#: includes/settings.view.php:509
+#, fuzzy
+msgid "Date signed"
+msgstr "Датум потписаног датума"
+
+#: includes/settings.view.php:513
+#, fuzzy
+msgid "Display time signed?"
+msgstr "Време приказивања је потписано?"
+
+#: includes/settings.view.php:517
+msgid "IP address"
+msgstr "IP adresa korisnika/ce"
+
+#: includes/settings.view.php:521
+#, fuzzy
+msgid "CSV file includes"
+msgstr "ЦСВ датотека укључује"
+
+#: includes/settings.view.php:523
+#, fuzzy
+msgid "All signatures"
+msgstr "Сви потписи"
+
+#: includes/settings.view.php:525
+#, fuzzy
+msgid "Only opt-in signatures"
+msgstr "Само потписи за давање сагласности"
+
+#: includes/settings.view.php:527
+#, fuzzy
+msgid "Only double opt-in signatures"
+msgstr "Само двоструки потписи за давање сагласности"
+
+#: includes/settings.view.php:527
+#, fuzzy
+msgid "opt-in + confirmed"
+msgstr "опт -ин + потврђено"
+
+#: includes/settings.view.php:529
+#, fuzzy
+msgid "Only confirmed signatures"
+msgstr "Само потврђени потписи"
+
+#: includes/settings.view.php:541
+#, fuzzy
+msgid "rows - default = 20"
+msgstr "редови - подразумевано = 20"
+
+#: includes/settings.view.php:545
+#, fuzzy
+msgid "rows - default = 50"
+msgstr "редови - подразумевано = 50"
+
+#: includes/settings.view.php:555
+#, fuzzy
+msgid "Webhooks enabled"
+msgstr "Wебхоокс омогућен"
+
+#: includes/settings.view.php:603
+#, fuzzy
+msgid "Don't have a license"
+msgstr "Немам дозволу"
+
+#: includes/settings.view.php:644
+#, fuzzy
+msgid "Anedot.com Donation Slug"
+msgstr "Anedot.com донације"
+
+#: includes/settings.view.php:646
+#, fuzzy
+msgid ""
+"Input your Anedot.com \"Account Slug\" (from Settings > Brand), a slash, and "
+"then your Campaign Slug (from Campaigns > Edit > Basic)."
+msgstr ""
+"Унесите Anedot.com \"Слуга налога\" (из поставки > бренда), косу црту, а "
+"затим и пуж кампање (из кампања > Едит > Басиц)."
+
+#: includes/settings.view.php:651
+#, fuzzy
+msgid "Anedot.com Embed Pref"
+msgstr "Anedot.com Ембед Преф"
+
+#: includes/settings.view.php:653
+#, fuzzy
+msgid ""
+"Enter \"true\" (without quotes) to show account name header on embedded "
+"campaigns."
+msgstr ""
+"Унесите\"труе\" (без понуда) да бисте у уграђеним кампањама прикажели "
+"заглавље имена конта."
+
+#: includes/settings.view.php:657
+#, fuzzy
+msgid "Anedot.com iframe Width"
+msgstr "Anedot.com ифраме ширине"
+
+#: includes/settings.view.php:659
+#, fuzzy
+msgid ""
+"Width for donation form iframe, either as percent, e.g. \"100%\" (without "
+"quotes), or pixels, e.g. \"375\" (without quotes). Iframe is to be displayed "
+"in Success Message area, after signing of a petition."
+msgstr ""
+"Ширина за образац донације ифраме, било као проценат, нпр. \"100%\" (без "
+"наводних понуда), или пиксела, нпр. \"375\" (без наводних понуда). Ифраме ће "
+"бити приказан у области поруке о успеху након потписивања петиције."
+
+#: includes/settings.view.php:663
+#, fuzzy
+msgid "Anedot.com iframe Height"
+msgstr "Anedot.com ифраме Хеигхт"
+
+#: includes/settings.view.php:665
+#, fuzzy
+msgid ""
+"Height for donation page iframe, either as pixels, e.g. \"1570\" (without "
+"quotes), or percent, e.g. \"100%\" (without quotes). Iframe is to be "
+"displayed in Success Message area, after signing of a petition."
+msgstr ""
+"Висина за страницу са донацијама ифраме, било као пиксели, нпр. "
+"\"1570\" (без наводних понуда), или проценат, нпр. \"100%\" (без наводних "
+"понуда). Ифраме ће бити приказан у области поруке о успеху након потписивања "
+"петиције."
+
+#: includes/settings.view.php:671
+msgid "Save Changes"
+msgstr "Snimi promene"
+
+#: includes/settings.view.php:374
+#, fuzzy
+msgid "Are you sure you want to publicly display email addresses?"
+msgstr "Желите ли заиста да јавно прикажете е-адресе?"
+
+#: includes/signatures.php:39 includes/signatures.php:86
+#: includes/signatures.php:122 includes/signatures.php:193
+#: includes/signatures.php:207
+#, fuzzy
+msgid "Total Signatures"
+msgstr "Укупан број потписа"
+
+#: includes/signatures.php:93 includes/signatures.php:129
+#, fuzzy
+msgid "Confirmation emails sent."
+msgstr "Послате е-поруке са потврдом."
+
+#: includes/signatures.php:212
+msgid "Total"
+msgstr "Ukupno"
+
+#: includes/signatures.view.php:15
+#, fuzzy
+msgid "Display all signatures"
+msgstr "Прикажи све потписе"
+
+#: includes/signatures.view.php:20
+#, fuzzy
+msgid "Select petition"
+msgstr "Изаберите петицију"
+
+#: includes/signatures.view.php:35
+#, fuzzy
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each unconfirmed signature."
+msgstr ""
+"Јесте ли сигурни да желите то да урадите? За сваки непотврђени потпис биће "
+"послата посебна е-порука са потврдом."
+
+#: includes/signatures.view.php:36
+#, fuzzy
+msgid ""
+"Are you sure you want to do this? A separate confirmation email will be sent "
+"for each selected signature."
+msgstr ""
+"Јесте ли сигурни да желите то да урадите? За сваки изабрани потпис биће "
+"послата посебна е-порука са потврдом."
+
+#: includes/signatures.view.php:37
+#, fuzzy
+msgid "Are you sure you want to do this? You will manually confirm "
+msgstr "Јесте ли сигурни да желите то да урадите? Ручно ћете потврдити "
+
+#: includes/signatures.view.php:38
+#, fuzzy
+msgid "Are you sure you want to do this? You will delete "
+msgstr "Јесте ли сигурни да желите то да урадите? Избрисаћеш "
+
+#: includes/signatures.view.php:39
+#, fuzzy
+msgid "selected signature"
+msgstr "изабрани потпис"
+
+#: includes/signatures.view.php:51
+#, fuzzy
+msgid "Reconfirm selected"
+msgstr "Поново потврди изабрано"
+
+#: includes/signatures.view.php:53
+#, fuzzy
+msgid "Reconfirm selected: choose petition first"
+msgstr "Изабрана поновнафирма: прво одаберите петицију"
+
+#: includes/signatures.view.php:55 includes/signatures.view.php:58
+#, fuzzy
+msgid "Reconfirm selected: choose signatures"
+msgstr "Поново потврди изабрано: одаберите потписе"
+
+#: includes/signatures.view.php:63
+#, fuzzy
+msgid "Force confirm selected"
+msgstr "Потврда силе изабрана"
+
+#: includes/signatures.view.php:65
+#, fuzzy
+msgid "Force confirm selected - choose signatures"
+msgstr "Потврда силе изабрана - одаберите потписе"
+
+#: includes/signatures.view.php:67
+#, fuzzy
+msgid "Force confirm selected: choose petition first"
+msgstr "Форце цонфирм селецтед: цхоосе петитион фирст"
+
+#: includes/signatures.view.php:69 includes/signatures.view.php:71
+#, fuzzy
+msgid "Force confirm selected: choose signatures"
+msgstr "Изабрана сила: одаберите потписе"
+
+#: includes/signatures.view.php:75
+#, fuzzy
+msgid "Delete selected"
+msgstr "Избриши изабрано"
+
+#: includes/signatures.view.php:77
+#, fuzzy
+msgid "Delete selected: choose signatures"
+msgstr "Избриши изабрано: одаберите потписе"
+
+#: includes/signatures.view.php:91
+#, fuzzy
+msgid "Resend selected confirmations"
+msgstr "Поново пошаљи изабране потврде"
+
+#: includes/signatures.view.php:100
+#, fuzzy
+msgid "Choose signatures action"
+msgstr "Одабери радњу са потписима"
+
+#: includes/signatures.view.php:101
+#, fuzzy
+msgid "Download CSV - see settings/admin sig list"
+msgstr "Преузмите ЦСВ - погледајте подешавања/админ сиг листу"
+
+#: includes/signatures.view.php:102
+#, fuzzy
+msgid "Display only unconfirmed"
+msgstr "Прикажи само непотврђено"
+
+#: includes/signatures.view.php:103
+#, fuzzy
+msgid "Resend all unconfirmed"
+msgstr "Поново пошаљи све непотврђено"
+
+#: includes/signatures.view.php:108
+msgid "Apply"
+msgstr "Primeni"
+
+#: includes/signatures.view.php:113
+#, fuzzy
+msgid "Search signatures"
+msgstr "Потписи за претраживање"
+
+#: includes/signatures.view.php:144
+#, fuzzy
+msgid "Checkbox 1"
+msgstr "Поље за потврду 1"
+
+#: includes/signatures.view.php:145
+#, fuzzy
+msgid "Checkbox 2"
+msgstr "Поље за потврду 2"
+
+#: includes/signatures.view.php:146
+#, fuzzy
+msgid "Opt-in"
+msgstr "Давање сагласности"
+
+#: includes/widget.php:14
+#, fuzzy
+msgid "Display a petition form."
+msgstr "Прикажите образац за петицију."
+
+#: includes/widget.php:76
+#, fuzzy
+msgid "Sign the Petition"
+msgstr "Потпиши петицију"
+
+#: includes/widget.php:89
+#, fuzzy
+msgid "Sharing URL"
+msgstr "УРЛ адреса дељења"
+
+#: includes/widget.php:90
+msgid "Call to Action"
+msgstr "Позив за акцију"
+
+#: includes/widget.php:415
+#, fuzzy
+msgid "Confirm Email"
+msgstr "Потврда е-поште"
+
+#: speakout-email-petitions.php:95
+msgid "Support"
+msgstr "Подршка"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "SpeakOut! Email Petitions Pro"
+msgstr "Проговори! Емаил Петиције Про"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid "https://speakout.123host.net.au/"
+msgstr "https://speakout.123host.net.au/"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"This is the fully featured Pro version of SpeakOut! Create custom email "
+"petition forms and include them on your site via shortcode or a widget. When "
+"signed, the petition is emailed to your target and signatures are saved in "
+"the database.  There are many customisable options to make this plugin very "
+"flexible."
+msgstr ""
+"Ово је потпуно истакнута Про верзија СпеакОут-а! Креирајте прилагођене "
+"обрасце за петицију е-поште и укључите их на своју локацију путем кратког "
+"кода или виџета. Када се потпише, петиција се шаље на ваш циљ, а потписи се "
+"чувају у бази података.  Постоји много прилагодљивих опција да би овај "
+"плугин био веома флексибилан."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Steve D - 123host.au"
+msgstr "Стив Д - 123host.au"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://123Host.au"
+msgstr "https://123Host.au"
